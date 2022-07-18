@@ -322,35 +322,32 @@ puppeteer:
 |273| [What is the benefit of Automatic Inlining of Fonts?](#1)|
 |274| [What is content projection?](#1)|
 |275| [What is ng-content and its purpose?](#1)|
-|276| [](#)|
 
 
 1. ### What is Angular Framework?
 
-     Angular is a **TypeScript-based open-source** front-end platform that makes it easy to build applications with in web/mobile/desktop. The major features of this framework such as declarative templates, dependency injection, end to end tooling, and many more other features are used to ease the development.
+     Angular یک پلت‌فرم فرانت‌اند منبع باز مبتنی بر **TypeScript** است که ساخت برنامه‌ها را در وب/موبایل/کامپیوتر آسان می‌کند. از ویژگی های اصلی این فریم ورک مانند قالب های اعلامی، تزریق وابستگی، ابزارهای انتها به انتها و بسیاری ویژگی های دیگر برای سهولت توسعه استفاده می شود.
 
      **[فهرست](#فهرست)**
 
 2. ### What is the difference between AngularJS and Angular?
 
-     Angular is a completely revived component-based framework in which an application is a tree of individual components.
-
-     Some of the major difference in tabular form
+     Angular یک فریم ورک کاملاً احیا شده مبتنی بر مؤلفه است که در آن یک برنامه کاربردی درختی از اجزای جداگانه است.
 
      | AngularJS | Angular |
      |---- | ---------
-     | It is based on MVC architecture| This is based on Service/Controller|
-     | It uses JavaScript to build the application| Introduced the TypeScript to write the application|
-     | Based on controllers concept| This is a component based UI approach|
-     | Not a mobile friendly framework| Developed considering mobile platform|
-     | Difficulty in SEO friendly application development| Ease to create SEO friendly applications|
+     | این بر اساس معماری MVC است| این بر اساس Service/Controller است|
+     | از جاوا اسکریپت برای ساخت برنامه استفاده می کند|برای نوشتن برنامه، TypeScript را معرفی کرد|
+     | بر اساس مفهوم کنترلرها| این یک رویکرد UI مبتنی بر مؤلفه است|
+     | یک چارچوب سازگار با موبایل نیست| با توجه به پلتفرم تلفن همراه توسعه یافته است|
+     | مشکل در توسعه برنامه کاربردی SEO دوستانه| سهولت در ایجاد برنامه های کاربردی سئو دوستانه|
 
      **[فهرست](#فهرست)**
 
 3. ### What is TypeScript?
 
-     TypeScript is a typed superset of JavaScript created by Microsoft that adds optional types, classes, async/await, and many other features, and compiles to plain JavaScript. Angular built entirely in TypeScript and used as a primary language.
-     You can install it globally as
+     TypeScript یک ابر مجموعه تایپ شده از جاوا اسکریپت است که توسط مایکروسافت ایجاد شده است که انواع اختیاری، کلاس ها، async/wait و بسیاری ویژگی های دیگر را اضافه می کند و به جاوا اسکریپت ساده کامپایل می کند. Angular به طور کامل در TypeScript ساخته شده و به عنوان زبان اصلی استفاده می شود.
+      شما می توانید آن را به صورت جهانی نصب کنید
      
      <span dir="ltr" align="left">
 
@@ -376,31 +373,30 @@ puppeteer:
      
      </span>
 
-     The greeter method allows only string type as argument.
+     متد greeter فقط نوع رشته را به عنوان آرگومان مجاز می کند.
 
      **[فهرست](#فهرست)**
 
 4. ### Write a pictorial diagram of Angular architecture?
 
-     The main building blocks of an Angular application is shown in the below diagram
+     بلوک های ساختمان اصلی یک برنامه Angular در نمودار زیر نشان داده شده است
      ![ScreenShot](images/architecture.png)
 
      **[فهرست](#فهرست)**
 
 5. ### What are the key components of Angular?
 
-     Angular has the below key components,
-     1. **Component:** These are the basic building blocks of angular application to control HTML views.
-     2. **Modules:** An angular module is set of angular basic building blocks like component, directives, services etc. An application is divided into logical pieces and each piece of code is called as "module" which perform a single task.
-     3. **Templates:** This represent the views of an Angular application.
-     4. **Services:** It is used to create components which can be shared across the entire application.
-     5. **Metadata:** This can be used to add more data to an Angular class.
+     1. **Component:** اینها بلوک های ساختمانی اصلی برنامه های زاویه ای برای کنترل نماهای HTML هستند.
+     2. **Modules:** یک ماژول زاویه‌ای مجموعه‌ای از بلوک‌های ساختمانی پایه زاویه‌ای مانند کامپوننت، دستورالعمل‌ها، خدمات و غیره است. یک برنامه کاربردی به قطعات منطقی تقسیم می‌شود و هر قطعه کد به عنوان "ماژول" نامیده می‌شود که یک وظیفه را انجام می‌دهد.
+     3. **Templates:** این نماهای یک برنامه Angular را نشان می دهد.
+     4. **Services:** برای ایجاد مؤلفه هایی استفاده می شود که می توانند در کل برنامه به اشتراک گذاشته شوند.
+     5. **Metadata:** این می تواند برای افزودن داده های بیشتر به یک کلاس Angular استفاده شود.
 
      **[فهرست](#فهرست)**
 
 6. ### What are directives?
 
-     Directives add behaviour to an existing DOM element or an existing component instance.
+     دستورالعمل ها رفتاری را به یک عنصر DOM موجود یا یک نمونه جزء موجود اضافه می کنند.
      
      <span dir="ltr" align="left">
 
@@ -417,7 +413,7 @@ puppeteer:
      
      </span>
 
-     Now this directive extends HTML element behavior with a yellow background as below
+     اکنون این دستورالعمل رفتار عنصر HTML را با پس‌زمینه زرد مانند زیر گسترش می‌دهد
      
      <span dir="ltr" align="left">
 
@@ -431,8 +427,8 @@ puppeteer:
 
 7. ### What are components?
 
-     Components are the most basic UI building block of an Angular app which formed a tree of Angular components. These components are subset of directives. Unlike directives, components always have a template and only one component can be instantiated per an element in a template.
-     Let's see a simple example of Angular component
+     کامپوننت ها اساسی ترین بلوک سازنده رابط کاربری یک برنامه Angular هستند که درختی از اجزای Angular را تشکیل می دهند. این مؤلفه ها زیر مجموعه دستورالعمل ها هستند. برخلاف دستورات، کامپوننت‌ها همیشه دارای یک الگو هستند و تنها یک جزء را می‌توان به ازای هر عنصر در قالب نمونه‌سازی کرد.
+      بیایید یک مثال ساده از کامپوننت Angular را ببینیم
      
      <span dir="ltr" align="left">
 
@@ -458,23 +454,23 @@ puppeteer:
 
 8. ### What are the differences between Component and Directive?
 
-     In a short note, A component(@component) is a directive-with-a-template.
+     در یک یادداشت کوتاه، A component(@component) یک دستورالعمل-با-الگو است.
 
-     Some of the major differences are mentioned in a tabular form
+     برخی از تفاوت های عمده به صورت جدولی ذکر شده است
 
      | Component | Directive |
      |---- | ---------
-     | To register a component we use @Component meta-data annotation  | To register directives we use @Directive meta-data annotation |
-     | Components are typically used to create UI widgets| Directive is used to add behavior to an existing DOM element |
-     | Component is used to break up the application into smaller components| Directive is use to design re-usable components|
-     | Only one component can be present per DOM element | Many directives can be used per DOM element |
-     | @View decorator or templateurl/template are mandatory | Directive doesn't use View|
+     | برای ثبت یک مؤلفه، از حاشیه نویسی فراداده @Component استفاده می کنیم  | برای ثبت دستورالعمل‌ها، از حاشیه‌نویسی فراداده @Directive استفاده می‌کنیم |
+     | کامپوننت ها معمولا برای ایجاد ویجت های UI استفاده می شوند|دستورالعمل برای افزودن رفتار به یک عنصر DOM موجود استفاده می شود |
+     | کامپوننت برای تقسیم برنامه به اجزای کوچکتر استفاده می شود دستورالعمل برای طراحی اجزای قابل استفاده مجدد استفاده می شود|
+     | فقط یک جزء می تواند در هر عنصر DOM وجود داشته باشد | بسیاری از دستورالعمل ها را می توان برای هر عنصر DOM استفاده کرد |
+     | @View decorator یا templateurl/template اجباری است | دستورالعمل از View استفاده نمی کند|
 
      **[فهرست](#فهرست)**
 
 9. ### What is a template?
 
-     A template is a HTML view where you can display data by binding controls to properties of an Angular component. You can store your component's template in one of two places. You can define it inline using the template property, or you can define the template in a separate HTML file and link to it in the component metadata using the @Component decorator's templateUrl property.
+     یک الگو یک نمای HTML است که در آن می توانید داده ها را با اتصال کنترل ها به ویژگی های یک جزء Angular نمایش دهید. می توانید الگوی جزء خود را در یکی از دو مکان ذخیره کنید. می توانید با استفاده از ویژگی template آن را به صورت درون خطی تعریف کنید، یا می توانید قالب را در یک فایل HTML جداگانه تعریف کنید و با استفاده از ویژگی templateUrl@Component decorator به آن در ابرداده کامپوننت پیوند دهید.
 
      **Using inline template with template syntax,**
 
@@ -525,8 +521,8 @@ puppeteer:
 
 10. ### What is a module?
 
-     Modules are logical boundaries in your application and the application is divided into separate modules to separate the functionality of your application.
-     Lets take an example of **app.module.ts** root module declared with **@NgModule** decorator as below,
+     ماژول ها مرزهای منطقی در برنامه شما هستند و برنامه به ماژول های جداگانه تقسیم می شود تا عملکرد برنامه شما را از هم جدا کند.
+      بیایید مثالی از **app.module.ts** ماژول ریشه ای را که با دکوراتور **@NgModule** به شرح زیر اعلام شده است، بیاوریم.
 
      
      <span dir="ltr" align="left">
@@ -547,41 +543,40 @@ puppeteer:
      
      </span>
 
-     The NgModule decorator has five important(among all) options
-     1. The imports option is used to import other dependent modules. The BrowserModule is required by default for any web based angular application
-     2. The declarations option is used to define components in the respective module
-     3. The bootstrap option tells Angular which Component to bootstrap in the application
-     4. The providers option is used to configure set of injectable objects that are available in the injector of this module.
-     5. The entryComponents option is a set of components dynamically loaded into the view.
+     دکوراتور NgModule پنج گزینه مهم (در میان همه) دارد
+     1. گزینه imports برای وارد کردن ماژول های وابسته دیگر استفاده می شود. BrowserModule به طور پیش فرض برای هر برنامه زاویه ای مبتنی بر وب مورد نیاز است
+     2. گزینه declarations برای تعریف اجزا در ماژول مربوطه استفاده می شود
+     3. گزینه bootstrap به Angular می گوید که کدام کامپوننت را در برنامه بوت استرپ کند
+     4. گزینه providers برای پیکربندی مجموعه ای از اشیاء تزریقی موجود در انژکتور این ماژول استفاده می شود.
+     5. گزینه enterComponents مجموعه ای از اجزایی است که به صورت پویا در view بارگذاری می شوند.
 
      **[فهرست](#فهرست)**
 
 11. ### What are lifecycle hooks available?
 
-     Angular application goes through an entire set of processes or has a lifecycle right from its initiation to the end of the application.
-     The representation of lifecycle in pictorial representation as follows,
+     برنامه Angular مجموعه کاملی از فرآیندها را طی می کند یا از زمان شروع تا پایان برنامه یک چرخه حیات دارد.
+      نمایش چرخه حیات در نمایش تصویری به شرح زیر است:
 
      ![ScreenShot](images/lifecycle.png)
 
-     The description of each lifecycle method is as below,
-     1. **ngOnChanges:** When the value of a data bound property changes, then this method is called.
-     2. **ngOnInit:** This is called whenever the initialization of the directive/component after Angular first displays the data-bound properties happens.
-     3. **ngDoCheck:** This is for the detection and to act on changes that Angular can't or won't detect on its own.
-     4. **ngAfterContentInit:** This is called in response after Angular projects external content into the component's view.
-     5. **ngAfterContentChecked:** This is called in response after Angular checks the content projected into the component.
-     6. **ngAfterViewInit:** This is called in response after Angular initializes the component's views and child views.
-     7. **ngAfterViewChecked:** This is called in response after Angular checks the component's views and child views.
-     8. **ngOnDestroy:** This is the cleanup phase just before Angular destroys the directive/component.
+     1. **ngOnChanges:** هنگامی که مقدار یک ویژگی داده محدود تغییر می کند، این روش فراخوانی می شود.
+     2. **ngOnInit:** هر زمان که مقداردهی اولیه دستور/کامپوننت پس از نمایش Angular برای اولین بار خصوصیات داده محدود اتفاق بیفتد، فراخوانی می شود.
+     3. **ngDoCheck:** این برای تشخیص و اعمال تغییراتی است که Angular به تنهایی قادر به تشخیص آنها نیست یا نخواهد بود.
+     4. **ngAfterContentInit:** پس از اینکه Angular محتوای خارجی را در نمای کامپوننت پروژه می دهد، در پاسخ به این امر فراخوانی می شود.
+     5. **ngAfterContentChecked:** این در پاسخ پس از بررسی Angular محتوای پیش بینی شده در کامپوننت فراخوانی می شود.
+     6. **ngAfterViewInit:** پس از اینکه Angular نماهای کامپوننت و نماهای فرزند را مقدار دهی اولیه کرد، در پاسخ فراخوانی می شود.
+     7. **ngAfterViewChecked:** این در پاسخ پس از بررسی Angular نماهای کامپوننت و نماهای فرزند فراخوانی می شود.
+     8. **ngOnDestroy:** این مرحله پاکسازی درست قبل از اینکه Angular دستور/کامپوننت را از بین ببرد است.
 
      **[فهرست](#فهرست)**
 
 12. ### What is a data binding?
 
-     Data binding is a core concept in Angular and allows to define communication between a component and the DOM, making it very easy to define interactive applications without worrying about pushing and pulling data. There are four forms of data binding(divided as 3 categories) which differ in the way the data is flowing.
+     Data binding یک مفهوم اصلی در Angular است و امکان تعریف ارتباط بین یک مؤلفه و DOM را فراهم می کند و تعریف برنامه های تعاملی را بدون نگرانی در مورد فشار دادن و کشیدن داده ها بسیار آسان می کند. چهار شکل اتصال داده وجود دارد (به 3 دسته تقسیم می شود) که در نحوه جریان داده ها متفاوت است.
     
      1. **From the Component to the DOM:**
 
-     **Interpolation:** {{ value }}: Adds the value of a property from the component
+     **Interpolation:** {{ value }}: مقدار یک ویژگی را از جزء اضافه می کند
     
      
      <span dir="ltr" align="left">
@@ -593,7 +588,7 @@ puppeteer:
      
      </span>
 
-     **Property binding:** [property]=”value”: The value is passed from the component to the specified property or simple HTML attribute
+     **Property binding:** [property]=”value”: مقدار از کامپوننت به ویژگی مشخص شده یا ویژگی ساده HTML منتقل می شود.
     
      
      <span dir="ltr" align="left">
@@ -605,7 +600,7 @@ puppeteer:
      </span>
 
      2. **From the DOM to the Component:**
-     **Event binding: (event)=”function”:** When a specific DOM event happens (eg.: click, change, keyup), call the specified method in the component
+     **Event binding: (event)=”function”:**هنگامی که یک رویداد DOM خاص اتفاق می افتد (مثلاً: کلیک، تغییر، کلید آپلود)، متد مشخص شده در مؤلفه را فراخوانی کنید.
     
      
      <span dir="ltr" align="left">
@@ -617,7 +612,7 @@ puppeteer:
      </span>
 
      3. **Two-way binding:**
-     **Two-way data binding:** [(ngModel)]=”value”: Two-way data binding allows to have the data flow both ways. For example, in the below code snippet, both the email DOM input and component email property are in sync
+     **Two-way data binding:** [(ngModel)]=”value”: اتصال دو طرفه داده اجازه می دهد تا جریان داده ها از هر دو طرف انجام شود. برای مثال، در قطعه کد زیر، هر دو ورودی DOM ایمیل و ویژگی ایمیل جزء همگام هستند.
     
      
      <span dir="ltr" align="left">
@@ -632,9 +627,9 @@ puppeteer:
 
 13. ### What is metadata?
 
-     Metadata is used to decorate a class so that it can configure the expected behavior of the class. The metadata is represented by decorators
+     متادیتا برای تزئین یک کلاس استفاده می شود تا بتواند رفتار مورد انتظار کلاس را پیکربندی کند. ابرداده توسط دکوراتورها نمایش داده می شود
 
-     1. **Class decorators**, e.g. @Component and @NgModule
+     1. **Class decorators**, به عنوان مثال، @Component و @NgModule
     
      
      <span dir="ltr" align="left">
@@ -666,7 +661,7 @@ puppeteer:
      
      </span>
 
-     2. **Property decorators** Used for properties inside classes, e.g. @Input and @Output
+     2. **Property decorators** برای ویژگی های داخل کلاس ها استفاده می شود، به عنوان مثال. @import و export
      
      <span dir="ltr" align="left">
 
@@ -686,7 +681,7 @@ puppeteer:
      
      </span>
      
-     3. **Method decorators** Used for methods inside classes, e.g. @HostListener
+     3. **Method decorators** برای متدهای داخل کلاس ها استفاده می شود، به عنوان مثال. @HostListener
      
      <span dir="ltr" align="left">
 
@@ -707,7 +702,7 @@ puppeteer:
      
      </span>
      
-     4. **Parameter decorators** Used for parameters inside class constructors, e.g. @Inject, Optional
+     4. **Parameter decorators** برای پارامترهای داخل سازنده کلاس استفاده می شود، به عنوان مثال. @Inject، اختیاری
      
      <span dir="ltr" align="left">
 
@@ -732,8 +727,8 @@ puppeteer:
 
 14. ### What is angular CLI?
 
-     Angular CLI(**Command Line Interface**) is a command line interface to scaffold and build angular apps using nodejs style (commonJs) modules.
-     You need to install using below npm command,
+     Angular CLI (** Command Line Interface**) یک رابط خط فرمان برای ساخت داربست و ساخت برنامه های زاویه ای با استفاده از ماژول های سبک nodejs (commonJs) است.
+      شما باید با استفاده از دستور زیر npm نصب کنید،
 
      <span dir="ltr" align="left">
 
@@ -743,19 +738,19 @@ puppeteer:
 
      </span>
 
-     Below are the list of few commands, which will come handy while creating angular projects
+     در زیر لیستی از چند دستور وجود دارد که هنگام ایجاد پروژه های زاویه ای به کار می آیند
 
      1. **Creating New Project:** ng new <project-name>
 
      2. **Generating Components, Directives & Services:** ng generate/g <feature-name>
-        The different types of commands would be,
-        * ng generate class my-new-class: add a class to your application
-        * ng generate component my-new-component: add a component to your application
-        * ng generate directive my-new-directive: add a directive to your application
-        * ng generate enum my-new-enum: add an enum to your application
-        * ng generate module my-new-module: add a module to your application
-        * ng generate pipe my-new-pipe: add a pipe to your application
-        * ng generate service my-new-service: add a service to your application
+        انواع مختلف دستورات عبارتند از
+         * ng generate class my-new-class: یک کلاس به برنامه خود اضافه کنید
+         * ng تولید کامپوننت my-new-component: یک جزء به برنامه خود اضافه کنید
+         * ng generate directive my-new-directive: یک دستورالعمل به برنامه خود اضافه کنید
+         * ng generate enum my-new-enum: یک enum به برنامه خود اضافه کنید
+         * ng generate module my-new-module: یک ماژول به برنامه خود اضافه کنید
+         * تولید لوله my-new-pipe: یک لوله به برنامه خود اضافه کنید
+         * ng generate service my-new-service: یک سرویس به برنامه خود اضافه کنید
 
      3. **Running the Project:** ng serve
 
@@ -763,8 +758,8 @@ puppeteer:
 
 15. ### What is the difference between constructor and ngOnInit?
 
-     TypeScript classes has a default method called constructor which is normally used for the initialization purpose. Whereas ngOnInit method is specific to Angular, especially used to define Angular bindings. Even though constructor getting called first, it is preferred to move all of your Angular bindings to ngOnInit method.
-     In order to use ngOnInit, you need to implement OnInit interface as below,
+     کلاس های TypeScript دارای یک روش پیش فرض به نام سازنده است که معمولاً برای هدف اولیه استفاده می شود. در حالی که روش ngOnInit مختص Angular است، به ویژه برای تعریف اتصالات Angular استفاده می شود. حتی اگر سازنده ابتدا فراخوانی می‌شود، ترجیح داده می‌شود همه اتصالات Angular خود را به متد ngOnInit منتقل کنید.
+      برای استفاده از ngOnInit، باید رابط OnInit را به صورت زیر پیاده سازی کنید.
      
      <span dir="ltr" align="left">
 
@@ -786,9 +781,9 @@ puppeteer:
 
 16. ### What is a service?
 
-     A service is used when a common functionality needs to be provided to various modules. Services allow for greater separation of concerns for your application and better modularity by allowing you to extract common functionality out of components.
+     یک سرویس زمانی استفاده می شود که یک عملکرد مشترک باید به ماژول های مختلف ارائه شود. سرویس‌ها به شما اجازه می‌دهند تا نگرانی‌های مربوط به برنامه شما را بیشتر از هم جدا کرده و ماژولاریت بهتری داشته باشید، زیرا به شما امکان می‌دهد عملکردهای مشترک را از اجزا استخراج کنید.
 
-     Let's create a repoService which can be used across components,
+      بیایید یک repoService ایجاد کنیم که می تواند در بین اجزاء مورد استفاده قرار گیرد،
      
      <span dir="ltr" align="left">
 
@@ -812,13 +807,13 @@ puppeteer:
      
      </span>
 
-     The above service uses Http service as a dependency.
+     سرویس فوق از سرویس Http به عنوان یک وابستگی استفاده می کند.
 
      **[فهرست](#فهرست)**
 
 17. ### What is dependency injection in Angular?
 
-     Dependency injection (DI), is an important application design pattern in which a class asks for dependencies from external sources rather than creating them itself. Angular comes with its own dependency injection framework for resolving dependencies( services or objects that a class needs to perform its function).So you can have your services depend on other services throughout your application.
+     تزریق وابستگی (DI)، یک الگوی طراحی برنامه مهم است که در آن یک کلاس به جای ایجاد وابستگی از منابع خارجی درخواست می‌کند. Angular با چارچوب تزریق وابستگی خود برای حل وابستگی ها (سرویس ها یا اشیایی که یک کلاس برای انجام عملکرد خود به آن نیاز دارد) ارائه می شود. بنابراین می توانید خدمات خود را در سراسر برنامه به سرویس های دیگر وابسته کنید.
 
      **[فهرست](#فهرست)**
 
@@ -828,9 +823,9 @@ puppeteer:
 
 19. ### What is the purpose of async pipe?
 
-     The AsyncPipe subscribes to an observable or promise and returns the latest value it has emitted. When a new value is emitted, the pipe marks the component to be checked for changes.
+     AsyncPipe مشترک یک قابل مشاهده یا قول می شود و آخرین مقداری را که منتشر کرده است برمی گرداند. هنگامی که یک مقدار جدید منتشر می شود، لوله مؤلفه ای را که باید بررسی شود برای تغییرات علامت گذاری می کند.
 
-     Let's take a time observable which continuously updates the view for every 2 seconds with the current time.
+      بیایید یک زمان قابل مشاهده را در نظر بگیریم که به طور مداوم نما را برای هر 2 ثانیه با زمان فعلی به روز می کند.
 
      
      <span dir="ltr" align="left">
@@ -854,9 +849,9 @@ puppeteer:
 
 20. ### What is the option to choose between inline and external template file?
      
-     You can store your component's template in one of two places. You can define it inline using the **template** property, or you can define the template in a separate HTML file and link to it in the component metadata using the **@Component** decorator's **templateUrl** property.
+     می توانید الگوی جزء خود را در یکی از دو مکان ذخیره کنید. می توانید آن را به صورت درون خطی با استفاده از ویژگی **template** تعریف کنید، یا می توانید الگو را در یک فایل HTML جداگانه تعریف کنید و با استفاده از ویژگی **templateUrl** در decorator **@Component** به آن در ابرداده کامپوننت پیوند دهید.
 
-     The choice between inline and separate HTML is a matter of taste, circumstances, and organization policy. But normally we use inline template for small portion of code and external template file for bigger views. By default, the Angular CLI generates components with a template file. But you can override that with the below command,
+      انتخاب بین HTML درون خطی و مجزا یک موضوع سلیقه، شرایط و خط مشی سازمان است. اما معمولاً از قالب درون خطی برای بخش کوچکی از کد و از فایل قالب خارجی برای نمایش های بزرگتر استفاده می کنیم. به طور پیش فرض، Angular CLI کامپوننت ها را با یک فایل الگو تولید می کند. اما می توانید با دستور زیر آن را لغو کنید
     
      <span dir="ltr" align="left">
 
@@ -870,8 +865,8 @@ puppeteer:
 
 21. ### What is the purpose of ngFor directive?
 
-     We use Angular ngFor directive in the template to display each item in the list. For example, here we iterate over list of users,
-     
+     ما از دستورالعمل Angular ngFor در قالب برای نمایش هر آیتم در لیست استفاده می کنیم. به عنوان مثال، در اینجا ما روی لیست کاربران تکرار می کنیم،
+
      <span dir="ltr" align="left">
 
      ```html
@@ -882,13 +877,13 @@ puppeteer:
      
      </span>
 
-     The user variable in the ngFor double-quoted instruction is a **template input variable**
+     متغیر کاربر در دستورالعمل ngFor دو نقل قول a است**template input variable**
 
      **[فهرست](#فهرست)**
 
 22. ### What is the purpose of ngIf directive?
 
-     Sometimes an app needs to display a view or a portion of a view only under specific circumstances. The Angular ngIf directive inserts or removes an element based on a truthy/falsy condition. Let's take an example to display a message if the user age is more than 18,
+     گاهی اوقات یک برنامه فقط در شرایط خاص نیاز به نمایش یک نما یا بخشی از یک نما دارد. دستورالعمل Angular ngIf یک عنصر را بر اساس شرایط درستی/نادرستی درج یا حذف می کند. اگر سن کاربر بیش از 18 سال باشد، برای نمایش پیام مثالی می زنیم.
      
      <span dir="ltr" align="left">
 
@@ -898,15 +893,15 @@ puppeteer:
      
      </span>
 
-     **Note:** Angular isn't showing and hiding the message. It is adding and removing the paragraph element from the DOM. That improves performance, especially in the larger projects with many data bindings.
+     **Note:** Angular پیام را نشان نمی دهد و پنهان نمی کند. در حال افزودن و حذف عنصر پاراگراف از DOM است. که عملکرد را بهبود می بخشد، به خصوص در پروژه های بزرگتر با اتصال داده های زیادی.
 
      **[فهرست](#فهرست)**
 
 23. ### What happens if you use script tag inside template?
 
-     Angular recognizes the value as unsafe and automatically sanitizes it, which removes the `script` tag but keeps safe content such as the text content of the `script` tag. This way it eliminates the risk of script injection attacks. If you still use it then it will be ignored and a warning appears in the browser console.
+     Angular مقدار را ناامن تشخیص می‌دهد و به‌طور خودکار آن را پاکسازی می‌کند، که تگ «اسکریپت» را حذف می‌کند اما محتوای ایمن مانند محتوای متنی برچسب «اسکریپت» را حفظ می‌کند. به این ترتیب خطر حملات تزریق اسکریپت را از بین می برد. اگر همچنان از آن استفاده می کنید، نادیده گرفته می شود و یک هشدار در کنسول مرورگر ظاهر می شود.
 
-     Let's take an example of innerHtml property binding which causes XSS vulnerability,
+     بیایید مثالی از اتصال ویژگی innerHtml که باعث آسیب‌پذیری XSS می‌شود، بیاوریم.
 
      
      <span dir="ltr" align="left">
@@ -924,9 +919,9 @@ puppeteer:
 
 24. ### What is interpolation?
 
-     Interpolation is a special syntax that Angular converts into property binding. It’s a convenient alternative to property binding. It is represented by double curly braces({{}}). The text between the braces is often the name of a component property. Angular replaces that name with the string value of the corresponding component property.
+     درون یابی یک نحو خاص است که Angular آن را به ویژگی binding تبدیل می کند. این یک جایگزین مناسب برای اتصال اموال است. با مهاربندهای دوتایی ({{}}) نشان داده می شود. متن بین پرانتزها اغلب نام یک ویژگی جزء است. Angular آن نام را با مقدار رشته خاصیت جزء مربوطه جایگزین می کند.
 
-     Let's take an example,
+      بیایید یک مثال بزنیم،
 
      
      <span dir="ltr" align="left">
@@ -940,14 +935,14 @@ puppeteer:
      
      </span>
 
-     In the example above, Angular evaluates the title and url properties and fills in the blanks, first displaying a bold application title and then a URL.
+     در مثال بالا، Angular خصوصیات عنوان و url را ارزیابی می کند و جاهای خالی را پر می کند، ابتدا عنوان برنامه پررنگ و سپس URL نمایش داده می شود.
 
      **[فهرست](#فهرست)**
 
 25. ### What are template expressions?
 
-     A template expression produces a value similar to any Javascript expression. Angular executes the expression and assigns it to a property of a binding target; the target might be an HTML element, a component, or a directive. In the property binding, a template expression appears in quotes to the right of the = symbol as in [property]="expression".
-     In interpolation syntax, the template expression is surrounded by double curly braces. For example, in the below interpolation, the template expression is {{username}},
+     یک عبارت الگو مقداری شبیه به هر عبارت جاوا اسکریپت تولید می کند. Angular عبارت را اجرا می کند و آن را به خاصیت یک هدف الزام آور اختصاص می دهد. هدف ممکن است یک عنصر HTML، یک جزء یا یک دستورالعمل باشد. در ویژگی binding، یک عبارت الگو در نقل قول در سمت راست نماد = مانند [property]="expression ظاهر می شود.
+      در نحو درون یابی، عبارت الگو با پرانتزهای مجعد دوتایی احاطه شده است. به عنوان مثال، در درون یابی زیر، عبارت الگو {{username}} است،
      
      <span dir="ltr" align="left">
 
@@ -957,18 +952,18 @@ puppeteer:
      
      </span>
 
-     The below javascript expressions are prohibited in template expression
-     1. assignments (=, +=, -=, ...)
-     2. new
-     3. chaining expressions with ; or ,
-     4. increment and decrement operators (++ and --)
+     عبارات جاوا اسکریپت زیر در عبارت قالب ممنوع هستند
+      1. assignments (=، +=، -=، ...)
+      2. new
+      3. زنجیره عبارات با ; یا ،
+      4. عملگرهای افزایش و کاهش (++ و --)
      ----------------------------------
 
      **[فهرست](#فهرست)**
 
 26. ### What are template statements?
 
-     A template statement responds to an event raised by a binding target such as an element, component, or directive. The template statements appear in quotes to the right of the = symbol like **(event)="statement"**.
+    یک عبارت الگو به رویدادی پاسخ می دهد که توسط یک هدف الزام آور مانند یک عنصر، مؤلفه یا دستورالعمل ایجاد شده است. عبارات الگو در نقل قول در سمت راست نماد = مانند **(رویداد)="statement"** ظاهر می شوند.
 
      Let's take an example of button click event's statement
 
@@ -980,37 +975,37 @@ puppeteer:
      
      </span>
 
-     In the above expression, editProfile is a template statement. The below JavaScript syntax expressions are not allowed.
-     1. new
-     2. increment and decrement operators, ++ and --
-     3. operator assignment, such as += and -=
-     4. the bitwise operators | and &
-     5. the template expression operators
+     در عبارت بالا، editProfile یک عبارت الگو است. عبارات نحوی جاوا اسکریپت زیر مجاز نیستند.
+      1. جدید
+      2. عملگرهای افزایش و کاهش، ++ و --
+      3. انتساب عملگر، مانند += و -=
+      4. عملگرهای بیتی | و &
+      5. عملگرهای عبارت الگو
      --------------------------------------
 
      **[فهرست](#فهرست)**
 
 27. ### How do you categorize data binding types?
 
-     Binding types can be grouped into three categories distinguished by the direction of data flow. They are listed as below,
+     انواع اتصال را می توان به سه دسته دسته بندی کرد که با جهت جریان داده ها متمایز می شوند. آنها به صورت زیر فهرست شده اند،
      
-     1. From the source-to-view
-     2. From view-to-source
-     3. View-to-source-to-view
+      1. از منبع به مشاهده
+      2. از دیدگاه به منبع
+      3. View-to-source-to-view
 
-     The possible binding syntax can be tabularized as below,
+      نحو ممکن الزام آور را می توان به صورت جدولی در زیر ارائه کرد:
 
-     | Data direction | Syntax | Type |
+     | جهت داده | نحو | نوع |
      |---- | --------- | ---- |
-     | From the source-to-view(One-way)  | 1. {{expression}} 2. [target]="expression" 3. bind-target="expression" | Interpolation, Property, Attribute, Class, Style|
-     | From view-to-source(One-way) | 1. (target)="statement" 2. on-target="statement" | Event |
-     | View-to-source-to-view(Two-way)| 1. [(target)]="expression" 2. bindon-target="expression"| Two-way |
+     | از منبع به مشاهده (یک طرفه) | 1. {{expression}} 2. [target]="expression" 3. bind-target="expression" | درون یابی، ویژگی، صفت، طبقه، سبک|
+     | از دیدگاه به منبع (یک طرفه) | 1. (target)="statement" 2. on-target="statement" | رویداد |
+     | View-to-source-to-view(دو طرفه)| 1. [(target)]="expression" 2. bindon-target="expression"| دوطرفه |
 
      **[فهرست](#فهرست)**
 
 28. ### What are pipes?
 
-     A pipe takes in data as input and transforms it to a desired output. For example, let us take a pipe to transform a component's birthday property into a human-friendly date using **date** pipe.
+    یک لوله داده ها را به عنوان ورودی می گیرد و آن را به خروجی دلخواه تبدیل می کند. به عنوان مثال، اجازه دهید یک لوله را برای تبدیل ویژگی تولد یک جزء به تاریخ دوست‌داشتنی با استفاده از لوله **date** در نظر بگیریم.
      
      <span dir="ltr" align="left">
 
@@ -1032,7 +1027,7 @@ puppeteer:
 
 29. ### What is a parameterized pipe?
 
-     A pipe can accept any number of optional parameters to fine-tune its output. The parameterized pipe can be created by declaring the pipe name with a colon ( : ) and then the parameter value. If the pipe accepts multiple parameters, separate the values with colons. Let's take a birthday example with a particular format(dd/MM/yyyy):
+     یک لوله می تواند هر تعداد پارامتر اختیاری را برای تنظیم دقیق خروجی خود بپذیرد. لوله پارامتر شده را می توان با اعلام نام لوله با علامت دو نقطه ( : ) و سپس مقدار پارامتر ایجاد کرد. اگر لوله چندین پارامتر را می پذیرد، مقادیر را با دو نقطه جدا کنید. بیایید یک مثال تولد با یک قالب خاص (dd/MM/yyyy) در نظر بگیریم:
      
      <span dir="ltr" align="left">
 
@@ -1050,13 +1045,13 @@ puppeteer:
      
      </span>
 
-     **Note:** The parameter value can be any valid template expression, such as a string literal or a component property.
+     **Note:** مقدار پارامتر می تواند هر عبارت الگوی معتبری باشد، مانند یک رشته لفظی یا یک ویژگی جزء.
 
      **[فهرست](#فهرست)**
 
 30. ### How do you chain pipes?
 
-     You can chain pipes together in potentially useful combinations as per the needs. Let's take a birthday property which uses date pipe(along with parameter) and uppercase pipes as below
+     می‌توانید لوله‌ها را در ترکیب‌های بالقوه مفید بر حسب نیاز به هم زنجیر کنید. بیایید یک ویژگی تولد را در نظر بگیریم که از لوله تاریخ (همراه با پارامتر) و لوله های بزرگ مانند زیر استفاده می کند
      
      <span dir="ltr" align="left">
 
@@ -1079,9 +1074,9 @@ puppeteer:
 
 31. ### What is a custom pipe?
 
-     Apart from built-inn pipes, you can write your own custom pipe with the below key characteristics,
-     1. A pipe is a class decorated with pipe metadata **@Pipe** decorator, which you import from the core Angular library
-     For example,
+     جدا از لوله های داخلی، می توانید لوله سفارشی خود را با ویژگی های کلیدی زیر بنویسید:
+      1. پیپ کلاسی است که با متادیتای لوله **@Pipe** تزئین شده است که از کتابخانه هسته انگولار وارد می‌کنید.
+      مثلا،
     
      <span dir="ltr" align="left">
 
@@ -1091,8 +1086,8 @@ puppeteer:
      
      </span>
 
-     2. The pipe class implements the **PipeTransform** interface's transform method that accepts an input value followed by optional parameters and returns the transformed value.
-     The structure of pipeTransform would be as below,
+     2. کلاس pipe روش تبدیل رابط **PipeTransform** را پیاده سازی می کند که یک مقدار ورودی و به دنبال آن پارامترهای اختیاری را می پذیرد و مقدار تبدیل شده را برمی گرداند.
+      ساختار pipeTransform به صورت زیر خواهد بود.
     
      
      <span dir="ltr" align="left">
@@ -1105,7 +1100,7 @@ puppeteer:
      
      </span>
 
-     3. The @Pipe decorator allows you to define the pipe name that you'll use within template expressions. It must be a valid JavaScript identifier.
+     3. دکوراتور @Pipe به شما امکان می دهد نام لوله ای را که در عبارات قالب استفاده می کنید، تعریف کنید. باید یک شناسه جاوا اسکریپت معتبر باشد.
      
      <span dir="ltr" align="left">
 
@@ -1119,7 +1114,7 @@ puppeteer:
 
 32. ### Give an example of custom pipe?
 
-     You can create custom reusable pipes for the transformation of existing value. For example, let us create a custom pipe for finding file size based on an extension,
+     شما می توانید لوله های قابل استفاده مجدد سفارشی برای تغییر ارزش موجود ایجاد کنید. به عنوان مثال، اجازه دهید یک لوله سفارشی برای یافتن اندازه فایل بر اساس پسوند ایجاد کنیم،
   
      <span dir="ltr" align="left">
 
@@ -1136,7 +1131,7 @@ puppeteer:
      
      </span>
 
-     Now you can use the above pipe in template expression as below,
+     اکنون می توانید از لوله بالا در قالب عبارت زیر استفاده کنید.
   
      
      <span dir="ltr" align="left">
@@ -1154,13 +1149,13 @@ puppeteer:
 
 33. ### What is the difference between pure and impure pipe?
 
-     A pure pipe is only called when Angular detects a change in the value or the parameters passed to a pipe. For example, any changes to a primitive input value (String, Number, Boolean, Symbol) or a changed object reference (Date, Array, Function, Object). An impure pipe is called for every change detection cycle no matter whether the value or parameters changes. i.e, An impure pipe is called often, as often as every keystroke or mouse-move.
+     یک لوله خالص تنها زمانی فراخوانی می شود که Angular تغییر در مقدار یا پارامترهای ارسال شده به یک لوله را تشخیص دهد. به عنوان مثال، هرگونه تغییر در یک مقدار ورودی اولیه (رشته، عدد، بولی، نماد) یا یک مرجع شی تغییر یافته (تاریخ، آرایه، تابع، شی). یک لوله ناخالص برای هر چرخه تشخیص تغییر بدون توجه به تغییر مقدار یا پارامترها فراخوانی می شود. به عنوان مثال، یک لوله ناخالص اغلب، به اندازه هر ضربه کلید یا حرکت ماوس، نامیده می شود.
 
      **[فهرست](#فهرست)**
 
 34. ### What is a bootstrapping module?
 
-     Every application has at least one Angular module, the root module that you bootstrap to launch the application is called as bootstrapping module. It is commonly known as AppModule. The default structure of AppModule generated by AngularCLI would be as follows:    
+     هر برنامه حداقل یک ماژول Angular دارد، ماژول ریشه ای که برای راه اندازی برنامه بوت استرپ می کنید ماژول بوت استرپینگ نامیده می شود. معمولاً به عنوان AppModule شناخته می شود. ساختار پیش فرض AppModule تولید شده توسط AngularCLI به شرح زیر است: 
      
      <span dir="ltr" align="left">
 
@@ -1195,14 +1190,14 @@ puppeteer:
 
 35. ### What are observables?
 
-     Observables are declarative which provide support for passing messages between publishers and subscribers in your application. They are mainly used for event handling, asynchronous programming, and handling multiple values. In this case, you define a function for publishing values, but it is not executed until a consumer subscribes to it. The subscribed consumer then receives notifications until the function completes, or until they unsubscribe.
+     مشاهده پذیرها بیانی هستند که از ارسال پیام بین ناشران و مشترکین در برنامه شما پشتیبانی می کنند. آنها عمدتاً برای مدیریت رویداد، برنامه نویسی ناهمزمان و مدیریت چندین مقدار استفاده می شوند. در این مورد، شما تابعی را برای انتشار مقادیر تعریف می کنید، اما تا زمانی که یک مصرف کننده در آن مشترک نشود، اجرا نمی شود. سپس مصرف کننده مشترک تا زمانی که عملکرد کامل شود یا تا زمانی که اشتراک خود را لغو نکند، اعلان ها را دریافت می کند.
 
      **[فهرست](#فهرست)**
 
 36. ### What is HttpClient and its benefits?
 
-     Most of the Front-end applications communicate with backend services over HTTP protocol using either XMLHttpRequest interface or the fetch() API. Angular provides a simplified client HTTP API known as **HttpClient** which is based on top of XMLHttpRequest interface. This client is avaialble from `@angular/common/http` package.
-     You can import in your root module as below,
+     اکثر برنامه های کاربردی Front-end با استفاده از رابط XMLHttpRequest یا fetch() API از طریق پروتکل HTTP با سرویس های پشتیبان ارتباط برقرار می کنند. Angular یک API HTTP کلاینت ساده شده به نام **HttpClient** را ارائه می دهد که بر پایه رابط XMLHttpRequest است. این سرویس گیرنده از بسته «@angular/common/http» در دسترس است.
+      می توانید در ماژول ریشه خود به صورت زیر وارد کنید،
      
      <span dir="ltr" align="left">
 
@@ -1212,19 +1207,19 @@ puppeteer:
      
      </span>
 
-     The major advantages of HttpClient can be listed as below,
-     1. Contains testability features
-     2. Provides typed request and response objects
-     3. Intercept request and response
-     4. Supports Observalbe APIs
-     5. Supports streamlined error handling
+     مزایای اصلی HttpClient را می توان به شرح زیر ذکر کرد:
+      1. دارای ویژگی های تست پذیری است
+      2. اشیاء درخواست و پاسخ تایپ شده را ارائه می دهد
+      3. رهگیری درخواست و پاسخ
+      4. از API های Observalbe پشتیبانی می کند
+      5. از مدیریت خطای ساده پشتیبانی می کند
 
      **[فهرست](#فهرست)**
 
 37. ### Explain on how to use HttpClient with an example?
 
-     Below are the steps need to be followed for the usage of HttpClient.
-     1. Import HttpClient into root module:
+     در زیر مراحلی که برای استفاده از HttpClient باید طی شود آورده شده است.
+      1. HttpClient را به ماژول root وارد کنید:
      
      <span dir="ltr" align="left">
 
@@ -1243,8 +1238,8 @@ puppeteer:
      
      </span>
 
-     2. Inject the HttpClient into the application:
-     Let's create a userProfileService(userprofile.service.ts) as an example. It also defines get method of HttpClient
+     2. HttpClient را به برنامه تزریق کنید:
+      بیایید یک userProfileService (userprofile.service.ts) به عنوان مثال ایجاد کنیم. همچنین روش get از HttpClient را تعریف می کند
      
      <span dir="ltr" align="left">
 
@@ -1266,8 +1261,8 @@ puppeteer:
      
      </span>
 
-     3. Create a component for subscribing service:
-     Let's create a component called UserProfileComponent(userprofile.component.ts) which inject UserProfileService and invokes the service method,
+     3. یک مؤلفه برای اشتراک سرویس ایجاد کنید:
+      بیایید کامپوننتی به نام UserProfileComponent(userprofile.component.ts) ایجاد کنیم که UserProfileService را تزریق کرده و متد سرویس را فراخوانی می کند.
     
      <span dir="ltr" align="left">
 
@@ -1284,13 +1279,13 @@ puppeteer:
      
      </span>
 
-     Since the above service method returns an Observable which needs to be subscribed in the component.
+     از آنجایی که روش سرویس فوق یک Observable را برمی گرداند که باید در کامپوننت ثبت شود.
 
      **[فهرست](#فهرست)**
 
 38. ### How can you read full response?
 
-     The response body doesn't may not return full response data because sometimes servers also return special headers or status code which which are important for the application workflow. Inorder to get full response, you should use observe option from HttpClient,
+     ممکن است بدنه پاسخ داده‌های پاسخ کامل را برنگرداند زیرا گاهی اوقات سرورها سرصفحه‌ها یا کد وضعیت خاصی را که برای گردش کار برنامه مهم هستند، برمی‌گردانند. برای دریافت پاسخ کامل، باید از گزینه Observer از HttpClient استفاده کنید.
      
      <span dir="ltr" align="left">
 
@@ -1303,15 +1298,15 @@ puppeteer:
      
      </span>
 
-     Now HttpClient.get() method returns an Observable of typed HttpResponse rather than just the JSON data.
+     اکنون متد HttpClient.get () یک Observable از HttpResponse تایپ شده را به جای داده های JSON برمی گرداند.
 
      **[فهرست](#فهرست)**
 
 39. ### How do you perform Error handling?
 
-     If the request fails on the server or failed to reach the server due to network issues then HttpClient will return an error object instead of a successful reponse. In this case, you need to handle in the component by passing error object as a second callback to subscribe() method.
+     اگر درخواست در سرور ناموفق باشد یا به دلیل مشکلات شبکه به سرور نرسد، HttpClient به جای پاسخ موفقیت آمیز، یک شی خطا را برمی گرداند. در این مورد، باید با ارسال شیء خطا به عنوان متد ()subscribe، کامپوننت را کنترل کنید.
 
-     Let's see how it can be handled in the component with an example,
+      بیایید ببینیم که چگونه می توان آن را در کامپوننت با یک مثال مدیریت کرد،
 
      
      <span dir="ltr" align="left">
@@ -1334,9 +1329,9 @@ puppeteer:
 
 40. ### What is RxJS?
 
-     RxJS is a library for composing asynchronous and callback-based code in a functional, reactive style using Observables. Many APIs such as  HttpClient produce and consume RxJS Observables and also uses operators for processing observables.
+     RxJS کتابخانه ای برای نوشتن کدهای ناهمزمان و مبتنی بر تماس به سبک عملکردی و واکنشی با استفاده از Observables است. بسیاری از APIها مانند HttpClient RxJS Observables را تولید و مصرف می کنند و همچنین از عملگرها برای پردازش مشاهده پذیرها استفاده می کنند.
 
-     For example, you can import observables and operators for using HttpClient as below,
+      به عنوان مثال، می توانید مشاهده پذیرها و عملگرها را برای استفاده از HttpClient به صورت زیر وارد کنید.
 
      
      <span dir="ltr" align="left">
@@ -1352,9 +1347,9 @@ puppeteer:
 
 41. ### What is subscribing?
      
-     An Observable instance begins publishing values only when someone subscribes to it. So you need to subscribe by calling the **subscribe()** method of the instance, passing an observer object to receive the notifications.
+     یک نمونه قابل مشاهده تنها زمانی شروع به انتشار مقادیر می کند که شخصی در آن مشترک شود. بنابراین باید با فراخوانی متد **subscribe()** از نمونه، مشترک شوید و یک شی ناظر را برای دریافت اعلان‌ها ارسال کنید.
 
-     Let's take an example of creating and subscribing to a simple observable, with an observer that logs the received message to the console.
+      بیایید نمونه‌ای از ایجاد و اشتراک در یک مشاهده‌پذیر ساده، با مشاهده‌گری که پیام دریافت‌شده را در کنسول ثبت می‌کند، در نظر بگیریم.
      
      <span dir="ltr" align="left">
 
@@ -1385,10 +1380,10 @@ puppeteer:
 
 42. ### What is an observable?
 
-     An Observable is a unique Object similar to a Promise that can help manage async code. Observables are not part of the JavaScript language so we need to rely on a popular Observable library called RxJS.
-     The observables are created using new keyword.
+     Observable یک شی منحصر به فرد شبیه به Promise است که می تواند به مدیریت کدهای همگام کمک کند. Observable ها بخشی از زبان جاوا اسکریپت نیستند، بنابراین باید به یک کتابخانه معروف Observable به نام RxJS تکیه کنیم.
+      مشاهده پذیرها با استفاده از کلمه کلیدی جدید ایجاد می شوند.
 
-     Let see the simple example of observable,
+      مثال ساده قابل مشاهده را ببینید،
 
      
      <span dir="ltr" align="left">
@@ -1409,7 +1404,7 @@ puppeteer:
 
 43. ### What is an observer?
 
-     Observer is an interface for a consumer of push-based notifications delivered by an Observable. It has below structure,
+     Observer یک رابط برای مصرف کننده اعلان های مبتنی بر فشار است که توسط Observable ارائه می شود. دارای ساختار زیر است،
      
      <span dir="ltr" align="left">
 
@@ -1424,7 +1419,7 @@ puppeteer:
      
      </span>
 
-     A handler that implements the Observer interface for receiving observable notifications will be passed as a parameter for observable as below,
+     کنترل‌کننده‌ای که رابط Observer را برای دریافت اعلان‌های قابل مشاهده پیاده‌سازی می‌کند، به‌عنوان پارامتری برای مشاهده پذیر به شرح زیر ارسال می‌شود.
      
      <span dir="ltr" align="left">
 
@@ -1434,28 +1429,28 @@ puppeteer:
      
      </span>
 
-     **Note:** If you don't supply a handler for a notification type, the observer ignores notifications of that type.
+     **Note:** اگر یک کنترل کننده برای یک نوع اعلان ارائه نکنید، ناظر اعلان های آن نوع را نادیده می گیرد.
 
      **[فهرست](#فهرست)**
 
 44. ### What is the difference between promise and observable?
 
-     Below are the list of differences between promise and observable,
+     در زیر لیستی از تفاوت های بین وعده و قابل مشاهده است،
 
-     | Observable | Promise |
-     |---- | --------- |
-     | Declarative: Computation does not start until subscription so that they can be run whenever you need the result | Execute immediately on creation|
-     | Provide multiple values over time | Provide only one |
-     | Subscribe method is used for error handling which makes centralized and predictable error handling| Push errors to the child promises |
-     | Provides chaining and subscription to handle complex applications | Uses only .then() clause |
+      | قابل مشاهده | قول |
+      |---- | --------- |
+      | اعلامی: محاسبات تا زمان اشتراک شروع نمی شود تا هر زمان که به نتیجه نیاز داشتید، قابل اجرا باشند | اجرا بلافاصله پس از ایجاد|
+      | ارائه مقادیر متعدد در طول زمان | فقط یک |
+      | روش Subscribe برای مدیریت خطا استفاده می شود که مدیریت خطا را متمرکز و قابل پیش بینی می کند| خطاهای فشاری به کودک وعده می دهد |
+      | ارائه زنجیره و اشتراک برای رسیدگی به برنامه های پیچیده | فقط از .then() بند | استفاده می کند
 
      **[فهرست](#فهرست)**
 
 45. ### What is multicasting?
 
-     Multi-casting is the practice of broadcasting to a list of multiple subscribers in a single execution.
+     پخش چندگانه، عمل پخش به فهرستی از چند مشترک در یک اجرا است.
 
-     Let's demonstrate the multi-casting feature,
+      بیایید ویژگی چند ریختگی را نشان دهیم،
 
      
      <span dir="ltr" align="left">
@@ -1482,9 +1477,9 @@ puppeteer:
 
 46. ### How do you perform error handling in observables?
 
-     You can handle errors by specifying an **error callback** on the observer instead of relying on try/catch which are ineffective in asynchronous environment.
+     شما می‌توانید با تعیین یک **بازخوانی خطا** روی ناظر به جای تکیه بر try/catch که در محیط ناهمزمان بی‌اثر هستند، خطاها را مدیریت کنید.
 
-     For example, you can define error callback as below,
+      به عنوان مثال، می توانید خطا را به صورت زیر تعریف کنید.
 
      
      <span dir="ltr" align="left">
@@ -1502,9 +1497,9 @@ puppeteer:
 
 47. ### What is the short hand notation for subscribe method?
 
-     The subscribe() method can accept callback function definitions in line, for next, error, and complete handlers is known as short hand notation or Subscribe method with positional arguments.
+     متد subscribe () می‌تواند تعاریف تابع برگشتی را به‌صورت خطی بپذیرد، برای کنترل‌کننده‌های بعدی، خطا و کامل به عنوان نماد دست کوتاه یا متد Subscribe با آرگومان‌های موقعیتی شناخته می‌شود.
 
-     For example, you can define subscribe method as below,
+      به عنوان مثال، می توانید متد subscribe را به صورت زیر تعریف کنید.
 
      
      <span dir="ltr" align="left">
@@ -1523,21 +1518,21 @@ puppeteer:
 
 48. ### What are the utility functions provided by RxJS?
 
-     The RxJS library also provides below utility functions for creating and working with observables.
+     کتابخانه RxJS همچنین توابع کاربردی زیر را برای ایجاد و کار با مشاهده پذیرها ارائه می دهد.
 
-     1. Converting existing code for async operations into observables
-     2. Iterating through the values in a stream
-     3. Mapping values to different types
-     4. Filtering streams
-     5. Composing multiple streams
+      1. تبدیل کدهای موجود برای عملیات همگام به قابل مشاهده
+      2. تکرار از طریق مقادیر در یک جریان
+      3. نگاشت مقادیر به انواع مختلف
+      4. فیلتر کردن جریان ها
+      5. آهنگسازی چند جریان
 
      **[فهرست](#فهرست)**
 
 49. ### What are observable creation functions?
 
-     RxJS provides creation functions for the process of creating observables from things such as promises, events, timers and Ajax requests. Let us explain each of them with an example,
+     RxJS توابع ایجاد را برای فرآیند ایجاد قابل مشاهده از چیزهایی مانند وعده ها، رویدادها، تایمرها و درخواست های Ajax فراهم می کند. اجازه دهید هر یک از آنها را با یک مثال توضیح دهیم،
 
-     1. Create an observable from a promise
+      1. از قول یک قابل مشاهده ایجاد کنید
      
      <span dir="ltr" align="left">
 
@@ -1566,7 +1561,7 @@ puppeteer:
      
      </span>
     
-     3. Create an observable from a counter
+     3. یک قابل مشاهده از یک شمارنده ایجاد کنید
      
      <span dir="ltr" align="left">
 
@@ -1580,7 +1575,7 @@ puppeteer:
      
      </span>
 
-     4. Create an observable from an event
+     4. یک قابل مشاهده از یک رویداد ایجاد کنید
     
      <span dir="ltr" align="left">
 
@@ -1598,61 +1593,62 @@ puppeteer:
      **[فهرست](#فهرست)**
 
 50. ### What will happen if you do not supply handler for observer?
-     Normally an observer object can define any combination of next, error and complete notification type handlers. If you don't supply a handler for a notification type, the observer just ignores notifications of that type.
+
+     به طور معمول یک شی ناظر می تواند هر ترکیبی از کنترل کننده های نوع اعلان بعدی، خطا و کامل را تعریف کند. اگر یک کنترل کننده برای یک نوع اعلان ارائه نکنید، ناظر فقط اعلان های آن نوع را نادیده می گیرد.
 
      **[فهرست](#فهرست)**
 
 51. ### What are angular elements?
 
-     Angular elements are Angular components packaged as **custom elements**(a web standard for defining new HTML elements in a framework-agnostic way). Angular Elements hosts an Angular component, providing a bridge between the data and logic defined in the component and standard DOM APIs, thus, providing a way to use Angular components in `non-Angular environments`.
+     عناصر زاویه‌ای، اجزای زاویه‌ای هستند که به‌عنوان **عناصر سفارشی** (یک استاندارد وب برای تعریف عناصر جدید HTML به روشی فریمورک-آگنوستیک) بسته‌بندی شده‌اند. Angular Elements میزبان یک کامپوننت Angular است که پلی بین داده ها و منطق تعریف شده در کامپوننت و APIهای استاندارد DOM ایجاد می کند، بنابراین راهی برای استفاده از مولفه های Angular در "محیط های غیر زاویه ای" ارائه می دهد.
 
      **[فهرست](#فهرست)**
 
 52. ### What is the browser support of Angular Elements?
 
-     Since Angular elements are packaged as custom elements the browser support of angular elements is same as custom elements support.
+     از آنجایی که عناصر Angular به عنوان عناصر سفارشی بسته بندی می شوند، پشتیبانی مرورگر از عناصر زاویه ای مانند پشتیبانی از عناصر سفارشی است.
 
-     This feature is is currently supported natively in a number of browsers and pending for other browsers.
+      این ویژگی در حال حاضر به صورت بومی در تعدادی از مرورگرها پشتیبانی می‌شود و برای مرورگرهای دیگر در انتظار است.
 
-     | Browser | Angular Element Support |
-     |---- | --------- |
-     | Chrome | Natively supported|
-     | Opera | Natively supported |
-     | Safari| Natively supported |
-     | Firefox | Natively supported from 63 version onwards. You need to enable dom.webcomponents.enabled and dom.webcomponents.customelements.enabled in older browsers |
-     | Edge| Currently it is in progress|
+      | مرورگر | پشتیبانی از المان زاویه ای |
+      |---- | --------- |
+      | کروم | پشتیبانی بومی|
+      | اپرا | پشتیبانی بومی |
+      | سافاری| پشتیبانی بومی |
+      | فایرفاکس | به طور بومی از نسخه 63 به بعد پشتیبانی می شود. باید dom.webcomponents.enabled و dom.webcomponents.customelements.enabled را در مرورگرهای قدیمی فعال کنید |
+      | Edge| در حال حاضر در حال انجام است|
 
      **[فهرست](#فهرست)**
 
 53. ### What are custom elements?
 
-     Custom elements (or Web Components) are a Web Platform feature which extends HTML by allowing you to define a tag whose content is created and controlled by JavaScript code. The browser maintains a `CustomElementRegistry` of defined custom elements, which maps an instantiable JavaScript class to an HTML tag. Currently this feature is supported by Chrome, Firefox, Opera, and Safari, and available in other browsers through polyfills.
+     عناصر سفارشی (یا اجزای وب) یک ویژگی پلتفرم وب هستند که HTML را با اجازه دادن به شما برای تعریف برچسبی که محتوای آن توسط کد جاوا اسکریپت ایجاد و کنترل می شود، گسترش می دهد. مرورگر یک «CustomElementRegistry» از عناصر سفارشی تعریف شده را حفظ می کند، که یک کلاس جاوا اسکریپت غیر قابل مشاهده را به یک تگ HTML نگاشت می کند. در حال حاضر این ویژگی توسط کروم، فایرفاکس، اپرا و سافاری پشتیبانی می‌شود و در مرورگرهای دیگر از طریق polyfills در دسترس است.
 
      **[فهرست](#فهرست)**
 
 54. ### Do I need to bootstrap custom elements?
      
-     No, custom elements bootstrap (or start) automatically when they are added to the DOM, and are automatically destroyed when removed from the DOM. Once a custom element is added to the DOM for any page, it looks and behaves like any other HTML element, and does not require any special knowledge of Angular.
+     خیر، عناصر سفارشی هنگامی که به DOM اضافه می شوند به طور خودکار راه اندازی می شوند (یا شروع می شوند) و وقتی از DOM حذف می شوند به طور خودکار از بین می روند. هنگامی که یک عنصر سفارشی برای هر صفحه ای به DOM اضافه می شود، مانند هر عنصر HTML دیگری به نظر می رسد و رفتار می کند و به دانش خاصی از Angular نیاز ندارد.
 
      **[فهرست](#فهرست)**
 
 55. ### Explain how custom elements works internally?
 
-     Below are the steps in an order about custom elements functionality,
-     1. **App registers custom element with browser:** Use the `createCustomElement()` function to convert a component into a class that can be registered with the browser as a custom element.
-     2. **App adds custom element to DOM:**  Add custom element just like a built-in HTML element directly into the DOM.
-     3. **Browser instantiate component based class:** Browser creates an instance of the registered class and adds it to the DOM.
-     4. **Instance provides content with data binding and change detection:** The content with in template is rendered using the component and DOM data.
-     The flow chart of the custom elements functionality would be as follows,
+     در زیر مراحل به ترتیب در مورد عملکرد عناصر سفارشی آمده است،
+     1. **App registers custom element with browser:** از تابع «createCustomElement()» برای تبدیل یک مؤلفه به کلاسی استفاده کنید که می‌تواند در مرورگر به عنوان یک عنصر سفارشی ثبت شود.
+     2. **App adds custom element to DOM:** عنصر سفارشی را درست مانند یک عنصر HTML داخلی مستقیماً به DOM اضافه کنید.
+     3. **Browser instantiate component based class:** مرورگر یک نمونه از کلاس ثبت شده ایجاد می کند و آن را به DOM اضافه می کند.
+     4. **Instance provides content with data binding and change detection:** محتوای با در قالب با استفاده از کامپوننت و داده های DOM ارائه می شود.
+     نمودار جریان عملکرد عناصر سفارشی به شرح زیر است:
 
      ![CustomElement](images/customElement.png)
 
      **[فهرست](#فهرست)**
 
 56. ### How to transfer components to custom elements?
-     Transforming components to custom elements involves **two** major steps,
-     1. **Build custom element class:** Angular provides the `createCustomElement()` function for converting an Angular component (along with its dependencies) to a custom element. The conversion process implements `NgElementConstructor` interface, and creates a constructor class which is used to produce a self-bootstrapping instance of Angular component.
-     2. **Register element class with browser:** It uses `customElements.define()` JS function, to register the configured constructor and its associated custom-element tag with the browser's `CustomElementRegistry`. When the browser encounters the tag for the registered element, it uses the constructor to create a custom-element instance.
+     تبدیل اجزا به عناصر سفارشی شامل **دو** مرحله اصلی است،
+      1. **کلاس عنصر سفارشی بسازید:** Angular تابع "createCustomElement()" را برای تبدیل یک جزء Angular (همراه با وابستگی های آن) به یک عنصر سفارشی ارائه می دهد. فرآیند تبدیل رابط «NgElementConstructor» را پیاده‌سازی می‌کند و یک کلاس سازنده ایجاد می‌کند که برای تولید یک نمونه self-bootstrapping از مؤلفه Angular استفاده می‌شود.
+      2. ** ثبت کلاس عنصر با مرورگر:** از تابع JS «customElements.define()» برای ثبت سازنده پیکربندی شده و تگ عنصر سفارشی مرتبط با آن با «CustomElementRegistry» مرورگر استفاده می کند. هنگامی که مرورگر با برچسب عنصر ثبت شده روبرو می شود، از سازنده برای ایجاد یک نمونه عنصر سفارشی استفاده می کند.
 
      The detailed structure would be as follows,
      ![CreateElement](images/createElement.png)
@@ -1661,18 +1657,18 @@ puppeteer:
 
 57. ### What are the mapping rules between Angular component and custom element?
 
-     The Component properties and logic maps directly into HTML attributes and the browser's event system. Let us describe them in two steps,
-     1. The createCustomElement() API parses the component input properties with corresponding attributes for the custom element. For example, component @Input('myInputProp') converted as custom element attribute `my-input-prop`.
-     2. The Component outputs are dispatched as HTML Custom Events, with the name of the custom event matching the output name. For example, component @Output() valueChanged = new EventEmitter() converted as custom element with dispatch event as "valueChanged".
+     ویژگی های Component و منطق مستقیماً به ویژگی های HTML و سیستم رویداد مرورگر نگاشت می شوند. اجازه دهید آنها را در دو مرحله توصیف کنیم،
+      1. CreateCustomElement() API خصوصیات ورودی کامپوننت را با ویژگی های مربوط به عنصر سفارشی تجزیه می کند. به عنوان مثال، جزء @Input('myInputProp') به عنوان ویژگی عنصر سفارشی 'my-input-prop' تبدیل شد.
+      2. خروجی های کامپوننت به صورت رویدادهای سفارشی HTML ارسال می شوند که نام رویداد سفارشی با نام خروجی مطابقت دارد. برای مثال، کامپوننت @Output() valueChanged = New EventEmitter() به عنوان عنصر سفارشی با رویداد اعزام به عنوان "valueChanged" تبدیل شده است.
 
      **[فهرست](#فهرست)**
 
 58. ### How do you define typings for custom elements?
 
-     You can use the `NgElement` and `WithProperties` types exported from @angular/elements.
+     می‌توانید از انواع «NgElement» و «WithProperties» که از @angular/elements صادر شده‌اند استفاده کنید.
 
-     Let's see how it can be applied by comparing with Angular component.
-     1. The simple container with input property would be as below,
+      بیایید ببینیم که چگونه می توان آن را با مقایسه با کامپوننت Angular اعمال کرد.
+      1. ظرف ساده با ویژگی ورودی به صورت زیر خواهد بود.
     
      
      <span dir="ltr" align="left">
@@ -1686,7 +1682,7 @@ puppeteer:
      
      </span>
 
-     2. After applying types typescript validates input value and their types,
+     2. پس از اعمال typescript مقدار ورودی و انواع آنها را تأیید می کند.
 
      <span dir="ltr" align="left">
 
@@ -1703,30 +1699,30 @@ puppeteer:
 
 59. ### What are dynamic components?
 
-     Dynamic components are the components in which components location in the application is not defined at build time.i.e, They are not used in any angular template. But the component is instantiated and placed in the application at runtime.
+     مؤلفه‌های پویا مؤلفه‌هایی هستند که مکان مؤلفه‌ها در برنامه در زمان ساخت تعریف نشده است، یعنی در هیچ قالب زاویه‌ای استفاده نمی‌شوند. اما کامپوننت نمونه سازی می شود و در زمان اجرا در برنامه قرار می گیرد.
 
      **[فهرست](#فهرست)**
 
 60. ### What are the various kinds of directives?
 
-     There are mainly three kinds of directives:
-     1. **Components** — These are directives with a template.
-     2. **Structural directives** — These directives change the DOM layout by adding and removing DOM elements.
-     3. **Attribute directives** — These directives change the appearance or behavior of an element, component, or another directive.
+     عمدتاً سه نوع دستورالعمل وجود دارد:
+      1. ** مؤلفه ها ** - این دستورالعمل ها دارای یک الگو هستند.
+      2. **دستورالعمل های ساختاری** — این دستورالعمل ها با افزودن و حذف عناصر DOM، طرح DOM را تغییر می دهند.
+      3. **دستورالعمل های ویژگی** - این دستورالعمل ها ظاهر یا رفتار یک عنصر، جزء یا دستورالعمل دیگر را تغییر می دهند.
 
      **[فهرست](#فهرست)**
 
 61. ### How do you create directives using CLI?
 
-     You can use CLI command `ng generate directive` to create the directive class file. It creates the source file(`src/app/components/directivename.directive.ts`), the respective test file(.spec.ts) and declare the directive class file in root module.
+     می‌توانید از دستور CLI «ng generate directive» برای ایجاد فایل کلاس دستورالعمل استفاده کنید. فایل منبع (`src/app/components/directivename.directive.ts`)، فایل آزمایشی مربوطه (.spec.ts) را ایجاد می کند و فایل کلاس دستورالعمل را در ماژول ریشه اعلام می کند.
 
      **[فهرست](#فهرست)**
 
 62. ### Give an example for attribute directives?
 
-     Let's take simple highlighter behavior as a example directive for DOM element. You can create and apply the attribute directive using below steps,
+     بیایید رفتار ساده برجسته کننده را به عنوان یک دستورالعمل مثال برای عنصر DOM در نظر بگیریم. می توانید دستورالعمل ویژگی را با استفاده از مراحل زیر ایجاد و اعمال کنید:
 
-     1. Create HighlightDirective class with the file name `src/app/highlight.directive.ts`. In this file, we need to import **Directive** from core library to apply the metadata and **ElementRef** in the directive's constructor to inject a reference to the host DOM element ,
+      1. کلاس HighlightDirective با نام فایل «src/app/highlight.directive.ts» ایجاد کنید. در این فایل، باید **Directive** را از کتابخانه هسته وارد کنیم تا متادیتا را اعمال کنیم و **ElementRef** را در سازنده دستورالعمل برای تزریق یک مرجع به عنصر DOM میزبان وارد کنیم.
     
      
      <span dir="ltr" align="left">
@@ -1746,7 +1742,7 @@ puppeteer:
      
      </span>
 
-     2. Apply the attribute directive as an attribute to the host element(for example, <p>)
+     2. دستورالعمل ویژگی را به عنوان یک ویژگی در عنصر میزبان اعمال کنید (به عنوان مثال، <p>)
      
      <span dir="ltr" align="left">
 
@@ -1756,7 +1752,7 @@ puppeteer:
      
      </span>
 
-     3. Run the application to see the highlight behavior on paragraph element
+     3. برای مشاهده رفتار برجسته در عنصر پاراگراف، برنامه را اجرا کنید
      
      <span dir="ltr" align="left">
 
@@ -1770,13 +1766,13 @@ puppeteer:
 
 63. ### What is Angular Router?
 
-     Angular Router is a mechanism in which navigation happens from one view to the next as users perform application tasks. It borrows the concepts or model of browser's application navigation.
+     روتر زاویه ای مکانیزمی است که در آن هنگام انجام وظایف برنامه توسط کاربران، ناوبری از یک نمای به نمای بعدی انجام می شود. مفاهیم یا مدل ناوبری برنامه مرورگر را به عاریت گرفته است.
 
      **[فهرست](#فهرست)**
 
 64. ### What is the purpose of base href tag?
 
-     The routing application should add <base> element to the index.html as the first child in the <head> tag in order to indicate how to compose navigation URLs. If app folder is the application root then you can set the href value as below
+     برنامه مسیریابی باید عنصر <base> را به عنوان اولین فرزند در تگ <head> به index.html اضافه کند تا نحوه نوشتن URL های پیمایش را نشان دهد. اگر پوشه برنامه ریشه برنامه است، می توانید مقدار href را به صورت زیر تنظیم کنید
      
      <span dir="ltr" align="left">
 
@@ -1790,7 +1786,7 @@ puppeteer:
 
 65. ### What are the router imports?
 
-     The Angular Router which represents a particular component view for a given URL is not part of Angular Core. It is available in library named `@angular/router` to import required router components. For example, we import them in app module as below,
+     Angular Router که نمایانگر یک کامپوننت خاص برای یک URL معین است، بخشی از Angular Core نیست. در کتابخانه ای به نام «@angular/router» برای وارد کردن اجزای مورد نیاز روتر موجود است. به عنوان مثال، ما آنها را در ماژول برنامه مانند زیر وارد می کنیم.
      
      <span dir="ltr" align="left">
 
@@ -1804,7 +1800,7 @@ puppeteer:
 
 66. ### What is router outlet?
 
-     The RouterOutlet is a directive from the router library and it  acts as a placeholder that marks the spot in the template where the router should display the components for that outlet. Router outlet is used like a component,
+     RouterOutlet یک دستورالعمل از کتابخانه روتر است و به عنوان یک مکان نگهدار عمل می کند که نقطه ای را در قالب مشخص می کند که روتر باید اجزای آن خروجی را نمایش دهد. خروجی روتر مانند یک جزء استفاده می شود،
      
      <span dir="ltr" align="left">
 
@@ -1819,7 +1815,7 @@ puppeteer:
 
 67. ### What are router links?
 
-     The RouterLink is a directive on the anchor tags give the router control over those elements. Since the navigation paths are fixed, you can assign string values to router-link directive as below,
+     RouterLink یک دستورالعمل در تگ های لنگر است که به روتر کنترل آن عناصر را می دهد. از آنجایی که مسیرهای ناوبری ثابت هستند، می توانید مقادیر رشته ای را به دستورالعمل پیوند مسیریاب به صورت زیر اختصاص دهید.
      
      <span dir="ltr" align="left">
 
@@ -1838,7 +1834,7 @@ puppeteer:
 
 68. ### What are active router links?
      
-     RouterLinkActive is a directive that toggles css classes for active RouterLink bindings based on the current RouterState. i.e, The Router will add CSS classes when this link is active and remove when the link is inactive. For example, you can add them to RouterLinks as below.
+     RouterLinkActive دستورالعملی است که کلاس‌های css را برای اتصالات فعال RouterLink بر اساس RouterState فعلی تغییر می‌دهد. به عنوان مثال، روتر کلاس های CSS را زمانی که این پیوند فعال است اضافه می کند و زمانی که پیوند غیر فعال است حذف می کند. به عنوان مثال، می توانید آنها را مانند زیر به RouterLinks اضافه کنید.
      
      <span dir="ltr" align="left">
 
@@ -1857,7 +1853,7 @@ puppeteer:
 
 69. ### What is router state?
 
-     RouterState is a tree of activated routes. Every node in this tree knows about the "consumed" URL segments, the extracted parameters, and the resolved data. You can access the current RouterState from anywhere in the application using the `Router service` and the `routerState` property.
+     RouterState درختی از مسیرهای فعال شده است. هر گره در این درخت از بخش های URL "مصرف شده"، پارامترهای استخراج شده و داده های حل شده می داند. با استفاده از «سرویس روتر» و ویژگی «routerState» می‌توانید از هر کجای برنامه به RouterState فعلی دسترسی داشته باشید.
      
      <span dir="ltr" align="left">
 
@@ -1880,9 +1876,9 @@ puppeteer:
 
 70. ### What are router events?
 
-     During each navigation, the Router emits navigation events through the Router.events property allowing you to track the lifecycle of the route.
+     در طول هر ناوبری، روتر رویدادهای ناوبری را از طریق ویژگی Router.events منتشر می کند که به شما امکان می دهد چرخه حیات مسیر را ردیابی کنید.
 
-     The sequence of router events is as below,
+     توالی رویدادهای روتر به شرح زیر است:
 
      1. NavigationStart,
      2. RouteConfigLoadStart,
@@ -1905,7 +1901,7 @@ puppeteer:
 
 71. ### What is activated route?
 
-     ActivatedRoute contains the information about a route associated with a component loaded in an outlet. It can also be used to traverse the router state tree. The ActivatedRoute will be injected as a router service to access the information. In the below example, you can access route path and parameters,
+     ActivatedRoute حاوی اطلاعاتی در مورد یک مسیر مرتبط با یک جزء بارگذاری شده در یک خروجی است. همچنین می توان از آن برای عبور از درخت حالت روتر استفاده کرد. ActivatedRoute به عنوان یک سرویس روتر برای دسترسی به اطلاعات تزریق می شود. در مثال زیر می توانید به مسیر و پارامترهای مسیر دسترسی داشته باشید.
      
      <span dir="ltr" align="left">
 
@@ -1927,7 +1923,7 @@ puppeteer:
 
 72. ### How do you define routes?
 
-     A router must be configured with a list of route definitions. You configures the router with routes via the `RouterModule.forRoot()` method, and adds the result to the AppModule's `imports` array.
+     یک روتر باید با لیستی از تعاریف مسیر پیکربندی شود. شما روتر را با مسیرها از طریق روش «RouterModule.forRoot()» پیکربندی می‌کنید و نتیجه را به آرایه «واردات» AppModule اضافه می‌کنید.
      
      <span dir="ltr" align="left">
 
@@ -1966,9 +1962,9 @@ puppeteer:
 
 73. ### What is the purpose of Wildcard route?
 
-     If the URL doesn't match any predefined routes then it causes the router to throw an error and crash the app. In this case, you can use wildcard route. A wildcard route has a path consisting of two asterisks to match every URL.
+     اگر URL با هیچ یک از مسیرهای از پیش تعریف شده مطابقت نداشته باشد، باعث می شود روتر خطایی ایجاد کند و برنامه را خراب کند. در این حالت می توانید از مسیر wildcard استفاده کنید. یک مسیر عام دارای یک مسیر متشکل از دو ستاره برای مطابقت با هر URL است.
 
-     For example, you can define PageNotFoundComponent for wildcard route as below
+      به عنوان مثال، شما می توانید PageNotFoundComponent را برای مسیر wildcard به صورت زیر تعریف کنید
 
      
      <span dir="ltr" align="left">
@@ -1983,27 +1979,27 @@ puppeteer:
 
 74. ### Do I need a Routing Module always?
 
-     No, the Routing Module is a design choice. You can skip routing Module (for example, AppRoutingModule) when the configuration is simple and merge the routing configuration directly into the companion module (for example, AppModule). But it is recommended when the configuration is complex and includes specialized guard and resolver services.
+     نه، ماژول مسیریابی یک انتخاب طراحی است. وقتی پیکربندی ساده است، می‌توانید از ماژول مسیریابی (مثلاً AppRoutingModule) صرفنظر کنید و پیکربندی مسیریابی را مستقیماً در ماژول همراه (مثلاً AppModule) ادغام کنید. اما زمانی توصیه می شود که پیکربندی پیچیده باشد و شامل خدمات تخصصی نگهبان و حل کننده باشد.
 
      **[فهرست](#فهرست)**
 
 75. ### What is Angular Universal?
 
-     Angular Universal is a server-side rendering module for Angular applications in various scenarios. This is a community driven project and available under @angular/platform-server package. Recently Angular Universal is integrated with Angular CLI.
+     Angular Universal یک ماژول رندر سمت سرور برای برنامه های Angular در سناریوهای مختلف است. این یک پروژه جامعه محور است و در بسته @angular/platform-server موجود است. اخیرا Angular Universal با Angular CLI ادغام شده است.
 
      **[فهرست](#فهرست)**
 
 76. ### What are different types of compilation in Angular?
 
-     Angular offers two ways to compile your application,
-     1. Just-in-Time (JIT)
-     2. Ahead-of-Time (AOT)
+     Angular دو راه برای کامپایل برنامه شما ارائه می دهد.
+      1. به موقع (JIT)
+      2. پیش از زمان (AOT)
 
      **[فهرست](#فهرست)**
 
 77. ### What is JIT?
 
-     Just-in-Time (JIT) is a type of compilation that compiles your app in the browser at runtime. JIT compilation is the default when you run the ng build (build only) or ng serve (build and serve locally) CLI commands. i.e, the below commands used for JIT compilation,
+     Just-in-Time (JIT) نوعی کامپایل است که برنامه شما را در زمان اجرا در مرورگر کامپایل می کند. هنگامی که دستورات CLI ng build (فقط ساخت) یا ng serve (ساخت و ارائه به صورت محلی) را اجرا می کنید، کامپایل JIT پیش فرض است. به عنوان مثال، دستورات زیر برای کامپایل JIT استفاده می شود،
      
      <span dir="ltr" align="left">
 
@@ -2018,7 +2014,7 @@ puppeteer:
 
 78. ### What is AOT?
 
-     Ahead-of-Time (AOT) is a type of compilation that compiles your app at build time. For AOT compilation, include the `--aot` option with the ng build or ng serve command as below,
+     Ahead-of-Time (AOT) نوعی کامپایل است که برنامه شما را در زمان ساخت کامپایل می کند. برای کامپایل AOT، گزینه «--aot» را با دستور ng build یا ng serve به شرح زیر اضافه کنید.
      
      <span dir="ltr" align="left">
 
@@ -2029,56 +2025,56 @@ puppeteer:
      
      </span>
 
-     **Note:** The ng build command with the --prod meta-flag (`ng build --prod`) compiles with AOT by default.
+     **نکته:** دستور ng build با --prod meta-flag ('ng build --prod') به طور پیش فرض با AOT کامپایل می شود.
 
      **[فهرست](#فهرست)**
 
 79. ### Why do we need compilation process?
 
-     The Angular components and templates cannot be understood by the browser directly. Due to that Angular applications require a compilation process before they can run in a browser. For example, In AOT compilation, both Angular HTML and TypeScript code converted into efficient JavaScript code during the build phase before browser runs it.
+     کامپوننت ها و قالب های Angular را نمی توان مستقیماً توسط مرورگر درک کرد. به همین دلیل برنامه های Angular قبل از اینکه بتوانند در مرورگر اجرا شوند نیاز به یک فرآیند کامپایل دارند. برای مثال، در کامپایل AOT، هر دو کد Angular HTML و TypeScript در مرحله ساخت قبل از اجرای مرورگر به کد جاوا اسکریپت کارآمد تبدیل می‌شوند.
 
      **[فهرست](#فهرست)**
 
 80. ### What are the advantages with AOT?
 
-     Below are the list of AOT benefits,
-
-     1. **Faster rendering:** The browser downloads a pre-compiled version of the application. So it can render the application immediately without compiling the app.
-     2. **Fewer asynchronous requests:** It inlines external HTML templates and CSS style sheets within the application javascript which eliminates separate ajax requests.
-     3. **Smaller Angular framework download size:** Doesn't require downloading the Angular compiler. Hence it dramatically reduces the application payload.
-     4. **Detect template errors earlier:** Detects and reports template binding errors during the build step itself
-     5. **Better security:** It compiles HTML templates and components into JavaScript.  So there won't be any injection attacks.
+     1. ** رندر سریعتر: ** مرورگر یک نسخه از پیش کامپایل شده برنامه را دانلود می کند. بنابراین می تواند برنامه را بلافاصله بدون کامپایل کردن برنامه رندر کند.
+      2. ** درخواست های ناهمزمان کمتر: ** قالب های HTML خارجی و برگه های سبک CSS را در برنامه جاوا اسکریپت قرار می دهد که درخواست های جداگانه ajax را حذف می کند.
+      3. **اندازه دانلود فریمورک Angular کوچکتر:** نیازی به دانلود کامپایلر Angular ندارد. از این رو به طور چشمگیری حجم برنامه را کاهش می دهد.
+      4. **تشخیص خطاهای قالب زودتر:** خطاهای اتصال قالب را در مرحله ساخت خود شناسایی و گزارش می کند.
+      5. **امنیت بهتر:** قالب ها و اجزای HTML را در جاوا اسکریپت کامپایل می کند. بنابراین هیچ حمله تزریقی وجود نخواهد داشت.
 
      **[فهرست](#فهرست)**
 
 81. ### What are the ways to control AOT compilation?
-     You can control your app compilation in two ways,
-     1. By providing template compiler options in the `tsconfig.json` file
-     2. By configuring Angular metadata with decorators
+
+     شما می توانید کامپایل برنامه خود را به دو روش کنترل کنید،
+      1. با ارائه گزینه های کامپایلر قالب در فایل `tsconfig.json`
+      2. با پیکربندی فراداده Angular با دکوراتورها
 
      **[فهرست](#فهرست)**
 
 82. ### What are the restrictions of metadata?
 
-     In Angular, You must write metadata with the following general constraints,
-     1. Write expression syntax with in the supported range of javascript features
-     2. The compiler can only reference symbols which are exported
-     3. Only call the functions supported by the compiler
-     4. Decorated and data-bound class members must be public.
+     در Angular، شما باید ابرداده را با محدودیت های کلی زیر بنویسید:
+      1. نحو عبارت را با در محدوده پشتیبانی شده از ویژگی های جاوا اسکریپت بنویسید
+      2. کامپایلر فقط می تواند به نمادهایی که صادر شده اند ارجاع دهد
+      3. فقط توابع پشتیبانی شده توسط کامپایلر را فراخوانی کنید
+      4. اعضای کلاس تزئین شده و محدود به داده ها باید عمومی باشند.
 
      **[فهرست](#فهرست)**
 
 83. ### What are the three phases of AOT?
 
-     The AOT compiler works in three phases,
-     1. **Code Analysis:** The compiler records a representation of the source
-     2. **Code generation:** It handles the interpretation as well as places restrictions on what it interprets.
-     3. **Validation:** In this phase, the Angular template compiler uses the TypeScript compiler to validate the binding expressions in templates.
+     کامپایلر AOT در سه فاز کار می کند،
+      1. **تحلیل کد:** کامپایلر نمایشی از منبع را ثبت می کند
+      2. **تولید کد:** تفسیر را کنترل می کند و همچنین محدودیت هایی را در مورد آنچه تفسیر می کند ایجاد می کند.
+      3. ** اعتبار سنجی: ** در این مرحله، کامپایلر الگوی Angular از کامپایلر TypeScript برای اعتبارسنجی عبارات الزام آور در قالب ها استفاده می کند.
 
      **[فهرست](#فهرست)**
 
 84. ### Can I use arrow functions in AOT?
-     No, Arrow functions or lambda functions can’t be used to assign values to the decorator properties. For example, the following snippet is invalid:
+
+     خیر، توابع پیکان یا توابع لامبدا را نمی توان برای تخصیص مقادیر به ویژگی های دکوراتور استفاده کرد. به عنوان مثال، قطعه زیر نامعتبر است:
 
      
      <span dir="ltr" align="left">
@@ -2111,27 +2107,27 @@ puppeteer:
      
      </span>
 
-     If you still use arrow function, it generates an error node in place of the function. When the compiler later interprets this node, it reports an error to turn the arrow function into an exported function.
-    **Note:** From Angular5 onwards, the compiler automatically performs this rewriting while emitting the .js file.
+     اگر همچنان از تابع arrow استفاده می کنید، یک گره خطا به جای تابع ایجاد می کند. وقتی کامپایلر بعداً این گره را تفسیر می‌کند، یک خطا گزارش می‌کند تا تابع فلش را به یک تابع صادر شده تبدیل کند.
+    **نکته:** از Angular5 به بعد، کامپایلر به طور خودکار این بازنویسی را در حین انتشار فایل js. انجام می دهد.
 
      **[فهرست](#فهرست)**
 
 85. ### What is the purpose of metadata json files?
      
-     The metadata.json file can be treated as a diagram of the overall structure of a decorator's metadata, represented as an abstract syntax tree(AST). During the analysis phase, the AOT collector scan the metadata recorded in the Angular decorators and outputs metadata information in .metadata.json files, one per .d.ts file.
+     فایل metadata.json را می‌توان به‌عنوان نموداری از ساختار کلی فراداده‌های تزئینگر، که به‌عنوان یک درخت نحو انتزاعی (AST) نشان داده می‌شود، در نظر گرفت. در طول مرحله تجزیه و تحلیل، جمع‌آورنده AOT ابرداده‌های ثبت‌شده در تزئینات Angular را اسکن می‌کند و اطلاعات فراداده را در فایل‌های .metadata.json، یک عدد برای هر فایل .d.ts، خروجی می‌دهد.
 
      **[فهرست](#فهرست)**
 
 86. ### Can I use any javascript feature for expression syntax in AOT?
      
-     No, the AOT collector understands a subset  of (or limited) JavaScript features. If an expression uses unsupported syntax, the collector writes an error node to the .metadata.json file. Later point of time, the compiler reports an error if it needs that piece of metadata to generate the application code.
+     خیر، گردآورنده AOT زیرمجموعه ای از (یا محدود) ویژگی های جاوا اسکریپت را درک می کند. اگر عبارتی از نحو پشتیبانی نشده استفاده کند، گردآورنده یک گره خطا در فایل .metadata.json می نویسد. بعداً، کامپایلر در صورتی که برای تولید کد برنامه به آن تکه متادیتا نیاز داشته باشد، خطایی را گزارش می‌کند.
 
      **[فهرست](#فهرست)**
 
 87. ### What is folding?
 
-     The compiler can only resolve references to exported symbols in the metadata. Where as some of the non-exported members are folded while generating the code. i.e Folding is a process in which the collector evaluate an expression during collection and record the result in the .metadata.json instead of the original expression.
-     For example, the compiler couldn't refer selector reference because it is not exported
+     کامپایلر فقط می تواند ارجاعات به نمادهای صادر شده در ابرداده را حل کند. جایی که برخی از اعضای غیرصادراتی هنگام تولید کد تا می شوند. i.e Folding فرآیندی است که در آن گردآورنده یک عبارت را در حین جمع آوری ارزیابی می کند و نتیجه را به جای عبارت اصلی در .metadata.json ثبت می کند.
+      به عنوان مثال، کامپایلر نمی تواند مرجع انتخابگر را ارجاع دهد زیرا صادر نشده است
      
      <span dir="ltr" align="left">
 
@@ -2144,7 +2140,7 @@ puppeteer:
      
      </span>
 
-     Will be folded into inline selector
+     در انتخابگر درون خطی تا می شود
      
      <span dir="ltr" align="left">
 
@@ -2156,14 +2152,14 @@ puppeteer:
      
      </span>
 
-     Remember that the compiler can’t fold everything. For example, spread operator on arrays, objects created using new keywords and function calls.
+     به یاد داشته باشید که کامپایلر نمی تواند همه چیز را تا کند. به عنوان مثال، عملگر گسترش بر روی آرایه ها، اشیاء ایجاد شده با استفاده از کلمات کلیدی جدید و فراخوانی تابع.
 
     **[فهرست](#فهرست)**
 
 88. ### What are macros?
 
-     The AOT compiler supports macros in the form of functions or static methods that return an expression in a `single return expression`.
-     For example, let us take a below macro function,
+     کامپایلر AOT از ماکروها به شکل توابع یا متدهای ایستا پشتیبانی می کند که عبارتی را در یک عبارت بازگشتی واحد برمی گرداند.
+      به عنوان مثال، یک تابع ماکرو زیر را در نظر بگیرید،
      
      <span dir="ltr" align="left">
 
@@ -2175,7 +2171,7 @@ puppeteer:
 
      </span>
 
-     You can use it inside metadata as an expression,
+    می توانید از آن در داخل ابرداده به عنوان یک عبارت استفاده کنید،
 
 
      
@@ -2207,10 +2203,9 @@ puppeteer:
 
 89. ### Give an example of few metadata errors?
 
-     Below are some of the errors encountered in metadata,
 
-     1. **Expression form not supported:** Some of the language features outside of the compiler's restricted expression syntax used in angular metadata can produce this error.
-        Let's see some of these examples,
+     1. **فرم عبارت پشتیبانی نمی شود:** برخی از ویژگی های زبان خارج از نحو بیان محدود کامپایلر که در فراداده های زاویه ای استفاده می شود می توانند این خطا را ایجاد کنند.
+         بیایید برخی از این نمونه ها را ببینیم،
     
      
      <span dir="ltr" align="left">
@@ -2223,8 +2218,8 @@ puppeteer:
      
      </span>
 
-     2. **Reference to a local (non-exported) symbol:** The compiler encountered a referenced to a locally defined symbol that either wasn't exported or wasn't initialized.
-     Let's take example of this error,
+     2. **ارجاع به یک نماد محلی (غیرصادراتی):** کامپایلر با نماد ارجاعی به یک نماد تعریف شده محلی مواجه شد که یا صادر نشده یا مقداردهی اولیه نشده است.
+      بیایید این خطا را مثال بزنیم،
     
      
      <span dir="ltr" align="left">
@@ -2257,7 +2252,7 @@ puppeteer:
      
      </span>
 
-     3. **Function calls are not supported:** The compiler does not currently support function expressions or lambda functions. For example, you cannot set a provider's useFactory to an anonymous function or arrow function as below.
+     3. ** فراخوانی تابع پشتیبانی نمی شود: ** کامپایلر در حال حاضر از عبارات تابع یا توابع لامبدا پشتیبانی نمی کند. برای مثال، نمی‌توانید useFactory ارائه‌دهنده را روی یک تابع ناشناس یا تابع فلش مانند زیر تنظیم کنید.
 
      <span dir="ltr" align="left">
 
@@ -2285,7 +2280,7 @@ puppeteer:
      
      </span>
 
-     4. **Destructured variable or constant not supported:** The compiler does not support references to variables assigned by destructuring. For example, you cannot write something like this:
+     4. **متغیر تخریب شده یا ثابت پشتیبانی نمی شود:** کامپایلر ارجاع به متغیرهای اختصاص داده شده توسط ساختارشکنی را پشتیبانی نمی کند. به عنوان مثال، شما نمی توانید چیزی شبیه به این بنویسید:
      
      <span dir="ltr" align="left">
 
@@ -2303,7 +2298,7 @@ puppeteer:
      
      </span>
 
-     You can fix this by non-destructured values
+     شما می توانید این مشکل را با مقادیر غیر تخریب شده برطرف کنید
 
      <span dir="ltr" align="left">
 
@@ -2322,13 +2317,13 @@ puppeteer:
 
 90. ### What is metadata rewriting?
 
-     Metadata rewriting is the process in which the compiler converts the expression initializing the fields such as useClass, useValue, useFactory, and data into an exported variable, which replaces the expression. Remember that the compiler does this rewriting during the emit of the .js file but not in definition files( .d.ts file).
+     بازنویسی متادیتا فرآیندی است که در آن کامپایلر عبارتی را که فیلدهایی مانند useClass، useValue، useFactory و داده را مقداردهی اولیه می کند، به یک متغیر صادر شده تبدیل می کند که جایگزین عبارت می شود. به یاد داشته باشید که کامپایلر این بازنویسی را در حین انتشار فایل js انجام می دهد اما در فایل های تعریف (فایل .d.ts) این کار را انجام نمی دهد.
 
     **[فهرست](#فهرست)**
 
 91. ### How do you provide configuration inheritance?
 
-     Angular Compiler supports configuration inheritance through extends in the tsconfig.json on angularCompilerOptions. i.e, The configuration from the base file(for example, tsconfig.base.json) are loaded first, then overridden by those in the inheriting config file.
+     Angular Compiler از وراثت پیکربندی از طریق Extend در tsconfig.json در angularCompilerOptions پشتیبانی می کند. به عنوان مثال، پیکربندی از فایل پایه (به عنوان مثال، tsconfig.base.json) ابتدا بارگیری می شود، سپس توسط آنهایی که در فایل پیکربندی ارثی هستند، لغو می شوند.
      
      <span dir="ltr" align="left">
 
@@ -2353,7 +2348,7 @@ puppeteer:
 
 92. ### How do you specify angular template compiler options?
 
-     The angular template compiler options are specified as members of the **angularCompilerOptions** object in the tsconfig.json file. These options will be specified adjecent to typescript compiler options.
+     گزینه های کامپایلر قالب زاویه ای به عنوان اعضای شی **angularCompilerOptions** در فایل tsconfig.json مشخص شده اند. این گزینه ها در مجاورت گزینه های کامپایلر typescript مشخص می شوند.
      
      <span dir="ltr" align="left">
 
@@ -2377,9 +2372,9 @@ puppeteer:
 
 93. ### How do you enable binding expression validation?
 
-     You can enable binding expression validation explicitly by adding the compiler option **fullTemplateTypeCheck** in the "angularCompilerOptions" of the project's tsconfig.json. It produces error messages when a type error is detected in a template binding expression.
+     شما می توانید صریحاً با افزودن گزینه کامپایلر **fullTemplateTypeCheck** در "angularCompilerOptions" tsconfig.json پروژه، اعتبار سنجی عبارت binding را فعال کنید. هنگامی که یک خطای نوع در عبارت اتصال الگو تشخیص داده می شود، پیام های خطا تولید می کند.
 
-     For example, consider the following component:
+     برای مثال، جزء زیر را در نظر بگیرید:
 
      
      <span dir="ltr" align="left">
@@ -2396,7 +2391,7 @@ puppeteer:
      
      </span>
 
-     This will produce the following error:
+     این باعث ایجاد خطای زیر می شود:
      
      <span dir="ltr" align="left">
 
@@ -2410,7 +2405,7 @@ puppeteer:
 
 94. ### What is the purpose of any type cast function?
 
-     You can disable binding expression type checking using $any() type cast function(by surrounding the expression). In the following example, the error Property contacts does not exist is suppressed by casting user to the any type.
+     می توانید بررسی نوع عبارت binding را با استفاده از تابع cast نوع $any() غیرفعال کنید (با احاطه کردن عبارت). در مثال زیر، خطای Property contacts does not exist با فرستادن کاربر به هر نوع سرکوب شده است.
      
      <span dir="ltr" align="left">
 
@@ -2420,7 +2415,7 @@ puppeteer:
      
      </span>
 
-     The $any() cast function also works with this to allow access to undeclared members of the component.
+     تابع $any() cast نیز با این کار می کند تا امکان دسترسی به اعضای اعلام نشده کامپوننت را فراهم کند.
      
      <span dir="ltr" align="left">
 
@@ -2434,7 +2429,7 @@ puppeteer:
 
 95. ### What is Non null type assertion operator?
      
-     You can use the non-null type assertion operator to suppress the Object is possibly 'undefined' error. In the following example, the user and contact properties are always set together, implying that contact is always non-null if user is non-null. The error is suppressed in the example by using contact!.email.
+     برای سرکوب خطای Object is assibly 'undefined' می توانید از عملگر اظهاری نوع غیر تهی استفاده کنید. در مثال زیر، ویژگی های کاربر و مخاطب همیشه با هم تنظیم می شوند، به این معنی که اگر کاربر غیر تهی باشد، مخاطب همیشه غیر تهی است. خطا در مثال با استفاده از contact!.email سرکوب شده است.
 
      
      <span dir="ltr" align="left">
@@ -2460,7 +2455,8 @@ puppeteer:
      **[فهرست](#فهرست)**
 
 96. ### What is type narrowing?
-     The expression used in an ngIf directive is used to narrow type unions in the Angular template compiler similar to if expression in typescript. So *ngIf allows the typeScript compiler to infer that the data used in the binding expression will never be undefined.
+
+     عبارت مورد استفاده در یک دستورالعمل ngIf برای محدود کردن اتحادیه های نوع در کامپایلر الگوی Angular مشابه عبارت if در تایپ اسکریپت استفاده می شود. بنابراین *ngIf به کامپایلر typeScript اجازه می دهد استنباط کند که داده های مورد استفاده در عبارت binding هرگز تعریف نشده نخواهد بود.
 
      
      <span dir="ltr" align="left">
@@ -2480,27 +2476,30 @@ puppeteer:
      **[فهرست](#فهرست)**
 
 97. ### How do you describe various dependencies in angular application?
-     The dependencies section of package.json with in an angular application can be divided as follow,
 
-     1. **Angular packages:** Angular core and optional modules; their package names begin @angular/.
-     2. **Support packages:** Third-party libraries that must be present for Angular apps to run.
-     3. **Polyfill packages:** Polyfills plug gaps in a browser's JavaScript implementation.
+     بخش وابستگی های package.json با در یک برنامه زاویه ای را می توان به صورت زیر تقسیم کرد:
+
+      1. ** بسته های زاویه ای: ** هسته زاویه ای و ماژول های اختیاری. نام بسته آنها @angular/ شروع می شود.
+      2. **بسته های پشتیبانی:** کتابخانه های شخص ثالثی که برای اجرای برنامه های Angular باید وجود داشته باشند.
+      3. ** بسته های Polyfill: ** Polyfill شکاف ها را در پیاده سازی جاوا اسکریپت مرورگر وصل می کند.
 
      **[فهرست](#فهرست)**
 
 98. ### What is zone?
-     A Zone is an execution context that persists across async tasks. Angular relies on zone.js to run Angular's change detection processes when native JavaScript operations raise events
+
+     Zone یک زمینه اجرایی است که در تمام وظایف ناهمگام باقی می ماند. هنگامی که عملیات جاوا اسکریپت بومی رویدادها را افزایش می دهد، Angular برای اجرای فرآیندهای تشخیص تغییر Angular به zone.js متکی است.
 
      **[فهرست](#فهرست)**
 
 99. ### What is the purpose of common module?
-     The commonly-needed services, pipes, and directives provided by @angular/common module. Apart from these HttpClientModule is available under @angular/common/http.
+
+     خدمات، لوله‌ها و دستورالعمل‌های مورد نیاز معمولاً توسط ماژول @angular/common ارائه شده است. جدا از این HttpClientModule در زیر angular/common/http@ موجود است.
 
      **[فهرست](#فهرست)**
 
 100. ### What is codelyzer?
 
-     Codelyzer provides set of tslint rules for static code analysis of Angular TypeScript projects. ou can run the static code analyzer over web apps, NativeScript, Ionic etc. Angular CLI has support for this and it can be use as below,
+     Codelyzer مجموعه ای از قوانین tslint را برای تجزیه و تحلیل کد استاتیک پروژه های Angular TypeScript ارائه می دهد. می توانید تحلیلگر کد استاتیک را روی برنامه های وب، NativeScript، Ionic و غیره اجرا کنید. Angular CLI از این پشتیبانی می کند و می توان از آن به صورت زیر استفاده کرد.
      
      <span dir="ltr" align="left">
 
@@ -2621,7 +2620,7 @@ puppeteer:
      
      </span>
 
-     **Note:** The style attributes must be in camelCase.
+     **نکته:** The style attributes must be in camelCase.
 
      **[فهرست](#فهرست)**
 
@@ -2843,7 +2842,7 @@ puppeteer:
      
      </span>
 
-     **Note:** The completion and diagnostic services works for .ts files only. You need to use custom plugins for supporting HTML files.
+     **نکته:** The completion and diagnostic services works for .ts files only. You need to use custom plugins for supporting HTML files.
 
      **[فهرست](#فهرست)**
 
@@ -2906,7 +2905,7 @@ puppeteer:
      
      </span>
 
-     **Note:** You may need to refactor your initial scaffolding web worker code for sending messages to and from.
+     **نکته:** You may need to refactor your initial scaffolding web worker code for sending messages to and from.
 
      **[فهرست](#فهرست)**
 
@@ -3071,7 +3070,7 @@ puppeteer:
 132.  ### What is Bazel tool?
 
      Bazel is a powerful build tool developed and massively used by Google and it can keep track of the dependencies between different packages and build targets. In Angular8, you can build your CLI application with Bazel.
-     **Note:** The Angular framework itself is built with Bazel.
+     **نکته:** The Angular framework itself is built with Bazel.
 
      **[فهرست](#فهرست)**
 
@@ -3964,13 +3963,13 @@ puppeteer:
      1. **Mark static text messages in your component templates for translation:** You can place i18n on every element tag whose fixed text is to be translated. For example, you need i18n attribue for heading as below,
      
      
-          <span dir="ltr" align="left">
+     <span dir="ltr" align="left">
 
-          ```cmd
-          <h1 i18n>Hello i18n!</h1>
-          ```
-          
-          </span>
+     ```cmd
+     <h1 i18n>Hello i18n!</h1>
+     ```
+     
+     </span>
 
      2. **Create a translation file:** Use the Angular CLI xi18n command to extract the marked text into an industry-standard translation source file. i.e, Open terminal window at the root of the app project and run the CLI command xi18n.
      
