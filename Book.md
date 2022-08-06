@@ -2514,15 +2514,15 @@ puppeteer:
 
 101. ### What is angular animation?
 
-     Angular's animation system is built on CSS functionality in order to animate any property that the browser considers animatable. These properties includes positions, sizes, transforms, colors, borders etc. The Angular modules for animations are **@angular/animations** and **@angular/platform-browser** and these dependencies are automatically added to your project when you create a project using Angular CLI.
+     سیستم انیمیشن Angular بر اساس عملکرد CSS ساخته شده است تا هر خاصیتی را که مرورگر آن را قابل انیمیشن می داند، متحرک کند. این ویژگی‌ها شامل موقعیت‌ها، اندازه‌ها، تبدیل‌ها، رنگ‌ها، حاشیه‌ها و غیره است. ماژول‌های Angular برای انیمیشن‌ها **@angular/animations** و **@angular/platform-browser** هستند و این وابستگی‌ها به طور خودکار به پروژه شما اضافه می‌شوند. شما یک پروژه با استفاده از Angular CLI ایجاد می کنید.
 
      **[فهرست](#فهرست)**
 
 102. ### What are the steps to use animation module?
 
-     You need to follow below steps to implement animation in your angular project,
+     برای پیاده سازی انیمیشن در پروژه زاویه ای خود باید مراحل زیر را دنبال کنید.
 
-     1. **Enabling the animations module:** Import BrowserAnimationsModule to add animation capabilities into your Angular root application module(for example, src/app/app.module.ts).
+     1. **Enabling the animations module:**BrowserAnimationsModule را وارد کنید تا قابلیت‌های انیمیشن را به ماژول برنامه Angular root خود اضافه کنید (به عنوان مثال، src/app/app.module.ts).
      
      
      <span dir="ltr" align="left">
@@ -2545,7 +2545,7 @@ puppeteer:
      
      </span>
 
-     2. **Importing animation functions into component files:** Import required animation functions from @angular/animations in component files(for example, src/app/app.component.ts).
+     2. **Importing animation functions into component files:** توابع انیمیشن مورد نیاز را از @angular/animations در فایل‌های مؤلفه وارد کنید (به عنوان مثال، src/app/app.component.ts).
      
      
      <span dir="ltr" align="left">
@@ -2563,7 +2563,7 @@ puppeteer:
      
      </span>
 
-     3. **Adding the animation metadata property:** add a metadata property called animations: within the @Component() decorator in component files(for example, src/app/app.component.ts)
+     3. **Adding the animation metadata property:** یک ویژگی ابرداده به نام animations اضافه کنید: در دکوراتور @Component() در فایل های کامپوننت (به عنوان مثال src/app/app.component.ts)
      
      
      <span dir="ltr" align="left">
@@ -2585,9 +2585,9 @@ puppeteer:
 
 103. ### What is State function?
 
-     Angular's state() function is used to define different states to call at the end of each transition. This function takes two arguments: a unique name like open or closed and a style() function.
+     تابع state() Angular برای تعریف حالت های مختلف برای فراخوانی در پایان هر انتقال استفاده می شود. این تابع دو آرگومان می گیرد: یک نام منحصر به فرد مانند open یا بسته و یک تابع style().
 
-     For example, you can write a open state function 
+      به عنوان مثال، می توانید یک تابع حالت باز بنویسید 
      
      <span dir="ltr" align="left">
 
@@ -2604,7 +2604,8 @@ puppeteer:
      **[فهرست](#فهرست)**
 
 104. ### What is Style function?
-     The style function is used to define a set of styles to associate with a given state name. You need to use it along with state() function to set CSS style attributes. For example, in the close state, the button has a height of 100 pixels, an opacity of 0.8, and a background color of green.
+
+     تابع style برای تعریف مجموعه‌ای از سبک‌ها برای مرتبط کردن با یک نام وضعیت استفاده می‌شود. برای تنظیم ویژگی های سبک CSS باید از آن به همراه تابع state() استفاده کنید. به عنوان مثال، در حالت بسته، دکمه دارای ارتفاع 100 پیکسل، کدورت 0.8 و رنگ زمینه سبز است.
 
  
      
@@ -2626,7 +2627,7 @@ puppeteer:
 
 105. ### What is the purpose of animate function?
 
-     Angular Animations are a powerful way to implement sophisticated and compelling animations for your Angular single page web application.
+     انیمیشن‌های Angular روشی قدرتمند برای پیاده‌سازی انیمیشن‌های پیچیده و قانع‌کننده برای اپلیکیشن وب تک صفحه‌ای Angular شما هستند.
      
      <span dir="ltr" align="left">
 
@@ -2675,9 +2676,10 @@ puppeteer:
      **[فهرست](#فهرست)**
 
 106. ### What is transition function?
-     The animation transition function is used to specify the changes that occur between one state and another over a period of time. It accepts two arguments: the first argument accepts an expression that defines the direction between two transition states, and the second argument accepts an animate() function.
 
-     Let's take an example state transition from open to closed with an half second transition between states.
+     تابع انتقال انیمیشن برای تعیین تغییراتی که بین یک حالت و حالت دیگر در یک دوره زمانی رخ می دهد استفاده می شود. دو آرگومان را می پذیرد: آرگومان اول عبارتی را می پذیرد که جهت بین دو حالت گذار را مشخص می کند و آرگومان دوم تابع animate() را می پذیرد.
+
+      بیایید یک مثال انتقال حالت از باز به بسته با انتقال نیم ثانیه بین حالت ها را در نظر بگیریم.
 
  
      
@@ -2694,7 +2696,8 @@ puppeteer:
      **[فهرست](#فهرست)**
 
 107. ### How to inject the dynamic script in angular?
-     Using DomSanitizer we can inject the dynamic Html,Style,Script,Url.
+
+     با استفاده از DomSanitizer می‌توانیم Html، Style، Script، Url پویا را تزریق کنیم.
 
      ```
      
@@ -2718,35 +2721,37 @@ puppeteer:
      **[فهرست](#فهرست)**
 
 108. ### What is a service worker and its role in Angular?
-     A service worker is a script that runs in the web browser and manages caching for an application. Starting from 5.0.0 version, Angular ships with a service worker implementation. Angular service worker is designed to optimize the end user experience of using an application over a slow or unreliable network connection, while also minimizing the risks of serving outdated content.
+
+     Service Worker یک اسکریپت است که در مرورگر وب اجرا می شود و حافظه پنهان یک برنامه را مدیریت می کند. با شروع از نسخه 5.0.0، Angular با یک سرویس کارگر ارائه می شود. Angular service worker برای بهینه سازی تجربه کاربر نهایی از استفاده از یک برنامه کاربردی از طریق اتصال شبکه کند یا غیرقابل اعتماد طراحی شده است، در حالی که خطرات ارائه محتوای قدیمی را نیز به حداقل می رساند.
 
      **[فهرست](#فهرست)**
 
 109. ### What are the design goals of service workers?
-     Below are the list of design goals of Angular's service workers,
 
-     1. It caches an application just like installing a native application
-     2. A running application continues to run with the same version of all files without any incompatible files
-     3. When you refresh the application, it loads the latest fully cached version
-     4. When changes are published then it immediately updates in the background
-     5. Service workers saves the bandwidth by downloading the resources only when they changed.
+     1. یک برنامه را مانند نصب یک برنامه بومی کش می کند
+     2. یک برنامه در حال اجرا با همان نسخه از همه فایل ها بدون هیچ فایل ناسازگاری به کار خود ادامه می دهد
+     3. هنگامی که برنامه را به روز می کنید، آخرین نسخه کاملاً کش شده را بارگیری می کند
+     4. هنگامی که تغییرات منتشر می شود، بلافاصله در پس زمینه به روز می شود
+     5. Service Workers پهنای باند را با بارگیری منابع صرفه جویی می کند که فقط زمانی که آنها تغییر کرده اند.
 
      **[فهرست](#فهرست)**
 
 110. ### What are the differences between AngularJS and Angular with respect to dependency injection?
-     Dependency injection is a common component in both AngularJS and Angular, but there are some key differences between the two frameworks in how it actually works.
 
-     | AngularJS | Angular |
-     |---- | ---------
-     | Dependency injection tokens are always strings  | Tokens can have different types. They are often classes and sometimes can be strings. |
-     | There is exactly one injector even though it is a multi-module applications | There is a tree hierarchy of injectors, with a root injector and an additional injector for each component. |
+     تزریق وابستگی یک جزء مشترک در AngularJS و Angular است، اما تفاوت‌های کلیدی بین این دو فریم‌ورک در نحوه عملکرد واقعی آن وجود دارد.
+
+      | AngularJS | Angular |
+      |---- | ---------
+      | توکن های تزریق وابستگی همیشه رشته ای هستند | توکن ها می توانند انواع مختلفی داشته باشند. آنها اغلب کلاس هستند و گاهی اوقات می توانند رشته باشند. |
+      | دقیقاً یک انژکتور وجود دارد حتی اگر یک برنامه کاربردی چند ماژول است | یک سلسله مراتب درختی از انژکتورها وجود دارد که برای هر جزء یک انژکتور ریشه و یک انژکتور اضافی وجود دارد. |
 
      **[فهرست](#فهرست)**
 
 111. ### What is Angular Ivy?
-     Angular Ivy is a new rendering engine for Angular. You can choose to opt in a preview version of Ivy from Angular version 8.
 
-     1. You can enable ivy in a new project by using the --enable-ivy flag with the ng new command
+     Angular Ivy یک موتور رندر جدید برای Angular است. می‌توانید نسخه پیش‌نمایش Ivy را از نسخه 8 Angular انتخاب کنید.
+
+     1. با استفاده از پرچم --enable-ivy با دستور ng new می توانید ivy را در یک پروژه جدید فعال کنید
 
       
      
@@ -2758,7 +2763,7 @@ puppeteer:
      
      </span>
 
-     2. You can add it to an existing project by adding `enableIvy` option in the `angularCompilerOptions` in your project's `tsconfig.app.json`.      
+     2. می‌توانید با افزودن گزینه «enableIvy» در «angularCompilerOptions» در «tsconfig.app.json» پروژه خود، آن را به یک پروژه موجود اضافه کنید.      
      
      <span dir="ltr" align="left">
 
@@ -2776,17 +2781,19 @@ puppeteer:
      **[فهرست](#فهرست)**
 
 112. ### What are the features included in ivy preview?
-     You can expect below features with Ivy preview,
 
-     1. Generated code that is easier to read and debug at runtime
-     2. Faster re-build time
-     3. Improved payload size
-     4. Improved template type checking
+     می توانید با پیش نمایش Ivy انتظار ویژگی های زیر را داشته باشید.
+
+     1. کد تولید شده که خواندن و اشکال زدایی آن در زمان اجرا آسان تر است
+     2. زمان بازسازی سریعتر
+     3. بهبود اندازه محموله
+     4. بررسی نوع قالب بهبود یافته است
 
      **[فهرست](#فهرست)**
 
 113. ### Can I use AOT compilation with Ivy?
-     Yes, it is a recommended configuration. Also, AOT compilation with Ivy is faster. So you need set the default build options(with in angular.json) for your project to always use AOT compilation.
+
+     بله، این یک پیکربندی توصیه شده است. همچنین، کامپایل AOT با Ivy سریعتر است. بنابراین باید گزینه های ساخت پیش فرض (با در angular.json) را برای پروژه خود تنظیم کنید تا همیشه از کامپایل AOT استفاده کند.
 
   
      
@@ -2814,13 +2821,14 @@ puppeteer:
      **[فهرست](#فهرست)**
 
 114. ### What is Angular Language Service?
-     The Angular Language Service is a way to get completions, errors, hints, and navigation inside your Angular templates whether they are external in an HTML file or embedded in annotations/decorators in a string. It has the ability to autodetect that you are opening an Angular file, reads your `tsconfig.json` file, finds all the templates you have in your application, and then provides all the language services.
+
+     سرویس زبان Angular راهی برای دریافت تکمیل، خطا، نکات و پیمایش در قالب‌های Angular شما است، چه خارجی در یک فایل HTML باشند و چه در حاشیه‌نویسی/تزیینات در یک رشته تعبیه شده باشند. این قابلیت را دارد که به طور خودکار تشخیص دهد که شما در حال باز کردن یک فایل Angular هستید، فایل tsconfig.json شما را می خواند، تمام الگوهایی را که در برنامه خود دارید پیدا می کند و سپس تمام خدمات زبان را ارائه می دهد.
 
      **[فهرست](#فهرست)**
 
 115. ### How do you install angular language service in the project?
 
-     You can install Angular Language Service in your project with the following npm command,
+     با دستور npm زیر می توانید Angular Language Service را در پروژه خود نصب کنید.
 
      <span dir="ltr" align="left">
 
@@ -2830,7 +2838,7 @@ puppeteer:
      
      </span>
 
-     After that add the following to the "compilerOptions" section of your project's tsconfig.json
+     پس از آن موارد زیر را به بخش "compilerOptions" tsconfig.json پروژه خود اضافه کنید
      
      <span dir="ltr" align="left">
 
@@ -2842,37 +2850,40 @@ puppeteer:
      
      </span>
 
-     **نکته:** The completion and diagnostic services works for .ts files only. You need to use custom plugins for supporting HTML files.
+     **نکته:** خدمات تکمیل و تشخیص فقط برای فایل های .ts کار می کند. برای پشتیبانی از فایل های HTML باید از افزونه های سفارشی استفاده کنید.
 
      **[فهرست](#فهرست)**
 
 116. ### Is there any editor support for Angular Language Service?
-     Yes, Angular Language Service is currently available for Visual Studio Code and WebStorm IDEs. You need to install angular language service using an extension and devDependency respectively. In sublime editor, you need to install typescript which has has a language service plugin model.
+
+     بله، سرویس زبان Angular در حال حاضر برای Visual Studio Code و WebStorm IDE در دسترس است. شما باید سرویس زبان زاویه ای را با استفاده از افزونه و devDependency نصب کنید. در ویرایشگر sublime، باید تایپ اسکریپتی را نصب کنید که دارای مدل پلاگین سرویس زبان است.
 
      **[فهرست](#فهرست)**
 
 117. ### Explain the features provided by Angular Language Service?
-     Basically there are 3 main features provided by Angular Language Service,
 
-     1. **Autocompletion:** Autocompletion can speed up your development time by providing you with contextual possibilities and hints as you type with in an interpolation and elements.
+     اساساً 3 ویژگی اصلی توسط Angular Language Service ارائه شده است.
+
+     1. **Autocompletion:** تکمیل خودکار می تواند زمان توسعه شما را با ارائه امکانات و نکات متنی در حین تایپ در درون یابی و عناصر، سرعت بخشد.
 
           ![ScreenShot](images/language-completion.gif)
 
-     2. **Error checking:** It can also warn you of mistakes in your code.
+     2. **Error checking:** همچنین می تواند به شما در مورد اشتباهات کدتان هشدار دهد.
 
           ![ScreenShot](images/language-error.gif)
 
-     3. **Navigation:** Navigation allows you to hover a component, directive, module and then click and press F12 to go directly to its definition.
+     3. **Navigation:** ناوبری به شما این امکان را می دهد که یک کامپوننت، دایرکتیو، ماژول را نگه دارید و سپس F12 را کلیک کرده و فشار دهید تا مستقیماً به تعریف آن بروید.
 
           ![ScreenShot](images/language-navigation.gif)
 
      **[فهرست](#فهرست)**
 
 118. ### How do you add web workers in your application?
-     You can add web worker anywhere in your application. For example, If the file that contains your expensive computation is `src/app/app.component.ts`, you can add a Web Worker using `ng generate web-worker app` command which will create `src/app/app.worker.ts` web worker file. This command will perform below actions,
 
-     1. Configure your project to use Web Workers
-     2. Adds app.worker.ts to receive messages
+     شما می توانید وب کارگر را در هر جایی از برنامه خود اضافه کنید. برای مثال، اگر فایل حاوی محاسبات گران قیمت شما «src/app/app.component.ts» است، می‌توانید با استفاده از دستور «ng generate web-worker app» یک Web Worker اضافه کنید که «src/app/app» را ایجاد می‌کند. فایل کارگر وب worker.ts. این دستور اقدامات زیر را انجام می دهد
+
+     1. پروژه خود را برای استفاده از Web Workers پیکربندی کنید
+     2. app.worker.ts را برای دریافت پیام اضافه می کند
       
      
      <span dir="ltr" align="left">
@@ -2886,7 +2897,7 @@ puppeteer:
      
      </span>
 
-      3. The component `app.component.ts` file updated with web worker file
+      3. فایل کامپوننت «app.component.ts» با فایل web worker به‌روزرسانی شد
      
      <span dir="ltr" align="left">
 
@@ -2905,35 +2916,40 @@ puppeteer:
      
      </span>
 
-     **نکته:** You may need to refactor your initial scaffolding web worker code for sending messages to and from.
+     **نکته:** ممکن است نیاز داشته باشید که کد اولیه web worker داربست خود را برای ارسال پیام به و از آن تغییر دهید.
 
      **[فهرست](#فهرست)**
 
 119. ### What are the limitations with web workers?
-     You need to remember two important things when using Web Workers in Angular projects,
 
-     1. Some environments or platforms(like @angular/platform-server) used in Server-side Rendering, don't support Web Workers. In this case you need to provide a fallback mechanism to perform the computations to work in this environments.
-     2. Running Angular in web worker using `@angular/platform-webworker` is not yet supported in Angular CLI.
+     هنگام استفاده از Web Workers در پروژه های Angular باید دو نکته مهم را به خاطر بسپارید:
+
+     1.برخی از محیط‌ها یا پلتفرم‌ها (مانند @angular/platform-server) که در رندر سمت سرور استفاده می‌شوند، از Web Workers پشتیبانی نمی‌کنند. در این مورد باید مکانیزم بازگشتی برای انجام محاسبات برای کار در این محیط ها فراهم کنید.
+     2. اجرای Angular در وب‌کار با استفاده از «@angular/platform-webworker» هنوز در Angular CLI پشتیبانی نمی‌شود.
 
      **[فهرست](#فهرست)**
 
 120. ### What is Angular CLI Builder?
-     In Angular8, the CLI Builder API is stable and available to developers who want to customize the `Angular CLI` by adding or modifying commands. For example, you could supply a builder to perform an entirely new task, or to change which third-party tool is used by an existing command.
+
+     در Angular8، CLI Builder API پایدار است و در دسترس توسعه دهندگانی است که می خواهند «Angular CLI» را با افزودن یا تغییر دستورات سفارشی کنند. برای مثال، می‌توانید یک سازنده را برای انجام یک کار کاملاً جدید یا تغییر اینکه کدام ابزار شخص ثالث توسط یک دستور موجود استفاده می‌شود، فراهم کنید.
 
      **[فهرست](#فهرست)**
 
 121. ### What is a builder?
-     A builder function ia a function that uses the `Architect API` to perform a complex process such as "build" or "test". The builder code is defined in an npm package. For example, BrowserBuilder runs a webpack build for a browser target and KarmaBuilder starts the Karma server and runs a webpack build for unit tests.
+
+     یک تابع سازنده یعنی تابعی که از "API Architect" برای انجام یک فرآیند پیچیده مانند "build" یا "test" استفاده می کند. کد سازنده در یک بسته npm تعریف شده است. به عنوان مثال، BrowserBuilder یک ساخت بسته وب را برای یک هدف مرورگر اجرا می کند و KarmaBuilder سرور Karma را راه اندازی می کند و یک بسته وب را برای آزمایش های واحد اجرا می کند.
 
      **[فهرست](#فهرست)**
 
 122. ### How do you invoke a builder?
-     The Angular CLI command `ng run` is used to invoke a builder with a specific target configuration. The workspace configuration file, `angular.json`, contains default configurations for built-in builders.
+
+     دستور Angular CLI «ng run» برای فراخوانی سازنده ای با پیکربندی هدف خاص استفاده می شود. فایل پیکربندی فضای کاری، «angular.json»، حاوی تنظیمات پیش‌فرض برای سازنده‌های داخلی است.
 
      **[فهرست](#فهرست)**
 
 123. ### How do you create app shell in Angular?
-     An App shell is a way to render a portion of your application via a route at build time. This is useful to first paint of your application that appears quickly because the browser can render static HTML and CSS without the need to initialize JavaScript. You can achieve this using Angular CLI which generates an app shell for running server-side of your app.
+
+     پوسته برنامه راهی برای ارائه بخشی از برنامه شما از طریق یک مسیر در زمان ساخت است. این برای اولین بار رنگ آمیزی برنامه شما که به سرعت ظاهر می شود مفید است زیرا مرورگر می تواند HTML و CSS ایستا را بدون نیاز به مقداردهی اولیه جاوا اسکریپت ارائه دهد. شما می توانید با استفاده از Angular CLI که یک پوسته برنامه برای اجرای سمت سرور برنامه شما ایجاد می کند، به این هدف برسید.
 
   
      
@@ -2949,19 +2965,21 @@ puppeteer:
      **[فهرست](#فهرست)**
 
 124. ### What are the case types in Angular?
-     Angular uses capitalization conventions to distinguish the names of various types. Angular follows the list of the below case types.
 
-     1. **camelCase :** Symbols, properties, methods, pipe names, non-component directive selectors, constants uses lowercase on the first letter of the item. For example, "selectedUser"
-     2. **UpperCamelCase (or PascalCase):** Class names, including classes that define components, interfaces, NgModules, directives, and pipes uses uppercase on the first letter of the item.
-     3. **dash-case (or "kebab-case"):** The descriptive part of file names, component selectors uses dashes between the words. For example, "app-user-list".
-     4. **UPPER_UNDERSCORE_CASE:** All constants uses capital letters connected with underscores. For example, "NUMBER_OF_USERS".
+     Angular از قراردادهای بزرگ برای تشخیص نام انواع مختلف استفاده می کند. Angular لیستی از انواع موارد زیر را دنبال می کند.
+
+     1. **camelCase :** نمادها، ویژگی‌ها، روش‌ها، نام لوله‌ها، انتخاب‌کننده‌های دستورالعمل غیرمولفه، ثابت‌ها از حروف کوچک در حرف اول آیتم استفاده می‌کنند. به عنوان مثال، "selectedUser"
+     2. **UpperCamelCase (or PascalCase):** نام کلاس‌ها، از جمله کلاس‌هایی که اجزا، رابط‌ها، NgModules، دستورالعمل‌ها و لوله‌ها را تعریف می‌کنند، از حروف بزرگ در حرف اول آیتم استفاده می‌کنند.
+     3. **dash-case (or "kebab-case"):** در قسمت توصیفی نام فایل ها، انتخابگرهای مؤلفه از خط تیره بین کلمات استفاده می شود. به عنوان مثال، "app-user-list".
+     4. **UPPER_UNDERSCORE_CASE:** همه ثابت ها از حروف بزرگ مرتبط با خط زیر استفاده می کنند. به عنوان مثال، "NUMBER_OF_USERS".
 
      **[فهرست](#فهرست)**
 
 125. ### What are the class decorators in Angular?
-     A class decorator is a decorator that appears immediately before a class definition, which declares the class to be of the given type, and provides metadata suitable to the type
 
-     The following list of decorators comes under class decorators,
+     دکوراتور کلاس، دکوراتوری است که بلافاصله قبل از تعریف کلاس ظاهر می شود، که کلاس را از نوع معین اعلام می کند و ابرداده مناسب برای نوع را فراهم می کند.
+
+     لیست زیر از دکوراتورها در زیر کلاس دکوراتورها آمده است:
 
      1. @Component()
      2. @Directive()
@@ -2972,7 +2990,8 @@ puppeteer:
      **[فهرست](#فهرست)**
 
 126. ### What are class field decorators?
-     The class field decorators are the statements declared immediately before a field in a class definition that defines the type of that field. Some of the examples are: @input and @output,  
+
+     دکوراتورهای فیلد کلاس عباراتی هستند که بلافاصله قبل از یک فیلد در تعریف کلاس اعلام می شوند که نوع آن فیلد را مشخص می کند. برخی از نمونه ها عبارتند از: @input و @output، 
      
      <span dir="ltr" align="left">
 
@@ -2986,7 +3005,8 @@ puppeteer:
      **[فهرست](#فهرست)**
 
 127. ### What is declarable in Angular?
-     Declarable is a class type that you can add to the declarations list of an NgModule. The class types such as components, directives, and pipes comes can be declared in the module. The structure of declarations would be,  
+
+     Declarable یک نوع کلاس است که می توانید آن را به لیست اعلانات یک NgModule اضافه کنید. انواع کلاس ها مانند کامپوننت ها، دستورالعمل ها و لوله ها را می توان در ماژول اعلام کرد. ساختار اعلامیه ها به این صورت خواهد بود  
      
      <span dir="ltr" align="left">
 
@@ -3003,17 +3023,19 @@ puppeteer:
      **[فهرست](#فهرست)**
 
 128. ### What are the restrictions on declarable classes?
-     Below classes shouldn't be declared,
 
-     1. A class that's already declared in another NgModule
-     2. Ngmodule classes
-     3. Service classes
-     4. Helper classes
+     کلاس های زیر نباید اعلام شوند،
+
+     1. کلاسی که قبلاً در NgModule دیگری اعلام شده است
+      2. کلاس های Ngmodule
+      3. کلاس های خدماتی
+      4. کلاس های کمکی
 
      **[فهرست](#فهرست)**
 
 129. ### What is a DI token?
-     A DI token is a lookup token associated with a dependency provider in dependency injection system. The injector maintains an internal token-provider map that it references when asked for a dependency and the DI token is the key to the map. Let's take example of DI Token usage,
+
+     توکن DI یک توکن جستجوی مرتبط با ارائه دهنده وابستگی در سیستم تزریق وابستگی است. انژکتور یک نقشه ارائه دهنده توکن داخلی دارد که در صورت درخواست وابستگی به آن ارجاع می دهد و رمز DI کلید نقشه است. بیایید استفاده از DI Token را مثال بزنیم،
 
      
      <span dir="ltr" align="left">
@@ -3031,21 +3053,21 @@ puppeteer:
 
 130. ### What is Angular DSL?
 
-     A domain-specific language (DSL) is a computer language specialized to a particular application domain. Angular has its own Domain Specific Language (DSL) which allows us to write Angular specific html-like syntax on top of normal html. It has its own compiler that compiles this syntax to html that the browser can understand. This DSL is defined in NgModules such as animations, forms, and routing and navigation.
+     یک زبان دامنه خاص (DSL) یک زبان کامپیوتری است که برای یک دامنه کاربردی خاص تخصصی شده است. Angular زبان مخصوص دامنه (DSL) خود را دارد که به ما اجازه می‌دهد تا سینتکس html مانند خاص Angular را در بالای html معمولی بنویسیم. این کامپایلر خود را دارد که این نحو را به html کامپایل می کند که مرورگر بتواند آن را درک کند. این DSL در NgModules مانند انیمیشن ها، فرم ها و مسیریابی و ناوبری تعریف شده است.
 
-     Basically you will see 3 main syntax in Angular DSL.
+      اساساً شما 3 نحو اصلی را در Angular DSL خواهید دید.
 
-     1. `()`: Used for Output and DOM events.
-     2. `[]`: Used for Input and specific DOM element attributes.
-     3. `*`: Structural directives(*ngFor or *ngIf) will affect/change the DOM structure.
+     1. `()`: برای رویدادهای خروجی و DOM استفاده می شود.
+     2. `[]`: برای ورودی و ویژگی های خاص عنصر DOM استفاده می شود.
+     3. `*`: دستورالعمل های ساختاری (*ngFor یا *ngIf) ساختار DOM را تحت تاثیر قرار می دهد/تغییر می دهد.
 
      **[فهرست](#فهرست)**
 
 131. ### what is an rxjs subject in Angular
 
-     An RxJS Subject is a special type of Observable that allows values to be multicasted to many Observers. While plain Observables are unicast (each subscribed Observer owns an independent execution of the Observable), Subjects are multicast.
+     یک موضوع RxJS نوع خاصی از Observable است که اجازه می‌دهد مقادیر برای بسیاری از Observerها چندپخشی شوند. در حالی که مشاهده پذیرهای ساده یکپارچه هستند (هر مشاهده کننده مشترک دارای اجرای مستقل از Observable است)، سوژه ها چندپخشی هستند.
       
-     A Subject is like an Observable, but can multicast to many Observers. Subjects are like EventEmitters: they maintain a registry of many listeners.
+     یک موضوع مانند یک مشاهده پذیر است، اما می تواند برای بسیاری از مشاهده کنندگان چندپخش شود. سوژه ها مانند EventEmitters هستند: آنها یک رجیستری از شنوندگان زیادی را نگهداری می کنند.
 
      ``` typescript
       import { Subject } from 'rxjs';
@@ -3069,24 +3091,23 @@ puppeteer:
 
 132.  ### What is Bazel tool?
 
-     Bazel is a powerful build tool developed and massively used by Google and it can keep track of the dependencies between different packages and build targets. In Angular8, you can build your CLI application with Bazel.
-     **نکته:** The Angular framework itself is built with Bazel.
+     Bazel یک ابزار ساخت قدرتمند است که توسط گوگل توسعه یافته و به طور گسترده مورد استفاده قرار می گیرد و می تواند وابستگی های بین بسته های مختلف و اهداف ساخت را پیگیری کند. در Angular8 می توانید برنامه CLI خود را با Bazel بسازید.
+     **نکته:** خود فریم ورک Angular با Bazel ساخته شده است.
 
      **[فهرست](#فهرست)**
 
 133.  ### What are the advantages of Bazel tool?
-     Below are the list of key advantages of Bazel tool,
 
-     1. It creates the possibility of building your back-ends and front-ends with the same tool
-     2. The incremental build and tests
-     3. It creates the possibility to have remote builds and cache on a build farm.
+     1. این امکان را ایجاد می کند که با همان ابزار بک اند و جلویی شما را بسازید
+     2. ساخت افزایشی و تست
+     3. این امکان را ایجاد می کند که از راه دور ساخت و حافظه پنهان در یک مزرعه ساخت.
 
      **[فهرست](#فهرست)**
 
 134. ### How do you use Bazel with Angular CLI?
 
-     The @angular/bazel package provides a builder that allows Angular CLI to use Bazel as the build tool.
-     1. **Use in an existing applciation:** Add @angular/bazel using CLI
+     بسته @angular/bazel سازنده ای را ارائه می دهد که به Angular CLI اجازه می دهد از Bazel به عنوان ابزار ساخت استفاده کند.
+     1. **Use in an existing applciation:** @angular/bazel را با استفاده از CLI اضافه کنید
      
      <span dir="ltr" align="left">
 
@@ -3096,7 +3117,7 @@ puppeteer:
      
      </span>
      
-     2. **Use in a new application:** Install the package and create the application with collection option
+     2. **Use in a new application:** بسته را نصب کنید و برنامه را با گزینه مجموعه ایجاد کنید
      
      <span dir="ltr" align="left">
 
@@ -3106,12 +3127,13 @@ puppeteer:
      ```
      
      </span>
-     When you use ng build and ng serve commands, Bazel is used behind the scenes and outputs the results in dist/bin folder.
+     وقتی از دستورات ng build و ng serve استفاده می کنید، Bazel در پشت صحنه استفاده می شود و نتایج را در پوشه dist/bin خروجی می دهد.
 
      **[فهرست](#فهرست)**
 
 135. ### How do you run Bazel directly?
-     Sometimes you may want to bypass the Angular CLI builder and run Bazel directly using Bazel CLI. You can install it globally using @bazel/bazel npm package. i.e, Bazel CLI is available under @bazel/bazel package. After you can apply the below common commands,
+
+     گاهی اوقات ممکن است بخواهید سازنده Angular CLI را دور بزنید و Bazel را مستقیماً با استفاده از Bazel CLI اجرا کنید. می توانید با استفاده از بسته @bazel/bazel npm آن را به صورت سراسری نصب کنید. یعنی Bazel CLI در بسته @bazel/bazel موجود است. بعد از اینکه بتوانید دستورات رایج زیر را اعمال کنید،
 
      <span dir="ltr" align="left">
 
@@ -3127,23 +3149,23 @@ puppeteer:
 
 136. ### What is platform in Angular?
 
-     A platform is the context in which an Angular application runs. The most common platform for Angular applications is a web browser, but it can also be an operating system for a mobile device, or a web server. The runtime-platform is provided by the @angular/platform-* packages and these packages allow applications that make use of `@angular/core` and `@angular/common` to execute in different environments.
-     i.e, Angular can be used as platform-independent framework in different environments, For example,
+     پلتفرم زمینه ای است که یک برنامه Angular در آن اجرا می شود. رایج ترین پلت فرم برای برنامه های Angular یک مرورگر وب است، اما همچنین می تواند یک سیستم عامل برای یک دستگاه تلفن همراه یا یک وب سرور باشد. Runtime-Platform توسط بسته‌های angular/platform-*@ ارائه می‌شود و این بسته‌ها به برنامه‌هایی که از «@angular/core» و «@angular/common» استفاده می‌کنند اجازه می‌دهند در محیط‌های مختلف اجرا شوند.
+      به عنوان مثال، Angular می تواند به عنوان چارچوب مستقل از پلت فرم در محیط های مختلف استفاده شود، به عنوان مثال،
 
-     1. While running in the browser, it uses `platform-browser` package.
-     2. When SSR(server-side rendering ) is used, it uses `platform-server` package for providing web server implementation.
+     1. در حین اجرا در مرورگر، از بسته پلتفرم-مرورگر استفاده می کند.
+      2. هنگامی که SSR (رندر سمت سرور) استفاده می شود، از بسته «پلتفرم-سرور» برای ارائه اجرای وب سرور استفاده می کند.
 
      **[فهرست](#فهرست)**
 
 137. ### What happens if I import the same module twice?
 
-     If multiple modules imports the same module then angular evaluates it only once (When it encounters the module first time). It follows this condition even the module appears at any level in a hierarchy of imported NgModules.
+     اگر چندین ماژول یک ماژول را وارد کند، angular آن را فقط یک بار ارزیابی می کند (وقتی اولین بار با ماژول روبرو می شود). از این شرط پیروی می کند حتی ماژول در هر سطحی در سلسله مراتب NgModules وارد شده ظاهر می شود.
 
      **[فهرست](#فهرست)**
 
 138. ### How do you select an element with in a component template?
 
-     You can use `@ViewChild` directive to access elements in the view directly. Let's take input element with a reference,
+     برای دسترسی مستقیم به عناصر موجود در نما می توانید از دستورالعمل `@ViewChild` استفاده کنید. بیایید عنصر ورودی را با یک مرجع بگیریم،
      
      <span dir="ltr" align="left">
 
@@ -3153,7 +3175,7 @@ puppeteer:
      
      </span>
 
-     and define view child directive and access it in ngAfterViewInit lifecycle hook
+     و view child Directive را تعریف کرده و در قلاب چرخه حیات ngAfterViewInit به آن دسترسی پیدا کنید
  
      
      <span dir="ltr" align="left">
@@ -3172,7 +3194,7 @@ puppeteer:
 
 139. ### How do you detect route change in Angular?
 
-     In Angular7, you can subscribe to router to detect the changes. The subscription for router events would be as below:
+     در Angular7 می توانید برای تشخیص تغییرات در روتر مشترک شوید. اشتراک رویدادهای روتر به شرح زیر خواهد بود:
 
      <span dir="ltr" align="left">
 
@@ -3182,7 +3204,7 @@ puppeteer:
      
      </span>
 
-     Let's take a simple component to detect router changes 
+     بیایید یک جزء ساده برای تشخیص تغییرات روتر در نظر بگیریم 
      
      <span dir="ltr" align="left">
 
@@ -3222,7 +3244,7 @@ puppeteer:
 
 140. ### How do you pass headers for HTTP client?
 
-     You can directly pass object map for http client or create HttpHeaders class to supply the headers. 
+     می‌توانید مستقیماً نقشه شی را برای مشتری http ارسال کنید یا کلاس HttpHeaders را برای تهیه هدرها ایجاد کنید.
      
      <span dir="ltr" align="left">
 
@@ -3250,19 +3272,19 @@ puppeteer:
 
 141. ### What is the purpose of differential loading in CLI?
 
-     From Angular8 release onwards, the applications are built using differential loading strategy from CLI to build two separate bundles as part of your deployed application.
+     از انتشار Angular8 به بعد، برنامه‌ها با استفاده از استراتژی بارگذاری تفاضلی از CLI ساخته می‌شوند تا دو باندل جداگانه به عنوان بخشی از برنامه مستقر شما بسازند.
 
-     1. The first build contains ES2015 syntax which takes the advantage of built-in support in modern browsers, ships less polyfills, and results in a smaller bundle size.
-     2. The second build contains old ES5 syntax to support older browsers with all necessary polyfills. But this results in a larger bundle size.
+     1. اولین ساخت شامل نحو ES2015 است که از مزیت پشتیبانی داخلی در مرورگرهای مدرن بهره می‌برد، پلی‌فیل‌های کمتری ارسال می‌کند و منجر به اندازه بسته‌ای کوچک‌تر می‌شود.
+      2. ساخت دوم شامل نحو قدیمی ES5 برای پشتیبانی از مرورگرهای قدیمی با تمام پلی‌فیل‌های لازم است. اما این باعث می شود اندازه بسته بزرگتر شود.
 
-     **Note:** This strategy is used to support multiple browsers but it only load the code that the browser needs.
+     **نکته:** این استراتژی برای پشتیبانی از چندین مرورگر استفاده می شود، اما فقط کد مورد نیاز مرورگر را بارگیری می کند.
 
      **[فهرست](#فهرست)**
 
 142. ### Is Angular supports dynamic imports?
 
-     Yes, Angular 8 supports dynamic imports in router configuration. i.e, You can use the import statement for lazy loading the module using `loadChildren` method and it will be understood by the IDEs(VSCode and WebStorm), webpack, etc.
-     Previously, you have been written as below to lazily load the feature module. By mistake, if you have typo in the module name it still accepts the string and throws an error during build time.
+     بله، Angular 8 از واردات پویا در پیکربندی روتر پشتیبانی می کند. به عنوان مثال، می‌توانید از دستور import برای بارگذاری تنبل ماژول با استفاده از روش «loadChildren» استفاده کنید و توسط IDEها (VSCode و WebStorm)، بسته وب و غیره قابل درک است.
+      قبلاً به صورت زیر نوشته شده بودید تا ماژول ویژگی را با تنبلی بارگیری کنید. به اشتباه، اگر در نام ماژول اشتباه تایپی داشته باشید، همچنان رشته را می‌پذیرد و در طول زمان ساخت، خطا می‌دهد.
  
      
      <span dir="ltr" align="left">
@@ -3273,7 +3295,7 @@ puppeteer:
      
      </span>
 
-     This problem is resolved by using dynamic imports and IDEs are able to find it during compile time itself.
+     این مشکل با استفاده از واردات پویا حل می شود و IDE ها می توانند آن را در طول زمان کامپایل پیدا کنند.
  
      
      <span dir="ltr" align="left">
@@ -3288,7 +3310,7 @@ puppeteer:
 
 143. ### What is lazy loading?
 
-     Lazy loading is one of the most useful concepts of Angular Routing. It helps us to download the web pages in chunks instead of downloading everything in a big bundle. It is used for lazy loading by asynchronously loading the feature module for routing whenever required using the property `loadChildren`. Let's load both `Customer` and `Order` feature modules lazily as below,
+     Lazy loading یکی از کاربردی ترین مفاهیم Angular Routing است. این به ما کمک می کند تا به جای دانلود همه چیز در یک بسته بزرگ، صفحات وب را به صورت تکه ای دانلود کنیم. برای بارگذاری تنبل با بارگیری ناهمزمان ماژول ویژگی برای مسیریابی هر زمان که لازم باشد با استفاده از ویژگی «loadChildren» استفاده می شود. بیایید هر دو ماژول ویژگی «مشتری» و «سفارش» را مانند زیر بارگیری کنیم.
  
      
      <span dir="ltr" align="left">
@@ -3317,7 +3339,7 @@ puppeteer:
 
 144. ### What are workspace APIs?
 
-     Angular 8.0 release introduces Workspace APIs to make it easier for developers to read and modify the angular.json file instead of manually modifying it. Currently, the only supported storage3 format is the JSON-based format used by the Angular CLI. You can enable or add optimization option for build target as below,
+     نسخه Angular 8.0 API های Workspace را معرفی می کند تا خواندن و اصلاح فایل angular.json را برای توسعه دهندگان به جای تغییر دستی آسان تر کند. در حال حاضر، تنها فرمت Storage3 پشتیبانی شده، فرمت مبتنی بر JSON است که توسط Angular CLI استفاده می‌شود. می‌توانید گزینه بهینه‌سازی را برای build target به صورت زیر فعال یا اضافه کنید.
  
      
      <span dir="ltr" align="left">
@@ -3354,7 +3376,7 @@ puppeteer:
 
 145. ### How do you upgrade angular version?
 
-     The Angular upgrade is quite easier using Angular CLI `ng update` command as mentioned below. For example, if you upgrade from Angular 7 to 8 then your lazy loaded route imports will be migrated to the new import syntax automatically.
+     ارتقای Angular با استفاده از دستور Angular CLI «ng update» همانطور که در زیر ذکر شده است بسیار ساده تر است. به عنوان مثال، اگر از Angular 7 به 8 ارتقا دهید، وارد کردن مسیر لود شده تنبل شما به صورت خودکار به نحو واردات جدید منتقل می شود.
      
      <span dir="ltr" align="left">
 
@@ -3368,7 +3390,7 @@ puppeteer:
 
 146. ### What is Angular Material?
 
-     Angular Material is a collection of Material Design components for Angular framework following the Material Design spec. You can apply Material Design very easily using Angular Material. The installation can be done through npm or yarn,
+     Angular Material مجموعه ای از اجزای طراحی متریال برای فریم ورک Angular است که از مشخصات طراحی متریال پیروی می کند. با استفاده از Angular Material می توانید Material Design را به راحتی اعمال کنید. نصب را می توان از طریق npm یا نخ انجام داد،
      
      <span dir="ltr" align="left">
 
@@ -3380,13 +3402,13 @@ puppeteer:
      
      </span>
 
-     It supports the most recent two versions of all major browsers. The latest version of Angular material is 8.1.1
+     از دو نسخه اخیر همه مرورگرهای اصلی پشتیبانی می کند. آخرین نسخه متریال Angular 8.1.1 است
 
      **[فهرست](#فهرست)**
 
 147. ### How do you upgrade location service of angularjs?
 
-     If you are using `$location` service in your old AngularJS application, now you can use `LocationUpgradeModule`(unified location service) which puts the responsibilities of `$location` service to `Location` service in Angular. Let's add this module to `AppModule` as below,
+     اگر از سرویس «$location» در برنامه قدیمی AngularJS خود استفاده می‌کنید، اکنون می‌توانید از «LocationUpgradeModule» (سرویس مکان یکپارچه) استفاده کنید که مسئولیت‌های سرویس «$location» را به سرویس «Location» در Angular می‌گذارد. بیایید این ماژول را مانند زیر به AppModule اضافه کنیم،
  
      
      <span dir="ltr" align="left">
@@ -3410,13 +3432,13 @@ puppeteer:
 
 148. ### What is NgUpgrade?
 
-     NgUpgrade is a library put together by the Angular team, which you can use in your applications to mix and match AngularJS and Angular components and bridge the AngularJS and Angular dependency injection systems.
+     NgUpgrade یک کتابخانه است که توسط تیم Angular گردآوری شده است که می توانید از آن در برنامه های خود برای ترکیب و مطابقت اجزای AngularJS و Angular و پل زدن سیستم های تزریق وابستگی AngularJS و Angular استفاده کنید.
 
      **[فهرست](#فهرست)**
 
 149. ### How do you test Angular application using CLI?
 
-     Angular CLI downloads and install everything needed with the Jasmine Test framework. You just need to run `ng test` to see the test results. By default this command builds the app in watch mode, and launches the `Karma test runner`. The output of test results would be as below:
+     Angular CLI همه موارد مورد نیاز را با چارچوب تست Jasmine دانلود و نصب می کند. برای دیدن نتایج آزمون فقط باید «ng test» را اجرا کنید. به‌طور پیش‌فرض، این دستور برنامه را در حالت تماشا می‌سازد و «Karma test runner» را راه‌اندازی می‌کند. خروجی نتایج آزمون به صورت زیر خواهد بود:
      
      <span dir="ltr" align="left">
 
@@ -3431,17 +3453,17 @@ puppeteer:
      
      </span>
 
-     **Note:** A chrome browser also opens and displays the test output in the "Jasmine HTML Reporter".
+     **نکته:** یک مرورگر کروم نیز باز می شود و خروجی تست را در "Jasmine HTML Reporter" نمایش می دهد.
 
      **[فهرست](#فهرست)**
 
 150. ### How to use polyfills in Angular application?
 
-     The Angular CLI provides support for polyfills officially. When you create a new project with the ng new command, a `src/polyfills.ts` configuration file is created as part of your project folder. This file includes the mandatory and many of the optional polyfills as JavaScript import statements. Let's categorize the polyfills,
+     Angular CLI به طور رسمی از polyfills پشتیبانی می کند. هنگامی که یک پروژه جدید با دستور ng new ایجاد می کنید، یک فایل پیکربندی `src/polyfills.ts` به عنوان بخشی از پوشه پروژه شما ایجاد می شود. این فایل شامل اجباری و بسیاری از polyfill های اختیاری به عنوان دستورهای واردات جاوا اسکریپت است. بیایید پلی پرها را دسته بندی کنیم،
 
-     1. **Mandatory polyfills:** These are installed automatically when you create your project with ng new command and the respective import statements enabled in 'src/polyfills.ts' file.
-     2. **Optional polyfills:** You need to install its npm package and then create import statement in 'src/polyfills.ts' file.
-        For example, first you need to install below npm package for adding web animations (optional) polyfill.
+     1. **Mandatory polyfills:** هنگامی که پروژه خود را با دستور ng new و دستورهای import مربوطه فعال در فایل 'src/polyfills.ts' فعال می کنید، اینها به طور خودکار نصب می شوند.
+     2. **Optional polyfills:** شما باید بسته npm آن را نصب کنید و سپس دستور import را در فایل 'src/polyfills.ts' ایجاد کنید.
+     به عنوان مثال، ابتدا باید بسته زیر npm را برای افزودن انیمیشن های وب (اختیاری) polyfill نصب کنید.
      
      <span dir="ltr" align="left">
 
@@ -3451,7 +3473,7 @@ puppeteer:
      
      </span>
      
-     and create import statement in polyfill file.   
+     و دستور import را در فایل polyfill ایجاد کنید.   
      
      <span dir="ltr" align="left">
 
