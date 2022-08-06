@@ -3487,103 +3487,103 @@ puppeteer:
 
 151. ### What are the ways to trigger change detection in Angular?
 
-     You can inject either ApplicationRef or NgZone, or ChangeDetectorRef into your component and apply below specific methods to trigger change detection in Angular. i.e, There are 3 possible ways,
+     می‌توانید ApplicationRef یا NgZone یا ChangeDetectorRef را به کامپوننت خود تزریق کنید و از روش‌های خاص زیر برای شروع تشخیص تغییر در Angular استفاده کنید. یعنی 3 راه ممکن وجود دارد،
 
-     1. **ApplicationRef.tick():** Invoke this method to explicitly process change detection and its side-effects. It check the full component tree.
-     2. **NgZone.run(callback):** It evaluate the callback function inside the Angular zone.
-     3. **ChangeDetectorRef.detectChanges():** It detects only the components and it's children.
+     1. **ApplicationRef.tick():** از این روش برای پردازش صریح تشخیص تغییر و عوارض جانبی آن استفاده کنید. درخت کامپوننت کامل را بررسی می کند.
+     2. **NgZone.run(callback):** عملکرد برگشت به تماس را در داخل منطقه Angular ارزیابی می کند.
+     3. **ChangeDetectorRef.detectChanges():** فقط اجزاء و بچه ها را تشخیص می دهد.
 
      **[فهرست](#فهرست)**
 
 152. ### What are the differences of various versions of Angular?
 
-     There are different versions of Angular framework. Let's see the features of all the various versions,
+     نسخه های مختلفی از فریم ورک Angular وجود دارد. بیایید ویژگی های تمام نسخه های مختلف را ببینیم،
 
      1. **Angular 1:**
-        * Angular 1 (AngularJS) is the first angular framework released in the year 2010.
-        * AngularJS is not built for mobile devices.
-        * It is based on controllers with MVC architecture.
+          * Angular 1 (AngularJS) اولین فریم ورک زاویه ای است که در سال 2010 منتشر شد.
+          * AngularJS برای دستگاه های تلفن همراه ساخته نشده است.
+          * بر پایه کنترلرهایی با معماری MVC ساخته شده است.
      2. **Angular 2:**
-        * Angular 2 was released in the year 2016. Angular 2 is a complete rewrite of Angular1 version.
-        * The performance issues that Angular 1 version had has been addressed in Angular 2 version.
-        * Angular 2 is built from scratch for mobile devices unlike Angular 1 version.
-        * Angular 2 is components based.
+          * Angular 2 در سال 2016 منتشر شد. Angular 2 بازنویسی کامل نسخه Angular1 است.
+          * مشکلات عملکرد نسخه Angular 1 در نسخه Angular 2 برطرف شده است.
+          * Angular 2 برخلاف نسخه Angular 1 از ابتدا برای دستگاه های تلفن همراه ساخته شده است.
+          * Angular 2 مبتنی بر کامپوننت است.
      3. **Angular 3:**
-        * The following are the different package versions in Angular 2:
-          * @angular/core v2.3.0
-          * @angular/compiler v2.3.0
-          * @angular/http v2.3.0
-          * @angular/router v3.3.0
-        * The router package is already versioned 3 so to avoid confusion switched to Angular 4 version and skipped 3 version.
+          * نسخه های مختلف بسته در Angular 2 به شرح زیر است:
+          * @angular/core نسخه 2.3.0
+          * @angular/compiler نسخه 2.3.0
+          * @angular/http نسخه 2.3.0
+          * @angular/router نسخه 3.3.0
+          * بسته روتر قبلاً نسخه 3 است، بنابراین برای جلوگیری از سردرگمی به نسخه Angular 4 و نسخه 3 نادیده گرفته شده است.
      4. **Angular 4:**
-        * The compiler generated code file size in AOT mode is very much reduced.
-        * With Angular 4 the production bundles size is reduced by hundreds of KB’s.
-        * Animation features are removed from angular/core and formed as a separate package.
-        * Supports Typescript 2.1 and 2.2.
-        * Angular Universal
-        * New HttpClient
+          * اندازه فایل کد تولید شده توسط کامپایلر در حالت AOT بسیار کاهش یافته است.
+          * با Angular 4 اندازه بسته‌های تولیدی صدها کیلوبایت کاهش می‌یابد.
+          * ویژگی های انیمیشن از angular/core حذف شده و به عنوان یک بسته جداگانه تشکیل می شود.
+          * پشتیبانی از Typescript 2.1 و 2.2.
+          * جهانی زاویه ای
+          * HttpClient جدید
      5. **Angular 5:**
-        * Angular 5 makes angular faster. It improved the loading time and execution time.
-        * Shipped with new build optimizer.
-        * Supports Typescript 2.5.
-        * Service Worker
+          * Angular 5 زاویه ای را سریعتر می کند. زمان بارگذاری و زمان اجرا را بهبود بخشید.
+          * با بهینه ساز ساخت جدید ارسال می شود.
+          * پشتیبانی از Typescript 2.5.
+          * کارگر خدماتی
      6. **Angular 6:**
-        * It is released in May 2018.
-        * Includes Angular Command Line Interface (CLI), Component Development KIT (CDK), Angular Material Package, Angular Elements.
-        * Service Worker bug fixes.
-        * i18n
-        * Experimental mode for Ivy.
-        * RxJS 6.0
-        * Tree Shaking
+          * در ماه می 2018 منتشر شد.
+          * شامل رابط خط فرمان زاویه ای (CLI)، کیت توسعه اجزا (CDK)، بسته مواد زاویه ای، عناصر زاویه ای.
+          * رفع اشکال سرویس کارگر.
+          * i18n
+          * حالت آزمایشی برای آیوی.
+          * RxJS 6.0
+          * لرزش درخت
      7. **Angular 7:**
-        * It is released in October 2018.
-        * TypeScript 3.1
-        * RxJS 6.3
-        * New Angular CLI
-        * CLI Prompts capability provide an ability to ask questions to the user before they run. It is like interactive dialog between the user and the CLI
-        * With the improved CLI Prompts capability, it helps developers to make the decision. New ng commands ask users for routing and CSS styles types(SCSS) and ng add @angular/material asks for themes and gestures or animations.
+          * در اکتبر 2018 منتشر شد.
+          * TypeScript 3.1
+          * RxJS 6.3
+          * Angular CLI جدید
+          * قابلیت CLI Prompts توانایی پرسیدن سوالات از کاربر را قبل از اجرا فراهم می کند. مانند گفتگوی تعاملی بین کاربر و CLI است
+          * با بهبود قابلیت CLI Prompts، به توسعه دهندگان کمک می کند تا تصمیم بگیرند. دستورات جدید ng از کاربران می‌خواهند مسیریابی و انواع سبک‌های CSS (SCSS) و ng add @angular/material تم و ژست‌ها یا انیمیشن‌ها را می‌خواهد.
      8. **Angular 8:**
-         * It is released in May 2019.
-         * TypeScript 3.4
+          * در ماه می 2019 منتشر شد.
+          * TypeScript 3.4
      9. **Angular 9:**
-         * It is released in February 2020.
-         * TypeScript 3.7
-         * Ivy enabled by default
+          * در فوریه 2020 منتشر شد.
+          * TypeScript 3.7
+          * Ivy به طور پیش فرض فعال است
      10. **Angular 10:**
-            * It is released in June 2020.
-            * TypeScript 3.9 
-            * TSlib 2.0
+          * در ژوئن 2020 منتشر شد.
+          * TypeScript 3.9
+          * TSlib 2.0
 
      **[فهرست](#فهرست)**
 
 153. ### What are the security principles in angular?
 
-     Below are the list of security principles in angular,
+     در زیر لیستی از اصول امنیتی در زاویه ای آورده شده است.
 
-     1. You should avoid direct use of the DOM APIs.
-     2. You should enable Content Security Policy (CSP) and configure your web server to return appropriate CSP HTTP headers.
-     3. You should Use the offline template compiler.
-     4. You should Use Server Side XSS protection.
-     5. You should Use DOM Sanitizer.
-     6. You should Preventing CSRF or XSRF attacks. 
+     1. باید از استفاده مستقیم از APIهای DOM اجتناب کنید.
+     2. شما باید Content Security Policy (CSP) را فعال کرده و وب سرور خود را برای بازگرداندن هدرهای مناسب CSP HTTP پیکربندی کنید.
+     3. باید از کامپایلر قالب آفلاین استفاده کنید.
+     4. باید از محافظ XSS سمت سرور استفاده کنید.
+     5. باید از DOM Sanitizer استفاده کنید.
+     6. شما باید از حملات CSRF یا XSRF جلوگیری کنید.
 
      **[فهرست](#فهرست)**
 
 154. ### What is the reason to deprecate Web Tracing Framework?
 
-     Angular has supported the integration with the Web Tracing Framework (WTF) for the purpose of performance testing. Since it is not well maintained and failed in majority of the applications, the support is deprecated in latest releases.
+     Angular از ادغام با Web Tracing Framework (WTF) به منظور اجرای عملیات پشتیبانی شده است. از آنجایی که به خوبی نگهداری نمی شود و در اکثر برنامه ها شکسته می شود، در آخرین نسخه منسوخ شده است.
 
      **[فهرست](#فهرست)**
 
 155. ### What is the reason to deprecate web worker packages?
 
-     Both `@angular/platform-webworker` and `@angular/platform-webworker-dynamic` are officially deprecated, the Angular team realized it's not good practice to run the Angular application on Web worker
+     هر دو «@angular/platform-webworker» و «@angular/platform-webworker-dynamic» رسماً منسوخ شده‌اند، تیم Angular متوجه شد که اجرای برنامه Angular روی Web worker عمل خوبی نیست.
 
      **[فهرست](#فهرست)**
 
 156. ### How do you find angular CLI version?
 
-     Angular CLI provides it's installed version using below different ways using ng command
+     Angular CLI نسخه نصب شده خود را با استفاده از روش های مختلف زیر با استفاده از دستور ng ارائه می دهد
  
      
      <span dir="ltr" align="left">
@@ -3597,7 +3597,7 @@ puppeteer:
      
      </span>
 
-     and the output would be as below:
+     و خروجی به صورت زیر خواهد بود:
      
      <span dir="ltr" align="left">
 
@@ -3615,36 +3615,36 @@ puppeteer:
 
 157. ### What is the browser support for Angular?
 
-     Angular supports most recent browsers which includes both desktop and mobile browsers.
+     Angular از جدیدترین مرورگرها پشتیبانی می کند که شامل مرورگرهای دسکتاپ و موبایل می شود.
 
-     | Browser | Version |
+     | مرورگر | نسخه |
      |---- | --------- |
-     | Chrome | latest |
-     | Firefox | latest |
-     | Edge | 2 most recent major versions |
-     | IE | 11, 10, 9 (Compatibility mode is not supported) |
-     | Safari | 2 most recent major versions |
-     | IE Mobile | 11 |
-     | iOS | 2 most recent major versions |
-     | Android | 7.0, 6.0, 5.0, 5.1, 4.4 |
+     | کروم | آخرین |
+     | فایرفاکس | آخرین |
+     | لبه | 2 جدیدترین نسخه اصلی |
+     | IE | 11، 10، 9 (حالت سازگاری پشتیبانی نمی شود) |
+     | سافاری | 2 جدیدترین نسخه اصلی |
+     | اینترنت اکسپلورر موبایل | 11 |
+     | iOS | 2 جدیدترین نسخه اصلی |
+     | اندروید | 7.0، 6.0، 5.0، 5.1، 4.4 |
 
      **[فهرست](#فهرست)**
 
 158. ### What is schematic?
 
-     It's a scaffolding library that defines how to generate or transform a programming project by creating, modifying, refactoring, or moving files and code. It defines rules that operate on a virtual file system called a tree.
+     این یک کتابخانه داربستی است که نحوه تولید یا تبدیل یک پروژه برنامه نویسی را با ایجاد، اصلاح، تغییر شکل یا جابجایی فایل ها و کد تعریف می کند. قوانینی را تعریف می کند که بر روی یک فایل سیستم مجازی به نام درخت عمل می کنند.
 
      **[فهرست](#فهرست)**
 
 159. ### What is rule in Schematics?
 
-     In schematics world, it's a function that operates on a file tree to create, delete, or modify files in a specific manner.
+     در دنیای شماتیک، این تابعی است که روی درخت فایل برای ایجاد، حذف یا اصلاح فایل‌ها به شیوه‌ای خاص عمل می‌کند.
 
      **[فهرست](#فهرست)**
 
 160. ### What is Schematics CLI?
 
-     Schematics come with their own command-line tool known as Schematics CLI. It is used to install the schematics executable, which you can use to create a new schematics collection with an initial named schematic. The collection folder is a workspace for schematics. You can also use the schematics command to add a new schematic to an existing collection, or extend an existing schematic. You can install Schematic CLI globally as below,
+     طرحواره ها با ابزار خط فرمان خود به نام Schematics CLI عرضه می شوند. برای نصب شماتیک های اجرایی استفاده می شود که می توانید از آن برای ایجاد یک مجموعه شماتیک جدید با نام اولیه شماتیک استفاده کنید. پوشه مجموعه یک فضای کاری برای شماتیک ها است. همچنین می توانید از دستور schematics برای اضافه کردن یک شماتیک جدید به مجموعه موجود یا گسترش یک شماتیک موجود استفاده کنید. شما می توانید Schematic CLI را بصورت سراسری به صورت زیر نصب کنید.
      
      <span dir="ltr" align="left">
 
@@ -3658,46 +3658,46 @@ puppeteer:
 
 161. ### What are the best practices for security in angular?
 
-     Below are the best practices of security in angular,
+     در زیر بهترین شیوه های امنیتی در زاویه ای آورده شده است.
 
-     1. Use the latest Angular library releases
-     2. Don't modify your copy of Angular
-     3. Avoid Angular APIs marked in the documentation as “Security Risk.”
+     1. از آخرین نسخه های کتابخانه Angular استفاده کنید
+     2. کپی Angular خود را تغییر ندهید
+     3. از API های Angular که در مستندات به عنوان "ریسک امنیتی" علامت گذاری شده اند، خودداری کنید.
 
      **[فهرست](#فهرست)**
 
 162. ### What is Angular security model for preventing XSS attacks?
 
-     Angular treats all values as untrusted by default. i.e, Angular sanitizes and escapes untrusted values When a value is inserted into the DOM from a template, via property, attribute, style, class binding, or interpolation.
+     Angular به طور پیش فرض همه مقادیر را غیرقابل اعتماد می داند. به عنوان مثال، Angular پاکسازی می‌کند و از مقادیر نامعتبر فرار می‌کند وقتی یک مقدار از یک الگو، از طریق ویژگی، ویژگی، سبک، کلاس اتصال یا درون‌یابی در DOM درج می‌شود.
 
      **[فهرست](#فهرست)**
 
 163. ### What is the role of template compiler for prevention of XSS attacks?
 
-     The offline template compiler prevents vulnerabilities caused by template injection, and greatly improves application performance. So it is recommended to use offline template compiler in production deployments without dynamically generating any template.
+     کامپایلر قالب آفلاین از آسیب پذیری های ناشی از تزریق قالب جلوگیری می کند و عملکرد برنامه را تا حد زیادی بهبود می بخشد. بنابراین توصیه می شود از کامپایلر قالب آفلاین در استقرار تولید بدون ایجاد پویا هیچ قالبی استفاده کنید.
 
      **[فهرست](#فهرست)**
 
 164. ### What are the various security contexts in Angular?
 
-     Angular defines the following security contexts for sanitization,
+     Angular زمینه های امنیتی زیر را برای پاکسازی تعریف می کند:
 
-     1. **HTML:** It is used when interpreting a value as HTML such as binding to innerHtml.
-     2. **Style:** It is used when binding CSS into the style property.
-     3. **URL:** It is used for URL properties such as `<a href>`.
-     4. **Resource URL:** It is a URL that will be loaded and executed as code such as `<script src>`.
+     1. **HTML:** هنگام تفسیر یک مقدار به عنوان HTML مانند اتصال به innerHtml استفاده می شود.
+     2. **Style:** هنگام اتصال CSS به ویژگی style استفاده می شود.
+     3. **URL:** برای ویژگی های URL مانند «<a href>» استفاده می شود.
+     4. **Resource URL:** این یک URL است که به عنوان کدی مانند «<script src>» بارگیری و اجرا می شود.
 
      **[فهرست](#فهرست)**
 
 165. ### What is Sanitization? Is angular supports it?
 
-     **Sanitization** is the inspection of an untrusted value, turning it into a value that's safe to insert into the DOM. Yes, Angular suppports sanitization. It sanitizes untrusted values for HTML, styles, and URLs but sanitizing resource URLs isn't possible because they contain arbitrary code.
+     **Sanitization** بازرسی یک مقدار نامعتبر است که آن را به مقداری تبدیل می کند که برای درج آن در DOM ایمن است. بله، Angular از ضد عفونی کردن پشتیبانی می کند. مقادیر نامعتبر را برای HTML، سبک‌ها و URLها پاکسازی می‌کند، اما پاکسازی URLهای منبع ممکن نیست زیرا حاوی کد دلخواه هستند.
 
      **[فهرست](#فهرست)**
 
 166. ### What is the purpose of innerHTML?
 
-     The innerHtml is a property of HTML-Elements, which allows you to set it's html-content programmatically. Let's display the below html code snippet in a `<div>` tag as below using innerHTML binding,
+     innerHtml یکی از ویژگی های HTML-Elements است که به شما امکان می دهد محتوای html آن را به صورت برنامه ریزی شده تنظیم کنید. بیایید قطعه کد html زیر را در تگ «<div>» با استفاده از binding innerHTML مانند زیر نمایش دهیم.
      
      <span dir="ltr" align="left">
 
@@ -3707,7 +3707,7 @@ puppeteer:
      
      </span>
 
-     and define the htmlSnippet property from any component
+     و ویژگی htmlSnippet را از هر جزء تعریف کنید
      
      <span dir="ltr" align="left">
 
@@ -3719,13 +3719,13 @@ puppeteer:
      
      </span>
 
-     Unfortunately this property could cause Cross Site Scripting (XSS) security bugs when improperly handled.
+     متأسفانه این ویژگی می تواند باعث ایجاد اشکالات امنیتی Cross Site Scripting (XSS) در صورت مدیریت نادرست شود.
 
      **[فهرست](#فهرست)**
 
 167. ### What is the difference between interpolated content and innerHTML?
 
-     The main difference between interpolated and innerHTML code is the behavior of code interpreted. Interpolated content is always escaped i.e,  HTML isn't interpreted and the browser displays angle brackets in the element's text content. Where as in innerHTML binding, the content is interpreted i.e, the browser will convert < and > characters as HTMLEntities. For example, the usage in template would be as below, 
+     تفاوت اصلی بین کد درون یابی شده و کد داخلی در رفتار کد تفسیر شده است. محتوای درون‌یابی همیشه حذف می‌شود، یعنی HTML تفسیر نمی‌شود و مرورگر براکت‌های زاویه‌ای را در محتوای متن عنصر نمایش می‌دهد. در جایی که در innerHTML binding، محتوا تفسیر می شود، یعنی مرورگر کاراکترهای < و > را به عنوان HTMLEntities تبدیل می کند. به عنوان مثال، استفاده در قالب به صورت زیر خواهد بود.
      
      <span dir="ltr" align="left">
 
@@ -3750,16 +3750,16 @@ puppeteer:
      
      </span>
 
-     Even though innerHTML binding create a chance of XSS attack, Angular recognizes the value as unsafe and automatically sanitizes it.
+     حتی با وجود اینکه innerHTML binding شانس حمله XSS را ایجاد می کند، Angular این مقدار را ناامن تشخیص می دهد و به طور خودکار آن را پاکسازی می کند.
 
      **[فهرست](#فهرست)**
 
 168. ### How do you prevent automatic sanitization?
 
-     Sometimes the applications genuinely need to include executable code such as displaying `<iframe>` from an URL. In this case, you need to prevent automatic sanitization in Angular by saying that you inspected a value, checked how it was generated, and made sure it will always be secure. Basically it involves 2 steps,
+     گاهی اوقات برنامه ها واقعاً نیاز دارند که کدهای اجرایی مانند نمایش «<iframe>» را از یک URL داشته باشند. در این مورد، باید با گفتن اینکه یک مقدار را بررسی کرده اید، نحوه تولید آن را بررسی کرده اید و مطمئن شده اید که همیشه ایمن است، از پاکسازی خودکار در Angular جلوگیری کنید. اساساً شامل 2 مرحله است،
 
-     1. Inject DomSanitizer: You can inject DomSanitizer in component as parameter in constructor
-     2. Mark the trusted value by calling some of the below methods
+     1. Inject DomSanitizer: می توانید DomSanitizer را در کامپوننت به عنوان پارامتر در سازنده تزریق کنید.
+     2. با فراخوانی برخی از روش‌های زیر، مقدار قابل اعتماد را علامت‌گذاری کنید
 
          1. bypassSecurityTrustHtml
          2. bypassSecurityTrustScript
@@ -3767,7 +3767,7 @@ puppeteer:
          4. bypassSecurityTrustUrl
          5. bypassSecurityTrustResourceUrl
 
-     For example,The  usage of dangerous url to trusted url would be as below,
+     به عنوان مثال، استفاده از url خطرناک به آدرس اینترنتی مورد اعتماد به صورت زیر خواهد بود.
      
      <span dir="ltr" align="left">
 
@@ -3783,36 +3783,36 @@ puppeteer:
 
 169. ### Is safe to use direct DOM API methods in terms of security?
 
-     No,the built-in browser DOM APIs or methods don't automatically protect you from security vulnerabilities. In this case it is recommended to use Angular templates instead of directly interacting with DOM. If it is unavoidable then use the built-in Angular sanitization functions.
+     خیر، APIها یا روش‌های داخلی مرورگر DOM به‌طور خودکار از شما در برابر آسیب‌پذیری‌های امنیتی محافظت نمی‌کنند. در این مورد توصیه می شود به جای تعامل مستقیم با DOM از قالب های Angular استفاده کنید. اگر اجتناب ناپذیر است، از عملکردهای ضدعفونی داخلی Angular استفاده کنید.
 
      **[فهرست](#فهرست)**
 
 170. ### What is DOM sanitizer?
 
-     `DomSanitizer` is used to help preventing Cross Site Scripting Security bugs (XSS) by sanitizing values to be safe to use in the different DOM contexts.
+     «DomSanitizer» برای کمک به جلوگیری از اشکالات امنیتی Cross Site Scripting (XSS) با پاکسازی مقادیر برای ایمن بودن استفاده در زمینه‌های مختلف DOM استفاده می‌شود.
 
      **[فهرست](#فهرست)**
 
 171. ### How do you support server side XSS protection in Angular application?
 
-     The server-side XSS protection is supported in an angular application by using a templating language that automatically escapes values to prevent XSS vulnerabilities on the server. But don't use a templating language to generate Angular templates on the server side which creates a high risk of introducing template-injection vulnerabilities.
+     حفاظت XSS سمت سرور در یک برنامه زاویه ای با استفاده از زبان قالبی که به طور خودکار از مقادیر برای جلوگیری از آسیب پذیری های XSS در سرور فرار می کند، پشتیبانی می شود. اما از زبان قالب برای تولید الگوهای Angular در سمت سرور استفاده نکنید که خطر زیادی برای معرفی آسیب‌پذیری‌های تزریق قالب ایجاد می‌کند.
 
      **[فهرست](#فهرست)**
 
 172. ### Is angular prevents http level vulnerabilities?
 
-     Angular has built-in support for preventing http level vulnerabilities such as as cross-site request forgery (CSRF or XSRF) and cross-site script inclusion (XSSI). Even though these vulnerabilities need to be mitigated on server-side, Angular provides helpers to make the integration easier on the client side.
+     Angular دارای پشتیبانی داخلی برای جلوگیری از آسیب‌پذیری‌های سطح http مانند جعل درخواست بین سایتی (CSRF یا XSRF) و گنجاندن اسکریپت بین سایتی (XSSI) است. حتی اگر این آسیب‌پذیری‌ها باید در سمت سرور کاهش یابند، Angular کمک‌هایی را برای آسان‌تر کردن ادغام در سمت کلاینت ارائه می‌کند.
      
-     1. HttpClient supports a token mechanism used to prevent XSRF attacks
-     2. HttpClient library recognizes the convention of prefixed JSON responses(which non-executable js code with ")]}',\\n" characters) and automatically strips the string ")]}',\\n" from all responses before further parsing
+     1. HttpClient از مکانیزم نشانه ای پشتیبانی می کند که برای جلوگیری از حملات XSRF استفاده می شود
+     2. کتابخانه HttpClient قرارداد پاسخ‌های JSON پیشوندی را تشخیص می‌دهد (که js غیرقابل اجرا با نویسه‌های ")]}'،\\n" کد می‌کند) و به طور خودکار رشته ")]}'،\\n" را از همه پاسخ‌های قبل حذف می‌کند. تجزیه بیشتر
 
      **[فهرست](#فهرست)**
 
 173. ### What are Http Interceptors?
 
-     Http Interceptors are part of @angular/common/http, which inspect and transform HTTP requests from your application to the server and vice-versa on HTTP responses. These interceptors can perform a variety of implicit tasks, from authentication to logging.
+     رهگیرهای Http بخشی از @angular/common/http هستند که درخواست‌های HTTP را از برنامه شما به سرور و برعکس در پاسخ‌های HTTP بررسی و تبدیل می‌کنند. این رهگیرها می توانند انواع مختلفی از وظایف ضمنی، از احراز هویت گرفته تا ثبت را انجام دهند.
 
-     The syntax of HttpInterceptor interface looks like as below, 
+     نحو رابط HttpInterceptor مانند زیر است.
      
      <span dir="ltr" align="left">
 
@@ -3824,7 +3824,7 @@ puppeteer:
      
      </span>
 
-     You can use interceptors by declaring a service class that implements the intercept() method of the HttpInterceptor interface. 
+     شما می توانید با اعلان یک کلاس سرویس که متد intercept() رابط HttpInterceptor را پیاده سازی می کند، از interceptors استفاده کنید. 
      
      <span dir="ltr" align="left">
 
@@ -3840,7 +3840,7 @@ puppeteer:
      
      </span>
 
-     After that you can use it in your module, 
+     پس از آن می توانید از آن در ماژول خود استفاده کنید،
      
      <span dir="ltr" align="left">
 
@@ -3865,7 +3865,7 @@ puppeteer:
 
 174. ### What are the applications of HTTP interceptors?
 
-     The HTTP Interceptors can be used for different variety of tasks,
+     رهگیرهای HTTP را می توان برای انواع مختلفی از وظایف استفاده کرد،
 
      1. Authentication
      2. Logging
@@ -3878,7 +3878,7 @@ puppeteer:
 
 175. ### Is multiple interceptors supported in Angular?
 
-     Yes, Angular supports multiple interceptors at a time. You could define multiple interceptors in providers property:
+     بله، Angular از چندین رهگیر در یک زمان پشتیبانی می کند. می توانید چندین رهگیر را در ویژگی ارائه دهندگان تعریف کنید:
      
      <span dir="ltr" align="left">
 
@@ -3891,14 +3891,14 @@ puppeteer:
      
      </span>
 
-     The interceptors will be called in the order in which they were provided. i.e, MyFirstInterceptor will be called first in the above interceptors configuration.
+     رهگیرها به ترتیبی که ارائه شده اند فراخوانی می شوند. i.n، MyFirst Interceptor ابتدا در پیکربندی رهگیرهای بالا فراخوانی می شود.
 
      **[فهرست](#فهرست)**
 
 176. ### How can I use interceptor for an entire application?
 
-     You can use same instance of `HttpInterceptors` for the entire app by importing the `HttpClientModule` only in your AppModule, and add the interceptors to the root application injector.
-     For example, let's define a class that is injectable in root application.
+     می‌توانید با وارد کردن «HttpClientModule» فقط در AppModule خود، از همان نمونه «HttpInterceptors» برای کل برنامه استفاده کنید، و رهگیرها را به انژکتور برنامه root اضافه کنید.
+      برای مثال، بیایید کلاسی را تعریف کنیم که در برنامه root قابل تزریق باشد.
      
      <span dir="ltr" align="left">
 
@@ -3920,7 +3920,7 @@ puppeteer:
      
      </span>
 
-     After that import HttpClientModule in AppModule
+    پس از آن، HttpClientModule را در AppModule وارد کنید
      
      <span dir="ltr" align="left">
 
@@ -3942,18 +3942,18 @@ puppeteer:
 
 177. ### How does Angular simplifies Internationalization?
 
-     Angular simplifies the below areas of internationalization:
+     Angular زمینه های بین المللی سازی زیر را ساده می کند:
 
-     1. Displaying dates, number, percentages, and currencies in a local format.
-     2. Preparing text in component templates for translation.
-     3. Handling plural forms of words.
-     4. Handling alternative text.
+     1. نمایش تاریخ، عدد، درصد و ارز در قالب محلی.
+     2. آماده سازی متن در قالب های مؤلفه برای ترجمه.
+     3. رسیدگی به اشکال جمع کلمات.
+     4. مدیریت متن جایگزین.
 
      **[فهرست](#فهرست)**
 
 178. ### How do you manually register locale data?
 
-     By default, Angular only contains locale data for en-US which is English as spoken in the United States of America . But if you want to set to another locale, you must import locale data for that new locale. After that you can register using `registerLocaleData` method and the syntax of this method looks like below,
+     به‌طور پیش‌فرض، Angular فقط حاوی داده‌های محلی برای en-US است که انگلیسی است که در ایالات متحده آمریکا صحبت می‌شود. اما اگر می‌خواهید روی محلی دیگر تنظیم کنید، باید داده‌های محلی را برای آن محلی جدید وارد کنید. پس از آن می توانید با استفاده از روش «registerLocaleData» ثبت نام کنید و نحو این روش به شکل زیر است.
      
      <span dir="ltr" align="left">
 
@@ -3963,7 +3963,7 @@ puppeteer:
      
      </span>
 
-     For example, let us import German locale and register it in the application
+     به عنوان مثال، اجازه دهید ما زبان آلمانی را وارد کنیم و آن را در برنامه ثبت کنیم
      
      <span dir="ltr" align="left">
 
@@ -3980,9 +3980,9 @@ puppeteer:
 
 179. ### What are the four phases of template translation?
 
-     The i18n template translation process has four phases:
+     فرآیند ترجمه قالب i18n دارای چهار مرحله است:
 
-     1. **Mark static text messages in your component templates for translation:** You can place i18n on every element tag whose fixed text is to be translated. For example, you need i18n attribue for heading as below,
+     1. **Mark static text messages in your component templates for translation:** می توانید i18n را روی هر تگ عنصری که متن ثابت آن باید ترجمه شود قرار دهید. به عنوان مثال، برای عنوان زیر به ویژگی i18n نیاز دارید.
      
      
      <span dir="ltr" align="left">
@@ -3993,26 +3993,26 @@ puppeteer:
      
      </span>
 
-     2. **Create a translation file:** Use the Angular CLI xi18n command to extract the marked text into an industry-standard translation source file. i.e, Open terminal window at the root of the app project and run the CLI command xi18n.
+     2. **Create a translation file:** از دستور Angular CLI xi18n برای استخراج متن علامت گذاری شده در یک فایل منبع ترجمه استاندارد صنعتی استفاده کنید. به عنوان مثال، پنجره ترمینال را در ریشه پروژه برنامه باز کنید و دستور CLI xi18n را اجرا کنید.
      
      
-          <span dir="ltr" align="left">
+     <span dir="ltr" align="left">
 
           ```bash
           ng xi18n
           ```
           
-          </span>
+     </span>
 
-          The above command creates a file named `messages.xlf` in your project's root directory.
+     دستور بالا فایلی به نام «messages.xlf» در دایرکتوری ریشه پروژه شما ایجاد می کند.
 
-          **Note:** You can supply command options to change the format, the name, the location, and the source locale of the extracted file.
+     **Note:** می توانید گزینه های دستوری را برای تغییر قالب، نام، مکان و محل منبع فایل استخراج شده ارائه کنید.
 
-     3. **Edit the generated translation file:** Translate the extracted text into the target language. In this step, create a localization folder (such as `locale`)under root directory(src) and then create target language translation file by copying and renaming the default messages.xlf file. You need to copy source text node and provide the translation under target tag.
-          For example, create the translation file(messages.de.xlf) for German language
+     3. **Edit the generated translation file:** متن استخراج شده را به زبان مقصد ترجمه کنید. در این مرحله، یک پوشه محلی سازی (مانند «locale») در زیر پوشه ریشه (src) ایجاد کنید و سپس با کپی کردن و تغییر نام فایل پیش فرض messages.xlf، فایل ترجمه زبان مقصد را ایجاد کنید. شما باید گره متن منبع را کپی کنید و ترجمه را تحت تگ هدف ارائه دهید.
+     به عنوان مثال، فایل ترجمه (messages.de.xlf) را برای زبان آلمانی ایجاد کنید
      
      
-          <span dir="ltr" align="left">
+     <span dir="ltr" align="left">
 
           ```cmd
           <trans-unit id="greetingHeader" datatype="html">
@@ -4023,29 +4023,29 @@ puppeteer:
           </trans-unit>
           ```
           
-          </span>
+     </span>
 
-     4. **Merge the completed translation file into the app:** You need to use Angular CLI build command to compile the app, choosing a locale-specific configuration, or specifying the following command options.
+     4. **Merge the completed translation file into the app:** شما باید از دستور ساخت Angular CLI برای کامپایل برنامه، انتخاب یک پیکربندی خاص محلی، یا مشخص کردن گزینه های دستور زیر استفاده کنید.
 
-          1. --i18nFile=path to the translation file
-          2. --i18nFormat=format of the translation file
-          3. --i18nLocale= locale id
+     1. --i18nFile=path to the translation file
+     2. --i18nFormat=format of the translation file
+     3. --i18nLocale= locale id
 
      **[فهرست](#فهرست)**
 
 180. ### What is the purpose of i18n attribute?
 
-     The Angular i18n attribute marks translatable content. It is a custom attribute, recognized by Angular tools and compilers. The compiler removes it after translation.
+     ویژگی Angular i18n محتوای قابل ترجمه را علامت گذاری می کند. این یک ویژگی سفارشی است که توسط ابزارها و کامپایلرهای Angular شناسایی می شود. کامپایلر پس از ترجمه آن را حذف می کند.
 
-     **Note:** Remember that i18n is not an Angular directive.
+     **Note:** به یاد داشته باشید که i18n یک دستورالعمل Angular نیست.
 
      **[فهرست](#فهرست)**
 
 181. ### What is the purpose of custom id?
 
-     When you change the translatable text, the Angular extractor tool generates a new id for that translation unit. Because of this behavior, you must then update the translation file with the new id every time.
+     هنگامی که متن قابل ترجمه را تغییر می‌دهید، ابزار استخراج Angular یک شناسه جدید برای آن واحد ترجمه ایجاد می‌کند. به دلیل این رفتار، باید هر بار فایل ترجمه را با شناسه جدید به روز کنید.
 
-     For example, the translation file `messages.de.xlf.html` has generated trans-unit for some text message as below:
+     برای مثال، فایل ترجمه «messages.de.xlf.html» برای برخی از پیام‌های متنی زیر واحد انتقال ایجاد کرده است:
      
      <span dir="ltr" align="left">
 
@@ -4055,7 +4055,7 @@ puppeteer:
      
      </span>
 
-     You can avoid this manual update of `id` attribute by specifying a custom id in the i18n attribute by using the prefix @@.
+     می‌توانید با تعیین یک شناسه سفارشی در ویژگی i18n با استفاده از پیشوند @@ از این به‌روزرسانی دستی ویژگی «id» اجتناب کنید.
      
      <span dir="ltr" align="left">
 
@@ -4069,9 +4069,9 @@ puppeteer:
 
 182. ### What happens if the custom id is not unique?
 
-     You need to define custom ids as unique. If you use the same id for two different text messages then only the first one is extracted. But its translation is used in place of both original text messages.
+     شما باید شناسه های سفارشی را منحصر به فرد تعریف کنید. اگر از یک شناسه برای دو پیام متنی مختلف استفاده می کنید، فقط اولین مورد استخراج می شود. اما ترجمه آن به جای هر دو پیامک اصلی استفاده می شود.
 
-     For example, let's define same custom id `myCustomId` for two messages:
+     برای مثال، بیایید همان شناسه سفارشی myCustomId را برای دو پیام تعریف کنیم:
      
      <span dir="ltr" align="left">
 
@@ -4083,7 +4083,7 @@ puppeteer:
      
      </span>
 
-     and the translation unit generated for first text in for German language as
+     و واحد ترجمه برای اولین متن در زبان آلمانی به عنوان
      
      <span dir="ltr" align="left">
 
@@ -4096,7 +4096,7 @@ puppeteer:
      
      </span>
 
-     Since custom id is the same, both of the elements in the translation contain the same text as below
+     از آنجایی که شناسه سفارشی یکسان است، هر دو عنصر در ترجمه حاوی متنی مشابه زیر هستند
      
      <span dir="ltr" align="left">
 
@@ -4111,7 +4111,7 @@ puppeteer:
 
 183. ### Can I translate text without creating an element?
 
-     Yes, you can achieve using `<ng-container>` attribute. Normally you need to wrap a text content with i18n attribute for the translation. But if you don't want to create a new DOM element just for the sake of translation, you can wrap the text in an <ng-container> element.
+     بله، می‌توانید با استفاده از ویژگی «<ng-container>» به آن دست پیدا کنید. معمولاً برای ترجمه باید محتوای متنی را با ویژگی i18n بپیچید. اما اگر نمی‌خواهید یک عنصر DOM جدید فقط به خاطر ترجمه ایجاد کنید، می‌توانید متن را در یک عنصر <ng-container> بپیچید.
      
      <span dir="ltr" align="left">
 
@@ -4121,13 +4121,13 @@ puppeteer:
      
      </span>
 
-     Remember that `<ng-container>` is transformed into an html comment
+     به یاد داشته باشید که «<ng-container>» به یک نظر html تبدیل می شود
 
      **[فهرست](#فهرست)**
 
 184. ### How can I translate attribute?
 
-     You can translate attributes by attaching `i18n-x` attribute  where x is the name of the attribute to translate. For example, you can translate image title attribute as below, 
+     می‌توانید ویژگی‌ها را با پیوست کردن ویژگی «i18n-x» ترجمه کنید، جایی که x نام ویژگی برای ترجمه است. به عنوان مثال، می توانید ویژگی عنوان تصویر را به صورت زیر ترجمه کنید. 
      
      <span dir="ltr" align="left">
 
@@ -4136,28 +4136,28 @@ puppeteer:
      ```
      
      </span>
-     By the way, you can also assign meaning, description and id with the i18n-x="<meaning>|<description>@@<id>" syntax.
+    به هر حال، شما همچنین می توانید معنی، توضیحات و شناسه را با نحو i18n-x="<meaning>|<description>@@<id>" اختصاص دهید.
 
      **[فهرست](#فهرست)**
 
 185. ### List down the pluralization categories?
 
-     Pluralization has below categories depending on the language.
-     1. =0 (or any other number)
-     2. zero
-     3. one
-     4. two
-     5. few
-     6. many
-     7. other
+     تعدد بسته به زبان دارای دسته های زیر است.
+      1. = 0 (یا هر عدد دیگری)
+      2. صفر
+      3. یک
+      4. دو
+      5. تعداد کمی
+      6. بسیاری
+      7. دیگر
 
      **[فهرست](#فهرست)**
 
 186. ### What is select ICU expression?
 
-     ICU expression is is similar to the plural expressions except that you choose among alternative translations based on a string value instead of a number. Here you define those string values.
+     عبارت ICU شبیه عبارات جمع است با این تفاوت که شما از بین ترجمه های جایگزین بر اساس مقدار رشته به جای عدد انتخاب می کنید. در اینجا شما آن مقادیر رشته را تعریف می کنید.
 
-     Let's take component binding with `residenceStatus` property which has "citizen", "permanent resident" and "foreigner" possible values and the message maps those values to the appropriate translations.
+    بیایید مؤلفه را با ویژگی «residenceStatus» که دارای مقادیر ممکن «شهروند»، «مقیم دائم» و «خارجی» است، در نظر بگیریم و پیام آن مقادیر را به ترجمه‌های مناسب نگاشت می‌کند.
      
      <span dir="ltr" align="left">
 
@@ -4171,13 +4171,13 @@ puppeteer:
 
 187. ### How do you report missing translations?
 
-     By default, When translation is missing, it generates a warning message such as "Missing translation for message 'somekey'". But you can configure with a different level of message in Angular compiler as below,
+     به‌طور پیش‌فرض، هنگامی که ترجمه وجود ندارد، پیام هشداری مانند «ترجمه از دست رفته برای پیام «somekey» ایجاد می‌کند. اما می توانید با سطح متفاوتی از پیام در کامپایلر Angular به صورت زیر پیکربندی کنید.
      
-     1. **Error:** It throws an error. If you are using AOT compilation, the build will fail. But if you are using JIT compilation, the app will fail to load.
-     2. **Warning (default):** It shows a 'Missing translation' warning in the console or shell.
-     3. **Ignore:** It doesn't do anything.
+     1. **Error:** خطا میده اگر از کامپایل AOT استفاده می کنید، بیلد با شکست مواجه می شود. اما اگر از کامپایل JIT استفاده می کنید، برنامه بارگذاری نمی شود.
+     2. **Warning (default):** این یک اخطار «مفقود ترجمه» را در کنسول یا پوسته نشان می‌دهد.
+     3. **Ignore:** هیچ کاری نمی کند.
 
-     If you use AOT compiler then you need to perform changes in `configurations` section of your Angular CLI configuration file, angular.json.
+     اگر از کامپایلر AOT استفاده می کنید، باید تغییراتی را در بخش پیکربندی فایل پیکربندی Angular CLI خود، angular.json انجام دهید.
      
      <span dir="ltr" align="left">
 
@@ -4193,7 +4193,7 @@ puppeteer:
      
      </span>
 
-     If you use the JIT compiler, specify the warning level in the compiler config at bootstrap by adding the 'MissingTranslationStrategy' property as below:
+     اگر از کامپایلر JIT استفاده می کنید، سطح هشدار را در پیکربندی کامپایلر در بوت استرپ با افزودن ویژگی MissingTranslationStrategy به صورت زیر مشخص کنید:
      
      <span dir="ltr" align="left">
 
@@ -4216,7 +4216,7 @@ puppeteer:
 
 188. ### How do you provide build configuration for multiple locales?
 
-     You can provide build configuration such as translation file path, name, format and application url in `configuration` settings of Angular.json file. For example, the German version of your application configured the build as follows,
+     می‌توانید پیکربندی ساخت مانند مسیر فایل ترجمه، نام، قالب و آدرس برنامه را در تنظیمات «پیکربندی» فایل Angular.json ارائه کنید. به عنوان مثال، نسخه آلمانی برنامه شما بیلد را به صورت زیر پیکربندی کرده است:
  
      
      <span dir="ltr" align="left">
@@ -4241,21 +4241,21 @@ puppeteer:
 
 189. ### What is an angular library?
 
-     An Angular library is an Angular project that differs from an app in that it cannot run on its own. It must be imported and used in an app. For example,  you can import or add `service worker` library to an Angular application which turns an application into a Progressive Web App (PWA).
+     کتابخانه Angular یک پروژه Angular است که با یک برنامه تفاوت دارد زیرا نمی تواند به تنهایی اجرا شود. باید وارد شده و در یک برنامه استفاده شود. برای مثال، می‌توانید کتابخانه «سرویس‌کار» را به یک برنامه Angular وارد یا اضافه کنید که یک برنامه کاربردی را به یک برنامه وب پیشرو (PWA) تبدیل می‌کند.
 
-     **Note:** You can create own third party library and publish it as npm package to be used in an Application.
+     **Note:** شما می توانید کتابخانه شخص ثالث خود را ایجاد کنید و آن را به عنوان بسته npm منتشر کنید تا در یک برنامه استفاده شود.
 
      **[فهرست](#فهرست)**
 
 190. ### What is AOT compiler?
 
-     The AOT compiler is part of a build process that produces a small, fast, ready-to-run application package, typically for production. It converts your Angular HTML and TypeScript code into efficient JavaScript code during the build phase before the browser downloads and runs that code.
+     کامپایلر AOT بخشی از یک فرآیند ساخت است که یک بسته برنامه کوچک، سریع و آماده برای اجرا تولید می‌کند، معمولاً برای تولید. این کد Angular HTML و TypeScript شما را در مرحله ساخت قبل از دانلود و اجرای آن کد به کد جاوا اسکریپت کارآمد تبدیل می کند.
 
      **[فهرست](#فهرست)**
 
 191. ### How do you select an element in component template?
 
-     You can control any DOM element via ElementRef by injecting it into your component's constructor. i.e, The component should have constructor with ElementRef parameter, 
+     شما می توانید هر عنصر DOM را از طریق ElementRef با تزریق آن به سازنده کامپوننت خود کنترل کنید. یعنی کامپوننت باید سازنده ای با پارامتر ElementRef داشته باشد،
      
      <span dir="ltr" align="left">
 
@@ -4271,13 +4271,13 @@ puppeteer:
 
 192. ### What is TestBed?
 
-     TestBed is an api for writing unit tests for Angular applications and it's libraries. Even though We still write our tests in Jasmine and run using Karma, this API provides an easier way to create components, handle injection, test asynchronous behaviour and interact with our application.
+     TestBed یک api برای نوشتن تست های واحد برای برنامه های Angular و کتابخانه های آن است. حتی با وجود اینکه ما هنوز تست‌های خود را در Jasmine می‌نویسیم و با استفاده از Karma اجرا می‌کنیم، این API راه آسان‌تری برای ایجاد اجزا، مدیریت تزریق، آزمایش رفتار ناهمزمان و تعامل با برنامه ما ارائه می‌کند.
 
      **[فهرست](#فهرست)**
 
 193. ### What is protractor?
 
-     Protractor is an end-to-end test framework for Angular and AngularJS applications. It runs tests against your application running in a real browser, interacting with it as a user would.
+     نقاله یک چارچوب تست سرتاسر برای برنامه های Angular و AngularJS است. این برنامه آزمایش هایی را بر روی برنامه شما که در یک مرورگر واقعی اجرا می شود، اجرا می کند و مانند یک کاربر با آن تعامل دارد.
      
      <span dir="ltr" align="left">
 
@@ -4291,27 +4291,27 @@ puppeteer:
 
 194. ### What is collection?
 
-     Collection is a set of related schematics collected in an npm package. For example, `@schematics/angular` collection is used in Angular CLI to apply transforms to a web-app project. You can create your own schematic collection for customizing angular projects.
+     مجموعه مجموعه ای از شماتیک های مرتبط است که در یک بسته npm جمع آوری شده است. به عنوان مثال، مجموعه `@schematics/angular` در Angular CLI برای اعمال تبدیل به یک پروژه برنامه وب استفاده می شود. شما می توانید مجموعه شماتیک خود را برای سفارشی سازی پروژه های زاویه ای ایجاد کنید.
 
      **[فهرست](#فهرست)**
 
 195. ### How do you create schematics for libraries?
 
-     You can create your own schematic collections to integrate your library with the Angular CLI. These collections are classified as 3 main schematics,
-     1. **Add schematics:** These schematics are used to install library in an Angular workspace using `ng add` command.
-        For example, @angular/material schematic tells the add command to install and set up Angular Material and theming.
-     2. **Generate schematics**: These schematics are used to modify projects, add configurations and scripts, and scaffold artifacts in library using `ng generate` command.
-        For example, @angular/material generation schematic supplies generation schematics for the UI components. Let's say the table component is generated using `ng generate @angular/material:table `.
-     3. **Update schematics:** These schematics are used to update library's dependencies and adjust for breaking changes in a new library release using `ng update` command.
-        For example, @angular/material update schematic updates material and cdk dependencies using `ng update @angular/material` command.
+     شما می توانید مجموعه های شماتیک خود را برای ادغام کتابخانه خود با Angular CLI ایجاد کنید. این مجموعه ها به عنوان 3 شماتیک اصلی طبقه بندی می شوند.
+     1. **Add schematics:** این شماتیک ها برای نصب کتابخانه در یک فضای کاری Angular با استفاده از دستور "ng add" استفاده می شود.
+         برای مثال، @angular/material schematic به دستور add دستور نصب و راه اندازی Angular Material و theming را می دهد.
+     2. **Generate schematics**: این شماتیک ها برای اصلاح پروژه ها، افزودن پیکربندی ها و اسکریپت ها و مصنوعات داربست در کتابخانه با استفاده از دستور "ng generate" استفاده می شوند.
+         برای مثال، @angular/material schematic شماتیک های تولید را برای اجزای UI فراهم می کند. فرض کنید مولفه جدول با استفاده از "ng generate @angular/material:table" تولید شده است.
+     3. **Update schematics:** این شماتیک ها برای به روز رسانی وابستگی های کتابخانه و تنظیم برای شکستن تغییرات در نسخه جدید کتابخانه با استفاده از دستور "ng update" استفاده می شود.
+         به عنوان مثال، @angular/material به روز رسانی شماتیک مواد و وابستگی های cdk را با استفاده از دستور ng update @angular/material به روز می کند.
 
      **[فهرست](#فهرست)**
 
 196. ### How do you use jquery in Angular?
 
-     You can use jquery in Angular using 3 simple steps,
+     می توانید با استفاده از 3 مرحله ساده از jquery در Angular استفاده کنید.
 
-     1. **Install the dependency:** At first, install the jquery dependency using npm
+     1. **Install the dependency:** ابتدا وابستگی jquery را با استفاده از npm نصب کنید
      
      <span dir="ltr" align="left">
 
@@ -4321,7 +4321,7 @@ puppeteer:
      
      </span>
 
-     2. **Add the jquery script:** In Angular-CLI project, add the relative path to jquery in the angular.json file.
+     2. **Add the jquery script:** در پروژه Angular-CLI، مسیر نسبی را به jquery در فایل angular.json اضافه کنید.
      
      <span dir="ltr" align="left">
 
@@ -4333,7 +4333,7 @@ puppeteer:
      
      </span>
 
-     3. **Start using jquery:** Define the element in template. Whereas declare the jquery variable and apply CSS classes on the element.
+     3. **Start using jquery:** عنصر را در قالب تعریف کنید. در حالی که متغیر jquery را اعلام کرده و کلاس های CSS را روی عنصر اعمال کنید.
      
      <span dir="ltr" align="left">
 
@@ -4373,7 +4373,7 @@ puppeteer:
 
 197. ### What is the reason for No provider for HTTP exception?
 
-     This exception is due to missing HttpClientModule in your module. You just need to import in module as below:
+     این استثنا به دلیل عدم وجود HttpClientModule در ماژول شما است. شما فقط باید در ماژول به صورت زیر وارد کنید:
      
      <span dir="ltr" align="left">
 
@@ -4397,7 +4397,7 @@ puppeteer:
 
 198. ### What is router state?
 
-     The RouteState is an interface which represents the state of the router as a tree of activated routes.
+     RouteState یک رابط است که وضعیت روتر را به عنوان درختی از مسیرهای فعال نشان می دهد.
      
      <span dir="ltr" align="left">
 
@@ -4410,13 +4410,13 @@ puppeteer:
      
      </span>
 
-     You can access the current RouterState from anywhere in the Angular app using the Router service and the routerState property.
+     با استفاده از سرویس Router و ویژگی routerState می توانید از هر نقطه در برنامه Angular به RouterState فعلی دسترسی داشته باشید.
 
      **[فهرست](#فهرست)**
 
 199. ### How can I use SASS in angular project?
 
-     When you are creating your project with angular cli, you can use `ng new`command. It generates all your components with predefined sass files.
+     هنگامی که پروژه خود را با cli زاویه ای ایجاد می کنید، می توانید از دستور "ng new" استفاده کنید. تمام اجزای شما را با فایل های sass از پیش تعریف شده تولید می کند.
      
      <span dir="ltr" align="left">
 
@@ -4426,7 +4426,7 @@ puppeteer:
      
      </span>
 
-     But if you are changing your existing style in your project then use `ng set` command,
+     اما اگر سبک موجود خود را در پروژه خود تغییر می دهید، از دستور ng set استفاده کنید.
      
      <span dir="ltr" align="left">
 
@@ -4440,7 +4440,7 @@ puppeteer:
 
 200. ### What is the purpose of hidden property?
 
-     The hidden property is used  to show or hide the associated DOM element, based on an expression. It can be compared close to `ng-show` directive in AngularJS. Let's say you want to show user name based on the availability of user using `hidden` property.
+     ویژگی hidden برای نشان دادن یا پنهان کردن عنصر DOM مرتبط بر اساس یک عبارت استفاده می شود. می توان آن را نزدیک به دستورالعمل «ng-show» در AngularJS مقایسه کرد. فرض کنید می خواهید نام کاربری را بر اساس در دسترس بودن کاربر با استفاده از ویژگی "مخفی" نشان دهید.
      
      <span dir="ltr" align="left">
 
