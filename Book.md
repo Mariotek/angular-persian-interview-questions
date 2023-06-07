@@ -4456,13 +4456,13 @@ puppeteer:
 
 201. ### What is the difference between ngIf and hidden property?
 
-     The main difference is that *ngIf will remove the element from the DOM, while [hidden] actually plays with the CSS style by setting `display:none`. Generally it is expensive to add and remove stuff from the DOM for frequent actions.
+     تفاوت اصلی این است که *ngIf عنصر را از DOM حذف می کند، در حالی که [hidden] در واقع با تنظیم «display:none» با سبک CSS بازی می کند. به طور کلی اضافه کردن و حذف موارد از DOM برای اقدامات مکرر گران است.
 
      **[فهرست](#فهرست)**
 
 202. ### What is slice pipe?
 
-     The slice pipe is used to create a new Array or String containing a subset (slice) of the elements. The syntax looks like as below:
+     لوله slice برای ایجاد یک آرایه یا رشته جدید حاوی زیرمجموعه (برش) از عناصر استفاده می شود. سینتکس به شکل زیر است:
      
      <span dir="ltr" align="left">
 
@@ -4472,7 +4472,7 @@ puppeteer:
      
      </span>
 
-     For example, you can provide 'hello' list based on a greeting array,
+     به عنوان مثال، شما می توانید لیست "hello" را بر اساس یک آرایه تبریک ارائه کنید،
      
      <span dir="ltr" align="left">
 
@@ -4494,9 +4494,9 @@ puppeteer:
 
 203. ### What is index property in ngFor directive?
 
-     The index property of the NgFor directive is used to return the zero-based index of the item in each iteration. You can capture the index in a template input variable and use it in the template.
+    ویژگی index دستورالعمل NgFor برای برگرداندن شاخص مبتنی بر صفر مورد در هر تکرار استفاده می شود. شما می توانید شاخص را در یک متغیر ورودی الگو گرفته و از آن در قالب استفاده کنید.
 
-     For example, you can capture the index in a variable named indexVar and displays it with the todo's name using ngFor directive as below.
+     به عنوان مثال، می‌توانید ایندکس را در متغیری به نام indexVar بگیرید و با استفاده از دستور ngFor به صورت زیر آن را با نام todo نمایش دهید.
  
      
      <span dir="ltr" align="left">
@@ -4511,7 +4511,7 @@ puppeteer:
 
 204. ### What is the purpose of ngFor trackBy?
 
-     The main purpose of using *ngFor with trackBy option is performance optimization. Normally if you use NgFor with large data sets, a small change to one item by removing or adding an item, can trigger a cascade of DOM manipulations. In this case, Angular sees only a fresh list of new object references and to replace the old DOM elements with all new DOM elements. You can help Angular to track which items added or removed by providing a `trackBy` function which takes the index and the current item as arguments and needs to return the unique identifier for this item.
+     هدف اصلی استفاده از *ngFor with trackBy بهینه سازی عملکرد است. معمولاً اگر از NgFor با مجموعه داده‌های بزرگ استفاده می‌کنید، یک تغییر کوچک به یک آیتم با حذف یا اضافه کردن یک مورد، می‌تواند باعث ایجاد آبشاری از دستکاری‌های DOM شود. در این مورد، Angular فقط یک لیست تازه از ارجاعات اشیاء جدید و جایگزینی عناصر DOM قدیمی با تمام عناصر DOM جدید را می بیند. می‌توانید با ارائه یک تابع «trackBy» که فهرست و مورد فعلی را به‌عنوان آرگومان می‌گیرد و باید شناسه منحصربه‌فرد این مورد را برگرداند، به Angular کمک کنید تا موارد اضافه یا حذف شده را ردیابی کند.
 
      For example, lets set trackBy to the trackByTodos() method
      
@@ -4539,9 +4539,9 @@ puppeteer:
 
 205. ### What is the purpose of ngSwitch directive?
 
-     **NgSwitch** directive is similar to JavaScript switch statement which displays one element from among several possible elements, based on a switch condition. In this case only the selected element placed into the DOM. It has been used along with `NgSwitch`, `NgSwitchCase` and `NgSwitchDefault` directives.
+     دستورالعمل **NgSwitch** شبیه دستور سوئیچ جاوا اسکریپت است که یک عنصر را از بین چندین عنصر ممکن بر اساس یک شرط سوئیچ نمایش می دهد. در این حالت فقط عنصر انتخاب شده در DOM قرار می گیرد. همراه با دستورات «NgSwitch»، «NgSwitchCase» و «NgSwitchDefault» استفاده شده است.
 
-     For example, let's display the browser details based on selected browser using ngSwitch directive.
+     به عنوان مثال، اجازه دهید جزئیات مرورگر را بر اساس مرورگر انتخابی با استفاده از دستورالعمل ngSwitch نمایش دهیم.
      
      <span dir="ltr" align="left">
 
@@ -4561,9 +4561,9 @@ puppeteer:
 
 206. ### Is it possible to do aliasing for inputs and outputs?
 
-     Yes, it is possible to do aliasing for inputs and outputs in two ways.
+     بله، به دو صورت می توان برای ورودی ها و خروجی ها نام مستعار انجام داد.
 
-     1. **Aliasing in metadata:** The inputs and outputs in the metadata aliased using a colon-delimited (:) string with the directive property name on the left and the public alias on the right. i.e. It will be in the format of propertyName:alias.
+     1. **نام مستعار در ابرداده:** ورودی ها و خروجی ها در فراداده با استفاده از یک رشته (:) با نقطه مشخص (:) با نام ویژگی دستوری در سمت چپ و نام مستعار عمومی در سمت راست نام مستعار می شوند. یعنی در قالب ویژگی Name:alias خواهد بود.
      
      <span dir="ltr" align="left">
 
@@ -4574,7 +4574,7 @@ puppeteer:
      
      </span>
 
-     2. **Aliasing with @Input()/@Output() decorator:** The alias can be specified for the property name by passing the alias name to the @Input()/@Output() decorator.i.e. It will be in the form of @Input(alias) or @Output(alias).
+     2. **Aliasing with @Input()/@Output() decorator:** نام مستعار را می توان با ارسال نام مستعار به @Input()/@Output() decorator.i.e برای نام دارایی مشخص کرد. به شکل @Input(نام مستعار) یا @Output(نام مستعار) خواهد بود.
      
      <span dir="ltr" align="left">
 
@@ -4589,7 +4589,7 @@ puppeteer:
 
 207. ### What is safe navigation operator?
 
-     The safe navigation operator(?)(or known as Elvis Operator) is used to guard against `null` and `undefined` values in property paths when you are not aware whether a path exists or not. i.e. It returns value of the object path if it exists, else it returns the null value.
+     اپراتور navigation  ایمن (؟) (یا به عنوان اپراتور الویس شناخته می شود) برای محافظت در برابر مقادیر null و undefined در مسیرهای ویژگی استفاده می شود، زمانی که شما از وجود یا عدم وجود یک مسیر اطلاع ندارید. یعنی مقدار مسیر شی را در صورت وجود برمی گرداند، در غیر این صورت مقدار null را برمی گرداند.
 
      For example, you can access nested properties of a user profile easily without null reference errors as below,
      
@@ -4607,7 +4607,7 @@ puppeteer:
 
 208. ### Is any special configuration required for Angular9?
 
-     You don't need any special configuration. In Angular9, the Ivy renderer is the default Angular compiler. Even though Ivy is available Angular8 itself, you had to configure it in tsconfig.json file as below:
+     شما به پیکربندی خاصی نیاز ندارید. در Angular9، رندر Ivy کامپایلر پیش فرض Angular است. اگرچه Ivy خود Angular8 در دسترس است، باید آن را در فایل tsconfig.json به صورت زیر پیکربندی کنید:
      
      <span dir="ltr" align="left">
 
@@ -4621,7 +4621,7 @@ puppeteer:
 
 209. ### What are type safe TestBed API changes in Angular9?
 
-     Angular 9 provides type safe changes in TestBed API changes by replacing the old get function with the new inject method. Because TestBed.get method is not type-safe. The usage would be as below, 
+     Angular 9 با جایگزینی تابع get قدیمی با روش inject جدید، تغییرات ایمن نوع را در تغییرات TestBed API ارائه می‌کند. زیرا روش TestBed.get از نظر نوع ایمن نیست. استفاده به شرح زیر خواهد بود، 
      
      <span dir="ltr" align="left">
 
@@ -4637,7 +4637,7 @@ puppeteer:
 
 210. ### Is mandatory to pass static flag for ViewChild?
 
-     In Angular 8, the static flag is required for ViewChild. Whereas in Angular9, you no longer need to pass this property. Once you updated to Angular9 using `ng update`, the migration will remove { static: false } script everywhere.
+     در Angular 8، پرچم استاتیک برای ViewChild مورد نیاز است. در حالی که در Angular9، دیگر نیازی به عبور از این ویژگی ندارید. هنگامی که با استفاده از «ng update» به Angular9 به‌روزرسانی کردید، انتقال اسکریپت { static: false } را در همه جا حذف می‌کند.
      
      <span dir="ltr" align="left">
 
@@ -4652,32 +4652,32 @@ puppeteer:
 
 211. ### What are the list of template expression operators?
 
-     The Angular template expression language supports three special template expression operators.
-     1. Pipe operator
-     2. Safe navigation operator
-     3. Non-null assertion operator
+     زبان عبارت الگوی Angular از سه عملگر خاص قالب پشتیبانی می کند.
+     1. اپراتور لوله
+     2. اپراتور ناوبری ایمن
+     3. عملگر ادعای غیر تهی
 
      **[فهرست](#فهرست)**
 
 212. ### What is the precedence between pipe and ternary operators?
 
-     The pipe operator has a higher precedence than the ternary operator (?:). For example, the expression `first ? second : third | fourth` is parsed as `first ? second : (third | fourth)`.
+     اپراتور لوله نسبت به اپراتور سه تایی (?:) اولویت بیشتری دارد. به عنوان مثال، عبارت «اول؟ دوم : سوم | چهارم به عنوان «اول؟ دوم : (سوم | چهارم)`.
 
      **[فهرست](#فهرست)**
 
 213. ### What is an entry component?
 
-     An entry component is any component that Angular loads imperatively(i.e, not referencing it in the template) by type. Due to this behavior, they can’t be found by the Angular compiler during compilation. These components created dynamically with `ComponentFactoryResolver`.
+     مؤلفه ورودی هر مؤلفه ای است که Angular به طور ضروری بارگذاری می کند (یعنی عدم ارجاع آن در قالب) بر اساس نوع. به دلیل این رفتار، کامپایلر Angular در طول کامپایل نمی تواند آنها را پیدا کند. این مؤلفه ها به صورت پویا با «ComponentFactoryResolver» ایجاد می شوند.
 
-     Basically, there are two main kinds of entry components which are following -
-     1. The bootstrapped root component
-     2. A component you specify in a route
+      اساساً دو نوع اصلی از مؤلفه های ورودی وجود دارد که به شرح زیر است:
+      1. مؤلفه ریشه بوت استرپ
+      2. مؤلفه ای که در مسیر مشخص می کنید
 
      **[فهرست](#فهرست)**
 
 214. ### What is a bootstrapped component?
 
-     A bootstrapped component is an entry component that Angular loads into the DOM during the bootstrap process or application launch time. Generally, this bootstrapped or root component is named as `AppComponent` in your root module using `bootstrap` property as below.
+     کامپوننت بوت استرپ یک جزء ورودی است که Angular در طول فرآیند بوت استرپ یا زمان راه اندازی برنامه در DOM بارگذاری می کند. به طور کلی، این مؤلفه بوت استرپ یا ریشه به عنوان «AppComponent» در ماژول ریشه شما با استفاده از ویژگی «bootstrap» به شرح زیر نامگذاری می شود.
      
      <span dir="ltr" align="left">
 
@@ -4703,7 +4703,7 @@ puppeteer:
 
 215. ### How do you manually bootstrap an application?
 
-     You can use `ngDoBootstrap` hook for a manual bootstrapping of the application instead of using bootstrap array in `@NgModule` annotation. This hook is part of `DoBootstap` interface.
+     می‌توانید به جای استفاده از آرایه بوت استرپ در حاشیه‌نویسی «@NgModule» از هوک «ngDoBootstrap» برای راه‌اندازی دستی برنامه استفاده کنید. این قلاب بخشی از رابط «DoBootstap» است.
      
      <span dir="ltr" align="left">
 
@@ -4715,7 +4715,7 @@ puppeteer:
      
      </span>
 
-     The module needs to be implement the above interface to use the hook for bootstrapping.
+     ماژول باید رابط فوق را پیاده سازی کند تا از هوک برای بوت استرپینگ استفاده کند.
      
      <span dir="ltr" align="left">
 
@@ -4733,13 +4733,13 @@ puppeteer:
 
 216. ### Is it necessary for bootstrapped component to be entry component?
 
-     Yes, the bootstrapped component needs to be an entry component. This is because the bootstrapping process is an imperative process.
+     بله، کامپوننت بوت استرپ باید جزء ورودی باشد. این به این دلیل است که فرآیند بوت استرپ یک فرآیند ضروری است.
 
      **[فهرست](#فهرست)**
 
 217. ### What is a routed entry component?
 
-     The components referenced in router configuration are called as routed entry components. This routed entry component defined in a route definition as below:
+     اجزای مورد اشاره در پیکربندی روتر به عنوان اجزای ورودی مسیریابی نامیده می شوند. این جزء ورودی مسیریابی شده در تعریف مسیر به صورت زیر تعریف شده است:
      
      <span dir="ltr" align="left">
 
@@ -4754,27 +4754,27 @@ puppeteer:
      
      </span>
 
-     Since router definition requires you to add the component in two places (router and entryComponents), these components are always entry components.
+     از آنجایی که تعریف روتر شما را ملزم می کند که کامپوننت را در دو مکان (روتر و ورودی کامپوننت) اضافه کنید، این اجزا همیشه جزء ورودی هستند.
 
-     **Note:** The compilers are smart enough to recognize a router definition and automatically add the router component into `entryComponents`.
+      **توجه:** کامپایلرها به اندازه کافی هوشمند هستند که تعریف روتر را تشخیص دهند و به طور خودکار جزء روتر را به "entryComponents" اضافه کنند.
 
      **[فهرست](#فهرست)**
 
 218. ### Why is not necessary to use entryComponents array every time?
 
-     Most of the time, you don't need to explicity to set entry components in entryComponents array of ngModule decorator. Because angular adds components from both @NgModule.bootstrap and route definitions to entry components automatically.
+     اغلب اوقات، برای تنظیم اجزای ورودی در آرایه ورودیComponents ngModule decorator نیازی به صراحت ندارید. زیرا angular کامپوننت‌ها را هم از تعاریف @NgModule.bootstrap و هم مسیر را به‌طور خودکار به اجزای ورودی اضافه می‌کند.
 
      **[فهرست](#فهرست)**
 
 219. ### Do I still need to use entryComponents array in Angular9?
 
-     No. In previous angular releases, the entryComponents array of ngModule decorator is used to tell the compiler which components would be created and inserted dynamically in the view. In Angular9, this is not required anymore with Ivy.
+     خیر. در نسخه‌های زاویه‌ای قبلی، آرایه ورودی Components از ngModule decorator استفاده می‌شود تا به کامپایلر بگوید کدام مؤلفه‌ها ایجاد شده و به‌صورت پویا در view درج می‌شوند. در Angular9، این دیگر با Ivy مورد نیاز نیست.
 
      **[فهرست](#فهرست)**
 
 220. ### Is it all components generated in production build?
 
-     No, only the entry components and template components appears in production builds. If a component isn't an entry component and isn't found in a template, the tree shaker will throw it away. Due to this reason, make sure to add only true entry components to reduce the bundle size.
+     خیر، فقط اجزای ورودی و اجزای قالب در بیلدهای تولید ظاهر می شوند. اگر یک جزء جزء ورودی نباشد و در یک الگو یافت نشود، تکان دهنده درخت آن را دور می اندازد. به همین دلیل، مطمئن شوید که فقط اجزای ورودی واقعی را برای کاهش اندازه بسته اضافه کنید.
 
      **[فهرست](#فهرست)**
 
