@@ -4780,33 +4780,33 @@ puppeteer:
 
 221. ### What is Angular compiler?
 
-     The Angular compiler is used to convert the application code into JavaScript code. It reads the template markup, combines it with the corresponding component class code, and emits component factories which creates JavaScript representation of the component along with elements of @Component metadata.
+     کامپایلر Angular برای تبدیل کد برنامه به کد جاوا اسکریپت استفاده می شود. نشان‌گذاری الگو را می‌خواند، آن را با کد کلاس مؤلفه مربوطه ترکیب می‌کند و کارخانه‌های مؤلفه را منتشر می‌کند که نمایش جاوا اسکریپت مؤلفه را همراه با عناصر فراداده @Component ایجاد می‌کند.
 
      **[فهرست](#فهرست)**
 
 222. ### What is the role of ngModule metadata in compilation process?
 
-     The `@NgModule` metadata is used to tell the Angular compiler what components to be compiled for this module and how to link this module with other modules.
+     ابرداده `@NgModule` برای اینکه به کامپایلر Angular بگوید چه اجزایی برای این ماژول کامپایل شود و چگونه این ماژول را با ماژول‌های دیگر پیوند دهد استفاده می‌شود.
 
      **[فهرست](#فهرست)**
 
 223. ### How does angular finds components, directives and pipes?
 
-     The Angular compiler finds a component or directive in a template when it can match the selector of that component or directive in that template. Whereas it finds a pipe if the pipe's name appears within the pipe syntax of the template HTML.
+     کامپایلر Angular زمانی یک کامپوننت یا دستورالعمل را در قالب پیدا می کند که بتواند با انتخابگر آن کامپوننت یا دستورالعمل در آن الگو مطابقت داشته باشد. در حالی که اگر نام لوله در سینتکس لوله قالب HTML ظاهر شود، یک لوله پیدا می کند.
 
      **[فهرست](#فهرست)**
 
 224. ### Give few examples for NgModules?
 
-     The Angular core libraries and third-party libraries are available as NgModules.
-     1. Angular libraries such as FormsModule, HttpClientModule, and RouterModule are NgModules.
-     2. Many third-party libraries such as Material Design, Ionic, and AngularFire2 are NgModules.
+     کتابخانه های اصلی زاویه ای و کتابخانه های شخص ثالث به عنوان ngmodules در دسترس هستند. 
+      1. کتابخانه های زاویه ای مانند FormsModule ، HttpclientModule و Routermodule Ngmodules هستند. 
+      2. بسیاری از کتابخانه های شخص ثالث مانند طراحی مواد ، یونی و AngularFire2 Ngmodules هستند.
 
      **[فهرست](#فهرست)**
 
 225. ### What are feature modules?
 
-     Feature modules are NgModules, which are used for the purpose of organizing code. The feature module can be created with Angular CLI using the below command in the root directory, 
+     ماژول های ویژگی Ngmodules هستند که به منظور سازماندهی کد استفاده می شوند. ماژول ویژگی را می توان با استفاده از دستور زیر در فهرست root با Angular CLI ایجاد کرد ،
      
      <span dir="ltr" align="left">
 
@@ -4816,7 +4816,7 @@ puppeteer:
      
      </span>
 
-     Angular CLI creates a folder called `my-custom-feature` with a file inside called `my-custom-feature.module.ts` with the following contents
+     Angular CLI پوشه ای به نام "My-Custom-Feature" با پرونده ای در داخل "My-Custom-Feature.module.ts" با محتویات زیر ایجاد می کند
      
      <span dir="ltr" align="left">
 
@@ -4835,53 +4835,53 @@ puppeteer:
      
      </span>
 
-     **Note:**  The "Module" suffix shouldn't present in the name because the CLI appends it.
+     **Note:**  پسوند "ماژول" نباید در این نام وجود داشته باشد زیرا CLI آن را ضمیمه می کند.
 
      **[فهرست](#فهرست)**
 
 226. ### What are the imported modules in CLI generated feature modules?
 
-     In the CLI generated feature module, there are two JavaScript import statements at the top of the file
-     1. **NgModule:** InOrder to use the `@NgModule` decorator
-     2. **CommonModule:** It provides many common directives such as `ngIf` and `ngFor`.
+     در ماژول ویژگی CLI تولید شده ، دو بیانیه واردات JavaScript در بالای پرونده وجود دارد
+     1. **NgModule:** برای استفاده از دکوراتور `@ngmodule '
+     2. **CommonModule:** این دستورالعمل های متداول بسیاری مانند "ngif" و "ngfor" را ارائه می دهد.
 
      **[فهرست](#فهرست)**
 
 227. ### What are the differences between ngmodule and javascript module?
 
-     Below are the main differences between Angular NgModule and javascript module:
+     در زیر تفاوت های اصلی بین Ngmodule زاویه ای و ماژول JavaScript وجود دارد: 
 
-     | NgModule | JavaScript module |
-     |---- | --------- |
-     | NgModule bounds declarable classes only | There is no restriction classes |
-     | List the module's classes in declarations array only | Can define all member classes in one giant file |
-     | It only export the declarable classes it owns or imports from other modules| It can export any classes |
-     | Extend the entire application with services by adding providers to provides array | Can't extend the application with services |
+      | ngmodule | ماژول JavaScript | 
+      | ---- | --------- | 
+      | فقط کلاسهای قابل اعلام Ngmodule | هیچ کلاس محدودیتی وجود ندارد | 
+      | کلاسهای ماژول را فقط در آرایه اعلامیه ها لیست کنید | می تواند تمام کلاسهای عضو را در یک پرونده غول پیکر تعریف کند | 
+      | این فقط کلاسهای قابل اعلام را که متعلق به آن است صادر می کند یا از ماژول های دیگر وارد می کند | این می تواند هر کلاس را صادر کند | 
+      | با افزودن ارائه دهندگان به ارائه آرایه | کل برنامه را با خدمات گسترش دهید | نمی توان برنامه را با خدمات گسترش داد |
 
      **[فهرست](#فهرست)**
 
 228. ### What are the possible errors with declarations?
 
-     There are two common possible errors with declarations array:
+     دو خطای احتمالی متداول با آرایه اعلامیه وجود دارد: 
 
-     1. If you use a component without declaring it, Angular returns an error message.
-     2. If you try to declare the same class in more than one module then compiler emits an error.
+      1. اگر از یک مؤلفه بدون اعلام آن استفاده می کنید ، Angular یک پیام خطا را برمی گرداند. 
+      2. اگر سعی می کنید در بیش از یک ماژول همان کلاس را اعلام کنید ، کامپایلر خطایی را منتشر می کند.
 
      **[فهرست](#فهرست)**
 
 229. ### What are the steps to use declaration elements?
 
-     Below are the steps to be followed to use declaration elements.
-     1. Create the element(component, directive and pipes) and export it from the file where you wrote it
-     2. Import it into the appropriate module.
-     3. Declare it in the @NgModule declarations array.
+     در زیر مراحل لازم برای استفاده از عناصر اعلامیه وجود دارد. 
+      1. عنصر (مؤلفه ، دستورالعمل و لوله) را ایجاد کنید و آن را از پرونده ای که در آن نوشتید صادر کنید 
+      2. آن را به ماژول مناسب وارد کنید. 
+      3. آن را در آرایه اعلامیه ngmodule اعلام کنید.
 
 
      **[فهرست](#فهرست)**
 
 230. ### What happens if browserModule used in feature module?
 
-     If you do import `BrowserModule` into a lazy loaded feature module, Angular returns an error telling you to use `CommonModule` instead. Because BrowserModule’s providers are for the entire app so it should only be in the root module, not in feature module. Whereas Feature modules only need the common directives in CommonModule.
+     اگر "BrowserModule" را به یک ماژول ویژگی بارگذاری شده تنبل وارد می کنید ، Angular خطایی را برمی گرداند که به شما می گوید در عوض از "CommonModule" استفاده کنید. از آنجا که ارائه دهندگان BrowserModule برای کل برنامه هستند ، بنابراین فقط باید در ماژول ریشه باشد ، نه در ماژول ویژگی. در حالی که ماژول های ویژگی فقط به دستورالعمل های مشترک در Commodule نیاز دارند.
 
      ![ScreenShot](images/browser-module-error.gif)
 
@@ -4889,18 +4889,18 @@ puppeteer:
 
 231. ### What are the types of feature modules?
 
-     Below are the five categories of feature modules,
-     1. **Domain:** Deliver a user experience dedicated to a particular application domain(For example, place an order, registration etc)
-     2. **Routed:** These are domain feature modules whose top components are the targets of router navigation routes.
-     3. **Routing:** It provides routing configuration for another module.
-     4. **Service:** It provides utility services such as data access and messaging(For example, HttpClientModule)
-     5. **Widget:** It makes components, directives, and pipes available to external modules(For example, third-party libraries such as Material UI)
+     در زیر پنج دسته ماژول های ویژگی ، 
+      1. ** دامنه: ** یک تجربه کاربر اختصاص داده شده به یک دامنه برنامه خاص (به عنوان مثال ، سفارش ، ثبت نام و غیره را قرار دهید) 
+      2. ** مسیریابی: ** اینها ماژول های ویژگی دامنه هستند که اجزای برتر آنها اهداف مسیرهای ناوبری روتر هستند. 
+      3. ** مسیریابی: ** پیکربندی مسیریابی را برای ماژول دیگر فراهم می کند. 
+      4. ** سرویس: ** این سرویس های نرم افزاری مانند دسترسی به داده ها و پیام رسانی را ارائه می دهد (به عنوان مثال ، httpclientmodule) 
+      5. ** ویجت: ** این مؤلفه ها ، دستورالعمل ها و لوله ها را در دسترس ماژول های خارجی قرار می دهد (به عنوان مثال ، کتابخانه های شخص ثالث مانند UI مواد)
 
      **[فهرست](#فهرست)**
 
 232. ### What is a provider?
 
-     A provider is an instruction to the Dependency Injection system on how to obtain a value for a dependency(aka services created). The service can be provided using Angular CLI as below:
+     ارائه دهنده دستورالعمل سیستم تزریق وابستگی در مورد چگونگی به دست آوردن ارزش برای وابستگی (خدمات با نام مستعار ایجاد شده) است. این سرویس را می توان با استفاده از Angular CLI به شرح زیر ارائه داد:
  
      
      <span dir="ltr" align="left">
@@ -4911,7 +4911,7 @@ puppeteer:
      
      </span>
 
-     The created service by CLI would be as below:
+     سرویس ایجاد شده توسط CLI به شرح زیر خواهد بود:
      
      <span dir="ltr" align="left">
 
@@ -4932,13 +4932,13 @@ puppeteer:
 
 233. ### What is the recommendation for provider scope?
 
-     You should always provide your service in the root injector unless there is a case where you want the service to be available only if you import a particular @NgModule.
+     شما همیشه باید خدمات خود را در انژکتور ریشه ارائه دهید مگر اینکه موردی وجود داشته باشد که بخواهید این سرویس فقط در صورت وارد کردن یک ngmodule خاص در دسترس باشد.
 
      **[فهرست](#فهرست)**
 
 234. ### How do you restrict provider scope to a module?
 
-     It is possible to restrict service provider scope to a specific module instead making available to entire application. There are two possible ways to do it.
+     به جای آن می توان دامنه ارائه دهنده خدمات را به یک ماژول خاص محدود کرد و به جای آن در دسترس کل برنامه قرار گرفت. دو روش ممکن برای انجام آن وجود دارد.
      1. **Using providedIn in service:**
      
      <span dir="ltr" align="left">
@@ -4978,9 +4978,9 @@ puppeteer:
 
 235. ### How do you provide a singleton service?
 
-     There are two possible ways to provide a singleton service.
+     دو روش ممکن برای ارائه یک سرویس مجرد وجود دارد.
 
-     1. Set the providedIn property of the @Injectable() to "root". This is the preferred way(starting from Angular 6.0) of creating a singleton service since it makes your services tree-shakable.     
+     1. ویژگی ارائه شده از injectable () را روی "ریشه" تنظیم کنید. این روش ارجح (شروع از Angular 6.0) از ایجاد یک سرویس Singleton است زیرا خدمات شما را لرزان می کند.   
      
      <span dir="ltr" align="left">
 
@@ -4996,7 +4996,7 @@ puppeteer:
      
      </span>
 
-     2. Include the service in root module or in a module that is only imported by root module. It has been used to register services before Angular 6.0.
+     2. سرویس را در ماژول root یا در یک ماژول که فقط توسط ماژول ریشه وارد می شود ، وارد کنید. از آن برای ثبت خدمات قبل از Angular 6.0 استفاده شده است.
      
      <span dir="ltr" align="left">
 
@@ -5014,24 +5014,24 @@ puppeteer:
 
 236. ### What are the different ways to remove duplicate service registration?
 
-     If a module defines provides and declarations then loading the module in multiple feature modules will duplicate the registration of the service. Below are the different ways to prevent this duplicate behavior.
-     1. Use the providedIn syntax instead of registering the service in the module.
-     2. Separate your services into their own module.
-     3. Define forRoot() and forChild() methods in the module.
+     اگر یک ماژول تعریف و اعلامیه ها را تعریف کند ، بارگیری ماژول در ماژول های چند ویژگی ، ثبت نام سرویس را کپی می کند. در زیر روشهای مختلفی برای جلوگیری از این رفتار تکراری آورده شده است. 
+      1. به جای ثبت سرویس در ماژول ، از نحو ارائه شده استفاده کنید. 
+      2. خدمات خود را در ماژول خود جدا کنید. 
+      3. روشهای Forroot () و Forchild () را در ماژول تعریف کنید.
 
      **[فهرست](#فهرست)**
 
 237. ### How does forRoot method helpful to avoid duplicate router instances?
 
-     If the `RouterModule` module didn’t have forRoot() static method then each feature module would instantiate a new Router instance, which leads to broken application due to duplicate instances. After using forRoot() method, the root application module imports `RouterModule.forRoot(...)` and gets a Router, and all feature modules import `RouterModule.forChild(...)` which does not instantiate another Router.
+     اگر ماژول «Routermodule» روش استاتیک Forroot () ندارد ، هر ماژول ویژگی یک نمونه روتر جدید را فوری می کند ، که به دلیل موارد تکراری منجر به کاربرد شکسته می شود. پس از استفاده از روش forroot () ، ماژول برنامه root `routermodule.forroot (...)` را وارد می کند و روتر می شود و همه ماژول های ویژگی واردات `routermodule.forchild (...)` که روتر دیگری را فوری نمی کند.
 
      **[فهرست](#فهرست)**
 
 238. ### What is a shared module?
 
-     The Shared Module is the module in which you put commonly used directives, pipes, and components into one module that is shared(import it) throughout the application.
+     ماژول مشترک ماژولی است که در آن دستورالعمل ها ، لوله ها و اجزای متداول را در یک ماژول که به اشتراک گذاشته شده است (وارد می کنید) در طول برنامه قرار دهید. 
 
-     For example, the below shared module imports CommonModule, FormsModule for common directives and components, pipes and directives based on the need,
+      به عنوان مثال ، ماژول مشترک زیر واردات متداول ، formsmodule برای دستورالعمل های مشترک و مؤلفه ها ، لوله ها و دستورالعمل ها بر اساس نیاز ،
  
      
      <span dir="ltr" align="left">
@@ -5059,13 +5059,13 @@ puppeteer:
 
 239. ### Can I share services using modules?
 
-     No, it is not recommended to share services by importing module. i.e Import modules when you want to use directives, pipes, and components only. The best approach to get a hold of shared services is through 'Angular dependency injection' because importing a module will result in a new service instance.
+     نه ، توصیه نمی شود با وارد کردن ماژول خدمات را به اشتراک بگذارید. یعنی ماژول ها را وارد کنید وقتی می خواهید فقط از دستورالعمل ها ، لوله ها و مؤلفه ها استفاده کنید. بهترین روش برای به دست آوردن خدمات مشترک از طریق "تزریق وابستگی زاویه ای" است زیرا وارد کردن یک ماژول منجر به یک نمونه خدمات جدید خواهد شد.
 
      **[فهرست](#فهرست)**
 
 240. ### How do you get current direction for locales?
 
-     In Angular 9.1, the API method `getLocaleDirection` can be used to get the current direction in your app. This method is useful to support Right to Left locales for your Internationalization based applications.
+     در زاویه 9.1 ، می توان از روش API "getLocalEdirection" برای به دست آوردن جهت فعلی در برنامه خود استفاده کرد. این روش برای پشتیبانی از مناطق راست به چپ برای برنامه های مبتنی بر بین المللی شما مفید است.
      
      <span dir="ltr" align="left">
 
@@ -5091,7 +5091,7 @@ puppeteer:
 
 241. ### What is ngcc?
 
-     The ngcc(Angular Compatibility Compiler) is a tool which upgrades node_module compiled with non-ivy ngc into ivy compliant format. The `postinstall` script from package.json will make sure your node_modules will be compatible with the Ivy renderer. 
+     NGCC (کامپایلر سازگاری زاویه ای) ابزاری است که Node_Module را با NDEDULE با NDIV NGC به قالب سازگار با پیچک ساخته می کند. اسکریپت `postinstall` از pack.json مطمئن خواهد شد که node_modules شما با رندر پیچک سازگار خواهد بود.
      
      <span dir="ltr" align="left">
 
@@ -5109,28 +5109,28 @@ puppeteer:
 
 242. ### What classes should not be added to declarations?
 
-     The below class types shouldn't be added to declarations
-     1. A class which is already declared in any another module.
-     2. Directives imported from another module.
-     3. Module classes.
-     4. Service classes.
-     5. Non-Angular classes and objects, such as strings, numbers, functions, entity models, configurations, business logic, and helper classes.
+     انواع کلاس زیر نباید به اعلامیه ها اضافه شود 
+      1. کلاس که قبلاً در هر ماژول دیگری اعلام شده است. 
+      2. دستورالعمل های وارد شده از یک ماژول دیگر. 
+      3. کلاس های ماژول. 
+      4. کلاسهای خدمات. 
+      5- کلاس ها و اشیاء غیر حرکتی ، مانند رشته ها ، اعداد ، توابع ، مدل های موجودیت ، تنظیمات ، منطق تجارت و کلاس های یاور.
 
      **[فهرست](#فهرست)**
 
 243. ### What is NgZone?
 
-     Angular provides a service called NgZone which creates a zone named `angular` to automatically trigger change detection when the following conditions are satisfied.
-     1. When a sync or async function is executed.
-     2. When there is no microTask scheduled.
+     Angular خدماتی به نام NGZONE را ارائه می دهد که منطقه ای به نام "Angular" ایجاد می کند تا در صورت رضایت از شرایط زیر ، به طور خودکار تشخیص تغییر را ایجاد کند. 
+      1. هنگامی که یک عملکرد همگام سازی یا ASYNC اجرا می شود. 
+      2. هنگامی که هیچ برنامه ریزی میکروتاسکی برنامه ریزی نشده است.
 
      **[فهرست](#فهرست)**
 
 244. ### What is NoopZone?
 
-     Zone is loaded/required by default in Angular applications and it helps Angular to know when to trigger the change detection. This way, it make sures developers focus on application development rather core part of Angular. You can also use Angular without Zone but the change detection need to be implemented on your own and `noop zone` need to be configured in bootstrap process.
-     Let's follow the below two steps to remove zone.js,
-     1. Remove the zone.js import from polyfills.ts.     
+    منطقه به طور پیش فرض در برنامه های زاویه ای بارگیری و مورد نیاز است و به زاویه کمک می کند تا بداند چه موقع باعث تشخیص تغییر می شود. به این ترتیب ، این باعث می شود که توسعه دهندگان Sures روی توسعه برنامه و نه اصلی ترین قسمت زاویه ای متمرکز شوند. همچنین می توانید از Angular بدون منطقه استفاده کنید اما تشخیص تغییر باید به تنهایی اجرا شود و «Zone Zone» باید در فرآیند bootstrap پیکربندی شود. 
+      بیایید دو مرحله زیر را برای حذف Zone.js دنبال کنیم. 
+      1. واردات Zone.js را از polyfills.ts حذف کنید.    
      
      <span dir="ltr" align="left">
 
@@ -5143,7 +5143,7 @@ puppeteer:
      
      </span>
 
-     2. Bootstrap Angular with noop zone in src/main.ts.
+     2. Bootstrap Angular با منطقه NOOP در SRC/Main.ts.
      
      <span dir="ltr" align="left">
 
@@ -5158,7 +5158,7 @@ puppeteer:
 
 245. ### How do you create displayBlock components?
 
-     By default, Angular CLI creates components in an inline displayed mode(i.e, display:inline). But it is possible to create components with display: block style using `displayBlock` option:
+     به طور پیش فرض ، Angular CLI مؤلفه هایی را در یک حالت نمایش داده شده درون خطی ایجاد می کند (یعنی صفحه نمایش: درون خطی). اما ایجاد مؤلفه هایی با نمایشگر امکان پذیر است: سبک بلوک با استفاده از گزینه "DisplayBlock":
      
      <span dir="ltr" align="left">
 
