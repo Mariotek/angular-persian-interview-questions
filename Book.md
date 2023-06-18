@@ -5174,9 +5174,9 @@ puppeteer:
 
 246. ### What are the possible data update scenarios for change detection?
 
-     The change detection works in the following scenarios where the data changes needs to update the application HTML.
-     1. **Component initialization:** While bootstrapping the Angular application, Angular triggers the `ApplicationRef.tick()` to call change detection and View Rendering.
-     2. **Event listener:**  The DOM event listener can update the data in an Angular component and trigger the change detection too.
+     تشخیص تغییر در سناریوهای زیر کار می کند که در آن داده ها برای به روزرسانی برنامه HTML نیاز دارند. 
+      1. ** اولیه سازی مؤلفه: ** در حالی که راه اندازی کاربرد زاویه ای ، زاویه ای باعث می شود `ApplicationRef.tick ()` برای تماس با تشخیص تغییر و مشاهده. 
+      2. ** شنونده رویداد: ** شنونده رویداد DOM می تواند داده ها را در یک مؤلفه زاویه ای به روز کند و باعث تغییر در تغییر نیز شود.
      
      <span dir="ltr" align="left">
 
@@ -5198,7 +5198,7 @@ puppeteer:
      
      </span>
 
-     3. **HTTP Data Request:** You can get data from a server through an HTTP request
+     3. **HTTP Data Request:** می توانید از طریق درخواست HTTP داده ها را از یک سرور دریافت کنید
      
      <span dir="ltr" align="left">
 
@@ -5215,7 +5215,7 @@ puppeteer:
      
      </span>
 
-     4. **Macro tasks setTimeout() or setInterval():** You can update the data in the callback function of setTimeout or setInterval
+     4. **Macro tasks setTimeout() or setInterval():** می توانید داده ها را در عملکرد پاسخ به تماس SettimeOut یا SetInterval به روز کنید
      
      <span dir="ltr" align="left">
 
@@ -5231,7 +5231,7 @@ puppeteer:
      
      </span>
 
-     5. **Micro tasks Promises:** You can update the data in the callback function of promise
+     5. **Micro tasks Promises:** شما می توانید داده ها را در عملکرد پاسخ به قول وعده به روز کنید
      
      <span dir="ltr" align="left">
 
@@ -5247,13 +5247,13 @@ puppeteer:
      
      </span>
 
-     6. **Async operations like Web sockets and Canvas:** The data can be updated asynchronously using WebSocket.onmessage() and Canvas.toBlob().
+     6. **Async operations like Web sockets and Canvas:** داده ها را می توان به صورت ناهمزمان با استفاده از websocket.onmessage () و canvas.toblob () به روز کرد.
 
      **[فهرست](#فهرست)**
 
 247. ### What is a zone context?
      
-     Execution Context is an abstract concept that holds information about the environment within the current code being executed. A zone provides an execution context that persists across asynchronous operations is called as zone context. For example, the zone context will be same in both outside and inside setTimeout callback function,
+     زمینه اجرای یک مفهوم انتزاعی است که اطلاعات مربوط به محیط را در کد فعلی اجرا می کند. یک منطقه زمینه اعدام را فراهم می کند که در عملیات ناهمزمان ادامه می یابد ، به عنوان زمینه منطقه خوانده می شود. به عنوان مثال ، زمینه منطقه در عملکرد برگشت به تماس در خارج و داخل SettimeOut یکسان خواهد بود ،
   
      
      <span dir="ltr" align="left">
@@ -5277,9 +5277,9 @@ puppeteer:
 
 248. ### What are the lifecycle hooks of a zone?
 
-     There are four lifecycle hooks for asynchronous operations from zone.js.
+     چهار قلاب چرخه عمر برای عملیات ناهمزمان از Zone.js. وجود دارد.
 
-     1. **onScheduleTask:** This hook triggers when a new asynchronous task is scheduled. For example, when you call setTimeout()
+     1. **onScheduleTask:** این قلاب هنگام برنامه ریزی یک کار ناهمزمان جدید ایجاد می شود. به عنوان مثال ، وقتی با SetTimeOut تماس می گیرید ()
      
      <span dir="ltr" align="left">
 
@@ -5292,7 +5292,7 @@ puppeteer:
      
      </span>
 
-     2. **onInvokeTask:** This hook triggers when an asynchronous task is about to execute. For example, when the callback of setTimeout() is about to execute.
+     2. **onInvokeTask:** این قلاب هنگامی که یک کار ناهمزمان در حال انجام است ، ایجاد می کند. به عنوان مثال ، هنگامی که پاسخ به تماس SettimeOut () در حال اجرا است.
      
      <span dir="ltr" align="left">
 
@@ -5305,7 +5305,7 @@ puppeteer:
      
      </span>
 
-     3. **onHasTask:** This hook triggers when the status of one kind of task inside a zone changes from stable(no tasks in the zone) to unstable(a new task is scheduled in the zone) or from unstable to stable.
+     3. **onHasTask:** این قلاب هنگامی که وضعیت یک نوع کار در داخل یک منطقه از پایدار (بدون کار در منطقه) به ناپایدار تغییر می کند (یک کار جدید در منطقه برنامه ریزی شده است) یا از ناپایدار تا پایدار تغییر می کند.
      
      <span dir="ltr" align="left">
 
@@ -5318,7 +5318,7 @@ puppeteer:
      
      </span>
 
-     4. **onInvoke:** This hook triggers when a synchronous function is going to execute in the zone.
+     4. **onInvoke:** این قلاب هنگامی که یک عملکرد همزمان در منطقه اجرا می شود ، ایجاد می شود.
      
      <span dir="ltr" align="left">
 
@@ -5335,7 +5335,7 @@ puppeteer:
 
 249. ### What are the methods of NgZone used to control change detection?
 
-     NgZone service provides a `run()` method that allows you to execute a function inside the angular zone. This function is used to execute third party APIs which are not handled by Zone and trigger change detection automatically at the correct time.
+     سرویس NGZONE یک روش `run () را ارائه می دهد که به شما امکان می دهد عملکردی را در داخل منطقه زاویه ای اجرا کنید. این عملکرد برای اجرای API های شخص ثالث که توسط منطقه اداره نمی شوند و باعث تشخیص تغییر خودکار در زمان صحیح می شوند ، استفاده می شود.
      
      <span dir="ltr" align="left">
 
@@ -5355,7 +5355,7 @@ puppeteer:
      
      </span>
 
-     Whereas `runOutsideAngular()` method is used when you don't want to trigger change detection.
+     در حالی که "روش runoutsideangular ()` استفاده می شود وقتی که نمی خواهید تغییر تغییر را ایجاد کنید.
      
      <span dir="ltr" align="left">
 
@@ -5379,8 +5379,8 @@ puppeteer:
 
 250. ### How do you change the settings of zonejs?
 
-     You can change the settings of zone by configuring them in a separate file and import it just after zonejs import.
-     For example, you can disable the requestAnimationFrame() monkey patch to prevent change detection for no data update as one setting and prevent DOM events(a mousemove or scroll event) to trigger change detection. Let's say the new file named zone-flags.js, 
+     شما می توانید با پیکربندی آنها در یک پرونده جداگانه ، تنظیمات منطقه را تغییر داده و درست پس از واردات Zonejs وارد کنید. 
+      به عنوان مثال ، شما می توانید Patch Monkey RequestAnimationFrame () را غیرفعال کنید تا از تغییر برای به روزرسانی داده به عنوان یک تنظیم جلوگیری کنید و از وقایع DOM (یک رویداد Mousemove یا Scroll) جلوگیری کنید تا تغییر تغییر را ایجاد کند. بیایید بگوییم پرونده جدید به نام Zone-flags.js ،
      
      <span dir="ltr" align="left">
 
@@ -5394,7 +5394,7 @@ puppeteer:
      
      </span>
 
-     The above configuration file can be imported in a polyfill.ts file as below:
+     پرونده پیکربندی فوق را می توان در یک پرونده polyfill.ts به شرح زیر وارد کرد:
      
      <span dir="ltr" align="left">
 
@@ -5412,8 +5412,8 @@ puppeteer:
 
 251. ### How do you trigger an animation?
 
-     Angular provides a `trigger()` function for animation in order to collect the states and transitions with a specific animation name, so that you can attach it to the triggering element in the HTML template. This function watch for changes and trigger initiates the actions when a change occurs.
-     For example, let's create trigger named `upDown`, and attach it to the button element.
+     Angular یک عملکرد "ماشه ()" برای انیمیشن را به منظور جمع آوری حالت ها و انتقال با یک نام انیمیشن خاص فراهم می کند تا بتوانید آن را به عنصر تحریک در الگوی HTML وصل کنید. این عملکرد را برای تغییرات تماشا می کند و هنگام تغییر ، اقدامات را آغاز می کند. 
+      به عنوان مثال ، بیایید Trigger به نام "Updown" ایجاد کنیم و آن را به عنصر دکمه وصل کنیم.
      
      <span dir="ltr" align="left">
 
@@ -5460,7 +5460,7 @@ puppeteer:
 
 252. ### How do you configure injectors with providers at different levels?
 
-     You can configure injectors with providers at different levels of your application by setting a metadata value. The configuration can happen in one of three places,
+     با تعیین مقدار ابرداده می توانید انژکتورها را با ارائه دهندگان در سطوح مختلف برنامه خود پیکربندی کنید. پیکربندی می تواند در یکی از سه مکان اتفاق بیفتد ،
 
      1. In the `@Injectable()` decorator for the service itself
      2. In the `@NgModule()` decorator for an NgModule
@@ -5470,11 +5470,11 @@ puppeteer:
 
 253. ### Is it mandatory to use injectable on every service class?
 
-     No. The `@Injectable()` decorator is not strictly required if the class has other Angular decorators on it or does not have any dependencies. But the important thing here is any class that is going to be injected with Angular is decorated.
-     i.e, If we add the decorator, the metadata `design:paramtypes` is added, and the dependency injection can do it's job. That is the exact reason to add the @Injectable() decorator on a service if this service has some dependencies itself.
-     For example, Let's see the different variations of AppService in a root component,
+     نه. اگر کلاس دارای دکوراتورهای زاویه ای دیگری بر روی آن باشد یا هیچ وابستگی نداشته باشد ، دکوراتور `injectable ()` `injectable () لازم نیست. اما نکته مهم در اینجا هر کلاس است که با زاویه تزریق می شود تزئین شده است. 
+      یعنی اگر دکوراتور را اضافه کنیم ، ابرداده "طراحی: پارامترها" اضافه می شود ، و تزریق وابستگی می تواند کار خود را انجام دهد. این دلیل دقیق اضافه کردن دکوراتور injectable () در یک سرویس در صورتی است که این سرویس دارای برخی وابستگی ها باشد. 
+      به عنوان مثال ، بیایید تغییرات مختلف AppService را در یک جزء ریشه مشاهده کنیم ،
      
-     1. The below AppService can be injected in AppComponent without any problems. This is because there are no dependency services inside AppService.
+     1. AppService زیر را می توان بدون هیچ مشکلی در AppComponent تزریق کرد. این امر به این دلیل است که هیچ سرویس وابستگی در AppService وجود ندارد.
      
      
      <span dir="ltr" align="left">
@@ -5489,7 +5489,7 @@ puppeteer:
      
      </span>
 
-     2. The below AppService with dummy decorator and httpService can be injected in AppComponent without any problems. This is because meta information is generated with dummy decorator.
+     2. AppService زیر با دکوراتور ساختگی و Httpservice می تواند بدون هیچ مشکلی در AppComponent تزریق شود. این امر به این دلیل است که اطلاعات متا با دکوراتور ساختگی تولید می شود.
      
      <span dir="ltr" align="left">
 
@@ -5508,7 +5508,7 @@ puppeteer:
      
      </span>
 
-     and the generated javascript code of above service has meta information about HttpService,
+     و کد JavaScript تولید شده از خدمات فوق دارای اطلاعات متا در مورد httpservice است ،
      
      <span dir="ltr" align="left">
 
@@ -5528,7 +5528,7 @@ puppeteer:
      
      </span>
 
-     3. The below AppService with @injectable decorator and httpService can be injected in AppComponent without any problems. This is because meta information is generated with Injectable decorator.
+     3. AppService زیر با تزئینات injectable و httpservice می تواند بدون هیچ مشکلی در AppComponent تزریق شود. این امر به این دلیل است که اطلاعات متا با تزئینات تزریقی تولید می شود.
      
      <span dir="ltr" align="left">
 
@@ -5549,8 +5549,8 @@ puppeteer:
 
 254. ### What is an optional dependency?
 
-     The optional dependency is a parameter decorator to be used on constructor parameters, which marks the parameter as being an optional dependency. Due to this, the DI framework provides null if the dependency is not found.
-     For example, If you don't register a logger provider anywhere, the injector sets the value of logger(or logger service) to null in the below class.
+     وابستگی اختیاری یک دکوراتور پارامتر است که در پارامترهای سازنده مورد استفاده قرار می گیرد ، که این پارامتر را به عنوان یک وابستگی اختیاری نشان می دهد. به همین دلیل ، در صورت عدم یافتن وابستگی ، چارچوب DI تهی را تهی می کند. 
+      به عنوان مثال ، اگر شما یک ارائه دهنده logger را در هیچ کجا ثبت نکنید ، انژکتور مقدار logger (یا سرویس logger) را در کلاس زیر تنظیم می کند.
      
      <span dir="ltr" align="left">
 
@@ -5574,15 +5574,15 @@ puppeteer:
 
      There are two types of injector hierarchies in Angular
 
-     1. **ModuleInjector hierarchy:** It configure on a module level using an @NgModule() or @Injectable() annotation.
-     2. **ElementInjector hierarchy:** It created implicitly at each DOM element. Also it is empty by default unless you configure it in the providers property on @Directive() or @Component().
+     1. **ModuleInjector hierarchy:** آن را با استفاده از حاشیه نویسی ngmodule () یا injectable () در سطح ماژول پیکربندی می کند.
+     2. **ElementInjector hierarchy:**این به طور ضمنی در هر عنصر DOM ایجاد کرد. همچنین به طور پیش فرض خالی است ، مگر اینکه آن را در ویژگی ارائه دهندگان در Directive () یا component () پیکربندی کنید.
 
      **[فهرست](#فهرست)**
 
 256. ### What are reactive forms?
 
-     Reactive forms is a model-driven approach for creating forms in a reactive style(form inputs changes over time). These are built around observable streams, where form inputs and values are provided as streams of input values. Let's follow the below steps to create reactive forms,
-     1. Register the reactive forms module which declares reactive-form directives in your app
+     فرم های واکنشی یک رویکرد مدل محور برای ایجاد فرم ها به سبک واکنشی است (ورودی های فرم با گذشت زمان تغییر می کنند). اینها در اطراف جریانهای قابل مشاهده ساخته شده اند ، جایی که ورودی ها و مقادیر فرم به عنوان جریان مقادیر ورودی ارائه می شوند. بیایید مراحل زیر را برای ایجاد فرم های واکنشی دنبال کنیم ،
+     1. ماژول فرم های واکنشی را ثبت کنید که دستورالعمل های واکنش پذیر را در برنامه شما اعلام می کند
      
      
      <span dir="ltr" align="left">
@@ -5601,7 +5601,7 @@ puppeteer:
      
      </span>
 
-     2. Create a new FormControl instance and save it in the component.
+     2. یک نمونه جدید FormControl ایجاد کنید و آن را در مؤلفه ذخیره کنید.
      
      <span dir="ltr" align="left">
 
@@ -5620,7 +5620,7 @@ puppeteer:
      
      </span>
 
-     3. Register the FormControl in the template.
+     3. FormControl را در الگوی ثبت کنید.
      
      <span dir="ltr" align="left">
 
@@ -5633,7 +5633,7 @@ puppeteer:
      
      </span>
 
-     Finally, the component with reactive form control appears as below:
+     سرانجام ، مؤلفه با کنترل فرم واکنشی به شرح زیر ظاهر می شود:
      
      <span dir="ltr" align="left">
 
@@ -5662,17 +5662,17 @@ puppeteer:
 
 257. ### What are dynamic forms?
 
-     Dynamic forms is a pattern in which we build a form dynamically based on metadata that describes a business object model. You can create them based on reactive form API.
+     فرم های پویا الگویی است که در آن ما یک فرم را به صورت پویا بر اساس ابرداده می سازیم که یک مدل شی تجاری را توصیف می کند. می توانید آنها را بر اساس API فرم واکنشی ایجاد کنید.
 
      **[فهرست](#فهرست)**
 
 
 258. ### What are template driven forms?
 
-     Template driven forms are model-driven forms where you write the logic, validations, controls etc, in the template part of the code using directives. They are suitable for simple scenarios and uses two-way binding with [(ngModel)] syntax.
-     For example, you can create register form easily by following the below simple steps,
+     فرم های محور الگوی فرم های مدل محور هستند که در آن می نویسید که منطق ، اعتبار سنجی ، کنترل و غیره را در قسمت الگوی کد با استفاده از دستورالعمل ها می نویسید. آنها برای سناریوهای ساده مناسب هستند و از اتصال دو طرفه با نحو [(ngmodel)] استفاده می کنند. 
+      به عنوان مثال ، می توانید با دنبال کردن مراحل ساده زیر ، فرم ثبت را به راحتی ایجاد کنید ،
 
-     1. Import the FormsModule into the Application module's imports array
+     1. FormsModule را در آرایه واردات ماژول برنامه وارد کنید
      
      <span dir="ltr" align="left">
 
@@ -5698,7 +5698,7 @@ puppeteer:
      
      </span>
 
-     2. Bind the form from template to the component using ngModel syntax     
+     2. با استفاده از نحو ngmodel فرم را از الگوی به مؤلفه وصل کنید    
      
      <span dir="ltr" align="left">
 
@@ -5710,7 +5710,7 @@ puppeteer:
      
      </span>
 
-     3. Attach NgForm directive to the <form> tag in order to create FormControl instances and register them
+     3. برای ایجاد نمونه های FormControl و ثبت آنها ، دستورالعمل NGFORM را به برچسب <form> وصل کنید
      
      <span dir="ltr" align="left">
 
@@ -5720,7 +5720,7 @@ puppeteer:
      
      </span>
 
-     4. Apply the validation message for form controls     
+     4. پیام اعتبار سنجی را برای کنترل فرم اعمال کنید   
      
      <span dir="ltr" align="left">
 
@@ -5738,7 +5738,7 @@ puppeteer:
      
      </span>
 
-     5. Let's submit the form with ngSubmit directive and add type="submit" button at the bottom of the form to trigger form submit.
+     5. بیایید فرم را با دستورالعمل ngsubmit ارسال کنیم و دکمه نوع = "ارسال" را در پایین فرم اضافه کنیم تا فرم ارسال شود.
      
      <span dir="ltr" align="left">
 
@@ -5750,7 +5750,7 @@ puppeteer:
      
      </span>
 
-     Finally, the completed template-driven registration form will be appeared as follow.
+     سرانجام ، فرم ثبت نام الگوی محور به شرح زیر ظاهر می شود.
      
      <span dir="ltr" align="left">
 
@@ -5780,27 +5780,27 @@ puppeteer:
 
 259. ### What are the differences between reactive forms and template driven forms?
      
-     Below are the main differences between reactive forms and template driven forms
+    در زیر تفاوت های اصلی بین اشکال واکنشی و فرم های محور الگو وجود دارد 
 
-     | Feature | Reactive | Template-Driven |
-     |---- |---- | --------- |
-     | Form model setup | Created(FormControl instance) in component explicitly | Created by directives  |
-     | Data updates | Synchronous | Asynchronous |
-     | Form custom validation | Defined as Functions | Defined as Directives |
-     | Testing | No interaction with change detection cycle | Need knowledge of the change detection process |
-     | Mutability | Immutable(by always returning new value for FormControl instance) | Mutable(Property always modified to new value) |
-     | Scalability | More scalable using low-level APIs | Less scalable using due to abstraction on APIs|
+      | ویژگی | واکنشی | الگوی محور | 
+      | ---- | ---- | --------- | 
+      | تنظیم مدل فرم | ایجاد شده (نمونه formcontrol) در مؤلفه صریح | ایجاد شده توسط بخشنامه ها | 
+      | به روزرسانی داده ها | همزمان | ناهمزمان | 
+      | اعتبار سنجی سفارشی | تعریف شده به عنوان توابع | تعریف شده به عنوان دستورالعمل | 
+      | تست | هیچ تعامل با چرخه تشخیص تغییر | نیاز به دانش در مورد فرآیند تشخیص تغییر | 
+      | جهش پذیری | تغییر ناپذیر (با بازگرداندن مقدار جدید برای نمونه FormControl) | قابل تغییر (خاصیت همیشه به ارزش جدید اصلاح شده) | 
+      | مقیاس پذیری | مقیاس پذیر تر با استفاده از API های سطح پایین | کمتر مقیاس پذیر به دلیل انتزاع در APIS |
 
      **[فهرست](#فهرست)**
 
 
 260. ### What are the different ways to group form controls?
 
-     Reactive forms provide two ways of grouping multiple related controls.
+     اشکال واکنشی دو روش برای گروه بندی چندین کنترل مرتبط را ارائه می دهد. 
 
-     1. **FormGroup**: It defines a form with a fixed set of controls those can be managed together in an one object. It has same properties and methods similar to a FormControl instance.
+      1. ** FormGroup **: یک فرم را با مجموعه ای از کنترل های ثابت تعریف می کند که می توانند در یک شیء با هم مدیریت شوند. این ویژگی ها و روش های مشابه مشابه با یک نمونه FormControl است. 
      
-     This FormGroup can be nested to create complex forms as below.
+      این فرم گروه می تواند برای ایجاد اشکال پیچیده مانند شکل زیر توخالی شود.
     
      
      <span dir="ltr" align="left">
@@ -5879,7 +5879,7 @@ puppeteer:
      
      </span>
 
-     2. **FormArray:** It defines a dynamic form in an array format, where you can add and remove controls at run time. This is useful for dynamic forms when you don’t know how many controls will be present within the group.
+     2. ** FormArray:** یک فرم پویا را در قالب آرایه تعریف می کند ، جایی که می توانید کنترل ها را در زمان اجرا اضافه و حذف کنید. این امر برای اشکال پویا مفید است وقتی نمی دانید چه تعداد کنترل در گروه وجود خواهد داشت.
        
      
      <span dir="ltr" align="left">
