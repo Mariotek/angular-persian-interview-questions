@@ -5958,7 +5958,7 @@ puppeteer:
 
 261. ### How do you update specific properties of a form model?
 
-     You can use `patchValue()` method to update specific properties defined in the form model. For example,you can update the name and street of certain profile on click of the update button as shown below.
+     برای به روزرسانی خصوصیات خاص تعریف شده در مدل فرم می توانید از روش `patchValue () استفاده کنید. به عنوان مثال ، می توانید نام و خیابان مشخصات خاص را با کلیک بر روی دکمه Update همانطور که در زیر آمده است ، به روز کنید.
  
      
      <span dir="ltr" align="left">
@@ -5993,7 +5993,7 @@ puppeteer:
 
 262. ### What is the purpose of FormBuilder?
      
-     FormBuilder is used as syntactic sugar for easily creating instances of a FormControl, FormGroup, or FormArray. This is helpful to reduce the amount of boilerplate needed to build complex reactive forms. It is available as an injectable helper class of the `@angular/forms` package.
+     FormBuilder به عنوان شکر نحوی برای ایجاد آسان نمونه هایی از یک فرمل ، فرم گروه یا فرم آررای استفاده می شود. این برای کاهش میزان دیگ بخار مورد نیاز برای ساخت اشکال واکنشی پیچیده مفید است. این به عنوان یک کلاس یاور تزریقی بسته `@angular/forms" در دسترس است.
 
      For example, the user profile component creation becomes easier as shown here.
 
@@ -6022,7 +6022,7 @@ puppeteer:
 
 263. ### How do you verify the model changes in forms?
 
-     You can add a getter property(let's say, diagnostic) inside component to return a JSON representation of the model during the development. This is useful to verify whether the values are really flowing from the input box to the model and vice versa or not.
+     شما می توانید یک ویژگی دریافت کننده (بیایید بگوییم ، تشخیصی) را در داخل مؤلفه اضافه کنید تا یک نمایش JSON از مدل را در طول توسعه بازگرداند. این برای تأیید اینکه آیا مقادیر واقعاً از جعبه ورودی به مدل جریان دارند و برعکس یا خیر ، مفید است.
      
      <span dir="ltr" align="left">
 
@@ -6056,21 +6056,20 @@ puppeteer:
 
 264. ### What are the state CSS classes provided by ngModel?
 
-     The ngModel directive updates the form control with special Angular CSS classes to reflect it's state. Let's find the list of classes in a tabular format,
+     دستورالعمل NGMODEL کنترل فرم را با کلاسهای ویژه CSS زاویه ای به روز می کند تا وضعیت آن را منعکس کند. بیایید لیست کلاس ها را با فرمت جدولی پیدا کنیم ، 
 
-     | Form control state | If true | If false |
-     |---- | --------- | --- |
-     | Visited | ng-touched | ng-untouched |
-     | Value has changed | ng-dirty	 | ng-pristine |
-     | Value is valid| 	ng-valid | ng-invalid |
+      | حالت کنترل فرم | اگر درست | اگر نادرست | 
+      | ---- | --------- | --- | 
+      | بازدید | ng-touched | ng-untouched | 
+      | ارزش تغییر کرده است | ng-dirty | NG-Pristine | 
+      | ارزش معتبر است | NG-VILID | NG-Invalid |
 
      **[فهرست](#فهرست)**
 
 265. ### How do you reset the form?
 
-     In a model-driven form, you can reset the form just by calling the function `reset()` on our form model.
-     For example, you can reset the form model on submission as follows,
-     
+    در یک فرم مدل محور ، می توانید فرم را فقط با فراخوانی تابع "تنظیم مجدد ()" در مدل فرم ما تنظیم کنید. 
+      به عنوان مثال ، می توانید مدل فرم را در ارسال به شرح زیر تنظیم کنید ،
      <span dir="ltr" align="left">
 
      ```js
@@ -6085,16 +6084,16 @@ puppeteer:
      
      </span>
 
-     Now, your form model resets the form back to its original pristine state.
+    اوه ، مدل فرم شما فرم را به حالت بکر اصلی خود بازنشانی می کند.
 
      **[فهرست](#فهرست)**
 
 266. ### What are the types of validator functions?
 
-     In reactive forms, the validators can be either synchronous or asynchronous functions,
+     در اشکال واکنشی ، اعتبار سنج ها می توانند توابع همزمان یا ناهمزمان باشند ، 
      
-     1. **Sync validators:** These are the synchronous functions which take a control instance and immediately return either a set of validation errors or null. Also, these functions passed as second argument while instantiating the form control. The main use cases are simple checks like whether a field is empty, whether it exceeds a maximum length etc.
-     2. **Async validators:** These are the asynchronous functions which take a control instance and return a Promise or Observable that later emits a set of validation errors or null. Also, these functions passed as second argument while instantiating the form control. The main use cases are complex validations like hitting a server to check the availability of a username or email.
+      1. ** اعتبار سنجی همگام سازی: ** این توابع همزمان هستند که نمونه کنترل را می گیرند و بلافاصله مجموعه ای از خطاهای اعتبار سنجی یا تهی را برمی گردانند. همچنین ، این توابع ضمن فوری کنترل فرم ، به عنوان آرگومان دوم تصویب شدند. موارد اصلی استفاده ، چک های ساده ای هستند مانند اینکه آیا یک میدان خالی است ، خواه از حداکثر طول و غیره باشد. 
+      2. ** اعتبار سنج های Async: ** این توابع ناهمزمان هستند که نمونه کنترل را می گیرند و یک وعده یا قابل مشاهده را باز می گردانند که بعداً مجموعه ای از خطاهای اعتبار سنجی یا تهی را منتشر می کند. همچنین ، این توابع ضمن فوری کنترل فرم ، به عنوان آرگومان دوم تصویب شدند. موارد اصلی استفاده ، اعتبارسنجی پیچیده مانند ضربه زدن به سرور برای بررسی در دسترس بودن نام کاربری یا ایمیل است.
 
      The representation of these validators looks like below
  
@@ -6115,7 +6114,7 @@ puppeteer:
 
 267. ### Can you give an example of built-in validators?
 
-     In reactive forms, you can use built-in validator like `required` and `minlength` on your input form controls. For example, the registration form can have these validators on name input field
+     n فرم های واکنشی ، می توانید از اعتبار سنجی داخلی مانند "مورد نیاز" و "minl طول" در کنترل فرم ورودی خود استفاده کنید. به عنوان مثال ، فرم ثبت نام می تواند این اعتبار سنج ها را در قسمت ورودی نام داشته باشد
  
      
      <span dir="ltr" align="left">
@@ -6131,14 +6130,14 @@ puppeteer:
      
      </span>
 
-     Whereas in template-driven forms, both `required` and `minlength` validators available as attributes.
+     در حالی که در فرم های الگوی محور ، هر دو اعتبار سنجی «مورد نیاز» و `minl طول به عنوان ویژگی ها موجود است.
 
      **[فهرست](#فهرست)**
 
 268. ### How do you optimize the performance of async validators?
 
-     Since all validators run after every form value change, it creates a major impact on performance with async validators by hitting the external API on each keystroke. This situation can be avoided by delaying the form validity by changing the updateOn property from change (default) to submit or blur.
-     The usage would be different based on form types.
+     از آنجا که همه اعتبار سنج ها پس از هر تغییر ارزش فرم اجرا می شوند ، با ضربه زدن به API خارجی در هر کلید ، تأثیر عمده ای بر عملکرد با اعتبار سنج های ASYNC ایجاد می کند. این وضعیت را می توان با تأخیر در اعتبار فرم با تغییر ویژگی UpdateON از تغییر (پیش فرض) برای ارسال یا تاری ، از آن جلوگیری کرد. 
+      استفاده بر اساس انواع فرم متفاوت خواهد بود.
 
      1. **Template-driven forms:** Set the property on `ngModelOptions` directive
      
@@ -6166,7 +6165,7 @@ puppeteer:
 
 269. ### How to set ngFor and ngIf on the same element?
      
-     Sometimes you may need to both ngFor and ngIf on the same element but unfortunately you are going to encounter below template error.
+     بعضی اوقات ممکن است شما نیاز به NGFOR و NGIF در همان عنصر داشته باشید اما متأسفانه قصد دارید در زیر خطای الگو با آن روبرو شوید.
  
      
      <span dir="ltr" align="left">
@@ -6177,8 +6176,8 @@ puppeteer:
      
      </span>
      
-     In this case, You need to use either ng-container or ng-template.
-     Let's say if you try to loop over the items only when the items are available, the below code throws an error in the browser
+     در این حالت ، شما باید از ng-container یا ng-template استفاده کنید. 
+      بیایید بگوییم اگر سعی می کنید موارد را فقط در صورت موجود بودن موارد حلقه کنید ، کد زیر خطایی را در مرورگر پرتاب می کند
   
      
      <span dir="ltr" align="left">
@@ -6209,8 +6208,8 @@ puppeteer:
 
 270. ### What is host property in css?
 
-     The `:host` pseudo-class selector is used to target styles in the element that hosts the component. Since the host element is in a parent component's template, you can't reach the host element from inside the component by other means.
-     For example, you can create a border for parent element as below,
+     از انتخاب کننده شبه کلاس "میزبان" برای هدف قرار دادن سبک های موجود در عنصری که میزبان مؤلفه است استفاده می شود. از آنجا که عنصر میزبان در الگوی مؤلفه والدین قرار دارد ، شما نمی توانید از طریق سایر مؤلفه ها به وسیله دیگر به عنصر میزبان برسید. 
+      به عنوان مثال ، شما می توانید یک مرز برای عنصر والدین ایجاد کنید ، همانطور که در زیر وجود دارد ،
  
      
      <span dir="ltr" align="left">
@@ -6231,7 +6230,7 @@ puppeteer:
 
 271. ### How do you get the current route?
 
-     In Angular, there is an `url` property of router package to get the current route. You need to follow the below few steps,
+     در Angular ، یک ویژگی url از بسته روتر برای رسیدن به مسیر فعلی وجود دارد. شما باید چند مرحله زیر را دنبال کنید ،
 
      1. Import Router from @angular/router
  
@@ -6270,24 +6269,24 @@ puppeteer:
 
 272. ### What is Component Test Harnesses?
 
-     A component harness is a testing API around an Angular directive or component to make tests simpler by hiding implementation details from test suites. This can be shared between unit tests, integration tests, and end-to-end tests. The idea for component harnesses comes from the **PageObject** pattern commonly used for integration testing.
+     مهار مؤلفه یک API آزمایش در اطراف یک دستورالعمل یا مؤلفه زاویه ای است تا با مخفی کردن جزئیات اجرای از مجموعه های آزمایش ، تست ها را ساده تر کند. این می تواند بین تست های واحد ، تست های ادغام و تست های پایان به پایان به اشتراک گذاشته شود. ایده برای مهارهای مؤلفه از الگوی ** pageObject ** که معمولاً برای آزمایش ادغام استفاده می شود ، حاصل می شود.
 
      **[فهرست](#فهرست)**
      
 273. ### What is the benefit of Automatic Inlining of Fonts?
 
-     During compile time, Angular CLI will download and inline the fonts that your application is using. This performance update speed up the first contentful paint(FCP) and this feature is enabled by default in apps built with version 11.
+     در طول زمان کامپایل ، Angular CLI فونت هایی را که برنامه شما از آن استفاده می کند ، بارگیری و درون خطی می کند. این به روزرسانی عملکرد اولین رنگ محتوا (FCP) را سرعت می بخشد و این ویژگی به طور پیش فرض در برنامه های ساخته شده با نسخه 11 فعال می شود.
 
      **[فهرست](#فهرست)**
 
 274. ### What is content projection?
 
-     Content projection is a pattern in which you insert, or project, the content you want to use inside another component.
+     طرح ریزی محتوا الگویی است که در آن شما محتوای مورد نظر خود را در داخل یک مؤلفه دیگر وارد می کنید یا پروژه می کنید.
    
      **[فهرست](#فهرست)**
 
 275. ### What is ng-content and its purpose?
 
-     The ng-content is used to insert the content dynamically inside the component that helps to increase component reusability. 
+     از Content NG برای وارد کردن محتوا به صورت پویا در مؤلفه استفاده می شود که به افزایش قابلیت استفاده مجدد مؤلفه کمک می کند.
      
      **[فهرست](#فهرست)**
