@@ -27,7 +27,7 @@ module.exports = {
         </div>
         <div class="book-name center">
           <span>مجموعه سوال و جواب‌های</span>
-          <span class="font-black">انگولار</span>
+          <span class="font-black">جاواسکریپت</span>
         </div>
         <div class="book-author center">
           عیسی رضائی
