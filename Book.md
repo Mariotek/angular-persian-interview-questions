@@ -1,29 +1,26 @@
 ---
-title: "مجموعه سوال و جواب‌های angular"
+title: "مجموعه سوال و جواب‌های جاواسکریپتی"
 author: Sudheer johna - translated by Mariotek team
-date: August 30, 2020
+date: August 30, 2023
 export_on_save:
 html: true
 puppeteer:
-  landscape: false
-  printBackground: true
-  timeout: 3000
-  width: "170mm"
-  height: "240mm"
-  margin: { top: '50px', bottom: '55px', right: '40px', left: '40px'}
-  displayHeaderFooter: true
-  headerTemplate: '<div />'
-  footerTemplate: '<div style="width: 297mm;text-align: center;font-size: 10px;font-family: BYekan;direction:rtl;position: relative; bottom: -15px">
-  <span style="position: relative; top:50px"><span class="pageNumber"></span></span>
-  <img style="width:100px;float:right;display: inline-block" src="data:image/png;base64,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" /><img src="data:image/png;base64,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" style="float:left;width: 100px;display: inline-block" />
-  </div>'
+     landscape: false
+     printBackground: true
+     timeout: 3000
+     width: "170mm"
+     height: "240mm"
+     margin: { top: '40px', bottom: '55px', right: '40px', left: '40px'}
+     displayHeaderFooter: true
+     headerTemplate: '<div />'
+     footerTemplate: '<div />'
 ---
 
 <div dir="rtl" align="right">
 
 <img src="images/image-MariotekLogo.png" alt="Mariotek" align="center" />
 
-# مجموعه سوال و جواب‌های angular
+# مجموعه سوال و جواب‌های انگولار
 
 > اگه از کتاب خوشتون اومد به گیت‌هابمون مراجعه کنین و بهمون :star: بدین. اگر هم قصد مشارکت داشتید همونجا می‌تونین شروع کنین و ما هم خیلی خوشحال می‌شیم :)
 
@@ -33,14 +30,15 @@ puppeteer:
 
 </span>
 
-<br />
-
 ### نحوه دانلود کتاب به فرمت‌های PDF/Epub
 
 می‌تونین خیلی راحت نسخه آنلاین کتاب استفاده کنین یا اگه به فایل کتاب می‌خوایین دسترسی داشته باشین، از بخش ریلیزهای گیت‌هاب به فرمت‌های مختلف آخرین نسخه کتاب رو می‌تونین دریافت کنین.
 
-
 <div class="a4 half"></div>
+
+<br />
+<br />
+<br />
 
 
 ### فهرست
@@ -210,7 +208,7 @@ puppeteer:
 |161| [What are the best practices for security in angular?](#1)|
 |162| [What is Angular security model for preventing XSS attacks?](#1)|
 |163| [What is the role of template compiler for prevention of XSS attacks?](#1)|
-|164| [What are the various security contexts in Angular?](#1)|
+|164| [What are the various security contexts in Angular?](#16)|
 |165| [What is Sanitization? Is angular supports it?](#1n?Is-angular-supports-it)|
 |166| [What is the purpose of innerHTML?](#1)|
 |167| [What is the difference between interpolated content and innerHTML?](#1)|
@@ -2224,7 +2222,7 @@ puppeteer:
      
      <span dir="ltr" align="left">
 
-     ```cmd
+     ```javascript
      // ERROR
      let username: string; // neither exported nor initialized
 
@@ -2244,7 +2242,7 @@ puppeteer:
      
      <span dir="ltr" align="left">
 
-     ```cmd
+     ```javascript
      export let username: string; // exported
      (or)
      let username = 'John'; // initialized
@@ -2256,7 +2254,7 @@ puppeteer:
 
      <span dir="ltr" align="left">
 
-     ```cmd
+     ```javascript
      providers: [
           { provide: MyStrategy, useFactory: function() { ... } },
           { provide: OtherStrategy, useFactory: () => { ... } }
@@ -2269,13 +2267,14 @@ puppeteer:
      
      <span dir="ltr" align="left">
 
-     ```cmd
+     ```javascript
         export function myStrategy() { ... }
         export function otherStrategy() { ... }
         ... // metadata
         providers: [
             { provide: MyStrategy, useFactory: myStrategy },
             { provide: OtherStrategy, useFactory: otherStrategy },
+        ]
      ```
      
      </span>
@@ -2327,7 +2326,7 @@ puppeteer:
      
      <span dir="ltr" align="left">
 
-     ```cmd
+     ```javascript
      {
           "extends": "../tsconfig.base.json",
           "compilerOptions": {
@@ -2352,7 +2351,7 @@ puppeteer:
      
      <span dir="ltr" align="left">
 
-     ```cmd
+     ```javascript
      {
           "compilerOptions": {
           "experimentalDecorators": true,
@@ -2379,7 +2378,7 @@ puppeteer:
      
      <span dir="ltr" align="left">
 
-     ```cmd
+     ```javascript
      @Component({
           selector: 'my-component',
           template: '{{user.contacts.email}}'
@@ -2409,7 +2408,7 @@ puppeteer:
      
      <span dir="ltr" align="left">
 
-     ```cmd
+     ```javascript
      template: '{{ $any(user).contacts.email }}'
      ```
      
@@ -2419,7 +2418,7 @@ puppeteer:
      
      <span dir="ltr" align="left">
 
-     ```cmd
+     ```javascript
      template: '{{ $any(this).contacts.email }}'
      ```
      
@@ -2434,7 +2433,7 @@ puppeteer:
      
      <span dir="ltr" align="left">
 
-     ```cmd
+     ```javascript
      @Component({
           selector: 'my-component',
           template: '<span *ngIf="user"> {{user.name}} contacted through {{contact!.email}} </span>'
@@ -2461,7 +2460,7 @@ puppeteer:
      
      <span dir="ltr" align="left">
 
-     ```cmd
+     ```javascript
      @Component({
           selector: 'my-component',
           template: '<span *ngIf="user"> {{user.contact.email}} </span>'
@@ -2479,9 +2478,9 @@ puppeteer:
 
      بخش وابستگی های package.json با در یک برنامه زاویه ای را می توان به صورت زیر تقسیم کرد:
 
-      1. ** بسته های زاویه ای: ** هسته زاویه ای و ماژول های اختیاری. نام بسته آنها @angular/ شروع می شود.
-      2. **بسته های پشتیبانی:** کتابخانه های شخص ثالثی که برای اجرای برنامه های Angular باید وجود داشته باشند.
-      3. ** بسته های Polyfill: ** Polyfill شکاف ها را در پیاده سازی جاوا اسکریپت مرورگر وصل می کند.
+     1. ** بسته های زاویه ای: ** هسته زاویه ای و ماژول های اختیاری. نام بسته آنها @angular/ شروع می شود.
+     2. **بسته های پشتیبانی:** کتابخانه های شخص ثالثی که برای اجرای برنامه های Angular باید وجود داشته باشند.
+     3. ** بسته های Polyfill: ** Polyfill شکاف ها را در پیاده سازی جاوا اسکریپت مرورگر وصل می کند.
 
      **[فهرست](#فهرست)**
 
@@ -2527,7 +2526,7 @@ puppeteer:
      
      <span dir="ltr" align="left">
 
-     ```cmd
+     ```javascript
      import { NgModule } from '@angular/core';
      import { BrowserModule } from '@angular/platform-browser';
      import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -2550,7 +2549,7 @@ puppeteer:
      
      <span dir="ltr" align="left">
 
-     ```cmd
+     ```javascript
          import {
            trigger,
            state,
@@ -2879,7 +2878,6 @@ puppeteer:
      **[فهرست](#فهرست)**
 
 118. ### How do you add web workers in your application?
-
      شما می توانید وب کارگر را در هر جایی از برنامه خود اضافه کنید. برای مثال، اگر فایل حاوی محاسبات گران قیمت شما «src/app/app.component.ts» است، می‌توانید با استفاده از دستور «ng generate web-worker app» یک Web Worker اضافه کنید که «src/app/app» را ایجاد می‌کند. فایل کارگر وب worker.ts. این دستور اقدامات زیر را انجام می دهد
 
      1. پروژه خود را برای استفاده از Web Workers پیکربندی کنید
@@ -2921,7 +2919,6 @@ puppeteer:
      **[فهرست](#فهرست)**
 
 119. ### What are the limitations with web workers?
-
      هنگام استفاده از Web Workers در پروژه های Angular باید دو نکته مهم را به خاطر بسپارید:
 
      1.برخی از محیط‌ها یا پلتفرم‌ها (مانند @angular/platform-server) که در رندر سمت سرور استفاده می‌شوند، از Web Workers پشتیبانی نمی‌کنند. در این مورد باید مکانیزم بازگشتی برای انجام محاسبات برای کار در این محیط ها فراهم کنید.
@@ -2930,25 +2927,21 @@ puppeteer:
      **[فهرست](#فهرست)**
 
 120. ### What is Angular CLI Builder?
-
      در Angular8، CLI Builder API پایدار است و در دسترس توسعه دهندگانی است که می خواهند «Angular CLI» را با افزودن یا تغییر دستورات سفارشی کنند. برای مثال، می‌توانید یک سازنده را برای انجام یک کار کاملاً جدید یا تغییر اینکه کدام ابزار شخص ثالث توسط یک دستور موجود استفاده می‌شود، فراهم کنید.
 
      **[فهرست](#فهرست)**
 
 121. ### What is a builder?
-
      یک تابع سازنده یعنی تابعی که از "API Architect" برای انجام یک فرآیند پیچیده مانند "build" یا "test" استفاده می کند. کد سازنده در یک بسته npm تعریف شده است. به عنوان مثال، BrowserBuilder یک ساخت بسته وب را برای یک هدف مرورگر اجرا می کند و KarmaBuilder سرور Karma را راه اندازی می کند و یک بسته وب را برای آزمایش های واحد اجرا می کند.
 
      **[فهرست](#فهرست)**
 
 122. ### How do you invoke a builder?
-
      دستور Angular CLI «ng run» برای فراخوانی سازنده ای با پیکربندی هدف خاص استفاده می شود. فایل پیکربندی فضای کاری، «angular.json»، حاوی تنظیمات پیش‌فرض برای سازنده‌های داخلی است.
 
      **[فهرست](#فهرست)**
 
 123. ### How do you create app shell in Angular?
-
      پوسته برنامه راهی برای ارائه بخشی از برنامه شما از طریق یک مسیر در زمان ساخت است. این برای اولین بار رنگ آمیزی برنامه شما که به سرعت ظاهر می شود مفید است زیرا مرورگر می تواند HTML و CSS ایستا را بدون نیاز به مقداردهی اولیه جاوا اسکریپت ارائه دهد. شما می توانید با استفاده از Angular CLI که یک پوسته برنامه برای اجرای سمت سرور برنامه شما ایجاد می کند، به این هدف برسید.
 
   
@@ -3024,7 +3017,7 @@ puppeteer:
 
 128. ### What are the restrictions on declarable classes?
 
-     کلاس های زیر نباید اعلام شوند،
+     کلاس های زیر نباید تعریف شوند،
 
      1. کلاسی که قبلاً در NgModule دیگری اعلام شده است
       2. کلاس های Ngmodule
@@ -3068,6 +3061,8 @@ puppeteer:
      یک موضوع RxJS نوع خاصی از Observable است که اجازه می‌دهد مقادیر برای بسیاری از Observerها چندپخشی شوند. در حالی که مشاهده پذیرهای ساده یکپارچه هستند (هر مشاهده کننده مشترک دارای اجرای مستقل از Observable است)، سوژه ها چندپخشی هستند.
       
      یک موضوع مانند یک مشاهده پذیر است، اما می تواند برای بسیاری از مشاهده کنندگان چندپخش شود. سوژه ها مانند EventEmitters هستند: آنها یک رجیستری از شنوندگان زیادی را نگهداری می کنند.
+
+     <span dir="ltr" align="left">
 
      ``` typescript
       import { Subject } from 'rxjs';
@@ -3684,8 +3679,8 @@ puppeteer:
 
      1. **HTML:** هنگام تفسیر یک مقدار به عنوان HTML مانند اتصال به innerHtml استفاده می شود.
      2. **Style:** هنگام اتصال CSS به ویژگی style استفاده می شود.
-     3. **URL:** برای ویژگی های URL مانند «<a href>» استفاده می شود.
-     4. **Resource URL:** این یک URL است که به عنوان کدی مانند «<script src>» بارگیری و اجرا می شود.
+     3. **URL:** برای ویژگی های URL مانند `<a href>` استفاده می شود.
+     4. **Resource URL:** این یک URL است که به عنوان کدی مانند `<script src>` بارگیری و اجرا می شود.
 
      **[فهرست](#فهرست)**
 
@@ -3711,7 +3706,7 @@ puppeteer:
      
      <span dir="ltr" align="left">
 
-     ```cmd
+     ```javascript
      export class myComponent {
        htmlSnippet: string = '<b>Hello World</b>, Angular';
      }
@@ -3742,7 +3737,7 @@ puppeteer:
      
      <span dir="ltr" align="left">
 
-     ```cmd
+     ```javascript
      export class InnerHtmlBindingComponent {
        htmlSnippet = 'Template <script>alert("XSS Attack")</script> <b>Code attached</b>';
      }
@@ -3756,7 +3751,7 @@ puppeteer:
 
 168. ### How do you prevent automatic sanitization?
 
-     گاهی اوقات برنامه ها واقعاً نیاز دارند که کدهای اجرایی مانند نمایش «<iframe>» را از یک URL داشته باشند. در این مورد، باید با گفتن اینکه یک مقدار را بررسی کرده اید، نحوه تولید آن را بررسی کرده اید و مطمئن شده اید که همیشه ایمن است، از پاکسازی خودکار در Angular جلوگیری کنید. اساساً شامل 2 مرحله است،
+     گاهی اوقات برنامه ها واقعاً نیاز دارند که کدهای اجرایی مانند نمایش `<iframe>` را از یک URL داشته باشند. در این مورد، باید با گفتن اینکه یک مقدار را بررسی کرده اید، نحوه تولید آن را بررسی کرده اید و مطمئن شده اید که همیشه ایمن است، از پاکسازی خودکار در Angular جلوگیری کنید. اساساً شامل 2 مرحله است،
 
      1. Inject DomSanitizer: می توانید DomSanitizer را در کامپوننت به عنوان پارامتر در سازنده تزریق کنید.
      2. با فراخوانی برخی از روش‌های زیر، مقدار قابل اعتماد را علامت‌گذاری کنید
@@ -3771,7 +3766,7 @@ puppeteer:
      
      <span dir="ltr" align="left">
 
-     ```cmd
+     ```javascript
      constructor(private sanitizer: DomSanitizer) {
        this.dangerousUrl = 'javascript:alert("XSS attack")';
        this.trustedUrl = sanitizer.bypassSecurityTrustUrl(this.dangerousUrl);
@@ -3828,7 +3823,7 @@ puppeteer:
      
      <span dir="ltr" align="left">
 
-     ```cmd
+     ```javascript
      @Injectable()
      export class MyInterceptor implements HttpInterceptor {
          constructor() {}
@@ -3844,7 +3839,7 @@ puppeteer:
      
      <span dir="ltr" align="left">
 
-     ```cmd
+     ```javascript
      @NgModule({
          ...
          providers: [
@@ -3882,7 +3877,7 @@ puppeteer:
      
      <span dir="ltr" align="left">
 
-     ```cmd
+     ```javascript
      providers: [
           { provide: HTTP_INTERCEPTORS, useClass: MyFirstInterceptor, multi: true },
           { provide: HTTP_INTERCEPTORS, useClass: MySecondInterceptor, multi: true }
@@ -3924,7 +3919,7 @@ puppeteer:
      
      <span dir="ltr" align="left">
 
-     ```cmd
+     ```js
      @NgModule({
           declarations: [AppComponent],
           imports: [BrowserModule, HttpClientModule],
@@ -3967,7 +3962,7 @@ puppeteer:
      
      <span dir="ltr" align="left">
 
-     ```cmd
+     ```javascript
      import { registerLocaleData } from '@angular/common';
      import localeDe from '@angular/common/locales/de';
 
@@ -3987,7 +3982,7 @@ puppeteer:
      
      <span dir="ltr" align="left">
 
-     ```cmd
+     ```html
      <h1 i18n>Hello i18n!</h1>
      ```
      
@@ -4014,14 +4009,14 @@ puppeteer:
      
      <span dir="ltr" align="left">
 
-          ```cmd
-          <trans-unit id="greetingHeader" datatype="html">
-               <source>Hello i18n!</source>
-               <target>Hallo i18n !</target>
-               <note priority="1" from="description">A welcome header for this sample</note>
-               <note priority="1" from="meaning">welcome message</note>
-          </trans-unit>
-          ```
+     ```html
+     <trans-unit id="greetingHeader" datatype="html">
+     <source>Hello i18n!</source>
+     <target>Hallo i18n !</target>
+     <note priority="1" from="description">A welcome header for this sample</note>
+     <note priority="1" from="meaning">welcome message</note>
+     </trans-unit>
+     ```
           
      </span>
 
@@ -4059,7 +4054,7 @@ puppeteer:
      
      <span dir="ltr" align="left">
 
-     ```cmd
+     ```html
      <h1 i18n="@@welcomeHeader">Hello i18n!</h1>
      ```
      
@@ -4143,13 +4138,13 @@ puppeteer:
 185. ### List down the pluralization categories?
 
      تعدد بسته به زبان دارای دسته های زیر است.
-      1. = 0 (یا هر عدد دیگری)
-      2. صفر
-      3. یک
-      4. دو
-      5. تعداد کمی
-      6. بسیاری
-      7. دیگر
+     1. = 0 (یا هر عدد دیگری)
+     2. صفر
+     3. یک
+     4. دو
+     5. تعداد کمی
+     6. بسیاری
+     7. دیگر
 
      **[فهرست](#فهرست)**
 
@@ -4157,11 +4152,11 @@ puppeteer:
 
      عبارت ICU شبیه عبارات جمع است با این تفاوت که شما از بین ترجمه های جایگزین بر اساس مقدار رشته به جای عدد انتخاب می کنید. در اینجا شما آن مقادیر رشته را تعریف می کنید.
 
-    بیایید مؤلفه را با ویژگی «residenceStatus» که دارای مقادیر ممکن «شهروند»، «مقیم دائم» و «خارجی» است، در نظر بگیریم و پیام آن مقادیر را به ترجمه‌های مناسب نگاشت می‌کند.
+     بیایید مؤلفه را با ویژگی «residenceStatus» که دارای مقادیر ممکن «شهروند»، «مقیم دائم» و «خارجی» است، در نظر بگیریم و پیام آن مقادیر را به ترجمه‌های مناسب نگاشت می‌کند.
      
      <span dir="ltr" align="left">
 
-     ```cmd
+     ```html
      <span i18n>The person is {residenceStatus, select, citizen {citizen} permanent resident {permanentResident} foreigner {foreigner}}</span>
      ```
      
@@ -4181,7 +4176,7 @@ puppeteer:
      
      <span dir="ltr" align="left">
 
-     ```cmd
+     ```js
      "configurations": {
        ...
        "de": {
@@ -4197,7 +4192,7 @@ puppeteer:
      
      <span dir="ltr" align="left">
 
-     ```cmd
+     ```js
      import { MissingTranslationStrategy } from '@angular/core';
      import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
      import { AppModule } from './app/app.module';
@@ -4890,11 +4885,11 @@ puppeteer:
 231. ### What are the types of feature modules?
 
      در زیر پنج دسته ماژول های ویژگی ، 
-      1. ** دامنه: ** یک تجربه کاربر اختصاص داده شده به یک دامنه برنامه خاص (به عنوان مثال ، سفارش ، ثبت نام و غیره را قرار دهید) 
-      2. ** مسیریابی: ** اینها ماژول های ویژگی دامنه هستند که اجزای برتر آنها اهداف مسیرهای ناوبری روتر هستند. 
-      3. ** مسیریابی: ** پیکربندی مسیریابی را برای ماژول دیگر فراهم می کند. 
-      4. ** سرویس: ** این سرویس های نرم افزاری مانند دسترسی به داده ها و پیام رسانی را ارائه می دهد (به عنوان مثال ، httpclientmodule) 
-      5. ** ویجت: ** این مؤلفه ها ، دستورالعمل ها و لوله ها را در دسترس ماژول های خارجی قرار می دهد (به عنوان مثال ، کتابخانه های شخص ثالث مانند UI مواد)
+     1. ** دامنه: ** یک تجربه کاربر اختصاص داده شده به یک دامنه برنامه خاص (به عنوان مثال ، سفارش ، ثبت نام و غیره را قرار دهید) 
+     2. ** مسیریابی: ** اینها ماژول های ویژگی دامنه هستند که اجزای برتر آنها اهداف مسیرهای ناوبری روتر هستند. 
+     3. ** مسیریابی: ** پیکربندی مسیریابی را برای ماژول دیگر فراهم می کند. 
+     4. ** سرویس: ** این سرویس های نرم افزاری مانند دسترسی به داده ها و پیام رسانی را ارائه می دهد (به عنوان مثال ، httpclientmodule) 
+     5. ** ویجت: ** این مؤلفه ها ، دستورالعمل ها و لوله ها را در دسترس ماژول های خارجی قرار می دهد (به عنوان مثال ، کتابخانه های شخص ثالث مانند UI مواد)
 
      **[فهرست](#فهرست)**
 
@@ -5110,27 +5105,27 @@ puppeteer:
 242. ### What classes should not be added to declarations?
 
      انواع کلاس زیر نباید به اعلامیه ها اضافه شود 
-      1. کلاس که قبلاً در هر ماژول دیگری اعلام شده است. 
-      2. دستورالعمل های وارد شده از یک ماژول دیگر. 
-      3. کلاس های ماژول. 
-      4. کلاسهای خدمات. 
-      5- کلاس ها و اشیاء غیر حرکتی ، مانند رشته ها ، اعداد ، توابع ، مدل های موجودیت ، تنظیمات ، منطق تجارت و کلاس های یاور.
+     1. کلاس که قبلاً در هر ماژول دیگری اعلام شده است. 
+     2. دستورالعمل های وارد شده از یک ماژول دیگر. 
+     3. کلاس های ماژول. 
+     4. کلاسهای خدمات. 
+     5. کلاس ها و اشیاء غیر حرکتی ، مانند رشته ها ، اعداد ، توابع ، مدل های موجودیت ، تنظیمات ، منطق تجارت و کلاس های یاور.
 
      **[فهرست](#فهرست)**
 
 243. ### What is NgZone?
 
      Angular خدماتی به نام NGZONE را ارائه می دهد که منطقه ای به نام "Angular" ایجاد می کند تا در صورت رضایت از شرایط زیر ، به طور خودکار تشخیص تغییر را ایجاد کند. 
-      1. هنگامی که یک عملکرد همگام سازی یا ASYNC اجرا می شود. 
-      2. هنگامی که هیچ برنامه ریزی میکروتاسکی برنامه ریزی نشده است.
+     1. هنگامی که یک عملکرد همگام سازی یا ASYNC اجرا می شود. 
+     2. هنگامی که هیچ برنامه ریزی میکروتاسکی برنامه ریزی نشده است.
 
      **[فهرست](#فهرست)**
 
 244. ### What is NoopZone?
 
     منطقه به طور پیش فرض در برنامه های زاویه ای بارگیری و مورد نیاز است و به زاویه کمک می کند تا بداند چه موقع باعث تشخیص تغییر می شود. به این ترتیب ، این باعث می شود که توسعه دهندگان Sures روی توسعه برنامه و نه اصلی ترین قسمت زاویه ای متمرکز شوند. همچنین می توانید از Angular بدون منطقه استفاده کنید اما تشخیص تغییر باید به تنهایی اجرا شود و «Zone Zone» باید در فرآیند bootstrap پیکربندی شود. 
-      بیایید دو مرحله زیر را برای حذف Zone.js دنبال کنیم. 
-      1. واردات Zone.js را از polyfills.ts حذف کنید.    
+     بیایید دو مرحله زیر را برای حذف Zone.js دنبال کنیم. 
+     1. واردات Zone.js را از polyfills.ts حذف کنید.    
      
      <span dir="ltr" align="left">
 
@@ -5175,8 +5170,8 @@ puppeteer:
 246. ### What are the possible data update scenarios for change detection?
 
      تشخیص تغییر در سناریوهای زیر کار می کند که در آن داده ها برای به روزرسانی برنامه HTML نیاز دارند. 
-      1. ** اولیه سازی مؤلفه: ** در حالی که راه اندازی کاربرد زاویه ای ، زاویه ای باعث می شود `ApplicationRef.tick ()` برای تماس با تشخیص تغییر و مشاهده. 
-      2. ** شنونده رویداد: ** شنونده رویداد DOM می تواند داده ها را در یک مؤلفه زاویه ای به روز کند و باعث تغییر در تغییر نیز شود.
+     1. ** اولیه سازی مؤلفه: ** در حالی که راه اندازی کاربرد زاویه ای ، زاویه ای باعث می شود `ApplicationRef.tick ()` برای تماس با تشخیص تغییر و مشاهده. 
+     2. ** شنونده رویداد: ** شنونده رویداد DOM می تواند داده ها را در یک مؤلفه زاویه ای به روز کند و باعث تغییر در تغییر نیز شود.
      
      <span dir="ltr" align="left">
 
@@ -6092,8 +6087,8 @@ puppeteer:
 
      در اشکال واکنشی ، اعتبار سنج ها می توانند توابع همزمان یا ناهمزمان باشند ، 
      
-      1. ** اعتبار سنجی همگام سازی: ** این توابع همزمان هستند که نمونه کنترل را می گیرند و بلافاصله مجموعه ای از خطاهای اعتبار سنجی یا تهی را برمی گردانند. همچنین ، این توابع ضمن فوری کنترل فرم ، به عنوان آرگومان دوم تصویب شدند. موارد اصلی استفاده ، چک های ساده ای هستند مانند اینکه آیا یک میدان خالی است ، خواه از حداکثر طول و غیره باشد. 
-      2. ** اعتبار سنج های Async: ** این توابع ناهمزمان هستند که نمونه کنترل را می گیرند و یک وعده یا قابل مشاهده را باز می گردانند که بعداً مجموعه ای از خطاهای اعتبار سنجی یا تهی را منتشر می کند. همچنین ، این توابع ضمن فوری کنترل فرم ، به عنوان آرگومان دوم تصویب شدند. موارد اصلی استفاده ، اعتبارسنجی پیچیده مانند ضربه زدن به سرور برای بررسی در دسترس بودن نام کاربری یا ایمیل است.
+     1. ** اعتبار سنجی همگام سازی: ** این توابع همزمان هستند که نمونه کنترل را می گیرند و بلافاصله مجموعه ای از خطاهای اعتبار سنجی یا تهی را برمی گردانند. همچنین ، این توابع ضمن فوری کنترل فرم ، به عنوان آرگومان دوم تصویب شدند. موارد اصلی استفاده ، چک های ساده ای هستند مانند اینکه آیا یک میدان خالی است ، خواه از حداکثر طول و غیره باشد. 
+     2. ** اعتبار سنج های Async: ** این توابع ناهمزمان هستند که نمونه کنترل را می گیرند و یک وعده یا قابل مشاهده را باز می گردانند که بعداً مجموعه ای از خطاهای اعتبار سنجی یا تهی را منتشر می کند. همچنین ، این توابع ضمن فوری کنترل فرم ، به عنوان آرگومان دوم تصویب شدند. موارد اصلی استفاده ، اعتبارسنجی پیچیده مانند ضربه زدن به سرور برای بررسی در دسترس بودن نام کاربری یا ایمیل است.
 
      The representation of these validators looks like below
  
@@ -6209,7 +6204,7 @@ puppeteer:
 270. ### What is host property in css?
 
      از انتخاب کننده شبه کلاس "میزبان" برای هدف قرار دادن سبک های موجود در عنصری که میزبان مؤلفه است استفاده می شود. از آنجا که عنصر میزبان در الگوی مؤلفه والدین قرار دارد ، شما نمی توانید از طریق سایر مؤلفه ها به وسیله دیگر به عنصر میزبان برسید. 
-      به عنوان مثال ، شما می توانید یک مرز برای عنصر والدین ایجاد کنید ، همانطور که در زیر وجود دارد ،
+     به عنوان مثال ، شما می توانید یک مرز برای عنصر والدین ایجاد کنید ، همانطور که در زیر وجود دارد ،
  
      
      <span dir="ltr" align="left">
