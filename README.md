@@ -4,9 +4,9 @@
     <img src="https://raw.githubusercontent.com/Mariotek/BetterUnderstandingOfJavascript/master/image-MariotekLogo.png" >
 </p>
 
-# مجموعه سوال و جواب‌های Vuejs
+# مجموعه سوال و جواب‌های Angular
 
-این کتاب شامل سوال و جواب‌های کتابخونه vuejs است که حدود `300 سوال` و جواب حاضر شده و به شکل متن‌باز ارائه میشه.
+این کتاب شامل سوال و جواب‌های کتابخونه Angular است که حدود `300 سوال` و جواب حاضر شده و به شکل متن‌باز ارائه میشه.
 
 > اگه خوشتون اومد به گیت‌هابمون :star: بدین. اگر هم قصد مشارکت داشتید خیلی خوشحال می‌شیم :)
 
@@ -14,10 +14,10 @@
 
 برای مطالعه کتاب می‌تونین یکی از فرمت‌های زیر رو که دوست دارین انتخاب کنید و با اون جلو برید:
 
-| [**نسخه PDF**](https://github.com/Mariotek/vuejs-persian-interview-questions/raw/master/book.pdf)      | [**نسخه آنلاین HTML**](https://vue.mariotek.ir) | [**نسخه MarkDown**](https://github.com/Mariotek/vuejs-persian-interview-questions/blob/master/book.md#%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87-%D8%B3%D9%88%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85%DB%8C-%D8%B1%DB%8C%D8%A7%DA%A9%D8%AA) | [**نسخه ePub**](https://github.com/Mariotek/vuejs-persian-interview-questions/raw/master/book.epub) | [**نسخه mobi**](https://github.com/Mariotek/vuejs-persian-interview-questions/raw/master/book.mobi) |
+| [**نسخه PDF**](https://github.com/Mariotek/angular-persian-interview-questions/raw/master/book.pdf)      | [**نسخه آنلاین HTML**](https://Angular.mariotek.ir) | [**نسخه MarkDown**](https://github.com/Mariotek/angular-persian-interview-questions/blob/master/book.md#%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87-%D8%B3%D9%88%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85%DB%8C-%D8%B1%DB%8C%D8%A7%DA%A9%D8%AA) | [**نسخه ePub**](https://github.com/Mariotek/Angular-persian-interview-questions/raw/master/book.epub) | [**نسخه mobi**](https://github.com/Mariotek/Angular-persian-interview-questions/raw/master/book.mobi) |
 |-------------------|---------------|---------------|--------------------|-------------|
 
-البته می‌تونید همه اینا رو باهم از بخش ریلیزهای گیت هاب دانلود کنین([این لینک](https://github.com/Mariotek/vuejs-persian-interview-questions/releases)).
+البته می‌تونید همه اینا رو باهم از بخش ریلیزهای گیت هاب دانلود کنین([این لینک](https://github.com/Mariotek/angular-persian-interview-questions/releases)).
 
 
 ## 🛍 خرید نسخه فیزیکی
@@ -35,7 +35,7 @@ https://zarinp.al/370791
 
 <div dir="ltr">
 
-# Top Vuejs interview questions in persian
+# Top Angular interview questions in persian
 
 This book contains 325 repeated react.js interview questions which are asked in big companies interview sessions.
 It is in `300 pages` in Persian and also it is free and open source!
@@ -46,10 +46,10 @@ It is in `300 pages` in Persian and also it is free and open source!
 
 You can choose one of our book formats and keep reading:
 
-| [**PDF version**](https://github.com/Mariotek/vuejs-persian-interview-questions/raw/master/book.pdf)      | [**online HTML version**](https://vue.sayjeyhi.com) | [**MarkDown version**](https://github.com/Mariotek/vuejs-persian-interview-questions/blob/master/book.md#%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87-%D8%B3%D9%88%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85%DB%8C-%D8%B1%DB%8C%D8%A7%DA%A9%D8%AA) | [**ePub version**](https://github.com/Mariotek/vuejs-persian-interview-questions/raw/master/book.epub) | [**mobi version**](https://github.com/Mariotek/vuejs-persian-interview-questions/raw/master/book.mobi) |
+| [**PDF version**](https://github.com/Mariotek/Angular-persian-interview-questions/raw/master/book.pdf)      | [**online HTML version**](https://vue.sayjeyhi.com) | [**MarkDown version**](https://github.com/Mariotek/Angular-persian-interview-questions/blob/master/book.md#%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87-%D8%B3%D9%88%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85%DB%8C-%D8%B1%DB%8C%D8%A7%DA%A9%D8%AA) | [**ePub version**](https://github.com/Mariotek/Angular-persian-interview-questions/raw/master/book.epub) | [**mobi version**](https://github.com/Mariotek/Angular-persian-interview-questions/raw/master/book.mobi) |
 |-------------------|---------------|---------------|--------------------|-------------|
 
-Also you can download all these together from our repo release secion.([this link](https://github.com/Mariotek/vuejs-persian-interview-questions/releases)).
+Also you can download all these together from our repo release secion.([this link](https://github.com/Mariotek/Angular-persian-interview-questions/releases)).
 
 
 ## 🛍 Buy print version
