@@ -85,26 +85,26 @@ puppeteer:
 |38| [چطوری response ها رو به صورت کامل بخونیم؟](#1)|
 |39| [چطوری عمل error handling رو انجام میدی؟](#1)|
 |40| [RxJS چیه؟](#1)|
-|41| [What is subscribing?](#1)|
-|42| [What is an observable?](#1)|
-|43| [What is an observer?](#1)|
-|44| [What is the difference between promise and observable?](#1)|
-|45| [What is multicasting?](#1)|
-|46| [How do you perform error handling in observables?](#1)|
-|47| [What is the short hand notation for subscribe method?](#1)|
-|48| [What are the utility functions provided by RxJS?](#1)|
-|49| [What are observable creation functions?](#1)|
-|50| [What will happen if you do not supply handler for observer?](#1)|
-|51| [What are angular elements?](#1)|
-|52| [What is the browser support of Angular Elements?](#1)|
-|53| [What are custom elements?](#1)|
-|54| [Do I need to bootstrap custom elements?](#1)|
-|55| [Explain how custom elements works internally?](#1)|
-|56| [How to transfer components to custom elements?](#1)|
-|57| [What are the mapping rules between Angular component and custom element?](#1)|
-|58| [How do you define typings for custom elements?](#1)|
-|59| [What are dynamic components?](#1)|
-|60| [What are the various kinds of directives?](#1)|
+|41| [subscribing چیه؟](#1)|
+|42| [منطور از observable یه چیه؟](#1)|
+|43| [observer جیه؟](#1)|
+|44| [تفاوت بین pronise و یه oberservable چیه؟](#1)|
+|45| [multicasting چیه؟](#1)|
+|46| [جطوری روی observevable ها error handling انجام میدی؟](#1)|
+|47| [مختصر شده متصد subscribe چیه؟](#1)|
+|48| [توابع مفیدی روی RxJS وجود دارن چیا هستن؟ ](#1)|
+|49| [توابع سازنده observable چیا هستن؟](#1)|
+|50| [چیه اتفاقی میوفته اگه ما تابع handler برای observer تعریف نکنیم؟](#1)|
+|51| [element های انگولار چیا هستن؟](#1)|
+|52| [پشتیبانی های مرورگر ها برای element های انگولار چیا هستن؟](#1)|
+|53| [element های کاستوم شده چیا هستن؟](#1)|
+|54| [bootstrap کردن element های کاستوم شده لازمه؟](#1)|
+|55| [ساختار داخلی و نجوه کارکردن element های کاستوم شده چطوریه؟](#1)|
+|56| [چطوری کامپوننت عا رو به custom element تبدیل کنیم؟](#1)|
+|57| [قوانین مپ کردن بین کامپوننت های انگولار و element های کاستوم چیه؟](#1)|
+|58| [چطوری تایپ ها رو برای یه element کاستوم تعریف میکنی؟](#1)|
+|59| [کامپوننت های داینامیک چیا هستن؟](#1)|
+|60| [انواع مختلف directive ها کدوما هستن؟](#1)|
 |61| [How do you create directives using CLI?](#1)|
 |62| [Give an example for attribute directives?](#1)|
 |63| [What is Angular Router?](#1)|
@@ -1343,7 +1343,7 @@ puppeteer:
 
      **[فهرست](#فهرست)**
 
-41. ### What is subscribing?
+41. ### subscribing چیه؟
      
      یک نمونه قابل مشاهده تنها زمانی شروع به انتشار مقادیر می کند که شخصی در آن مشترک شود. بنابراین باید با فراخوانی متد **subscribe()** از نمونه، مشترک شوید و یک شی ناظر را برای دریافت اعلان‌ها ارسال کنید.
 
@@ -1376,7 +1376,7 @@ puppeteer:
 
      **[فهرست](#فهرست)**
 
-42. ### What is an observable?
+42. ### منطور از observable یه چیه؟
 
      Observable یک شی منحصر به فرد شبیه به Promise است که می تواند به مدیریت کدهای همگام کمک کند. Observable ها بخشی از زبان جاوا اسکریپت نیستند، بنابراین باید به یک کتابخانه معروف Observable به نام RxJS تکیه کنیم.
       مشاهده پذیرها با استفاده از کلمه کلیدی جدید ایجاد می شوند.
@@ -1400,7 +1400,7 @@ puppeteer:
 
      **[فهرست](#فهرست)**
 
-43. ### What is an observer?
+43. ### observer جیه؟
 
      Observer یک رابط برای مصرف کننده اعلان های مبتنی بر فشار است که توسط Observable ارائه می شود. دارای ساختار زیر است،
      
@@ -1431,7 +1431,7 @@ puppeteer:
 
      **[فهرست](#فهرست)**
 
-44. ### What is the difference between promise and observable?
+44. ### تفاوت بین pronise و یه oberservable چیه؟
 
      در زیر لیستی از تفاوت های بین وعده و قابل مشاهده است،
 
@@ -1444,7 +1444,7 @@ puppeteer:
 
      **[فهرست](#فهرست)**
 
-45. ### What is multicasting?
+45. ### multicasting چیه؟
 
      پخش چندگانه، عمل پخش به فهرستی از چند مشترک در یک اجرا است.
 
@@ -1473,7 +1473,7 @@ puppeteer:
 
      **[فهرست](#فهرست)**
 
-46. ### How do you perform error handling in observables?
+46. ### جطوری روی observevable ها error handling انجام میدی؟
 
      شما می‌توانید با تعیین یک **بازخوانی خطا** روی ناظر به جای تکیه بر try/catch که در محیط ناهمزمان بی‌اثر هستند، خطاها را مدیریت کنید.
 
@@ -1493,7 +1493,7 @@ puppeteer:
 
      **[فهرست](#فهرست)**
 
-47. ### What is the short hand notation for subscribe method?
+47. ### مختصر شده متصد subscribe چیه؟
 
      متد subscribe () می‌تواند تعاریف تابع برگشتی را به‌صورت خطی بپذیرد، برای کنترل‌کننده‌های بعدی، خطا و کامل به عنوان نماد دست کوتاه یا متد Subscribe با آرگومان‌های موقعیتی شناخته می‌شود.
 
@@ -1514,7 +1514,7 @@ puppeteer:
 
      **[فهرست](#فهرست)**
 
-48. ### What are the utility functions provided by RxJS?
+48. ### توابع مفیدی روی RxJS وجود دارن چیا هستن؟ 
 
      کتابخانه RxJS همچنین توابع کاربردی زیر را برای ایجاد و کار با مشاهده پذیرها ارائه می دهد.
 
@@ -1526,7 +1526,7 @@ puppeteer:
 
      **[فهرست](#فهرست)**
 
-49. ### What are observable creation functions?
+49. ### توابع سازنده observable چیا هستن؟
 
      RxJS توابع ایجاد را برای فرآیند ایجاد قابل مشاهده از چیزهایی مانند وعده ها، رویدادها، تایمرها و درخواست های Ajax فراهم می کند. اجازه دهید هر یک از آنها را با یک مثال توضیح دهیم،
 
@@ -1590,19 +1590,19 @@ puppeteer:
 
      **[فهرست](#فهرست)**
 
-50. ### What will happen if you do not supply handler for observer?
+50. ### چیه اتفاقی میوفته اگه ما تابع handler برای observer تعریف نکنیم؟
 
      به طور معمول یک شی ناظر می تواند هر ترکیبی از کنترل کننده های نوع اعلان بعدی، خطا و کامل را تعریف کند. اگر یک کنترل کننده برای یک نوع اعلان ارائه نکنید، ناظر فقط اعلان های آن نوع را نادیده می گیرد.
 
      **[فهرست](#فهرست)**
 
-51. ### What are angular elements?
+51. ### element های انگولار چیا هستن؟
 
      عناصر زاویه‌ای، اجزای زاویه‌ای هستند که به‌عنوان **عناصر سفارشی** (یک استاندارد وب برای تعریف عناصر جدید HTML به روشی فریمورک-آگنوستیک) بسته‌بندی شده‌اند. Angular Elements میزبان یک کامپوننت Angular است که پلی بین داده ها و منطق تعریف شده در کامپوننت و APIهای استاندارد DOM ایجاد می کند، بنابراین راهی برای استفاده از مولفه های Angular در "محیط های غیر زاویه ای" ارائه می دهد.
 
      **[فهرست](#فهرست)**
 
-52. ### What is the browser support of Angular Elements?
+52. ### پشتیبانی های مرورگر ها برای element های انگولار چیا هستن؟
 
      از آنجایی که عناصر Angular به عنوان عناصر سفارشی بسته بندی می شوند، پشتیبانی مرورگر از عناصر زاویه ای مانند پشتیبانی از عناصر سفارشی است.
 
@@ -1618,19 +1618,19 @@ puppeteer:
 
      **[فهرست](#فهرست)**
 
-53. ### What are custom elements?
+53. ### element های کاستوم شده چیا هستن؟
 
      عناصر سفارشی (یا اجزای وب) یک ویژگی پلتفرم وب هستند که HTML را با اجازه دادن به شما برای تعریف برچسبی که محتوای آن توسط کد جاوا اسکریپت ایجاد و کنترل می شود، گسترش می دهد. مرورگر یک «CustomElementRegistry» از عناصر سفارشی تعریف شده را حفظ می کند، که یک کلاس جاوا اسکریپت غیر قابل مشاهده را به یک تگ HTML نگاشت می کند. در حال حاضر این ویژگی توسط کروم، فایرفاکس، اپرا و سافاری پشتیبانی می‌شود و در مرورگرهای دیگر از طریق polyfills در دسترس است.
 
      **[فهرست](#فهرست)**
 
-54. ### Do I need to bootstrap custom elements?
+54. ### bootstrap کردن element های کاستوم شده لازمه؟
      
      خیر، عناصر سفارشی هنگامی که به DOM اضافه می شوند به طور خودکار راه اندازی می شوند (یا شروع می شوند) و وقتی از DOM حذف می شوند به طور خودکار از بین می روند. هنگامی که یک عنصر سفارشی برای هر صفحه ای به DOM اضافه می شود، مانند هر عنصر HTML دیگری به نظر می رسد و رفتار می کند و به دانش خاصی از Angular نیاز ندارد.
 
      **[فهرست](#فهرست)**
 
-55. ### Explain how custom elements works internally?
+55. ### ساختار داخلی و نجوه کارکردن element های کاستوم شده چطوریه؟
 
      در زیر مراحل به ترتیب در مورد عملکرد عناصر سفارشی آمده است،
      1. **App registers custom element with browser:** از تابع «createCustomElement()» برای تبدیل یک مؤلفه به کلاسی استفاده کنید که می‌تواند در مرورگر به عنوان یک عنصر سفارشی ثبت شود.
@@ -1643,7 +1643,7 @@ puppeteer:
 
      **[فهرست](#فهرست)**
 
-56. ### How to transfer components to custom elements?
+56. ### چطوری کامپوننت عا رو به custom element تبدیل کنیم؟
      تبدیل اجزا به عناصر سفارشی شامل **دو** مرحله اصلی است،
       1. **کلاس عنصر سفارشی بسازید:** Angular تابع "createCustomElement()" را برای تبدیل یک جزء Angular (همراه با وابستگی های آن) به یک عنصر سفارشی ارائه می دهد. فرآیند تبدیل رابط «NgElementConstructor» را پیاده‌سازی می‌کند و یک کلاس سازنده ایجاد می‌کند که برای تولید یک نمونه self-bootstrapping از مؤلفه Angular استفاده می‌شود.
       2. ** ثبت کلاس عنصر با مرورگر:** از تابع JS «customElements.define()» برای ثبت سازنده پیکربندی شده و تگ عنصر سفارشی مرتبط با آن با «CustomElementRegistry» مرورگر استفاده می کند. هنگامی که مرورگر با برچسب عنصر ثبت شده روبرو می شود، از سازنده برای ایجاد یک نمونه عنصر سفارشی استفاده می کند.
@@ -1653,7 +1653,7 @@ puppeteer:
 
      **[فهرست](#فهرست)**
 
-57. ### What are the mapping rules between Angular component and custom element?
+57. ### قوانین مپ کردن بین کامپوننت های انگولار و element های کاستوم چیه؟
 
      ویژگی های Component و منطق مستقیماً به ویژگی های HTML و سیستم رویداد مرورگر نگاشت می شوند. اجازه دهید آنها را در دو مرحله توصیف کنیم،
       1. CreateCustomElement() API خصوصیات ورودی کامپوننت را با ویژگی های مربوط به عنصر سفارشی تجزیه می کند. به عنوان مثال، جزء @Input('myInputProp') به عنوان ویژگی عنصر سفارشی 'my-input-prop' تبدیل شد.
@@ -1661,7 +1661,7 @@ puppeteer:
 
      **[فهرست](#فهرست)**
 
-58. ### How do you define typings for custom elements?
+58. ### چطوری تایپ ها رو برای یه element کاستوم تعریف میکنی؟
 
      می‌توانید از انواع «NgElement» و «WithProperties» که از @angular/elements صادر شده‌اند استفاده کنید.
 
@@ -1695,13 +1695,13 @@ puppeteer:
 
      **[فهرست](#فهرست)**
 
-59. ### What are dynamic components?
+59. ### کامپوننت های داینامیک چیا هستن؟
 
      مؤلفه‌های پویا مؤلفه‌هایی هستند که مکان مؤلفه‌ها در برنامه در زمان ساخت تعریف نشده است، یعنی در هیچ قالب زاویه‌ای استفاده نمی‌شوند. اما کامپوننت نمونه سازی می شود و در زمان اجرا در برنامه قرار می گیرد.
 
      **[فهرست](#فهرست)**
 
-60. ### What are the various kinds of directives?
+60. ### انواع مختلف directive ها کدوما هستن؟
 
      عمدتاً سه نوع دستورالعمل وجود دارد:
       1. ** مؤلفه ها ** - این دستورالعمل ها دارای یک الگو هستند.
