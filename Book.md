@@ -135,26 +135,26 @@ puppeteer:
 |88| [macros چیه؟](#1)|
 |89| [چن تا مثال از ارور های مربوط به metatdata بزن؟](#1)|
 |90| [منظور از metadata rewriting چیه؟](#1)|
-|91| [How do you provide configuration inheritance?](#1)|
-|92| [How do you specify angular template compiler options?](#1)|
-|93| [How do you enable binding expression validation?](#1)|
-|94| [What is the purpose of any type cast function?](#1)|
-|95| [What is Non null type assertion operator?](#1)|
-|96| [What is type narrowing?](#1)|
-|97| [How do you describe various dependencies in angular application?](#1)|
-|98| [What is zone?](#1)|
-|99| [What is the purpose of common module?](#1)|
-|100| [What is codelyzer?](#1)|
-|101| [What is angular animation?](#1)|
-|102| [What are the steps to use animation module?](#1)|
-|103| [What is State function?](#1)|
-|104| [What is Style function?](#1)|
-|105| [What is the purpose of animate function?](#1)|
-|106| [What is transition function?](#1)|
-|107| [How to inject the dynamic script in angular?](#1)|
-|108| [What is a service worker and its role in Angular?](#1)|
-|109| [What are the design goals of service workers?](#1)|
-|110| [What are the differences between AngularJS and Angular with respect to dependency injection?](#1)|
+|91| [توی انگولار چطوری وراثت کانفیگ رو انجام میدی؟](#1)|
+|92| [چطوری آپشن های کامپایلرانگولار رو تنظیم میکنی؟](#1)|
+|93| [چطوری اعتبارسنجی مربوط به قسمت های بایند شده رو فعال کنیم؟](#1)|
+|94| [هدف از any type توی cast function چیه؟](#1)|
+|95| [non null تایپ ](#1)|
+|96| [منظور از type narrowing چیه؟](#1)|
+|97| [چطوری dependency های مختلف توی انگولار تعریف میکنی؟](#1)|
+|98| [zone توی انگولار چیه؟](#1)|
+|99| [هدف از ماژول مشترک توی انگولار چیه؟](#1)|
+|100| [codelyzer چیه؟](#1)|
+|101| [angular animation چیه؟](#1)|
+|102| [مراحل استفاده از ماژول های animation چیه؟](#1)|
+|103|  تابع state چیه؟](#1)|
+|104| [هدف از تابع style چیه؟](#1)|
+|105| [هدف از تابع animate چیه؟](#1)|
+|106| [تابع transition چیه؟](#1)|
+|107| [چطوری کد های dynamاسکریپت های)| رو توی کدمون وارد کنیم؟
+|108| [service worker چیه و نقشش توی انگولار چیه؟](#1)|
+|109| [اهدافی که ما با استفاده از service worker دنبال اونا هستیم چیان؟](#1)|
+|110| [تفاوت های بین angularJs و Angular درمورد dependency injection چیا هستن؟](#1)|
 |111| [What is Angular Ivy?](#1)|
 |112| [What are the features included in ivy preview?](#1)|
 |113| [Can I use AOT compilation with Ivy?](#1)|
@@ -2319,7 +2319,7 @@ event های مربوط به router چیا هستن؟events?
 
     **[فهرست](#فهرست)**
 
-91. ### How do you provide configuration inheritance?
+91. ### توی انگولار چطوری وراثت کانفیگ رو انجام میدی؟
 
      Angular Compiler از وراثت پیکربندی از طریق Extend در tsconfig.json در angularCompilerOptions پشتیبانی می کند. به عنوان مثال، پیکربندی از فایل پایه (به عنوان مثال، tsconfig.base.json) ابتدا بارگیری می شود، سپس توسط آنهایی که در فایل پیکربندی ارثی هستند، لغو می شوند.
      
@@ -2344,7 +2344,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-92. ### How do you specify angular template compiler options?
+92. ### چطوری آپشن های کامپایلرانگولار رو تنظیم میکنی؟
 
      گزینه های کامپایلر قالب زاویه ای به عنوان اعضای شی **angularCompilerOptions** در فایل tsconfig.json مشخص شده اند. این گزینه ها در مجاورت گزینه های کامپایلر typescript مشخص می شوند.
      
@@ -2368,7 +2368,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-93. ### How do you enable binding expression validation?
+93. ### چطوری اعتبارسنجی مربوط به قسمت های بایند شده رو فعال کنیم؟
 
      شما می توانید صریحاً با افزودن گزینه کامپایلر **fullTemplateTypeCheck** در "angularCompilerOptions" tsconfig.json پروژه، اعتبار سنجی عبارت binding را فعال کنید. هنگامی که یک خطای نوع در عبارت اتصال الگو تشخیص داده می شود، پیام های خطا تولید می کند.
 
@@ -2401,7 +2401,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-94. ### What is the purpose of any type cast function?
+94. ### هدف از any type توی cast function چیه؟
 
      می توانید بررسی نوع عبارت binding را با استفاده از تابع cast نوع $any() غیرفعال کنید (با احاطه کردن عبارت). در مثال زیر، خطای Property contacts does not exist با فرستادن کاربر به هر نوع سرکوب شده است.
      
@@ -2425,7 +2425,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-95. ### What is Non null type assertion operator?
+95. ### اپراتور non null assertion چیه؟
      
      برای سرکوب خطای Object is assibly 'undefined' می توانید از عملگر اظهاری نوع غیر تهی استفاده کنید. در مثال زیر، ویژگی های کاربر و مخاطب همیشه با هم تنظیم می شوند، به این معنی که اگر کاربر غیر تهی باشد، مخاطب همیشه غیر تهی است. خطا در مثال با استفاده از contact!.email سرکوب شده است.
 
@@ -2452,7 +2452,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-96. ### What is type narrowing?
+96. ### منظور از type narrowing چیه؟
 
      عبارت مورد استفاده در یک دستورالعمل ngIf برای محدود کردن اتحادیه های نوع در کامپایلر الگوی Angular مشابه عبارت if در تایپ اسکریپت استفاده می شود. بنابراین *ngIf به کامپایلر typeScript اجازه می دهد استنباط کند که داده های مورد استفاده در عبارت binding هرگز تعریف نشده نخواهد بود.
 
@@ -2473,7 +2473,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-97. ### How do you describe various dependencies in angular application?
+97. ### چطوری dependency های مختلف توی انگولار تعریف میکنی؟
 
      بخش وابستگی های package.json با در یک برنامه زاویه ای را می توان به صورت زیر تقسیم کرد:
 
@@ -2483,19 +2483,19 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-98. ### What is zone?
+98. ### zone توی انگولار چیه؟
 
      Zone یک زمینه اجرایی است که در تمام وظایف ناهمگام باقی می ماند. هنگامی که عملیات جاوا اسکریپت بومی رویدادها را افزایش می دهد، Angular برای اجرای فرآیندهای تشخیص تغییر Angular به zone.js متکی است.
 
      **[فهرست](#فهرست)**
 
-99. ### What is the purpose of common module?
+99. ### هدف از ماژول مشترک توی انگولار چیه؟
 
      خدمات، لوله‌ها و دستورالعمل‌های مورد نیاز معمولاً توسط ماژول @angular/common ارائه شده است. جدا از این HttpClientModule در زیر angular/common/http@ موجود است.
 
      **[فهرست](#فهرست)**
 
-100. ### What is codelyzer?
+100. ### codelyzer چیه؟
 
      Codelyzer مجموعه ای از قوانین tslint را برای تجزیه و تحلیل کد استاتیک پروژه های Angular TypeScript ارائه می دهد. می توانید تحلیلگر کد استاتیک را روی برنامه های وب، NativeScript، Ionic و غیره اجرا کنید. Angular CLI از این پشتیبانی می کند و می توان از آن به صورت زیر استفاده کرد.
      
@@ -2510,13 +2510,13 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-101. ### What is angular animation?
+101. ### angular animation چیه؟
 
      سیستم انیمیشن Angular بر اساس عملکرد CSS ساخته شده است تا هر خاصیتی را که مرورگر آن را قابل انیمیشن می داند، متحرک کند. این ویژگی‌ها شامل موقعیت‌ها، اندازه‌ها، تبدیل‌ها، رنگ‌ها، حاشیه‌ها و غیره است. ماژول‌های Angular برای انیمیشن‌ها **@angular/animations** و **@angular/platform-browser** هستند و این وابستگی‌ها به طور خودکار به پروژه شما اضافه می‌شوند. شما یک پروژه با استفاده از Angular CLI ایجاد می کنید.
 
      **[فهرست](#فهرست)**
 
-102. ### What are the steps to use animation module?
+102. ### مراحل استفاده از ماژول های animation چیه؟
 
      برای پیاده سازی انیمیشن در پروژه زاویه ای خود باید مراحل زیر را دنبال کنید.
 
@@ -2581,7 +2581,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-103. ### What is State function?
+103. ### تابع state چیه؟
 
      تابع state() Angular برای تعریف حالت های مختلف برای فراخوانی در پایان هر انتقال استفاده می شود. این تابع دو آرگومان می گیرد: یک نام منحصر به فرد مانند open یا بسته و یک تابع style().
 
@@ -2601,7 +2601,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-104. ### What is Style function?
+104. ### هدف از تابع style چیه؟
 
      تابع style برای تعریف مجموعه‌ای از سبک‌ها برای مرتبط کردن با یک نام وضعیت استفاده می‌شود. برای تنظیم ویژگی های سبک CSS باید از آن به همراه تابع state() استفاده کنید. به عنوان مثال، در حالت بسته، دکمه دارای ارتفاع 100 پیکسل، کدورت 0.8 و رنگ زمینه سبز است.
 
@@ -2623,7 +2623,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-105. ### What is the purpose of animate function?
+105. ### هدف از تابع animate چیه؟
 
      انیمیشن‌های Angular روشی قدرتمند برای پیاده‌سازی انیمیشن‌های پیچیده و قانع‌کننده برای اپلیکیشن وب تک صفحه‌ای Angular شما هستند.
      
@@ -2673,7 +2673,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-106. ### What is transition function?
+106. ### تابع transition چیه؟
 
      تابع انتقال انیمیشن برای تعیین تغییراتی که بین یک حالت و حالت دیگر در یک دوره زمانی رخ می دهد استفاده می شود. دو آرگومان را می پذیرد: آرگومان اول عبارتی را می پذیرد که جهت بین دو حالت گذار را مشخص می کند و آرگومان دوم تابع animate() را می پذیرد.
 
@@ -2693,7 +2693,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-107. ### How to inject the dynamic script in angular?
+107. ### چطوری اسکریپت های dynamic رو توی کدمون وارد کنیم؟
 
      با استفاده از DomSanitizer می‌توانیم Html، Style، Script، Url پویا را تزریق کنیم.
 
@@ -2718,13 +2718,13 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-108. ### What is a service worker and its role in Angular?
+108. ### service worker چیه و نقشش توی انگولار چیه؟
 
      Service Worker یک اسکریپت است که در مرورگر وب اجرا می شود و حافظه پنهان یک برنامه را مدیریت می کند. با شروع از نسخه 5.0.0، Angular با یک سرویس کارگر ارائه می شود. Angular service worker برای بهینه سازی تجربه کاربر نهایی از استفاده از یک برنامه کاربردی از طریق اتصال شبکه کند یا غیرقابل اعتماد طراحی شده است، در حالی که خطرات ارائه محتوای قدیمی را نیز به حداقل می رساند.
 
      **[فهرست](#فهرست)**
 
-109. ### What are the design goals of service workers?
+109. ### اهدافی که ما با استفاده از service worker دنبال اونا هستیم چیان؟
 
      1. یک برنامه را مانند نصب یک برنامه بومی کش می کند
      2. یک برنامه در حال اجرا با همان نسخه از همه فایل ها بدون هیچ فایل ناسازگاری به کار خود ادامه می دهد
@@ -2734,7 +2734,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-110. ### What are the differences between AngularJS and Angular with respect to dependency injection?
+110. ### تفاوت های بین angularJs و Angular درمورد dependency injection چیا هستن؟
 
      تزریق وابستگی یک جزء مشترک در AngularJS و Angular است، اما تفاوت‌های کلیدی بین این دو فریم‌ورک در نحوه عملکرد واقعی آن وجود دارد.
 
