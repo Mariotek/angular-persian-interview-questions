@@ -175,28 +175,28 @@ puppeteer:
 |128| [محدودیت هایی که توی declarble class ها داریم چیا هستن؟](#1)|
 |129| [DI token چیه؟](#1)|
 |130| [Angular DSL چیه؟](#1)|
-|131| [What is an rxjs Subject?](#1)|
-|132| [What is Bazel tool?](#1)|
-|133| [What are the advantages of Bazel tool?](#1)|
-|134| [How do you use Bazel with Angular CLI?](#1)|
-|135| [How do you run Bazel directly?](#1)|
-|136| [What is platform in Angular?](#1)|
-|137| [What happens if I import the same module twice?](#1)|
-|138| [How do you select an element with in a component template?](#1)|
-|139| [How do you detect route change in Angular?](#1)|
-|140| [How do you pass headers for HTTP client?](#1)|
-|141| [What is the purpose of differential loading in CLI?](#1)|
-|142| [Is Angular supports dynamic imports?](#1)|
-|143| [What is lazy loading?](#1)|
-|144| [What are workspace APIs?](#1)|
-|145| [How do you upgrade angular version?](#1)|
-|146| [What is Angular Material?](#1)|
-|147| [How do you upgrade location service of angularjs?](#1)|
-|148| [What is NgUpgrade?](#1)|
-|149| [How do you test Angular application using CLI?](#1)|
-|150| [How to use polyfills in Angular application?](#1)|
-|151| [What are the ways to trigger change detection in Angular?](#1)|
-|152| [What are the differences of various versions of Angular?](#1)|
+|131| [rxjs Subject چیه؟](#1)|
+|132| [Bazel tool چیه؟](#1)|
+|133| [مزایای استفاده از ابزار Bazel چیه؟](#1)|
+|134| [چطوری از ابزار Bazel توی CLI انگولار استفاده میکنی؟](#1)|
+|135| [چطوری ابزار Bazel رو مستقیما اجرا میکنی؟](#1)|
+|136| [platform توی انگولار چیه؟](#1)|
+|137| [اگه یه ماژول رو دوبار import کنیم چه اتفاقی میوفته؟](#1)|
+|138| [چطوری یه المنت رو با استفاده از template گامپوننت انتخاب میکنی؟](#1)|
+|139| [چطوری توی انگولار route رو تغییر میدی؟](#1)|
+|140| [چطوری headers رو برای کاربر HTTP میفرستی؟](#1)|
+|141| [هدف از defferentail loading توی CLI چیه؟](#1)|
+|142| [انگولار از dynamic import پشتیبانی میگنه؟](#1)|
+|143| [منظور از lazy loading چیه؟](#1)|
+|144| [](#1)|
+|145| [چطوری ورژن انگولار رو بروزرسانی میکنی؟](#1)|
+|146|  Angular Material چیست؟](#1)|
+|147| [چطوری location service رو توی انگولار اپدیت میکنی؟](#1)|
+|148| [NgUpgrade چیه؟](#1)|
+|149| [چطوری اپلیکیشن انگولارتو با استفاده از CLI تست میکنی؟](#1)|
+|150| [چطوری از polyfill ها توی اپلیکیشن انگولار استفاده میکنی؟](#1)|
+|151| [روش های گه برای فعال سازی change detection استفاده میشن چیا هستن؟](#1)|
+|152| [ورژن های مختلف انگولار چیا هستن و تفاوتشون چیه؟](#1)|
 |153| [What are the security principles in angular?](#1)|
 |154| [What is the reason to deprecate Web Tracing Framework?](#1)|
 |155| [What is the reason to deprecate web worker packages?](#1)|
@@ -3055,7 +3055,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-131. ### what is an rxjs subject in Angular
+131. ### rxjs Subject چیه؟
 
      یک موضوع RxJS نوع خاصی از Observable است که اجازه می‌دهد مقادیر برای بسیاری از Observerها چندپخشی شوند. در حالی که مشاهده پذیرهای ساده یکپارچه هستند (هر مشاهده کننده مشترک دارای اجرای مستقل از Observable است)، سوژه ها چندپخشی هستند.
       
@@ -3083,14 +3083,14 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-132.  ### What is Bazel tool?
+132.  ### Bazel tool چیه؟
 
      Bazel یک ابزار ساخت قدرتمند است که توسط گوگل توسعه یافته و به طور گسترده مورد استفاده قرار می گیرد و می تواند وابستگی های بین بسته های مختلف و اهداف ساخت را پیگیری کند. در Angular8 می توانید برنامه CLI خود را با Bazel بسازید.
      **نکته:** خود فریم ورک Angular با Bazel ساخته شده است.
 
      **[فهرست](#فهرست)**
 
-133.  ### What are the advantages of Bazel tool?
+133.  ### مزایای استفاده از ابزار Bazel چیه؟
 
      1. این امکان را ایجاد می کند که با همان ابزار بک اند و جلویی شما را بسازید
      2. ساخت افزایشی و تست
@@ -3098,7 +3098,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-134. ### How do you use Bazel with Angular CLI?
+134. ### چطوری از ابزار Bazel توی CLI انگولار استفاده میکنی؟
 
      بسته @angular/bazel سازنده ای را ارائه می دهد که به Angular CLI اجازه می دهد از Bazel به عنوان ابزار ساخت استفاده کند.
      1. **Use in an existing applciation:** @angular/bazel را با استفاده از CLI اضافه کنید
@@ -3125,7 +3125,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-135. ### How do you run Bazel directly?
+135. ### چطوری ابزار Bazel رو مستقیما اجرا میکنی؟
 
      گاهی اوقات ممکن است بخواهید سازنده Angular CLI را دور بزنید و Bazel را مستقیماً با استفاده از Bazel CLI اجرا کنید. می توانید با استفاده از بسته @bazel/bazel npm آن را به صورت سراسری نصب کنید. یعنی Bazel CLI در بسته @bazel/bazel موجود است. بعد از اینکه بتوانید دستورات رایج زیر را اعمال کنید،
 
@@ -3141,7 +3141,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-136. ### What is platform in Angular?
+136. ### platform توی انگولار چیه؟
 
      پلتفرم زمینه ای است که یک برنامه Angular در آن اجرا می شود. رایج ترین پلت فرم برای برنامه های Angular یک مرورگر وب است، اما همچنین می تواند یک سیستم عامل برای یک دستگاه تلفن همراه یا یک وب سرور باشد. Runtime-Platform توسط بسته‌های angular/platform-*@ ارائه می‌شود و این بسته‌ها به برنامه‌هایی که از «@angular/core» و «@angular/common» استفاده می‌کنند اجازه می‌دهند در محیط‌های مختلف اجرا شوند.
       به عنوان مثال، Angular می تواند به عنوان چارچوب مستقل از پلت فرم در محیط های مختلف استفاده شود، به عنوان مثال،
@@ -3151,13 +3151,13 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-137. ### What happens if I import the same module twice?
+137. ### اگه یه ماژول رو دوبار import کنیم چه اتفاقی میوفته؟
 
      اگر چندین ماژول یک ماژول را وارد کند، angular آن را فقط یک بار ارزیابی می کند (وقتی اولین بار با ماژول روبرو می شود). از این شرط پیروی می کند حتی ماژول در هر سطحی در سلسله مراتب NgModules وارد شده ظاهر می شود.
 
      **[فهرست](#فهرست)**
 
-138. ### How do you select an element with in a component template?
+138. ### چطوری یه المنت رو با استفاده از template گامپوننت انتخاب میکنی؟
 
      برای دسترسی مستقیم به عناصر موجود در نما می توانید از دستورالعمل `@ViewChild` استفاده کنید. بیایید عنصر ورودی را با یک مرجع بگیریم،
      
@@ -3186,7 +3186,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-139. ### How do you detect route change in Angular?
+139. ### چطوری توی انگولار route رو تغییر میدی؟
 
      در Angular7 می توانید برای تشخیص تغییرات در روتر مشترک شوید. اشتراک رویدادهای روتر به شرح زیر خواهد بود:
 
@@ -3202,7 +3202,7 @@ event های مربوط به router چیا هستن؟events?
      
      <span dir="ltr" align="left">
 
-     ```cmd
+     ```ts
      import { Component } from '@angular/core';
      import { Router, Event, NavigationStart, NavigationEnd, NavigationError } from '@angular/router';
 
@@ -3236,13 +3236,13 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-140. ### How do you pass headers for HTTP client?
+140. ### چطوری headers رو برای کاربر HTTP میفرستی؟
 
      می‌توانید مستقیماً نقشه شی را برای مشتری http ارسال کنید یا کلاس HttpHeaders را برای تهیه هدرها ایجاد کنید.
      
      <span dir="ltr" align="left">
 
-     ```cmd
+     ```ts
      constructor(private _http: HttpClient) {}
      this._http.get('someUrl',{
         headers: {'header1':'value1','header2':'value2'}
@@ -3264,7 +3264,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-141. ### What is the purpose of differential loading in CLI?
+141. ### هدف از defferentail loading توی CLI چیه؟
 
      از انتشار Angular8 به بعد، برنامه‌ها با استفاده از استراتژی بارگذاری تفاضلی از CLI ساخته می‌شوند تا دو باندل جداگانه به عنوان بخشی از برنامه مستقر شما بسازند.
 
@@ -3275,7 +3275,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-142. ### Is Angular supports dynamic imports?
+142. ### انگولار از dynamic import پشتیبانی میگنه؟
 
      بله، Angular 8 از واردات پویا در پیکربندی روتر پشتیبانی می کند. به عنوان مثال، می‌توانید از دستور import برای بارگذاری تنبل ماژول با استفاده از روش «loadChildren» استفاده کنید و توسط IDEها (VSCode و WebStorm)، بسته وب و غیره قابل درک است.
       قبلاً به صورت زیر نوشته شده بودید تا ماژول ویژگی را با تنبلی بارگیری کنید. به اشتباه، اگر در نام ماژول اشتباه تایپی داشته باشید، همچنان رشته را می‌پذیرد و در طول زمان ساخت، خطا می‌دهد.
@@ -3302,7 +3302,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-143. ### What is lazy loading?
+143. ### منظور از lazy loading چیه؟
 
      Lazy loading یکی از کاربردی ترین مفاهیم Angular Routing است. این به ما کمک می کند تا به جای دانلود همه چیز در یک بسته بزرگ، صفحات وب را به صورت تکه ای دانلود کنیم. برای بارگذاری تنبل با بارگیری ناهمزمان ماژول ویژگی برای مسیریابی هر زمان که لازم باشد با استفاده از ویژگی «loadChildren» استفاده می شود. بیایید هر دو ماژول ویژگی «مشتری» و «سفارش» را مانند زیر بارگیری کنیم.
  
@@ -3331,7 +3331,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-144. ### What are workspace APIs?
+144. ### workspace API چیه؟
 
      نسخه Angular 8.0 API های Workspace را معرفی می کند تا خواندن و اصلاح فایل angular.json را برای توسعه دهندگان به جای تغییر دستی آسان تر کند. در حال حاضر، تنها فرمت Storage3 پشتیبانی شده، فرمت مبتنی بر JSON است که توسط Angular CLI استفاده می‌شود. می‌توانید گزینه بهینه‌سازی را برای build target به صورت زیر فعال یا اضافه کنید.
  
@@ -3368,7 +3368,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-145. ### How do you upgrade angular version?
+145. ### چطوری ورژن انگولار رو آپدیت میکنی؟
 
      ارتقای Angular با استفاده از دستور Angular CLI «ng update» همانطور که در زیر ذکر شده است بسیار ساده تر است. به عنوان مثال، اگر از Angular 7 به 8 ارتقا دهید، وارد کردن مسیر لود شده تنبل شما به صورت خودکار به نحو واردات جدید منتقل می شود.
      
@@ -3382,7 +3382,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-146. ### What is Angular Material?
+146. ### Angular Material چیست؟
 
      Angular Material مجموعه ای از اجزای طراحی متریال برای فریم ورک Angular است که از مشخصات طراحی متریال پیروی می کند. با استفاده از Angular Material می توانید Material Design را به راحتی اعمال کنید. نصب را می توان از طریق npm یا نخ انجام داد،
      
@@ -3400,7 +3400,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-147. ### How do you upgrade location service of angularjs?
+147. ### چطوری location service رو توی انگولار اپدیت میکنی؟
 
      اگر از سرویس «$location» در برنامه قدیمی AngularJS خود استفاده می‌کنید، اکنون می‌توانید از «LocationUpgradeModule» (سرویس مکان یکپارچه) استفاده کنید که مسئولیت‌های سرویس «$location» را به سرویس «Location» در Angular می‌گذارد. بیایید این ماژول را مانند زیر به AppModule اضافه کنیم،
  
@@ -3424,13 +3424,13 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-148. ### What is NgUpgrade?
+148. ### NgUpgrade چیه؟
 
      NgUpgrade یک کتابخانه است که توسط تیم Angular گردآوری شده است که می توانید از آن در برنامه های خود برای ترکیب و مطابقت اجزای AngularJS و Angular و پل زدن سیستم های تزریق وابستگی AngularJS و Angular استفاده کنید.
 
      **[فهرست](#فهرست)**
 
-149. ### How do you test Angular application using CLI?
+149. ### چطوری اپلیکیشن انگولارتو با استفاده از CLI تست میکنی؟
 
      Angular CLI همه موارد مورد نیاز را با چارچوب تست Jasmine دانلود و نصب می کند. برای دیدن نتایج آزمون فقط باید «ng test» را اجرا کنید. به‌طور پیش‌فرض، این دستور برنامه را در حالت تماشا می‌سازد و «Karma test runner» را راه‌اندازی می‌کند. خروجی نتایج آزمون به صورت زیر خواهد بود:
      
@@ -3451,7 +3451,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-150. ### How to use polyfills in Angular application?
+150. ### چطوری از polyfill ها توی اپلیکیشن انگولار استفاده میکنی؟
 
      Angular CLI به طور رسمی از polyfills پشتیبانی می کند. هنگامی که یک پروژه جدید با دستور ng new ایجاد می کنید، یک فایل پیکربندی `src/polyfills.ts` به عنوان بخشی از پوشه پروژه شما ایجاد می شود. این فایل شامل اجباری و بسیاری از polyfill های اختیاری به عنوان دستورهای واردات جاوا اسکریپت است. بیایید پلی پرها را دسته بندی کنیم،
 
@@ -3479,7 +3479,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-151. ### What are the ways to trigger change detection in Angular?
+151. ### روش های گه برای فعال سازی change detection استفاده میشن چیا هستن؟
 
      می‌توانید ApplicationRef یا NgZone یا ChangeDetectorRef را به کامپوننت خود تزریق کنید و از روش‌های خاص زیر برای شروع تشخیص تغییر در Angular استفاده کنید. یعنی 3 راه ممکن وجود دارد،
 
@@ -3489,12 +3489,12 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-152. ### What are the differences of various versions of Angular?
+152. ### ورژن های مختلف انگولار چیا هستن و تفاوتشون چیه؟
 
      نسخه های مختلفی از فریم ورک Angular وجود دارد. بیایید ویژگی های تمام نسخه های مختلف را ببینیم،
 
      1. **Angular 1:**
-          * Angular 1 (AngularJS) اولین فریم ورک زاویه ای است که در سال 2010 منتشر شد.
+          * Angular 1 (AngularJS) اولین فریم ورک انگولاری است که در سال 2010 منتشر شد.
           * AngularJS برای دستگاه های تلفن همراه ساخته نشده است.
           * بر پایه کنترلرهایی با معماری MVC ساخته شده است.
      2. **Angular 2:**
