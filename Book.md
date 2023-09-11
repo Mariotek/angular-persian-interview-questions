@@ -246,17 +246,17 @@ puppeteer:
 |199| [چطوری میتونم از SASS توی پروژه انگولار استفاده کنم؟](#1)|
 |200| [هدف از hidden property چیه؟](#1)|
 |201| [فرق بین ngIf و hidden property چیه؟](#1)|
-|202| [What is slice pipe?](#1)|
-|203| [What is index property in ngFor directive?](#1)|
-|204| [What is the purpose of ngFor trackBy?](#1)|
-|205| [What is the purpose of ngSwitch directive?](#1)|
+|202| [slice pipe چیه؟](#1)|
+|203| [برای دابرکتیو ngFor پراپرتی index چیه؟](#1)|
+|204| [هدف از ngFor trackBy چیه؟](#1)|
+|205| [هدف از دایرکتیو ngSwitch  چیه؟](#1)|
 |206| [Is it possible to do aliasing for inputs and outputs?](#1)|
-|207| [What is safe navigation operator?](#1)|
-|208| [Is any special configuration required for Angular9?](#1)|
-|209| [What are type safe TestBed API changes in Angular9?](#1)|
-|210| [Is mandatory to pass static flag for ViewChild?](#1)|
-|211| [What are the list of template expression operators?](#1s)
-|212| [What is the precedence between pipe and ternary operators?](#1s)
+|207| [منظور از اپراتور امن safe navigation چیه؟](#1)|
+|208| [تنظیمات خاصی برای انگولار 9 نیازه؟](#1)|
+|209| [تغییرات تایپ های امن TestBed API توی انگولار 9 چیا بودن؟](#1)|
+|210| [ارسال فلگ static برای ViewChild اجباریه؟](#1)|
+|211| [What are the list of template expression operators?](#1)|
+|212| [What is the precedence between pipe and ternary operators?](#1)|
 |213| [What is an entry component?](#1)|
 |214| [What is a bootstrapped component?](#1)|
 |215| [How do you manually bootstrap an application?](#1)|
@@ -276,7 +276,7 @@ puppeteer:
 |229| [What are the steps to use declaration elements?](#1)|
 |230| [What happens if browserModule used in feature module?](#1)|
 |231| [What are the types of feature modules?](#1)|
-|232| [What is a provider?](#1)|
+|232| [منظور از provider چیه؟](#1)|
 |233| [What is the recommendation for provider scope?](#1)|
 |234| [How do you restrict provider scope to a module?](#1)|
 |235| [How do you provide a singleton service?](#1)|
@@ -285,41 +285,41 @@ puppeteer:
 |238| [What is a shared module?](#1)|
 |239| [Can I share services using modules?](#1)|
 |240| [How do you get current direction for locales??](#1)|
-|241| [What is ngcc?](#1)|
+|241| [ngcc چیه؟](#1)|
 |242| [What classes should not be added to declarations?](#1)|
-|243| [Wat is ngzone?](#1)|
-|244| [What is NoopZone?](#1)|
+|243| [ngzone چیه؟](#1)|
+|244| [NoopZone چیه؟](#1)|
 |245| [How do you create displayBlock components?](#1)|
 |246| [What are the possible data change scenarios for change detection?](#1)|
 |247| [What is a zone context?](#1)|
 |248| [What are the lifecycle hooks of a zone?](#1)|
-|249| [Which are the methods of NgZone used to control change detection?](#1)|
-|250| [How do you change the settings of zonejs?](#1)|
-|251| [How do you trigger an animation?](#1)|
-|252| [How do you configure injectors with providers at different levels?](#1)|
-|253| [Is it mandatory to use injectable on every service class?](#1)|
-|254| [What is an optional dependency?](#1)|
-|255| [What are the types of injector hierarchies?](#1)|
-|256| [What are reactive forms?](#1)|
-|257| [What are dynamic forms?](#1)|
-|258| [What are template driven forms?](#1)|
-|259| [What are the differences between reactive forms and template driven forms?](#1)|
-|260| [What are the different ways to group form controls?](#1)|
-|261| [How do you update specific properties of a form model?](#1)|
-|262| [What is the purpose of FormBuilder?](#1)|
-|263| [How do you verify the model changes in forms?](#1)|
-|264| [What are the state CSS classes provided by ngModel?](#1)|
-|265| [How do you reset the form?](#1)|
-|266| [What are the types of validator functions?](#1)|
-|267| [Can you give an example of built-in validators?](#1)|
-|268| [How do you optimize the performance of async validators?](#1)|
-|269| [How to set ngFor and ngIf on the same element?](#1)|
-|270| [What is host property in css?](#1)|
-|271| [How do you get the current route?](#1)|
-|272| [What is Component Test Harnesses?](#1)|
-|273| [What is the benefit of Automatic Inlining of Fonts?](#1)|
-|274| [What is content projection?](#1)|
-|275| [What is ng-content and its purpose?](#1)|
+|249| [چه متد هایی از ngZone برای کنترل حساسیت تغییر استفاده میشه؟](#1)|
+|250| [جطوری تنظیمات مربوط به zonejs رو تغییر میدی؟](#1)|
+|251| [چطوری یه انیمیشن رو trigger میکنی؟](#1)|
+|252| [چطوری injector ها رو با provider ها برای لول های مختلف کانفیگ میکنی؟](#1)|
+|253| [آیا استفاده از تزریق در هر کلاس service اجباریه؟](#1)|
+|254| [منظور از optional dependency چیه؟](#1)|
+|255| [تایپ های مربوط به injector هرمی چیا هستن؟](#1)|
+|256| [reactive form ها چیا هستن؟](#1)|
+|257| [dynamic form ها چیا هستن؟](#1)|
+|258| [template driven form ها چیا هستن؟](#1)|
+|259| [فرق بین فرم های ری اکتیو و template driven form ها چیا هستن؟](#1)|
+|260| [روش هایی که برای group کردن فرم کنترل ها وجود داره چیا هستن؟](#1)|
+|261| [چطوری پراپرتی های یه فرم مدل رو اپدیت میکنی؟>](#1)|
+|262| [هدف از FormBuilder چیه؟](#1)|
+|263| [چطوری مدل تغییرات توی فرم رو اعتبار سنجی میکنی؟](#1)|
+|264| [کلاس هایی که با  ngModel تامین شدن چیا هستن؟](#1)|
+|265| [چطوری یه فرم رو ریست میکنی؟](#1)|
+|266| [تایپ های مربوط به validator فانکشن چیا هستن؟](#1)|
+|267| [میتونی چن تا مثال از validator های build-in بزنی ؟](#1)|
+|268| [چطوری پرفورمنس validator های async رو بیتشر میکنی؟](#1)|
+|269| [چطوری ngfor  و ngIf برای یه المان همزمان تنظیم کنیم؟](#1)|
+|270| [منظور از پراپرتی host توی css چیه؟](#1)|
+|271| [چطوری route فعلی رو بدست میاری؟](#1)|
+|272| [مهار تست های کامپوننت چیه؟](#1)|
+|273| [مزایای inlining اتوماتیک چیه؟](#1)|
+|274| [content projection چیه؟](#1)|
+|275| [ng-content به چی میگن و هدف از اون چیه؟](#1)|
 
 
 1. ### فریمورک انگولار چیه؟
@@ -4454,7 +4454,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-202. ### What is slice pipe?
+202. ### slice pipe چیه؟
 
      لوله slice برای ایجاد یک آرایه یا رشته جدید حاوی زیرمجموعه (برش) از عناصر استفاده می شود. سینتکس به شکل زیر است:
      
@@ -4503,7 +4503,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-204. ### What is the purpose of ngFor trackBy?
+204. ### هدف از ngFor trackBy چیه؟
 
      هدف اصلی استفاده از *ngFor with trackBy بهینه سازی عملکرد است. معمولاً اگر از NgFor با مجموعه داده‌های بزرگ استفاده می‌کنید، یک تغییر کوچک به یک آیتم با حذف یا اضافه کردن یک مورد، می‌تواند باعث ایجاد آبشاری از دستکاری‌های DOM شود. در این مورد، Angular فقط یک لیست تازه از ارجاعات اشیاء جدید و جایگزینی عناصر DOM قدیمی با تمام عناصر DOM جدید را می بیند. می‌توانید با ارائه یک تابع «trackBy» که فهرست و مورد فعلی را به‌عنوان آرگومان می‌گیرد و باید شناسه منحصربه‌فرد این مورد را برگرداند، به Angular کمک کنید تا موارد اضافه یا حذف شده را ردیابی کند.
 
@@ -4531,7 +4531,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-205. ### What is the purpose of ngSwitch directive?
+205. ### هدف از دایرکتیو ngSwitch  چیه؟
 
      دستورالعمل **NgSwitch** شبیه دستور سوئیچ جاوا اسکریپت است که یک عنصر را از بین چندین عنصر ممکن بر اساس یک شرط سوئیچ نمایش می دهد. در این حالت فقط عنصر انتخاب شده در DOM قرار می گیرد. همراه با دستورات «NgSwitch»، «NgSwitchCase» و «NgSwitchDefault» استفاده شده است.
 
@@ -4581,7 +4581,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-207. ### What is safe navigation operator?
+207. ### منظور از اپراتور امن safe navigation چیه؟
 
      اپراتور navigation  ایمن (؟) (یا به عنوان اپراتور الویس شناخته می شود) برای محافظت در برابر مقادیر null و undefined در مسیرهای ویژگی استفاده می شود، زمانی که شما از وجود یا عدم وجود یک مسیر اطلاع ندارید. یعنی مقدار مسیر شی را در صورت وجود برمی گرداند، در غیر این صورت مقدار null را برمی گرداند.
 
@@ -4599,7 +4599,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-208. ### Is any special configuration required for Angular9?
+208. ### تنظیمات خاصی برای انگولار 9 نیازه؟
 
      شما به پیکربندی خاصی نیاز ندارید. در Angular9، رندر Ivy کامپایلر پیش فرض Angular است. اگرچه Ivy خود Angular8 در دسترس است، باید آن را در فایل tsconfig.json به صورت زیر پیکربندی کنید:
      
@@ -4613,7 +4613,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-209. ### What are type safe TestBed API changes in Angular9?
+209. ### تغییرات تایپ های امن TestBed API توی انگولار 9 چیا بودن؟
 
      Angular 9 با جایگزینی تابع get قدیمی با روش inject جدید، تغییرات ایمن نوع را در تغییرات TestBed API ارائه می‌کند. زیرا روش TestBed.get از نظر نوع ایمن نیست. استفاده به شرح زیر خواهد بود، 
      
@@ -4629,7 +4629,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-210. ### Is mandatory to pass static flag for ViewChild?
+210. ### ارسال فلگ static برای ViewChild اجباریه؟
 
      در Angular 8، پرچم استاتیک برای ViewChild مورد نیاز است. در حالی که در Angular9، دیگر نیازی به عبور از این ویژگی ندارید. هنگامی که با استفاده از «ng update» به Angular9 به‌روزرسانی کردید، انتقال اسکریپت { static: false } را در همه جا حذف می‌کند.
      
@@ -4892,7 +4892,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-232. ### What is a provider?
+232. ### منظور از provider چیه؟
 
      ارائه دهنده دستورالعمل سیستم تزریق وابستگی در مورد چگونگی به دست آوردن ارزش برای وابستگی (خدمات با نام مستعار ایجاد شده) است. این سرویس را می توان با استفاده از Angular CLI به شرح زیر ارائه داد:
  
@@ -5083,7 +5083,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-241. ### What is ngcc?
+241. ### ngcc چیه؟
 
      NGCC (کامپایلر سازگاری زاویه ای) ابزاری است که Node_Module را با NDEDULE با NDIV NGC به قالب سازگار با پیچک ساخته می کند. اسکریپت `postinstall` از pack.json مطمئن خواهد شد که node_modules شما با رندر پیچک سازگار خواهد بود.
      
@@ -5112,7 +5112,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-243. ### What is NgZone?
+243. ### NgZone چیه؟
 
      Angular خدماتی به نام NGZONE را ارائه می دهد که منطقه ای به نام "Angular" ایجاد می کند تا در صورت رضایت از شرایط زیر ، به طور خودکار تشخیص تغییر را ایجاد کند. 
      1. هنگامی که یک عملکرد همگام سازی یا ASYNC اجرا می شود. 
@@ -5120,7 +5120,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-244. ### What is NoopZone?
+244. ### NoopZone چیه؟
 
     منطقه به طور پیش فرض در برنامه های زاویه ای بارگیری و مورد نیاز است و به زاویه کمک می کند تا بداند چه موقع باعث تشخیص تغییر می شود. به این ترتیب ، این باعث می شود که توسعه دهندگان Sures روی توسعه برنامه و نه اصلی ترین قسمت زاویه ای متمرکز شوند. همچنین می توانید از Angular بدون منطقه استفاده کنید اما تشخیص تغییر باید به تنهایی اجرا شود و «Zone Zone» باید در فرآیند bootstrap پیکربندی شود. 
      بیایید دو مرحله زیر را برای حذف Zone.js دنبال کنیم. 
@@ -5327,7 +5327,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-249. ### What are the methods of NgZone used to control change detection?
+249. ### چه متد هایی از ngZone برای کنترل حساسیت تغییر استفاده میشه؟
 
      سرویس NGZONE یک روش `run () را ارائه می دهد که به شما امکان می دهد عملکردی را در داخل منطقه زاویه ای اجرا کنید. این عملکرد برای اجرای API های شخص ثالث که توسط منطقه اداره نمی شوند و باعث تشخیص تغییر خودکار در زمان صحیح می شوند ، استفاده می شود.
      
@@ -5371,7 +5371,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-250. ### How do you change the settings of zonejs?
+250. ### جطوری تنظیمات مربوط به zonejs رو تغییر میدی؟
 
      شما می توانید با پیکربندی آنها در یک پرونده جداگانه ، تنظیمات منطقه را تغییر داده و درست پس از واردات Zonejs وارد کنید. 
       به عنوان مثال ، شما می توانید Patch Monkey RequestAnimationFrame () را غیرفعال کنید تا از تغییر برای به روزرسانی داده به عنوان یک تنظیم جلوگیری کنید و از وقایع DOM (یک رویداد Mousemove یا Scroll) جلوگیری کنید تا تغییر تغییر را ایجاد کند. بیایید بگوییم پرونده جدید به نام Zone-flags.js ،
@@ -5404,7 +5404,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-251. ### How do you trigger an animation?
+251. ### چطوری یه انیمیشن رو trigger میکنی؟
 
      Angular یک عملکرد "ماشه ()" برای انیمیشن را به منظور جمع آوری حالت ها و انتقال با یک نام انیمیشن خاص فراهم می کند تا بتوانید آن را به عنصر تحریک در الگوی HTML وصل کنید. این عملکرد را برای تغییرات تماشا می کند و هنگام تغییر ، اقدامات را آغاز می کند. 
       به عنوان مثال ، بیایید Trigger به نام "Updown" ایجاد کنیم و آن را به عنصر دکمه وصل کنیم.
@@ -5452,7 +5452,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-252. ### How do you configure injectors with providers at different levels?
+252. ### چطوری injector ها رو با provider ها برای لول های مختلف کانفیگ میکنی؟
 
      با تعیین مقدار ابرداده می توانید انژکتورها را با ارائه دهندگان در سطوح مختلف برنامه خود پیکربندی کنید. پیکربندی می تواند در یکی از سه مکان اتفاق بیفتد ،
 
@@ -5462,7 +5462,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-253. ### Is it mandatory to use injectable on every service class?
+253. ### آیا استفاده از تزریق در هر کلاس خدمات اجباریه؟
 
      نه. اگر کلاس دارای دکوراتورهای زاویه ای دیگری بر روی آن باشد یا هیچ وابستگی نداشته باشد ، دکوراتور `injectable ()` `injectable () لازم نیست. اما نکته مهم در اینجا هر کلاس است که با زاویه تزریق می شود تزئین شده است. 
       یعنی اگر دکوراتور را اضافه کنیم ، ابرداده "طراحی: پارامترها" اضافه می شود ، و تزریق وابستگی می تواند کار خود را انجام دهد. این دلیل دقیق اضافه کردن دکوراتور injectable () در یک سرویس در صورتی است که این سرویس دارای برخی وابستگی ها باشد. 
@@ -5541,7 +5541,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-254. ### What is an optional dependency?
+254. ### منظور از optional dependency چیه؟
 
      وابستگی اختیاری یک دکوراتور پارامتر است که در پارامترهای سازنده مورد استفاده قرار می گیرد ، که این پارامتر را به عنوان یک وابستگی اختیاری نشان می دهد. به همین دلیل ، در صورت عدم یافتن وابستگی ، چارچوب DI تهی را تهی می کند. 
       به عنوان مثال ، اگر شما یک ارائه دهنده logger را در هیچ کجا ثبت نکنید ، انژکتور مقدار logger (یا سرویس logger) را در کلاس زیر تنظیم می کند.
@@ -5564,7 +5564,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-255. ### What are the types of injector hierarchies?
+255. ### تایپ های مربوط به injector هرمی چیا هستن؟
 
      There are two types of injector hierarchies in Angular
 
@@ -5573,7 +5573,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-256. ### What are reactive forms?
+256. ### reactive form ها چیا هستن؟
 
      فرم های واکنشی یک رویکرد مدل محور برای ایجاد فرم ها به سبک واکنشی است (ورودی های فرم با گذشت زمان تغییر می کنند). اینها در اطراف جریانهای قابل مشاهده ساخته شده اند ، جایی که ورودی ها و مقادیر فرم به عنوان جریان مقادیر ورودی ارائه می شوند. بیایید مراحل زیر را برای ایجاد فرم های واکنشی دنبال کنیم ،
      1. ماژول فرم های واکنشی را ثبت کنید که دستورالعمل های واکنش پذیر را در برنامه شما اعلام می کند
@@ -5654,14 +5654,14 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-257. ### What are dynamic forms?
+257. ### dynamic form ها چیا هستن؟
 
      فرم های پویا الگویی است که در آن ما یک فرم را به صورت پویا بر اساس ابرداده می سازیم که یک مدل شی تجاری را توصیف می کند. می توانید آنها را بر اساس API فرم واکنشی ایجاد کنید.
 
      **[فهرست](#فهرست)**
 
 
-258. ### What are template driven forms?
+258. ### template driven form ها چیا هستن؟
 
      فرم های محور الگوی فرم های مدل محور هستند که در آن می نویسید که منطق ، اعتبار سنجی ، کنترل و غیره را در قسمت الگوی کد با استفاده از دستورالعمل ها می نویسید. آنها برای سناریوهای ساده مناسب هستند و از اتصال دو طرفه با نحو [(ngmodel)] استفاده می کنند. 
       به عنوان مثال ، می توانید با دنبال کردن مراحل ساده زیر ، فرم ثبت را به راحتی ایجاد کنید ،
@@ -5772,7 +5772,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-259. ### What are the differences between reactive forms and template driven forms?
+259. ### فرق بین فرم های ری اکتیو و template driven form ها چیا هستن؟
      
     در زیر تفاوت های اصلی بین اشکال واکنشی و فرم های محور الگو وجود دارد 
 
@@ -5788,7 +5788,7 @@ event های مربوط به router چیا هستن؟events?
      **[فهرست](#فهرست)**
 
 
-260. ### What are the different ways to group form controls?
+260. ### روش هایی که برای group کردن فرم کنترل ها وجود داره چیا هستن؟
 
      اشکال واکنشی دو روش برای گروه بندی چندین کنترل مرتبط را ارائه می دهد. 
 
@@ -5950,7 +5950,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-261. ### How do you update specific properties of a form model?
+261. ### چطوری پراپرتی های یه فرم مدل رو اپدیت میکنی؟>
 
      برای به روزرسانی خصوصیات خاص تعریف شده در مدل فرم می توانید از روش `patchValue () استفاده کنید. به عنوان مثال ، می توانید نام و خیابان مشخصات خاص را با کلیک بر روی دکمه Update همانطور که در زیر آمده است ، به روز کنید.
  
@@ -5985,7 +5985,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-262. ### What is the purpose of FormBuilder?
+262. ### هدف از FormBuilder چیه؟
      
      FormBuilder به عنوان شکر نحوی برای ایجاد آسان نمونه هایی از یک فرمل ، فرم گروه یا فرم آررای استفاده می شود. این برای کاهش میزان دیگ بخار مورد نیاز برای ساخت اشکال واکنشی پیچیده مفید است. این به عنوان یک کلاس یاور تزریقی بسته `@angular/forms" در دسترس است.
 
@@ -6014,7 +6014,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-263. ### How do you verify the model changes in forms?
+263. ### چطوری مدل تغییرات توی فرم رو اعتبار سنجی میکنی؟
 
      شما می توانید یک ویژگی دریافت کننده (بیایید بگوییم ، تشخیصی) را در داخل مؤلفه اضافه کنید تا یک نمایش JSON از مدل را در طول توسعه بازگرداند. این برای تأیید اینکه آیا مقادیر واقعاً از جعبه ورودی به مدل جریان دارند و برعکس یا خیر ، مفید است.
      
@@ -6048,7 +6048,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-264. ### What are the state CSS classes provided by ngModel?
+264. ### کلاس هایی که با  ngModel تامین شدن چیا هستن؟
 
      دستورالعمل NGMODEL کنترل فرم را با کلاسهای ویژه CSS زاویه ای به روز می کند تا وضعیت آن را منعکس کند. بیایید لیست کلاس ها را با فرمت جدولی پیدا کنیم ، 
 
@@ -6060,7 +6060,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-265. ### How do you reset the form?
+265. ### چطوری یه فرم رو ریست میکنی؟
 
     در یک فرم مدل محور ، می توانید فرم را فقط با فراخوانی تابع "تنظیم مجدد ()" در مدل فرم ما تنظیم کنید. 
       به عنوان مثال ، می توانید مدل فرم را در ارسال به شرح زیر تنظیم کنید ،
@@ -6082,7 +6082,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-266. ### What are the types of validator functions?
+266. ### تایپ های مربوط به validator فانکشن چیا هستن؟
 
      در اشکال واکنشی ، اعتبار سنج ها می توانند توابع همزمان یا ناهمزمان باشند ، 
      
@@ -6106,7 +6106,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-267. ### Can you give an example of built-in validators?
+267. ### میتونی چن تا مثال از validator های build-in بزنی ؟
 
      n فرم های واکنشی ، می توانید از اعتبار سنجی داخلی مانند "مورد نیاز" و "minl طول" در کنترل فرم ورودی خود استفاده کنید. به عنوان مثال ، فرم ثبت نام می تواند این اعتبار سنج ها را در قسمت ورودی نام داشته باشد
  
@@ -6128,7 +6128,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-268. ### How do you optimize the performance of async validators?
+268. ### چطوری پرفورمنس validator های async رو بیتشر میکنی؟
 
      از آنجا که همه اعتبار سنج ها پس از هر تغییر ارزش فرم اجرا می شوند ، با ضربه زدن به API خارجی در هر کلید ، تأثیر عمده ای بر عملکرد با اعتبار سنج های ASYNC ایجاد می کند. این وضعیت را می توان با تأخیر در اعتبار فرم با تغییر ویژگی UpdateON از تغییر (پیش فرض) برای ارسال یا تاری ، از آن جلوگیری کرد. 
       استفاده بر اساس انواع فرم متفاوت خواهد بود.
@@ -6157,7 +6157,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-269. ### How to set ngFor and ngIf on the same element?
+269. ### چطوری ngfor  و ngIf برای یه المان همزمان تنظیم کنیم؟
      
      بعضی اوقات ممکن است شما نیاز به NGFOR و NGIF در همان عنصر داشته باشید اما متأسفانه قصد دارید در زیر خطای الگو با آن روبرو شوید.
  
@@ -6200,7 +6200,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-270. ### What is host property in css?
+270. ### منظور از پراپرتی host توی css چیه؟
 
      از انتخاب کننده شبه کلاس "میزبان" برای هدف قرار دادن سبک های موجود در عنصری که میزبان مؤلفه است استفاده می شود. از آنجا که عنصر میزبان در الگوی مؤلفه والدین قرار دارد ، شما نمی توانید از طریق سایر مؤلفه ها به وسیله دیگر به عنصر میزبان برسید. 
      به عنوان مثال ، شما می توانید یک مرز برای عنصر والدین ایجاد کنید ، همانطور که در زیر وجود دارد ،
@@ -6222,7 +6222,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-271. ### How do you get the current route?
+271. ### چطوری route فعلی رو بدست میاری؟
 
      در Angular ، یک ویژگی url از بسته روتر برای رسیدن به مسیر فعلی وجود دارد. شما باید چند مرحله زیر را دنبال کنید ،
 
@@ -6261,25 +6261,25 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-272. ### What is Component Test Harnesses?
+272. ### مهار تست های کامپوننت چیه؟
 
      مهار مؤلفه یک API آزمایش در اطراف یک دستورالعمل یا مؤلفه زاویه ای است تا با مخفی کردن جزئیات اجرای از مجموعه های آزمایش ، تست ها را ساده تر کند. این می تواند بین تست های واحد ، تست های ادغام و تست های پایان به پایان به اشتراک گذاشته شود. ایده برای مهارهای مؤلفه از الگوی ** pageObject ** که معمولاً برای آزمایش ادغام استفاده می شود ، حاصل می شود.
 
      **[فهرست](#فهرست)**
      
-273. ### What is the benefit of Automatic Inlining of Fonts?
+273. ### مزایای inlining اتوماتیک چیه؟
 
      در طول زمان کامپایل ، Angular CLI فونت هایی را که برنامه شما از آن استفاده می کند ، بارگیری و درون خطی می کند. این به روزرسانی عملکرد اولین رنگ محتوا (FCP) را سرعت می بخشد و این ویژگی به طور پیش فرض در برنامه های ساخته شده با نسخه 11 فعال می شود.
 
      **[فهرست](#فهرست)**
 
-274. ### What is content projection?
+274. ### content projection چیه؟
 
      طرح ریزی محتوا الگویی است که در آن شما محتوای مورد نظر خود را در داخل یک مؤلفه دیگر وارد می کنید یا پروژه می کنید.
    
      **[فهرست](#فهرست)**
 
-275. ### What is ng-content and its purpose?
+275. ### ng-به چی میگن و هدف از اون چیه؟content 
 
      از Content NG برای وارد کردن محتوا به صورت پویا در مؤلفه استفاده می شود که به افزایش قابلیت استفاده مجدد مؤلفه کمک می کند.
      
