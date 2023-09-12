@@ -65,55 +65,55 @@ puppeteer:
 |18| [ساختار Dependency توی انگولار چطوری چیده میشه؟](#ساختار-Dependency-توی-انگولار-چطوری-چیده-میشه؟)|
 |19| [هدف از AsyncPipe چیه؟](#هدف-از-AsyncPipe-چیه؟)|
 |20| [بین فایل template داخلی و خارجی کدومو باید انتخاب کرد؟](#بین-فایل-template-داخلی-و-خارجی-کدومو-باید-انتخاب-کرد؟)|
-|21| [هدف از directive ngFor چی هستش؟](#1)|
-|22| [هدف از directive ngIf چیه؟](#1)|
-|23| [اگه از تگ script توی یه templete استفاده کنیم چه اتفاقی میوفته؟](#1)|
-|24| [منظور از interpolation چیه؟](#1)|
-|25| [template expressions ها چیا هستن?](#1)|
-|26| [template statements ها چیا هستن؟](#1)|
-|27| [چطوری دیتاهایی که bind شدن رو طبقه بندی میکنی؟](#1)|
-|28| [pipe ها چیا هستن؟](#1)|
-|29| [یه pipe منظور از پارامتردار شده چیه؟](#1)|
-|30| [چطوری زنجیره ای از pipe ها میسازی؟](#1)|
-|31| [منظور از pipe سفارشی شده چیه؟](#1)|
-|32| [یه مثال از pipe سفارشی شده بزن؟](#1)|
-|33| [فرق بین pure pipe و impure pipe چیه؟](#1)|
-|34| [منظور از botstrapping module چیه؟](#1)|
-|35| [observable ها چیا هستن؟](#1)|
-|36| [HttpClient چیه و مزیت های اون چیا هستن؟](#1)|
-|37| [چطوری از HttpClient استفاده کنیم؟](#1)|
-|38| [چطوری response ها رو به صورت کامل بخونیم؟](#1)|
-|39| [چطوری عمل error handling رو انجام میدی؟](#1)|
-|40| [RxJS چیه؟](#1)|
-|41| [subscribing چیه؟](#1)|
-|42| [منطور از observable یه چیه؟](#1)|
-|43| [observer جیه؟](#1)|
-|44| [تفاوت بین pronise و یه oberservable چیه؟](#1)|
-|45| [multicasting چیه؟](#1)|
-|46| [جطوری روی observevable ها error handling انجام میدی؟](#1)|
-|47| [مختصر شده متصد subscribe چیه؟](#1)|
-|48| [توابع مفیدی روی RxJS وجود دارن چیا هستن؟ ](#1)|
-|49| [توابع سازنده observable چیا هستن؟](#1)|
-|50| [چیه اتفاقی میوفته اگه ما تابع handler برای observer تعریف نکنیم؟](#1)|
-|51| [element های انگولار چیا هستن؟](#1)|
-|52| [پشتیبانی های مرورگر ها برای element های انگولار چیا هستن؟](#1)|
-|53| [element های کاستوم شده چیا هستن؟](#1)|
-|54| [bootstrap کردن element های کاستوم شده لازمه؟](#1)|
-|55| [ساختار داخلی و نجوه کارکردن element های کاستوم شده چطوریه؟](#1)|
-|56| [چطوری کامپوننت عا رو به custom element تبدیل کنیم؟](#1)|
-|57| [قوانین مپ کردن بین کامپوننت های انگولار و element های کاستوم چیه؟](#1)|
-|58| [چطوری تایپ ها رو برای یه element کاستوم تعریف میکنی؟](#1)|
-|59| [کامپوننت های داینامیک چیا هستن؟](#1)|
-|60| [انواع مختلف directive ها کدوما هستن؟](#1)|
-|61| [چطوری با استفاده از CLI یه directive درست میکنی؟](#1)|
-|62| [یه مثال از استفاده directive با اتریبیوت بزن؟](#1)|
-|63| [Angular Router چیه؟](#1)|
-|64| [هدف از base href tag چیه؟](#1)|
-|65| [import های مربوط به router چیه؟](#1)|
-|66| [router outlet چیه؟](#1)|
-|67| [router link ها چیا هستن؟](#1)|
-|68| [منظور از router link های active جیه؟](#1)|
-|69| [منظور از router state چیه؟](#1)|
+|21| [هدف از directive ngFor چی هستش؟](#هدف-از-directive-ngFor-چی-هستش؟)|
+|22| [هدف از directive ngIf چیه؟](#هدف-از-directive-ngIf-چیه؟)|
+|23| [اگه از تگ script توی یه templete استفاده کنیم چه اتفاقی میوفته؟](#اگه-از-تگ-script-توی-یه-templete-استفاده-کنیم-چه-اتفاقی-میوفته؟)|
+|24| [منظور از interpolation چیه؟](#منظور-از-interpolation-چیه؟)|
+|25| [template expressions ها چیا هستن?](#template-expressions-ها-چیا-هستن?)|
+|26| [template statements ها چیا هستن؟](#template-statements-ها-چیا-هستن؟)|
+|27| [چطوری دیتاهایی که bind شدن رو طبقه بندی میکنی؟](#چطوری-دیتاهایی-که-bind-شدن-رو-طبقه-بندی-میکنی؟)|
+|28| [pipe ها چیا هستن؟](#pipe-ها-چیا-هستن؟)|
+|29| [یه pipe منظور از پارامتردار شده چیه؟](#یه-pipe-منظور-از-پارامتردار-شده-چیه؟)|
+|30| [چطوری زنجیره ای از pipe ها میسازی؟](#چطوری-زنجیره-ای-از-pipe-ها-میسازی؟)|
+|31| [منظور از pipe سفارشی شده چیه؟](#منظور-از-pipe-سفارشی-شده-چیه؟)|
+|32| [یه مثال از pipe سفارشی شده بزن؟](#یه-مثال-از-pipe-سفارشی-شده-بزن؟)|
+|33| [فرق بین pure pipe و impure pipe چیه؟](#فرق-بین-pure-pipe-و-impure-pipe-چیه؟)|
+|34| [منظور از botstrapping module چیه؟](#منظور-از-botstrapping-module-چیه؟)|
+|35| [observable ها چیا هستن؟](#observable-ها-چیا-هستن؟)|
+|36| [HttpClient چیه و مزیت های اون چیا هستن؟](#HttpClient-چیه-و-مزیت-های-اون-چیا-هستن؟)|
+|37| [چطوری از HttpClient استفاده کنیم؟](#چطوری-از-HttpClient-استفاده-کنیم؟)|
+|38| [چطوری response ها رو به صورت کامل بخونیم؟](#چطوری-response-ها-رو-به-صورت-کامل-بخونیم؟)|
+|39| [چطوری عمل error handling رو انجام میدی؟](#چطوری-عمل-error-handling-رو-انجام-میدی؟)|
+|40| [RxJS چیه؟](#RxJS-چیه؟)|
+|41| [subscribing چیه؟](#subscribing-چیه؟)|
+|42| [منطور از observable یه چیه؟](#منطور-از-observable-یه-چیه؟)|
+|43| [observer جیه؟](#observer-جیه؟)|
+|44| [تفاوت بین pronise و یه oberservable چیه؟](#تفاوت-بین-pronise-و-یه-oberservable-چیه؟)|
+|45| [multicasting چیه؟](#multicasting-چیه؟)|
+|46| [جطوری روی observevable ها error handling انجام میدی؟](#جطوری-روی-observevable-ها-error-handling-انجام-میدی؟)|
+|47| [مختصر شده متصد subscribe چیه؟](#مختصر-شده-متصد-subscribe-چیه؟)|
+|48| [توابع مفیدی روی RxJS وجود دارن چیا هستن؟](#توابع-مفیدی-روی-RxJS-وجود-دارن-چیا-هستن؟)|
+|49| [توابع سازنده observable چیا هستن؟](#توابع-سازنده-observable-چیا-هستن؟)|
+|50| [چیه اتفاقی میوفته اگه ما تابع handler برای observer تعریف نکنیم؟](#چیه-اتفاقی-میوفته-اگه-ما-تابع-handler-برای-observer-تعریف-نکنیم؟)|
+|51| [element های انگولار چیا هستن؟](#element-های-انگولار-چیا-هستن؟)|
+|52| [پشتیبانی های مرورگر ها برای element های انگولار چیا هستن؟](#پشتیبانی-های-مرورگر-ها-برای-element-های-انگولار-چیا-هستن؟)|
+|53| [element های کاستوم شده چیا هستن؟](#element-های-کاستوم-شده-چیا-هستن؟)|
+|54| [bootstrap کردن element های کاستوم شده لازمه؟](#bootstrap-کردن-element-های-کاستوم-شده-لازمه؟)|
+|55| [ساختار داخلی و نجوه کارکردن element های کاستوم شده چطوریه؟](#ساختار-داخلی-و-نجوه-کارکردن-element-های-کاستوم-شده-چطوریه؟)|
+|56| [چطوری کامپوننت عا رو به custom element تبدیل کنیم؟](#چطوری-کامپوننت-عا-رو-به-custom-element-تبدیل-کنیم؟)|
+|57| [قوانین مپ کردن بین کامپوننت های انگولار و element های کاستوم چیه؟](#قوانین-مپ-کردن-بین-کامپوننت-های-انگولار-و-element-های-کاستوم-چیه؟)|
+|58| [چطوری تایپ ها رو برای یه element کاستوم تعریف میکنی؟](#چطوری-تایپ-ها-رو-برای-یه-element-کاستوم-تعریف-میکنی؟)|
+|59| [کامپوننت های داینامیک چیا هستن؟](#کامپوننت-های-داینامیک-چیا-هستن؟)|
+|60| [انواع مختلف directive ها کدوما هستن؟](#انواع-مختلف-directive-ها-کدوما-هستن؟)|
+|61| [چطوری با استفاده از CLI یه directive درست میکنی؟](#چطوری-با-استفاده-از-CLI-یه-directive-درست-میکنی؟)|
+|62| [یه مثال از استفاده directive با اتریبیوت بزن؟](#یه-مثال-از-استفاده-directive-با-اتریبیوت-بزن؟)|
+|63| [Angular Router چیه؟](#Angular-Router-چیه؟)|
+|64| [هدف از base href tag چیه؟](#هدف-از-base-href-tag-چیه؟)|
+|65| [import های مربوط به router چیه؟](#import-های-مربوط-به-router-چیه؟)|
+|66| [router outlet چیه؟](#router-outlet-چیه؟)|
+|67| [router link ها چیا هستن؟](#router-link-ها-چیا-هستن؟)|
+|68| [منظور از router link های active جیه؟](#منظور-از-router-link-های-active-جیه؟)|
+|69| [منظور از router state چیه؟](#منظور-از-router-state-چیه؟)|
 |70| [event های مربوط به router چیا هستن؟](#1)|
 |71| [منظور از activated route چیه؟](#1)|
 |72| [چطوری router های پروژه ات رو تعریف میکنی؟](#1)|
@@ -147,11 +147,11 @@ puppeteer:
 |100| [codelyzer چیه؟](#1)|
 |101| [angular animation چیه؟](#1)|
 |102| [مراحل استفاده از ماژول های animation چیه؟](#1)|
-|103|  تابع state چیه؟](#1)|
+|103| [تابع state چیه؟](#1)|
 |104| [هدف از تابع style چیه؟](#1)|
 |105| [هدف از تابع animate چیه؟](#1)|
 |106| [تابع transition چیه؟](#1)|
-|107| [چطوری کد های dynamاسکریپت های)| رو توی کدمون وارد کنیم؟
+|107| [چطوری کد های dynamاسکریپت های رو توی کدمون وارد کنیم؟](#1)|
 |108| [service worker چیه و نقشش توی انگولار چیه؟](#1)|
 |109| [اهدافی که ما با استفاده از service worker دنبال اونا هستیم چیان؟](#1)|
 |110| [تفاوت های بین angularJs و Angular درمورد dependency injection چیا هستن؟](#1)|
@@ -188,9 +188,9 @@ puppeteer:
 |141| [هدف از defferentail loading توی CLI چیه؟](#1)|
 |142| [انگولار از dynamic import پشتیبانی میگنه؟](#1)|
 |143| [منظور از lazy loading چیه؟](#1)|
-|144| [](#1)|
+|144| [منظور از workspace API چیه؟](#1)|
 |145| [چطوری ورژن انگولار رو بروزرسانی میکنی؟](#1)|
-|146|  Angular Material چیست؟](#1)|
+|146| [Angular Material چیه؟](#1)|
 |147| [چطوری location service رو توی انگولار اپدیت میکنی؟](#1)|
 |148| [NgUpgrade چیه؟](#1)|
 |149| [چطوری اپلیکیشن انگولارتو با استفاده از CLI تست میکنی؟](#1)|
@@ -215,7 +215,7 @@ puppeteer:
 |168| [چطوری از sanitizaltion خودکار جلوگیری میکنی؟](#1)|
 |169| [استفاده کردن مستقیم از DOM API مشکل امنیتی داره یا نه؟](#1)|
 |170| [DOM sanitizer چیه؟](#1)|
-|171| [چطوری سمت سرور از حمله XSS توی انگولار جلوگیری میکنی؟](#1n)
+|171| [چطوری سمت سرور از حمله XSS توی انگولار جلوگیری میکنی؟](#1)|
 |172| [انگولار از حمله های سطح http جلوگیری میکنه؟](#1)|
 |173| [Http Interceptors ها چیا هستن؟](#1)|
 |174| [کاربرد های مربوط به HTTP interceptor ها چیا هستن؟](#1)|
@@ -255,44 +255,44 @@ puppeteer:
 |208| [تنظیمات خاصی برای انگولار 9 نیازه؟](#1)|
 |209| [تغییرات تایپ های امن TestBed API توی انگولار 9 چیا بودن؟](#1)|
 |210| [ارسال فلگ static برای ViewChild اجباریه؟](#1)|
-|211| [What are the list of template expression operators?](#1)|
-|212| [What is the precedence between pipe and ternary operators?](#1)|
-|213| [What is an entry component?](#1)|
-|214| [What is a bootstrapped component?](#1)|
-|215| [How do you manually bootstrap an application?](#1)|
-|216| [Is it necessary for bootstrapped component to be entry component?](#1)|
-|217| [What is a routed entry component?](#1)|
-|218| [Why is not necessary to use entryComponents array every time?](#1)|
-|219| [Do I still need to use entryComponents array in Angular9?](#1)|
-|220| [Is it all components generated in production build?](#1)|
-|221| [What is Angular compiler?](#1)|
-|222| [What is the role of ngModule metadata in compilation process?](#1)|
-|223| [How does angular finds components, directives and pipes?](#1)|
-|224| [Give few examples for NgModules?](#1)|
-|225| [What are feature modules?](#1)|
-|226| [What are the imported modules in CLI generated feature modules?](#1)|
-|227| [What are the differences between ngmodule and javascript module?](#1)|
-|228| [What are the possible errors with declarations?](#1)|
-|229| [What are the steps to use declaration elements?](#1)|
-|230| [What happens if browserModule used in feature module?](#1)|
-|231| [What are the types of feature modules?](#1)|
+|211| [لیست مربوط به اپراتور های template expression چیا هستن؟](#1)|
+|212| [فرق بین pipe و ternary operator ها چیه؟](#1)|
+|213| [منظور از entry component چیه؟](#1)|
+|214| [منظور از bootstraped component چیه؟](#1)|
+|215| [چطوری به صورت دستی یه app رو bootstrap میکنی؟](#1)|
+|216| [لازمه که یه کامپوننت رو بوت استرپ کنیم که به یه  entry component تبدیل بشه؟](#1)|
+|217| [منظور از routed entry component چیه؟](#1)|
+|218| [چرا استفاده از آزایه entry coponenet همیشه اجباری نیست؟ ](#1)|
+|219| [ما توی انگولار 9 به آرایه entry component نیاز داریم؟ ](#1)|
+|220| [همه ی کامپوننت ها موقع build گرفتن ایحاد میشن؟](#1)|
+|221| [منظور از کامپایلر انگولار چیه؟](#1)|
+|222| [نقش ngModule metadata توی مراحل کامپایل چیه ؟](#1)|
+|223| [انگولار چطوری کامپوننت ها رو تشخیص میده؟ با directive ها یا pipe ها؟](#1)|
+|224| [یه مثال برای NgModules بزن؟](#1)|
+|225| [feature module ها چیا هستن؟](#1)|
+|226| [ماژول های import شده داخل CLI ساخته شده توسط feature module ها چیا هستن؟](#1)|
+|227| [تفاوت های بین ngmodule و javascript module چیا هستن؟](#1)|
+|228| [ارور هایی که میتونه با declaration ایجاد بشه چیا هستن؟](#1)|
+|229| [مراحلی که باید طی بشه  برای اینکه declaration element استفاده کنیم چیا هستن؟](#1)|
+|230| [چه اتفاقی میوفته اگه ما از browserModule داخل feature module استفاده کنیم؟](#1)|
+|231| [تایپ های مربوط به feature module ها چیا هستن؟](#1)|
 |232| [منظور از provider چیه؟](#1)|
-|233| [What is the recommendation for provider scope?](#1)|
-|234| [How do you restrict provider scope to a module?](#1)|
-|235| [How do you provide a singleton service?](#1)|
-|236| [What are the different ways to remove duplicate service registration?](#1)|
-|237| [How does forRoot method helpful to avoid duplicate router instances?](#1)|
-|238| [What is a shared module?](#1)|
-|239| [Can I share services using modules?](#1)|
-|240| [How do you get current direction for locales??](#1)|
+|233| [نیازمندی های مروبط به provider scope چیا هستن؟](#1)|
+|234| [چطوری یه ماژول رو برای provider scope اجباری میکنی؟](#1)|
+|235| [چطوری یه سرویس singleton رو ایجاد میکنی؟](#1)|
+|236| [روش های مختلف حذف سرویس های تکراری register شده چیه؟](#1)|
+|237| [چطوری متد forRoot برای جلوگیری از duplicate شدن router instance مناسبه؟](#1)|
+|238| [منظور از shared module چیه؟](#1)|
+|239| [میتونیم سرویس هایی رو بر اساس ماژول به اشتراک بذاریم؟](#1)|
+|240| [چطوری direction فعلی رو برای locales بدست میاری؟](#1)|
 |241| [ngcc چیه؟](#1)|
-|242| [What classes should not be added to declarations?](#1)|
+|242| [کدوم class ها نباید به declaration ها اضافه بشن؟](#1)|
 |243| [ngzone چیه؟](#1)|
 |244| [NoopZone چیه؟](#1)|
-|245| [How do you create displayBlock components?](#1)|
-|246| [What are the possible data change scenarios for change detection?](#1)|
-|247| [What is a zone context?](#1)|
-|248| [What are the lifecycle hooks of a zone?](#1)|
+|245| [چطوری کامپوننت های displayBlock ایجاد میکنی؟](#1)|
+|246| [حالت هایی که موقع حساسیت به تغییر میتونه ایجاد بشه چیا هستن؟](#1)|
+|247| [منظور از zone context چیه؟](#1)|
+|248| [هوک های lifecycle مروبوط به یک zone چیا هستن؟](#1)|
 |249| [چه متد هایی از ngZone برای کنترل حساسیت تغییر استفاده میشه؟](#1)|
 |250| [جطوری تنظیمات مربوط به zonejs رو تغییر میدی؟](#1)|
 |251| [چطوری یه انیمیشن رو trigger میکنی؟](#1)|
@@ -4644,7 +4644,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-211. ### What are the list of template expression operators?
+211. ### لیست مربوط به اپراتور های template expression چیا هستن؟
 
      زبان عبارت الگوی Angular از سه عملگر خاص قالب پشتیبانی می کند.
      1. اپراتور لوله
@@ -4653,13 +4653,13 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-212. ### What is the precedence between pipe and ternary operators?
+212. ### فرق بین pipe و ternary operator ها چیه؟
 
      اپراتور لوله نسبت به اپراتور سه تایی (?:) اولویت بیشتری دارد. به عنوان مثال، عبارت «اول؟ دوم : سوم | چهارم به عنوان «اول؟ دوم : (سوم | چهارم)`.
 
      **[فهرست](#فهرست)**
 
-213. ### What is an entry component?
+213. ### منظور از entry component چیه؟
 
      مؤلفه ورودی هر مؤلفه ای است که Angular به طور ضروری بارگذاری می کند (یعنی عدم ارجاع آن در قالب) بر اساس نوع. به دلیل این رفتار، کامپایلر Angular در طول کامپایل نمی تواند آنها را پیدا کند. این مؤلفه ها به صورت پویا با «ComponentFactoryResolver» ایجاد می شوند.
 
@@ -4669,7 +4669,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-214. ### What is a bootstrapped component?
+214. ### منظور از bootstraped component چیه؟
 
      کامپوننت بوت استرپ یک جزء ورودی است که Angular در طول فرآیند بوت استرپ یا زمان راه اندازی برنامه در DOM بارگذاری می کند. به طور کلی، این مؤلفه بوت استرپ یا ریشه به عنوان «AppComponent» در ماژول ریشه شما با استفاده از ویژگی «bootstrap» به شرح زیر نامگذاری می شود.
      
@@ -4695,7 +4695,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-215. ### How do you manually bootstrap an application?
+215. ### چطوری به صورت دستی یه app رو bootstrap میکنی؟
 
      می‌توانید به جای استفاده از آرایه بوت استرپ در حاشیه‌نویسی «@NgModule» از هوک «ngDoBootstrap» برای راه‌اندازی دستی برنامه استفاده کنید. این قلاب بخشی از رابط «DoBootstap» است.
      
@@ -4725,13 +4725,13 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-216. ### Is it necessary for bootstrapped component to be entry component?
+216. ### لازمه که یه کامپوننت رو بوت استرپ کنیم که به یه  entry component تبدیل بشه؟
 
      بله، کامپوننت بوت استرپ باید جزء ورودی باشد. این به این دلیل است که فرآیند بوت استرپ یک فرآیند ضروری است.
 
      **[فهرست](#فهرست)**
 
-217. ### What is a routed entry component?
+217. ### منظور از routed entry component چیه؟
 
      اجزای مورد اشاره در پیکربندی روتر به عنوان اجزای ورودی مسیریابی نامیده می شوند. این جزء ورودی مسیریابی شده در تعریف مسیر به صورت زیر تعریف شده است:
      
@@ -4754,43 +4754,43 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-218. ### Why is not necessary to use entryComponents array every time?
+218. ### چرا استفاده از آزایه entry coponenet همیشه اجباری نیست؟ 
 
      اغلب اوقات، برای تنظیم اجزای ورودی در آرایه ورودیComponents ngModule decorator نیازی به صراحت ندارید. زیرا angular کامپوننت‌ها را هم از تعاریف @NgModule.bootstrap و هم مسیر را به‌طور خودکار به اجزای ورودی اضافه می‌کند.
 
      **[فهرست](#فهرست)**
 
-219. ### Do I still need to use entryComponents array in Angular9?
+219. ### ما توی انگولار 9 به آرایه entry component نیاز داریم؟ 
 
      خیر. در نسخه‌های زاویه‌ای قبلی، آرایه ورودی Components از ngModule decorator استفاده می‌شود تا به کامپایلر بگوید کدام مؤلفه‌ها ایجاد شده و به‌صورت پویا در view درج می‌شوند. در Angular9، این دیگر با Ivy مورد نیاز نیست.
 
      **[فهرست](#فهرست)**
 
-220. ### Is it all components generated in production build?
+220. ### همه ی کامپوننت ها موقع build گرفتن ایحاد میشن؟
 
      خیر، فقط اجزای ورودی و اجزای قالب در بیلدهای تولید ظاهر می شوند. اگر یک جزء جزء ورودی نباشد و در یک الگو یافت نشود، تکان دهنده درخت آن را دور می اندازد. به همین دلیل، مطمئن شوید که فقط اجزای ورودی واقعی را برای کاهش اندازه بسته اضافه کنید.
 
      **[فهرست](#فهرست)**
 
-221. ### What is Angular compiler?
+221. ### منظور از کامپایلر انگولار چیه؟
 
      کامپایلر Angular برای تبدیل کد برنامه به کد جاوا اسکریپت استفاده می شود. نشان‌گذاری الگو را می‌خواند، آن را با کد کلاس مؤلفه مربوطه ترکیب می‌کند و کارخانه‌های مؤلفه را منتشر می‌کند که نمایش جاوا اسکریپت مؤلفه را همراه با عناصر فراداده @Component ایجاد می‌کند.
 
      **[فهرست](#فهرست)**
 
-222. ### What is the role of ngModule metadata in compilation process?
+222. ### نقش ngModule metadata توی مراحل کامپایل چیه ؟
 
      ابرداده `@NgModule` برای اینکه به کامپایلر Angular بگوید چه اجزایی برای این ماژول کامپایل شود و چگونه این ماژول را با ماژول‌های دیگر پیوند دهد استفاده می‌شود.
 
      **[فهرست](#فهرست)**
 
-223. ### How does angular finds components, directives and pipes?
+223. ### انگولار چطوری کامپوننت ها رو تشخیص میده؟ با directive ها یا pipe ها؟
 
      کامپایلر Angular زمانی یک کامپوننت یا دستورالعمل را در قالب پیدا می کند که بتواند با انتخابگر آن کامپوننت یا دستورالعمل در آن الگو مطابقت داشته باشد. در حالی که اگر نام لوله در سینتکس لوله قالب HTML ظاهر شود، یک لوله پیدا می کند.
 
      **[فهرست](#فهرست)**
 
-224. ### Give few examples for NgModules?
+224. ### یه مثال برای  بزن؟NgModules
 
      کتابخانه های اصلی زاویه ای و کتابخانه های شخص ثالث به عنوان ngmodules در دسترس هستند. 
       1. کتابخانه های زاویه ای مانند FormsModule ، HttpclientModule و Routermodule Ngmodules هستند. 
@@ -4798,7 +4798,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-225. ### What are feature modules?
+225. ### feature modul ها چیا هستن؟?
 
      ماژول های ویژگی Ngmodules هستند که به منظور سازماندهی کد استفاده می شوند. ماژول ویژگی را می توان با استفاده از دستور زیر در فهرست root با Angular CLI ایجاد کرد ،
      
@@ -4833,7 +4833,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-226. ### What are the imported modules in CLI generated feature modules?
+226. ### ماژول های import شده داخل CLI ساخته شده توسط feature module ها چیا هستن؟
 
      در ماژول ویژگی CLI تولید شده ، دو بیانیه واردات JavaScript در بالای پرونده وجود دارد
      1. **NgModule:** برای استفاده از دکوراتور `@ngmodule '
@@ -4841,7 +4841,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-227. ### What are the differences between ngmodule and javascript module?
+227. ### تفاوت های بین ngmodule و javascript module چیا هستن؟
 
      در زیر تفاوت های اصلی بین Ngmodule زاویه ای و ماژول JavaScript وجود دارد: 
 
@@ -4854,7 +4854,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-228. ### What are the possible errors with declarations?
+228. ### ارور هایی که میتونه با declaration ایجاد بشه چیا هستن؟
 
      دو خطای احتمالی متداول با آرایه اعلامیه وجود دارد: 
 
@@ -4863,7 +4863,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-229. ### What are the steps to use declaration elements?
+229. ### مراحلی که باید طی بشه  برای اینکه declaration element استفاده کنیم چیا هستن؟
 
      در زیر مراحل لازم برای استفاده از عناصر اعلامیه وجود دارد. 
       1. عنصر (مؤلفه ، دستورالعمل و لوله) را ایجاد کنید و آن را از پرونده ای که در آن نوشتید صادر کنید 
@@ -4873,7 +4873,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-230. ### What happens if browserModule used in feature module?
+230. ### چه اتفاقی میوفته اگه ما از browserModule داخل feature module استفاده کنیم؟
 
      اگر "BrowserModule" را به یک ماژول ویژگی بارگذاری شده تنبل وارد می کنید ، Angular خطایی را برمی گرداند که به شما می گوید در عوض از "CommonModule" استفاده کنید. از آنجا که ارائه دهندگان BrowserModule برای کل برنامه هستند ، بنابراین فقط باید در ماژول ریشه باشد ، نه در ماژول ویژگی. در حالی که ماژول های ویژگی فقط به دستورالعمل های مشترک در Commodule نیاز دارند.
 
@@ -4881,7 +4881,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-231. ### What are the types of feature modules?
+231. ### تایپ های مربوط به feature module ها چیا هستن؟
 
      در زیر پنج دسته ماژول های ویژگی ، 
      1. ** دامنه: ** یک تجربه کاربر اختصاص داده شده به یک دامنه برنامه خاص (به عنوان مثال ، سفارش ، ثبت نام و غیره را قرار دهید) 
@@ -4924,13 +4924,13 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-233. ### What is the recommendation for provider scope?
+233. ### نیازمندی های مروبط به provider scope چیا هستن؟
 
      شما همیشه باید خدمات خود را در انژکتور ریشه ارائه دهید مگر اینکه موردی وجود داشته باشد که بخواهید این سرویس فقط در صورت وارد کردن یک ngmodule خاص در دسترس باشد.
 
      **[فهرست](#فهرست)**
 
-234. ### How do you restrict provider scope to a module?
+234. ### چطوری یه ماژول رو برای provider scope اجباری میکنی؟
 
      به جای آن می توان دامنه ارائه دهنده خدمات را به یک ماژول خاص محدود کرد و به جای آن در دسترس کل برنامه قرار گرفت. دو روش ممکن برای انجام آن وجود دارد.
      1. **Using providedIn in service:**
@@ -4970,7 +4970,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-235. ### How do you provide a singleton service?
+235. ### چطوری یه سرویس singleton رو ایجاد میکنی؟
 
      دو روش ممکن برای ارائه یک سرویس مجرد وجود دارد.
 
@@ -5006,7 +5006,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-236. ### What are the different ways to remove duplicate service registration?
+236. ### روش های مختلف حذف سرویس های تکراری register شده چیه؟
 
      اگر یک ماژول تعریف و اعلامیه ها را تعریف کند ، بارگیری ماژول در ماژول های چند ویژگی ، ثبت نام سرویس را کپی می کند. در زیر روشهای مختلفی برای جلوگیری از این رفتار تکراری آورده شده است. 
       1. به جای ثبت سرویس در ماژول ، از نحو ارائه شده استفاده کنید. 
@@ -5015,13 +5015,13 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-237. ### How does forRoot method helpful to avoid duplicate router instances?
+237. ### چطوری متد forRoot برای جلوگیری از duplicate شدن router instance مناسبه؟
 
      اگر ماژول «Routermodule» روش استاتیک Forroot () ندارد ، هر ماژول ویژگی یک نمونه روتر جدید را فوری می کند ، که به دلیل موارد تکراری منجر به کاربرد شکسته می شود. پس از استفاده از روش forroot () ، ماژول برنامه root `routermodule.forroot (...)` را وارد می کند و روتر می شود و همه ماژول های ویژگی واردات `routermodule.forchild (...)` که روتر دیگری را فوری نمی کند.
 
      **[فهرست](#فهرست)**
 
-238. ### What is a shared module?
+238. ### منظور از shared module چیه؟
 
      ماژول مشترک ماژولی است که در آن دستورالعمل ها ، لوله ها و اجزای متداول را در یک ماژول که به اشتراک گذاشته شده است (وارد می کنید) در طول برنامه قرار دهید. 
 
@@ -5051,13 +5051,13 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-239. ### Can I share services using modules?
+239. ### میتونیم سرویس هایی رو بر اساس ماژول به اشتراک بذاریم؟
 
      نه ، توصیه نمی شود با وارد کردن ماژول خدمات را به اشتراک بگذارید. یعنی ماژول ها را وارد کنید وقتی می خواهید فقط از دستورالعمل ها ، لوله ها و مؤلفه ها استفاده کنید. بهترین روش برای به دست آوردن خدمات مشترک از طریق "تزریق وابستگی زاویه ای" است زیرا وارد کردن یک ماژول منجر به یک نمونه خدمات جدید خواهد شد.
 
      **[فهرست](#فهرست)**
 
-240. ### How do you get current direction for locales?
+240. ### چطوری direction فعلی رو برای locales بدست میاری؟
 
      در زاویه 9.1 ، می توان از روش API "getLocalEdirection" برای به دست آوردن جهت فعلی در برنامه خود استفاده کرد. این روش برای پشتیبانی از مناطق راست به چپ برای برنامه های مبتنی بر بین المللی شما مفید است.
      
@@ -5101,7 +5101,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-242. ### What classes should not be added to declarations?
+242. ### کدوم class ها نباید به declaration ها اضافه بشن؟
 
      انواع کلاس زیر نباید به اعلامیه ها اضافه شود 
      1. کلاس که قبلاً در هر ماژول دیگری اعلام شده است. 
@@ -5150,7 +5150,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-245. ### How do you create displayBlock components?
+245. ### چطوری کامپوننت های displayBlock ایجاد میکنی؟
 
      به طور پیش فرض ، Angular CLI مؤلفه هایی را در یک حالت نمایش داده شده درون خطی ایجاد می کند (یعنی صفحه نمایش: درون خطی). اما ایجاد مؤلفه هایی با نمایشگر امکان پذیر است: سبک بلوک با استفاده از گزینه "DisplayBlock":
      
@@ -5166,7 +5166,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-246. ### What are the possible data update scenarios for change detection?
+246. حالت هایی که موقع حساسیت به تغییر میتونه ایجاد بشه چیا هستن؟etection?
 
      تشخیص تغییر در سناریوهای زیر کار می کند که در آن داده ها برای به روزرسانی برنامه HTML نیاز دارند. 
      1. ** اولیه سازی مؤلفه: ** در حالی که راه اندازی کاربرد زاویه ای ، زاویه ای باعث می شود `ApplicationRef.tick ()` برای تماس با تشخیص تغییر و مشاهده. 
@@ -5245,7 +5245,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-247. ### What is a zone context?
+247. ### منظور از zone context چیه؟
      
      زمینه اجرای یک مفهوم انتزاعی است که اطلاعات مربوط به محیط را در کد فعلی اجرا می کند. یک منطقه زمینه اعدام را فراهم می کند که در عملیات ناهمزمان ادامه می یابد ، به عنوان زمینه منطقه خوانده می شود. به عنوان مثال ، زمینه منطقه در عملکرد برگشت به تماس در خارج و داخل SettimeOut یکسان خواهد بود ،
   
@@ -5269,7 +5269,7 @@ event های مربوط به router چیا هستن؟events?
 
      **[فهرست](#فهرست)**
 
-248. ### What are the lifecycle hooks of a zone?
+248. ### هوک های lifecycle مروبوط به یک zone چیا هستن؟
 
      چهار قلاب چرخه عمر برای عملیات ناهمزمان از Zone.js. وجود دارد.
 
